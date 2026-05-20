@@ -22,10 +22,10 @@ jobs:
 
       - name: Gerar briefing
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          WHATSAPP_NUMBER:   ${{ secrets.WHATSAPP_NUMBER }}
-          CALLMEBOT_APIKEY:  ${{ secrets.CALLMEBOT_APIKEY }}
-          GITHUB_PAGES_URL:  ${{ secrets.SITE_URL }}
+          OPENAI_API_KEY:   ${{ secrets.OPENAI_API_KEY }}
+          WHATSAPP_NUMBER:  ${{ secrets.WHATSAPP_NUMBER }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          SITE_URL:         ${{ secrets.SITE_URL }}
         run: python scripts/generate_briefing.py
 
       - name: Commit e push do briefing.json

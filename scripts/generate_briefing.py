@@ -1,5 +1,5 @@
 """
-Gera o briefing diário de investimentos via Claude API e salva em briefing.json.
+Gera o briefing diário de investimentos via OpenAI API e salva em briefing.json.
 Roda via GitHub Actions todo dia às 8h (Brasília).
 """
 import os
@@ -10,10 +10,10 @@ import urllib.parse
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-WHATSAPP_NUMBER   = os.environ["WHATSAPP_NUMBER"]    # ex: +5511999999999
-CALLMEBOT_APIKEY  = os.environ["CALLMEBOT_APIKEY"]   # obtido no CallMeBot
-GITHUB_PAGES_URL  = os.environ["GITHUB_PAGES_URL"]    # secret name: SITE_URL
+OPENAI_API_KEY   = os.environ["OPENAI_API_KEY"]
+WHATSAPP_NUMBER  = os.environ["WHATSAPP_NUMBER"]   # +5511981086148
+CALLMEBOT_APIKEY = os.environ["CALLMEBOT_APIKEY"]  # obtido no CallMeBot
+SITE_URL         = os.environ["SITE_URL"]          # https://brunoasenna.github.io/investment-briefing/
 
 today = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y")
 
@@ -73,26 +73,25 @@ REGRAS:
 - Considere: valuation, juros, inflação, fluxo institucional, dividendos, risco-retorno, momentum, macro"""
 
 
-def call_claude(prompt: str) -> str:
+def call_openai(prompt: str) -> str:
     payload = json.dumps({
-        "model": "claude-sonnet-4-6",
+        "model": "gpt-4o",
         "max_tokens": 2048,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 
     req = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages",
+        "https://api.openai.com/v1/chat/completions",
         data=payload,
         headers={
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json",
         },
         method="POST"
     )
     with urllib.request.urlopen(req) as resp:
         body = json.loads(resp.read())
-    return body["content"][0]["text"]
+    return body["choices"][0]["message"]["content"]
 
 
 def send_whatsapp(message: str):
@@ -107,9 +106,8 @@ def send_whatsapp(message: str):
 
 def main():
     print(f"Gerando briefing para {today}...")
-    raw = call_claude(PROMPT)
+    raw = call_openai(PROMPT)
 
-    # Extrai JSON mesmo se vier com texto ao redor
     match = re.search(r'\{.*\}', raw, re.DOTALL)
     if not match:
         raise ValueError(f"JSON não encontrado na resposta: {raw[:300]}")
@@ -123,7 +121,7 @@ def main():
     msg = (
         f"📊 *CIO Daily — {today}*\n\n"
         f"Bom dia! Seu briefing de investimentos está pronto.\n\n"
-        f"🔗 {GITHUB_PAGES_URL}\n\n"
+        f"🔗 {SITE_URL}\n\n"
         f"_Acesse para ver oportunidades, cenário macro e status BBAS3._"
     )
     send_whatsapp(msg)
