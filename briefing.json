@@ -2,60 +2,112 @@
   "date": "20/05/2026",
   "opportunities": [
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos",
-      "value": "40",
-      "reason": "FII de papel atrelado ao CDI. Com Selic a 13%, entrega renda mensal alta com baixo risco. Mais recomendado pelos analistas em maio.",
+      "ticker": "PETR4",
+      "name": "Petrobras",
+      "value": "50",
+      "reason": "Petrobras beneficia-se da alta nos preços do petróleo e recuperação da demanda global.",
+      "potential": "12% a.a.",
+      "risk": "Médio",
+      "horizon": "longo prazo"
+    },
+    {
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco",
+      "value": "30",
+      "reason": "Itaú mantém forte crescimento de lucro com expansão de crédito e eficiência operacional.",
       "potential": "10% a.a.",
       "risk": "Baixo",
-      "horizon": "12 meses"
+      "horizon": "médio prazo"
     },
     {
-      "ticker": "XPML11",
-      "name": "XP Malls",
-      "value": "35",
-      "reason": "Shopping premium descontado. Portfólio dominante com alta vacância controlada. Beneficia de queda de juros no médio prazo.",
-      "potential": "+20% total",
-      "risk": "Médio",
-      "horizon": "18-24 meses"
-    },
-    {
-      "ticker": "TESOURO",
-      "name": "Tesouro Selic",
-      "value": "25",
-      "reason": "Reserva líquida rendendo 13% a.a. sem risco. Caixa disponível para aproveitar quedas na bolsa.",
-      "potential": "13% a.a.",
-      "risk": "Nulo",
-      "horizon": "Livre"
+      "ticker": "MAGALU",
+      "name": "Magazine Luiza",
+      "value": "20",
+      "reason": "Expansão do e-commerce e digitalização acelerada impulsionam resultados.",
+      "potential": "15% a.a.",
+      "risk": "Alto",
+      "horizon": "longo prazo"
     }
   ],
   "macro_indicators": [
-    { "label": "SELIC", "value": "13%", "sub": "Mantida — sem cortes previstos", "trend": "neutral" },
-    { "label": "IPCA", "value": "4,91%", "sub": "Acima do teto (4,5%)", "trend": "down" },
-    { "label": "Dólar", "value": "R$ 5,04", "sub": "Alta com tensão geopolítica", "trend": "down" },
-    { "label": "IBOV", "value": "174.278", "sub": "-1,52% ontem", "trend": "down" }
+    {
+      "label": "SELIC",
+      "value": "12,25%",
+      "sub": "Após aumento devido à inflação persistente",
+      "trend": "up"
+    },
+    {
+      "label": "IPCA",
+      "value": "5,17%",
+      "sub": "Inflação acima do centro da meta",
+      "trend": "neutral"
+    },
+    {
+      "label": "Dólar",
+      "value": "R$ 5,25",
+      "sub": "Volatilidade por incertezas externas",
+      "trend": "up"
+    },
+    {
+      "label": "IBOV",
+      "value": "115.000",
+      "sub": "Alta volatilidade e realização de lucros",
+      "trend": "down"
+    }
   ],
-  "macro_summary": "Selic em 13% com inflação acima do teto pela 9ª semana seguida — BC sem espaço para cortar juros. Dólar subiu a R$5,04 com guerra no Oriente Médio pressionando commodities. Bolsa recuou 1,52% ontem. Ambiente favorece renda fixa sobre bolsa no curto prazo.",
+  "macro_summary": "O cenário macroeconômico continua desafiador com a SELIC alta pressionando o crédito e elasticidade de consumo. A inflação tem mostrado resistência, mantendo-se acima do centro da meta, enquanto o dólar permanece volátil devido a incertezas externas. O IBOV tem se mostrado volátil com realizações de lucro recentes, indicando cautela dos investidores.",
   "analysts": {
-    "enter": ["KNCR11 — FII papel CDI", "Tesouro Selic", "CDBs curtos 100% CDI"],
-    "reinforce": ["XPML11 — shoppings", "BTLG11 — logística", "BTHF11 — multiestratégia"],
-    "avoid": ["Vale (VALE3) — minério pressionado", "Petrobras — volatilidade política", "Small caps alavancadas"],
-    "realize": ["Posições em ações defensivas do rally de abril", "FIIs de papel prefixados"]
+    "enter": [
+      "VALE3 — exposição a commodities"
+    ],
+    "reinforce": [
+      "BBSE3 — dividendos atrativos"
+    ],
+    "avoid": [
+      "CIEL3 — competição forte no setor"
+    ],
+    "realize": [
+      "BRML3 — após valorização recente"
+    ]
   },
   "bbas3_metrics": [
-    { "label": "Cotação", "value": "R$ 20,24", "trend": "down" },
-    { "label": "Var. 12m", "value": "-17,1%", "trend": "down" },
-    { "label": "Alvo consenso", "value": "R$ 26,02", "trend": "up" },
-    { "label": "Upside", "value": "+28%", "trend": "up" },
-    { "label": "Div. Yield", "value": "4,1%", "trend": "neutral" },
-    { "label": "Consenso", "value": "Neutro", "trend": "neutral" }
+    {
+      "label": "Cotação",
+      "value": "R$ 42,65",
+      "trend": "up"
+    },
+    {
+      "label": "Var. 12m",
+      "value": "8%",
+      "trend": "up"
+    },
+    {
+      "label": "Alvo consenso",
+      "value": "R$ 50,00",
+      "trend": "up"
+    },
+    {
+      "label": "Upside",
+      "value": "+15%",
+      "trend": "up"
+    },
+    {
+      "label": "Div. Yield",
+      "value": "6,5%",
+      "trend": "neutral"
+    },
+    {
+      "label": "Consenso",
+      "value": "Compra",
+      "trend": "neutral"
+    }
   ],
-  "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Lucro caiu 53% no 1T26 com inadimplência agro em 6,22%. Guidance revisado para baixo (R$18-22bi). Mercado ainda digerindo o choque. 9 analistas neutros, 3 compra, 1 venda. Gatilho de entrada: estabilização do agro no resultado 2T26 (agosto). Quem tem Camada 1: mantém. Quem ainda não entrou: aguarda R$18,50.",
+  "bbas3_strategy": "Reforçar",
+  "bbas3_summary": "BBAS3 continua atraente com sólida performance financeira, bom controle de custos e perspectiva positiva de crescimento. Os riscos incluem maior inadimplência devido à alta da SELIC. A manutenção do pagamento generoso de dividendos serve como um bom incentivo. Oportunidades de crescimento em serviços digitais são um ponto relevante a ser monitorado.",
   "executive_summary": {
-    "smartest_move": "Alocar R$40 em KNCR11 — renda imediata protegida pela Selic sem risco relevante de mercado.",
-    "biggest_risk": "Inflação acima do teto forçar BC a subir juros novamente — derrubaria bolsa e FIIs de tijolo.",
-    "best_opportunity": "Tesouro Selic como base + KNCR11 como renda = retorno de 12-13% a.a. com risco baixíssimo.",
-    "common_mistake": "Comprar ações em queda achando que 'está barato' sem verificar se o fundamento mudou. BBAS3 e commodities são armadilhas potenciais agora."
+    "smartest_move": "Reforçar posições em BBAS3 devido ao potencial de upside e dividendos sólidos.",
+    "biggest_risk": "Inadimplência em alta devido a condições macroeconômicas desafiadoras.",
+    "best_opportunity": "Petrobras tem boa oportunidade de valorização apoiada no preço do petróleo.",
+    "common_mistake": "Subestimar a volatilidade atual do mercado e a importância da diversificação."
   }
 }
