@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 WHATSAPP_NUMBER   = os.environ["WHATSAPP_NUMBER"]    # ex: +5511999999999
 CALLMEBOT_APIKEY  = os.environ["CALLMEBOT_APIKEY"]   # obtido no CallMeBot
-GITHUB_PAGES_URL  = os.environ["GITHUB_PAGES_URL"]   # ex: https://seugithub.github.io/investment-briefing
+GITHUB_PAGES_URL  = os.environ["GITHUB_PAGES_URL"]    # secret name: SITE_URL
 
 today = datetime.now(ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y")
 
