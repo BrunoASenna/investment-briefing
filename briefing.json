@@ -2,112 +2,112 @@
   "date": "20/05/2026",
   "opportunities": [
     {
-      "ticker": "PETR4",
-      "name": "Petrobras",
-      "value": "50",
-      "reason": "Petrobras beneficia-se da alta nos preços do petróleo e recuperação da demanda global.",
-      "potential": "12% a.a.",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil S.A.",
+      "value": "40",
+      "reason": "Ação subvalorizada com potencial de recuperação após queda de lucro e aumento de inadimplência no setor agro.",
+      "potential": "+26.5% em 12 meses",
       "risk": "Médio",
-      "horizon": "longo prazo"
+      "horizon": "12 meses"
     },
     {
       "ticker": "ITUB4",
-      "name": "Itaú Unibanco",
+      "name": "Itaú Unibanco Holding S.A.",
       "value": "30",
-      "reason": "Itaú mantém forte crescimento de lucro com expansão de crédito e eficiência operacional.",
-      "potential": "10% a.a.",
+      "reason": "Resiliência em cenário de alta SELIC, com forte base de clientes e diversificação de receitas.",
+      "potential": "+15% em 12 meses",
       "risk": "Baixo",
-      "horizon": "médio prazo"
+      "horizon": "12 meses"
     },
     {
-      "ticker": "MAGALU",
-      "name": "Magazine Luiza",
-      "value": "20",
-      "reason": "Expansão do e-commerce e digitalização acelerada impulsionam resultados.",
-      "potential": "15% a.a.",
-      "risk": "Alto",
-      "horizon": "longo prazo"
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "30",
+      "reason": "Beneficiada por preços elevados do petróleo e política de dividendos atrativa.",
+      "potential": "+20% em 12 meses",
+      "risk": "Médio",
+      "horizon": "12 meses"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "12,25%",
-      "sub": "Após aumento devido à inflação persistente",
-      "trend": "up"
-    },
-    {
-      "label": "IPCA",
-      "value": "5,17%",
-      "sub": "Inflação acima do centro da meta",
+      "value": "14,40%",
+      "sub": "taxa Over anualizada",
       "trend": "neutral"
     },
     {
+      "label": "IPCA 12m",
+      "value": "4,39%",
+      "sub": "acumulado 12 meses",
+      "trend": "down"
+    },
+    {
       "label": "Dólar",
-      "value": "R$ 5,25",
-      "sub": "Volatilidade por incertezas externas",
-      "trend": "up"
+      "value": "N/D",
+      "sub": "PTAX venda",
+      "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "115.000",
-      "sub": "Alta volatilidade e realização de lucros",
-      "trend": "down"
+      "value": "177.056",
+      "sub": "+1.59% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "O cenário macroeconômico continua desafiador com a SELIC alta pressionando o crédito e elasticidade de consumo. A inflação tem mostrado resistência, mantendo-se acima do centro da meta, enquanto o dólar permanece volátil devido a incertezas externas. O IBOV tem se mostrado volátil com realizações de lucro recentes, indicando cautela dos investidores.",
+  "macro_summary": "A SELIC permanece alta em 14,40%, pressionando o custo do crédito e favorecendo investimentos em renda fixa. O IPCA acumulado em 12 meses está em 4,39%, indicando uma tendência de desaceleração da inflação. O IBOVESPA subiu 1,59% hoje, refletindo otimismo do mercado com a estabilização econômica.",
   "analysts": {
     "enter": [
-      "VALE3 — exposição a commodities"
+      "BBAS3 — Potencial de recuperação com upside significativo após ajustes no setor agro."
     ],
     "reinforce": [
-      "BBSE3 — dividendos atrativos"
+      "PETR4 — Benefícios contínuos de preços elevados do petróleo e política de dividendos."
     ],
     "avoid": [
-      "CIEL3 — competição forte no setor"
+      "Empresas de varejo — Pressionadas pela alta da SELIC e redução do consumo."
     ],
     "realize": [
-      "BRML3 — após valorização recente"
+      "Empresas de tecnologia — Realizar lucros após rally recente e riscos de correção."
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 42,65",
+      "value": "R$ 20,57",
       "trend": "up"
     },
     {
-      "label": "Var. 12m",
-      "value": "8%",
+      "label": "Var. dia",
+      "value": "+1.68%",
       "trend": "up"
     },
     {
       "label": "Alvo consenso",
-      "value": "R$ 50,00",
+      "value": "R$ 26,02",
       "trend": "up"
     },
     {
       "label": "Upside",
-      "value": "+15%",
+      "value": "26.5%",
       "trend": "up"
     },
     {
       "label": "Div. Yield",
-      "value": "6,5%",
+      "value": "~4,1% (base lucro revisado)",
       "trend": "neutral"
     },
     {
       "label": "Consenso",
-      "value": "Compra",
+      "value": "Neutro (9 analistas)",
       "trend": "neutral"
     }
   ],
   "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "BBAS3 continua atraente com sólida performance financeira, bom controle de custos e perspectiva positiva de crescimento. Os riscos incluem maior inadimplência devido à alta da SELIC. A manutenção do pagamento generoso de dividendos serve como um bom incentivo. Oportunidades de crescimento em serviços digitais são um ponto relevante a ser monitorado.",
+  "bbas3_summary": "BBAS3 enfrenta desafios com queda de lucro no 1T26 (-53%) e inadimplência agro em 6,22%. No entanto, a ação está subvalorizada com um upside de 26.5% até o alvo consenso de R$ 26,02. O resultado do 2T26 em agosto pode ser um gatilho positivo. Recomendamos reforçar a posição, considerando o potencial de recuperação e dividendos estáveis.",
   "executive_summary": {
-    "smartest_move": "Reforçar posições em BBAS3 devido ao potencial de upside e dividendos sólidos.",
-    "biggest_risk": "Inadimplência em alta devido a condições macroeconômicas desafiadoras.",
-    "best_opportunity": "Petrobras tem boa oportunidade de valorização apoiada no preço do petróleo.",
-    "common_mistake": "Subestimar a volatilidade atual do mercado e a importância da diversificação."
+    "smartest_move": "Reforçar posição em BBAS3 com R$ 40, aproveitando o potencial de recuperação e dividendos.",
+    "biggest_risk": "Alta da SELIC em 14,40% pode impactar negativamente empresas de consumo e varejo.",
+    "best_opportunity": "BBAS3 com upside de 26.5% e dividendos estáveis, ideal para médio prazo.",
+    "common_mistake": "Subestimar o impacto da alta SELIC em empresas alavancadas e de consumo."
   }
 }
