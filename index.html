@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Briefing de Investimentos</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card: #1a1d27;
+      --border: #2a2d3a;
+      --accent: #00d4aa;
+      --accent2: #4f8ef7;
+      --danger: #ff5c5c;
+      --warn: #f5a623;
+      --text: #e8eaf0;
+      --muted: #7a7f94;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+
+    header {
+      background: linear-gradient(135deg, #1a1d27 0%, #0f1117 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .logo { font-size: 18px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
+    .date-badge {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 20px; padding: 6px 14px;
+      font-size: 13px; color: var(--muted);
+    }
+
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+
+    .hero {
+      text-align: center; padding: 32px 0 24px;
+    }
+    .hero h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+    .hero p { color: var(--muted); font-size: 14px; }
+
+    .section { margin-bottom: 28px; }
+    .section-title {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--accent);
+      margin-bottom: 12px; padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px; margin-bottom: 12px;
+    }
+
+    /* Oportunidades */
+    .opp-grid { display: grid; gap: 12px; }
+    .opp-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px;
+      display: flex; gap: 14px; align-items: flex-start;
+    }
+    .opp-card:hover { border-color: var(--accent); transition: border-color 0.2s; }
+    .ticker-badge {
+      background: #00d4aa18; color: var(--accent);
+      border: 1px solid #00d4aa33;
+      border-radius: 8px; padding: 6px 10px;
+      font-weight: 700; font-size: 13px;
+      min-width: 70px; text-align: center;
+      white-space: nowrap;
+    }
+    .opp-details { flex: 1; }
+    .opp-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .opp-name { font-weight: 600; font-size: 15px; }
+    .opp-value { color: var(--accent); font-weight: 700; font-size: 15px; }
+    .opp-reason { color: var(--muted); font-size: 13px; line-height: 1.5; margin-bottom: 8px; }
+    .opp-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+    .tag {
+      font-size: 11px; padding: 3px 8px; border-radius: 20px;
+      font-weight: 600;
+    }
+    .tag-green { background: #00d4aa18; color: var(--accent); }
+    .tag-blue { background: #4f8ef718; color: var(--accent2); }
+    .tag-warn { background: #f5a62318; color: var(--warn); }
+    .tag-red { background: #ff5c5c18; color: var(--danger); }
+
+    /* Cenário */
+    .macro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+    .macro-item {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px;
+    }
+    .macro-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+    .macro-value { font-size: 20px; font-weight: 700; }
+    .macro-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .up { color: #00d4aa; }
+    .down { color: #ff5c5c; }
+    .neutral { color: var(--warn); }
+
+    .macro-text { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+    .macro-text p { color: var(--muted); font-size: 14px; line-height: 1.7; }
+
+    /* Analistas */
+    .analyst-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+    .analyst-col { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+    .analyst-col-title { font-size: 12px; font-weight: 700; margin-bottom: 10px; padding: 4px 10px; border-radius: 6px; display: inline-block; }
+    .col-enter { background: #00d4aa22; color: var(--accent); }
+    .col-reinforce { background: #4f8ef722; color: var(--accent2); }
+    .col-avoid { background: #ff5c5c22; color: var(--danger); }
+    .col-realize { background: #f5a62322; color: var(--warn); }
+    .analyst-item { font-size: 13px; color: var(--text); padding: 4px 0; border-bottom: 1px solid var(--border); }
+    .analyst-item:last-child { border-bottom: none; }
+
+    /* BBAS3 */
+    .bbas-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 14px; }
+    .bbas-metric { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
+    .bbas-label { font-size: 11px; color: var(--muted); text-transform: uppercase; margin-bottom: 4px; }
+    .bbas-val { font-size: 18px; font-weight: 700; }
+
+    .strategy-pill {
+      display: inline-block; padding: 8px 20px; border-radius: 20px;
+      font-weight: 700; font-size: 15px; margin-bottom: 14px;
+    }
+    .pill-wait { background: #f5a62322; color: var(--warn); border: 1px solid #f5a62344; }
+    .pill-buy { background: #00d4aa22; color: var(--accent); border: 1px solid #00d4aa44; }
+    .pill-sell { background: #ff5c5c22; color: var(--danger); border: 1px solid #ff5c5c44; }
+
+    /* Resumo executivo */
+    .exec-grid { display: grid; gap: 10px; }
+    .exec-item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; display: flex; gap: 12px; align-items: flex-start; }
+    .exec-icon { font-size: 20px; min-width: 28px; }
+    .exec-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
+    .exec-text { font-size: 14px; font-weight: 500; line-height: 1.5; }
+
+    footer { text-align: center; padding: 32px 16px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); margin-top: 40px; }
+
+    @media (max-width: 600px) {
+      .opp-card { flex-direction: column; }
+      .opp-header { flex-direction: column; align-items: flex-start; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">CIO Daily</div>
+  <div class="date-badge" id="date-badge">Carregando...</div>
+</header>
+
+<div class="container">
+  <div class="hero">
+    <h1>Briefing de Investimentos</h1>
+    <p id="subtitle">Análise diária · R$ 100 por dia · Gerado automaticamente às 8h</p>
+  </div>
+
+  <!-- OPORTUNIDADES -->
+  <div class="section">
+    <div class="section-title">01 — Oportunidades do dia</div>
+    <div class="opp-grid" id="opp-grid">
+      <!-- preenchido pelo script -->
+    </div>
+  </div>
+
+  <!-- MACRO -->
+  <div class="section">
+    <div class="section-title">02 — Cenário econômico</div>
+    <div class="macro-grid" id="macro-grid"></div>
+    <br/>
+    <div class="macro-text"><p id="macro-text"></p></div>
+  </div>
+
+  <!-- ANALISTAS -->
+  <div class="section">
+    <div class="section-title">03 — O que analistas indicam</div>
+    <div class="analyst-grid" id="analyst-grid"></div>
+  </div>
+
+  <!-- BBAS3 -->
+  <div class="section">
+    <div class="section-title">04 — Status BBAS3</div>
+    <div class="bbas-grid" id="bbas-grid"></div>
+    <div id="bbas-strategy"></div>
+    <div class="card" id="bbas-details"></div>
+  </div>
+
+  <!-- RESUMO -->
+  <div class="section">
+    <div class="section-title">Resumo executivo</div>
+    <div class="exec-grid" id="exec-grid"></div>
+  </div>
+</div>
+
+<footer>Gerado por IA com dados de mercado públicos · Não é recomendação de investimento · Atualizado diariamente às 8h</footer>
+
+<script>
+  // Carrega briefing.json gerado pelo GitHub Actions
+  fetch('briefing.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => renderBriefing(data))
+    .catch(() => document.querySelector('.hero p').textContent = 'Briefing ainda não gerado para hoje. Volte às 8h.');
+
+  function renderBriefing(d) {
+    document.getElementById('date-badge').textContent = d.date;
+    document.getElementById('subtitle').textContent = `Gerado em ${d.date} · R$ 100/dia · CIO Daily`;
+
+    // Oportunidades
+    const og = document.getElementById('opp-grid');
+    (d.opportunities || []).forEach(o => {
+      og.innerHTML += `
+        <div class="opp-card">
+          <div class="ticker-badge">${o.ticker}</div>
+          <div class="opp-details">
+            <div class="opp-header">
+              <span class="opp-name">${o.name}</span>
+              <span class="opp-value">R$ ${o.value}</span>
+            </div>
+            <div class="opp-reason">${o.reason}</div>
+            <div class="opp-meta">
+              <span class="tag tag-green">Potencial: ${o.potential}</span>
+              <span class="tag tag-warn">Risco: ${o.risk}</span>
+              <span class="tag tag-blue">${o.horizon}</span>
+            </div>
+          </div>
+        </div>`;
+    });
+
+    // Macro números
+    const mg = document.getElementById('macro-grid');
+    (d.macro_indicators || []).forEach(m => {
+      const cls = m.trend === 'up' ? 'up' : m.trend === 'down' ? 'down' : 'neutral';
+      mg.innerHTML += `
+        <div class="macro-item">
+          <div class="macro-label">${m.label}</div>
+          <div class="macro-value ${cls}">${m.value}</div>
+          <div class="macro-sub">${m.sub}</div>
+        </div>`;
+    });
+    document.getElementById('macro-text').textContent = d.macro_summary || '';
+
+    // Analistas
+    const ag = document.getElementById('analyst-grid');
+    const cols = [
+      { key: 'enter', label: 'Entrar', cls: 'col-enter' },
+      { key: 'reinforce', label: 'Reforçar', cls: 'col-reinforce' },
+      { key: 'avoid', label: 'Evitar', cls: 'col-avoid' },
+      { key: 'realize', label: 'Realizar', cls: 'col-realize' },
+    ];
+    cols.forEach(c => {
+      const items = (d.analysts || {})[c.key] || [];
+      ag.innerHTML += `
+        <div class="analyst-col">
+          <div class="analyst-col-title ${c.cls}">${c.label}</div>
+          ${items.map(i => `<div class="analyst-item">${i}</div>`).join('')}
+        </div>`;
+    });
+
+    // BBAS3
+    const bg = document.getElementById('bbas-grid');
+    (d.bbas3_metrics || []).forEach(m => {
+      const cls = m.trend === 'up' ? 'up' : m.trend === 'down' ? 'down' : 'neutral';
+      bg.innerHTML += `
+        <div class="bbas-metric">
+          <div class="bbas-label">${m.label}</div>
+          <div class="bbas-val ${cls}">${m.value}</div>
+        </div>`;
+    });
+    const pillMap = { aguardar: 'pill-wait', comprar: 'pill-buy', realizar: 'pill-sell', reforçar: 'pill-buy' };
+    const strat = (d.bbas3_strategy || 'aguardar').toLowerCase();
+    document.getElementById('bbas-strategy').innerHTML =
+      `<div class="strategy-pill ${pillMap[strat] || 'pill-wait'}">Estratégia: ${d.bbas3_strategy}</div>`;
+    document.getElementById('bbas-details').innerHTML =
+      `<p style="color:var(--muted);font-size:14px;line-height:1.7">${d.bbas3_summary || ''}</p>`;
+
+    // Resumo executivo
+    const eg = document.getElementById('exec-grid');
+    const execItems = [
+      { icon: '⚡', label: 'Movimento mais inteligente hoje', key: 'smartest_move' },
+      { icon: '⚠️', label: 'Maior risco do momento', key: 'biggest_risk' },
+      { icon: '🎯', label: 'Melhor oportunidade risco-retorno', key: 'best_opportunity' },
+      { icon: '❌', label: 'Erro mais comum do investidor hoje', key: 'common_mistake' },
+    ];
+    execItems.forEach(e => {
+      eg.innerHTML += `
+        <div class="exec-item">
+          <div class="exec-icon">${e.icon}</div>
+          <div>
+            <div class="exec-label">${e.label}</div>
+            <div class="exec-text">${(d.executive_summary || {})[e.key] || ''}</div>
+          </div>
+        </div>`;
+    });
+  }
+</script>
+</body>
+</html>

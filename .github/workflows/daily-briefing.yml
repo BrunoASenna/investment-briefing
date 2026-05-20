@@ -1,0 +1,37 @@
+name: Daily Investment Briefing
+
+on:
+  schedule:
+    - cron: '0 11 * * 1-5'  # 8h Brasília (UTC-3) = 11h UTC — segunda a sexta
+  workflow_dispatch:          # permite rodar manualmente pelo GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gerar briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WHATSAPP_NUMBER:   ${{ secrets.WHATSAPP_NUMBER }}
+          CALLMEBOT_APIKEY:  ${{ secrets.CALLMEBOT_APIKEY }}
+          GITHUB_PAGES_URL:  ${{ secrets.GITHUB_PAGES_URL }}
+        run: python scripts/generate_briefing.py
+
+      - name: Commit e push do briefing.json
+        run: |
+          git config user.name  "CIO Daily Bot"
+          git config user.email "bot@ciodaily.local"
+          git add briefing.json
+          git diff --staged --quiet || git commit -m "briefing: $(date +'%d/%m/%Y')"
+          git push
