@@ -48,7 +48,16 @@ def get_ipca_12m() -> str:
 
 
 def get_dolar() -> str:
-    """Dólar PTAX venda — Banco Central."""
+    """Dólar PTAX venda — Banco Central (fonte primária) com fallback AwesomeAPI."""
+    from datetime import date, timedelta
+    # BCB PTAX — tenta últimos 5 dias úteis
+    for delta in range(5):
+        d = (date.today() - timedelta(days=delta)).strftime("%m-%d-%Y")
+        data = fetch(f"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='{d}'&$format=json&$top=1")
+        if data and data.get("value"):
+            val = float(data["value"][0]["cotacaoVenda"])
+            return f"R$ {val:.2f}".replace(".", ",")
+    # Fallback: AwesomeAPI
     data = fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL")
     if data and "USDBRL" in data:
         val = float(data["USDBRL"]["bid"])
@@ -208,11 +217,20 @@ def call_openai(prompt: str) -> str:
 def send_whatsapp(message: str):
     encoded = urllib.parse.quote(message)
     url = f"https://api.callmebot.com/whatsapp.php?phone={WHATSAPP_NUMBER}&text={encoded}&apikey={CALLMEBOT_APIKEY}"
-    try:
-        urllib.request.urlopen(url, timeout=10)
-        print("WhatsApp enviado.")
-    except Exception as e:
-        print(f"Erro WhatsApp: {e}")
+    print(f"Enviando WhatsApp para {WHATSAPP_NUMBER}...")
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(url, timeout=15) as r:
+                body = r.read().decode()
+                print(f"CallMeBot resposta: {body[:200]}")
+                if "queued" in body.lower() or "message" in body.lower():
+                    print("WhatsApp enviado com sucesso.")
+                    return
+        except Exception as e:
+            print(f"Tentativa {attempt} falhou: {e}")
+        if attempt < 3:
+            import time; time.sleep(3)
+    print("WARN: WhatsApp pode não ter sido entregue.")
 
 
 # ─── Main ────────────────────────────────────────────────────────────────────
