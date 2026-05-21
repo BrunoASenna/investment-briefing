@@ -5,8 +5,8 @@
       "ticker": "BBAS3",
       "name": "Banco do Brasil S.A.",
       "value": "40",
-      "reason": "Cotação atual de R$ 20,70 com potencial de valorização até o alvo consenso de R$ 26,02, representando um upside significativo.",
-      "potential": "+25.7% em 12 meses",
+      "reason": "Cotação atual de R$ 20,73 com potencial de valorização devido ao preço-alvo de R$ 26,02, indicando um upside significativo.",
+      "potential": "+25.5% em 12 meses",
       "risk": "Médio",
       "horizon": "12 meses"
     },
@@ -14,16 +14,16 @@
       "ticker": "PETR4",
       "name": "Petrobras PN",
       "value": "30",
-      "reason": "Beneficiada pela alta do petróleo e estabilidade do dólar, com potencial de crescimento em dividendos.",
+      "reason": "Beneficiada pela alta do petróleo e política de dividendos atrativa.",
       "potential": "+15% a.a.",
       "risk": "Médio",
-      "horizon": "12 meses"
+      "horizon": "18 meses"
     },
     {
       "ticker": "ITUB4",
       "name": "Itaú Unibanco PN",
       "value": "30",
-      "reason": "Resiliência em cenário de alta SELIC, com forte base de clientes e diversificação de receitas.",
+      "reason": "Resiliência em cenário de alta de juros e boa gestão de inadimplência.",
       "potential": "+12% a.a.",
       "risk": "Baixo",
       "horizon": "12 meses"
@@ -50,36 +50,36 @@
     },
     {
       "label": "IBOV",
-      "value": "177.356",
-      "sub": "+1.77% hoje",
-      "trend": "up"
+      "value": "176.948",
+      "sub": "-0.23% hoje",
+      "trend": "neutral"
     }
   ],
-  "macro_summary": "A SELIC permanece alta em 14,40%, favorecendo investimentos em renda fixa. O IPCA em 4,39% sugere controle inflacionário, enquanto o dólar estável a R$ 5,03 minimiza riscos cambiais. O IBOVESPA subiu 1,77%, indicando otimismo no mercado de ações.",
+  "macro_summary": "A SELIC permanece alta em 14,40%, mantendo o custo do crédito elevado. O IPCA de 4,39% sugere controle inflacionário, enquanto o dólar está estável em R$ 5,03. O IBOVESPA recua levemente, refletindo cautela do mercado.",
   "analysts": {
     "enter": [
-      "PETR4 — alta do petróleo e dividendos atrativos"
+      "PETR4 — Valorização do petróleo e dividendos robustos"
     ],
     "reinforce": [
-      "BBAS3 — potencial de valorização significativo"
+      "BBAS3 — Potencial de valorização com preço-alvo atrativo"
     ],
     "avoid": [
-      "Empresas de varejo — impacto negativo da alta SELIC"
+      "VVAR3 — Risco elevado devido a problemas de liquidez"
     ],
     "realize": [
-      "Empresas de tecnologia — realização de lucros após rally recente"
+      "WEGE3 — Realizar lucros após forte valorização recente"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,70",
-      "trend": "up"
+      "value": "R$ 20,73",
+      "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.32%",
-      "trend": "up"
+      "value": "+0.14%",
+      "trend": "neutral"
     },
     {
       "label": "Alvo consenso",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Upside",
-      "value": "25.7%",
+      "value": "25.5%",
       "trend": "up"
     },
     {
@@ -103,11 +103,11 @@
     }
   ],
   "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "BBAS3 enfrenta desafios com lucro do 1T26 caindo 53% e inadimplência agro em 6,22%. No entanto, o potencial de valorização até o alvo consenso de R$ 26,02 e a estabilidade do dividendo tornam a ação atrativa. Recomenda-se reforçar posição, aguardando resultados do 2T26 em agosto.",
+  "bbas3_summary": "BBAS3 enfrenta desafios com queda de 53% no lucro do 1T26 e inadimplência agro em 6,22%. No entanto, o preço atual oferece um bom ponto de entrada antes dos resultados do 2T26 em agosto. Recomendamos reforçar posição devido ao potencial de recuperação e valorização.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em BBAS3, aproveitando o potencial de valorização.",
-    "biggest_risk": "Alta inadimplência no setor agro pode impactar resultados de bancos.",
-    "best_opportunity": "BBAS3 com upside de 25.7% e dividendos estáveis.",
-    "common_mistake": "Subestimar o impacto da alta SELIC em empresas de varejo."
+    "smartest_move": "Reforçar posição em BBAS3 com R$ 40 devido ao potencial de valorização.",
+    "biggest_risk": "Inadimplência no setor agro, impactando bancos como BBAS3.",
+    "best_opportunity": "BBAS3 com upside de 25.5% e preço-alvo de R$ 26,02.",
+    "common_mistake": "Subestimar o impacto da alta SELIC em empresas alavancadas."
   }
 }
