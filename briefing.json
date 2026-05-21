@@ -1,31 +1,31 @@
 {
-  "date": "20/05/2026",
+  "date": "21/05/2026",
   "opportunities": [
     {
       "ticker": "BBAS3",
       "name": "Banco do Brasil S.A.",
       "value": "40",
-      "reason": "Ação subvalorizada com potencial de recuperação após queda de lucro e aumento de inadimplência no setor agro.",
-      "potential": "+26.5% em 12 meses",
+      "reason": "Cotação atual de R$ 20,70 com potencial de valorização até o alvo consenso de R$ 26,02, representando um upside significativo.",
+      "potential": "+25.7% em 12 meses",
       "risk": "Médio",
-      "horizon": "12 meses"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco Holding S.A.",
-      "value": "30",
-      "reason": "Resiliência em cenário de alta SELIC, com forte base de clientes e diversificação de receitas.",
-      "potential": "+15% em 12 meses",
-      "risk": "Baixo",
       "horizon": "12 meses"
     },
     {
       "ticker": "PETR4",
       "name": "Petrobras PN",
       "value": "30",
-      "reason": "Beneficiada por preços elevados do petróleo e política de dividendos atrativa.",
-      "potential": "+20% em 12 meses",
+      "reason": "Beneficiada pela alta do petróleo e estabilidade do dólar, com potencial de crescimento em dividendos.",
+      "potential": "+15% a.a.",
       "risk": "Médio",
+      "horizon": "12 meses"
+    },
+    {
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "30",
+      "reason": "Resiliência em cenário de alta SELIC, com forte base de clientes e diversificação de receitas.",
+      "potential": "+12% a.a.",
+      "risk": "Baixo",
       "horizon": "12 meses"
     }
   ],
@@ -44,41 +44,41 @@
     },
     {
       "label": "Dólar",
-      "value": "N/D",
+      "value": "R$ 5,03",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.056",
-      "sub": "+1.59% hoje",
+      "value": "177.356",
+      "sub": "+1.77% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC permanece alta em 14,40%, pressionando o custo do crédito e favorecendo investimentos em renda fixa. O IPCA acumulado em 12 meses está em 4,39%, indicando uma tendência de desaceleração da inflação. O IBOVESPA subiu 1,59% hoje, refletindo otimismo do mercado com a estabilização econômica.",
+  "macro_summary": "A SELIC permanece alta em 14,40%, favorecendo investimentos em renda fixa. O IPCA em 4,39% sugere controle inflacionário, enquanto o dólar estável a R$ 5,03 minimiza riscos cambiais. O IBOVESPA subiu 1,77%, indicando otimismo no mercado de ações.",
   "analysts": {
     "enter": [
-      "BBAS3 — Potencial de recuperação com upside significativo após ajustes no setor agro."
+      "PETR4 — alta do petróleo e dividendos atrativos"
     ],
     "reinforce": [
-      "PETR4 — Benefícios contínuos de preços elevados do petróleo e política de dividendos."
+      "BBAS3 — potencial de valorização significativo"
     ],
     "avoid": [
-      "Empresas de varejo — Pressionadas pela alta da SELIC e redução do consumo."
+      "Empresas de varejo — impacto negativo da alta SELIC"
     ],
     "realize": [
-      "Empresas de tecnologia — Realizar lucros após rally recente e riscos de correção."
+      "Empresas de tecnologia — realização de lucros após rally recente"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,57",
+      "value": "R$ 20,70",
       "trend": "up"
     },
     {
       "label": "Var. dia",
-      "value": "+1.68%",
+      "value": "+2.32%",
       "trend": "up"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Upside",
-      "value": "26.5%",
+      "value": "25.7%",
       "trend": "up"
     },
     {
@@ -103,11 +103,11 @@
     }
   ],
   "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "BBAS3 enfrenta desafios com queda de lucro no 1T26 (-53%) e inadimplência agro em 6,22%. No entanto, a ação está subvalorizada com um upside de 26.5% até o alvo consenso de R$ 26,02. O resultado do 2T26 em agosto pode ser um gatilho positivo. Recomendamos reforçar a posição, considerando o potencial de recuperação e dividendos estáveis.",
+  "bbas3_summary": "BBAS3 enfrenta desafios com lucro do 1T26 caindo 53% e inadimplência agro em 6,22%. No entanto, o potencial de valorização até o alvo consenso de R$ 26,02 e a estabilidade do dividendo tornam a ação atrativa. Recomenda-se reforçar posição, aguardando resultados do 2T26 em agosto.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em BBAS3 com R$ 40, aproveitando o potencial de recuperação e dividendos.",
-    "biggest_risk": "Alta da SELIC em 14,40% pode impactar negativamente empresas de consumo e varejo.",
-    "best_opportunity": "BBAS3 com upside de 26.5% e dividendos estáveis, ideal para médio prazo.",
-    "common_mistake": "Subestimar o impacto da alta SELIC em empresas alavancadas e de consumo."
+    "smartest_move": "Reforçar posição em BBAS3, aproveitando o potencial de valorização.",
+    "biggest_risk": "Alta inadimplência no setor agro pode impactar resultados de bancos.",
+    "best_opportunity": "BBAS3 com upside de 25.7% e dividendos estáveis.",
+    "common_mistake": "Subestimar o impacto da alta SELIC em empresas de varejo."
   }
 }
