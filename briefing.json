@@ -1,32 +1,32 @@
 {
-  "date": "22/05/2026",
+  "date": "25/05/2026",
   "opportunities": [
     {
       "ticker": "BBAS3",
       "name": "Banco do Brasil S.A.",
       "value": "40",
-      "reason": "Apesar da queda de 53% no lucro do 1T26, o preço atual está abaixo do alvo consenso de R$ 26,02, oferecendo um upside significativo.",
-      "potential": "+24.85% em 12 meses",
+      "reason": "Ação subvalorizada com potencial de recuperação após queda de lucro no 1T26.",
+      "potential": "+22.2% em 12 meses",
       "risk": "Médio",
       "horizon": "12 meses"
-    },
-    {
-      "ticker": "VALE3",
-      "name": "Vale S.A.",
-      "value": "30",
-      "reason": "A demanda por commodities continua forte, e a Vale tem se beneficiado de preços elevados do minério de ferro.",
-      "potential": "+15% em 9 meses",
-      "risk": "Médio",
-      "horizon": "9 meses"
     },
     {
       "ticker": "PETR4",
       "name": "Petrobras PN",
       "value": "30",
-      "reason": "Com a estabilidade do preço do petróleo e a política de dividendos da empresa, há potencial de retorno atrativo.",
-      "potential": "+10% em 6 meses",
-      "risk": "Baixo",
+      "reason": "Beneficiada pela alta do petróleo e dólar estável.",
+      "potential": "+15% em 6 meses",
+      "risk": "Médio",
       "horizon": "6 meses"
+    },
+    {
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "30",
+      "reason": "Resiliência em cenário de alta SELIC e controle de inadimplência.",
+      "potential": "+10% em 12 meses",
+      "risk": "Baixo",
+      "horizon": "12 meses"
     }
   ],
   "macro_indicators": [
@@ -50,36 +50,36 @@
     },
     {
       "label": "IBOV",
-      "value": "176.459",
-      "sub": "-0.67% hoje",
-      "trend": "down"
+      "value": "177.073",
+      "sub": "+0.49% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC permanece elevada em 14,40%, mantendo o custo do crédito alto. O IPCA em 4,39% sugere controle inflacionário, mas o IBOV caiu 0,67%, refletindo incertezas no mercado. O dólar está estável em R$ 5,01, indicando equilíbrio cambial.",
+  "macro_summary": "A SELIC permanece alta em 14,40%, mantendo pressão sobre o crédito. O IPCA desacelerou para 4,39%, indicando controle inflacionário. O dólar estável em R$ 5,01 favorece importações, enquanto o IBOV sobe 0.49%, refletindo otimismo moderado.",
   "analysts": {
     "enter": [
-      "VALE3 — forte demanda por commodities e preços elevados do minério de ferro"
+      "PETR4 — alta do petróleo e estabilidade do dólar favorecem resultados"
     ],
     "reinforce": [
-      "PETR4 — política de dividendos consistente e preço do petróleo estável"
+      "BBAS3 — potencial de recuperação após queda de lucro"
     ],
     "avoid": [
-      "Empresas de varejo — impacto negativo de juros altos"
+      "Empresas de varejo — impacto negativo da alta SELIC no consumo"
     ],
     "realize": [
-      "Empresas de tecnologia — realização de lucros após forte alta"
+      "VALE3 — realização de lucros após forte valorização recente"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,84",
-      "trend": "neutral"
+      "value": "R$ 21,30",
+      "trend": "up"
     },
     {
       "label": "Var. dia",
-      "value": "+0.10%",
-      "trend": "neutral"
+      "value": "+1.72%",
+      "trend": "up"
     },
     {
       "label": "Alvo consenso",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Upside",
-      "value": "24.85%",
+      "value": "22.2%",
       "trend": "up"
     },
     {
@@ -102,12 +102,12 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O Banco do Brasil enfrenta desafios com lucro do 1T26 caindo 53% e inadimplência no agro em 6,22%. O resultado do 2T26, esperado para agosto, pode ser um gatilho para reavaliação. Recomenda-se aguardar novas informações antes de tomar decisões.",
+  "bbas3_strategy": "Reforçar",
+  "bbas3_summary": "BBAS3 enfrenta desafios com queda de lucro de 53% no 1T26 e inadimplência agro de 6,22%. No entanto, a expectativa de recuperação e o próximo resultado do 2T26 em agosto são gatilhos potenciais. Recomendamos reforçar posição, considerando o upside de 22.2%.",
   "executive_summary": {
-    "smartest_move": "Investir em BBAS3 com potencial de upside de 24.85% ao preço atual.",
-    "biggest_risk": "Alta inadimplência no setor agro pode impactar resultados futuros de bancos.",
-    "best_opportunity": "VALE3 com potencial de +15% em 9 meses devido à demanda por commodities.",
-    "common_mistake": "Negligenciar o impacto dos juros altos em empresas de varejo."
+    "smartest_move": "Reforçar posição em BBAS3 com R$ 40,00, aproveitando potencial de recuperação.",
+    "biggest_risk": "Alta SELIC em 14,40% pode impactar negativamente o consumo e o crédito.",
+    "best_opportunity": "PETR4 com potencial de +15% em 6 meses devido à alta do petróleo.",
+    "common_mistake": "Subestimar o impacto da alta SELIC em empresas de consumo e varejo."
   }
 }
