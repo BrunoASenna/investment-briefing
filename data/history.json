@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "date": "2026-05-25",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.3,
+      "r21d": -0.07650149507780414,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "36",
+        "price": "R$ 15,19",
+        "score": "0.853",
+        "reason": "Lojas Renner apresenta um forte momentum com alta de 10.31% nos últimos 5 dias, destacando-se no setor varejista em um dia de perfil BALANCED.",
+        "potential": "Com um score elevado, LREN3 pode continuar a performar bem no curto prazo, especialmente se o cenário macroeconômico se mantiver estável.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 105,15",
+        "score": "0.779",
+        "reason": "Com regime favorável a FIIs de papel e um score robusto, KNCR11 se beneficia dos altos juros, proporcionando uma alternativa defensiva.",
+        "potential": "A estabilidade dos juros favorece o rendimento constante deste FII, tornando-o atrativo para investidores buscando segurança.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 15,79",
+        "score": "0.766",
+        "reason": "Apesar da queda recente de 3.25% em 21 dias, Fleury se destaca pela resiliência no setor de saúde, com potencial de recuperação em um ambiente estável.",
+        "potential": "O score sólido sugere potencial de recuperação, especialmente se o setor de saúde continuar a mostrar resiliência.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,01",
+      "ibov": "176.737"
+    }
+  }
+]

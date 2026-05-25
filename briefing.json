@@ -1,39 +1,49 @@
 {
   "date": "25/05/2026",
+  "regime": {
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual de BEAR com perfil BALANCED sugere cautela, favorecendo ativos defensivos e FIIs de papel, enquanto o mercado estável oferece oportunidades seletivas."
+  },
   "opportunities": [
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil S.A.",
-      "value": "40",
-      "reason": "Ação subvalorizada com potencial de recuperação após queda de lucro no 1T26.",
-      "potential": "+22.2% em 12 meses",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "36",
+      "price": "R$ 15,19",
+      "score": "0.853",
+      "reason": "Lojas Renner apresenta um forte momentum com alta de 10.31% nos últimos 5 dias, destacando-se no setor varejista em um dia de perfil BALANCED.",
+      "potential": "Com um score elevado, LREN3 pode continuar a performar bem no curto prazo, especialmente se o cenário macroeconômico se mantiver estável.",
       "risk": "Médio",
-      "horizon": "12 meses"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "30",
-      "reason": "Beneficiada pela alta do petróleo e dólar estável.",
-      "potential": "+15% em 6 meses",
-      "risk": "Médio",
-      "horizon": "6 meses"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "30",
-      "reason": "Resiliência em cenário de alta SELIC e controle de inadimplência.",
-      "potential": "+10% em 12 meses",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "32",
+      "price": "R$ 105,15",
+      "score": "0.779",
+      "reason": "Com regime favorável a FIIs de papel e um score robusto, KNCR11 se beneficia dos altos juros, proporcionando uma alternativa defensiva.",
+      "potential": "A estabilidade dos juros favorece o rendimento constante deste FII, tornando-o atrativo para investidores buscando segurança.",
       "risk": "Baixo",
-      "horizon": "12 meses"
+      "horizon": "Médio a longo prazo"
+    },
+    {
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "32",
+      "price": "R$ 15,79",
+      "score": "0.766",
+      "reason": "Apesar da queda recente de 3.25% em 21 dias, Fleury se destaca pela resiliência no setor de saúde, com potencial de recuperação em um ambiente estável.",
+      "potential": "O score sólido sugere potencial de recuperação, especialmente se o setor de saúde continuar a mostrar resiliência.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
       "value": "14,40%",
-      "sub": "taxa Over anualizada",
+      "sub": "tendência: estável",
       "trend": "neutral"
     },
     {
@@ -50,36 +60,36 @@
     },
     {
       "label": "IBOV",
-      "value": "177.073",
-      "sub": "+0.49% hoje",
+      "value": "176.737",
+      "sub": "+0.30% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC permanece alta em 14,40%, mantendo pressão sobre o crédito. O IPCA desacelerou para 4,39%, indicando controle inflacionário. O dólar estável em R$ 5,01 favorece importações, enquanto o IBOV sobe 0.49%, refletindo otimismo moderado.",
+  "macro_summary": "Com a SELIC estável em 14,40% e o IPCA em 4,39%, o cenário macroeconômico sugere controle inflacionário, enquanto o IBOV subindo 0.30% indica um leve otimismo no mercado. Para quem vai aportar R$100 hoje, o ambiente favorece alocações seguras e defensivas, especialmente em ativos que se beneficiam de juros altos.",
   "analysts": {
     "enter": [
-      "PETR4 — alta do petróleo e estabilidade do dólar favorecem resultados"
+      "LREN3 — devido ao forte momentum e desempenho no setor varejista"
     ],
     "reinforce": [
-      "BBAS3 — potencial de recuperação após queda de lucro"
+      "KNCR11 — beneficiado pelo ambiente de juros altos e estabilidade"
     ],
     "avoid": [
-      "Empresas de varejo — impacto negativo da alta SELIC no consumo"
+      "Petroleiras — devido ao impacto negativo das negociações com o Irã"
     ],
     "realize": [
-      "VALE3 — realização de lucros após forte valorização recente"
+      "LREN3 — após alta significativa recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,30",
-      "trend": "up"
+      "value": "R$ 21,27",
+      "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.72%",
-      "trend": "up"
+      "value": "+1.58%",
+      "trend": "neutral"
     },
     {
       "label": "Alvo consenso",
@@ -88,26 +98,37 @@
     },
     {
       "label": "Upside",
-      "value": "22.2%",
+      "value": "+22.3%",
       "trend": "up"
     },
     {
       "label": "Div. Yield",
-      "value": "~4,1% (base lucro revisado)",
+      "value": "~4,1% (base lucro revisado 2026)",
       "trend": "neutral"
     },
     {
       "label": "Consenso",
-      "value": "Neutro (9 analistas)",
+      "value": "Neutro — 9 de 13 analistas",
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "BBAS3 enfrenta desafios com queda de lucro de 53% no 1T26 e inadimplência agro de 6,22%. No entanto, a expectativa de recuperação e o próximo resultado do 2T26 em agosto são gatilhos potenciais. Recomendamos reforçar posição, considerando o upside de 22.2%.",
+  "bbas3_strategy": "Aguardar",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 21,27 com variação de +1.58%. Após o 1T26, que mostrou uma queda de 53% no lucro e inadimplência agro em 6.22%, o próximo gatilho é o resultado do 2T26 em agosto. A recomendação é aguardar novos dados para melhor avaliação.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em BBAS3 com R$ 40,00, aproveitando potencial de recuperação.",
-    "biggest_risk": "Alta SELIC em 14,40% pode impactar negativamente o consumo e o crédito.",
-    "best_opportunity": "PETR4 com potencial de +15% em 6 meses devido à alta do petróleo.",
-    "common_mistake": "Subestimar o impacto da alta SELIC em empresas de consumo e varejo."
+    "smartest_move": "Considerar alocação em LREN3, aproveitando o momentum positivo e alocando R$36.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente setores cíclicos e de alto risco.",
+    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno, beneficiando-se dos juros altos e estabilidade.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um ambiente de juros elevados e regime BEAR."
+  },
+  "_meta": {
+    "generated_at": "2026-05-25T12:01:03.587711-03:00",
+    "regime": "BEAR / BALANCED",
+    "sectors": [
+      "fii_papel",
+      "saude",
+      "varejo"
+    ],
+    "diversity_ok": true,
+    "pipeline": "v2.0-quant"
   }
 }
