@@ -1,42 +1,42 @@
 {
-  "date": "25/05/2026",
+  "date": "26/05/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual de BEAR com perfil BALANCED sugere cautela, favorecendo ativos defensivos e FIIs de papel, enquanto o mercado estável oferece oportunidades seletivas."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, devido aos juros elevados e incertezas econômicas."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "36",
-      "price": "R$ 15,19",
-      "score": "0.853",
-      "reason": "Lojas Renner apresenta um forte momentum com alta de 10.31% nos últimos 5 dias, destacando-se no setor varejista em um dia de perfil BALANCED.",
-      "potential": "Com um score elevado, LREN3 pode continuar a performar bem no curto prazo, especialmente se o cenário macroeconômico se mantiver estável.",
-      "risk": "Médio",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "35",
+      "price": "R$ 105,62",
+      "score": "0.785",
+      "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo recente (+1.39% em 5 dias) e sua natureza defensiva em um regime RISK_OFF.",
+      "potential": "Com um score elevado e ajuste perfeito ao regime atual, KNCR11 pode oferecer estabilidade e retorno consistente.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "32",
-      "price": "R$ 105,15",
-      "score": "0.779",
-      "reason": "Com regime favorável a FIIs de papel e um score robusto, KNCR11 se beneficia dos altos juros, proporcionando uma alternativa defensiva.",
-      "potential": "A estabilidade dos juros favorece o rendimento constante deste FII, tornando-o atrativo para investidores buscando segurança.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
-    },
-    {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "32",
-      "price": "R$ 15,79",
-      "score": "0.766",
-      "reason": "Apesar da queda recente de 3.25% em 21 dias, Fleury se destaca pela resiliência no setor de saúde, com potencial de recuperação em um ambiente estável.",
-      "potential": "O score sólido sugere potencial de recuperação, especialmente se o setor de saúde continuar a mostrar resiliência.",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "33",
+      "price": "R$ 15,07",
+      "score": "0.737",
+      "reason": "LREN3 mostrou resiliência com um aumento de 10.48% nos últimos 5 dias, destacando-se no setor de varejo, apesar do regime adverso.",
+      "potential": "O potencial de crescimento é moderado, sustentado pelo bom desempenho recente e pela recuperação do setor de varejo.",
       "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "32",
+      "price": "R$ 31,53",
+      "score": "0.722",
+      "reason": "TOTVS ON apresenta um score sólido e alta novidade, com um ganho de 2.90% em 5 dias, apesar do ambiente desafiador para tecnologia.",
+      "potential": "A inovação contínua e a adaptação ao mercado podem sustentar seu crescimento, embora o risco seja mais elevado.",
+      "risk": "Médio",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,01",
+      "value": "R$ 5,02",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "176.737",
-      "sub": "+0.30% hoje",
-      "trend": "up"
+      "value": "175.724",
+      "sub": "-0.92% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 14,40% e o IPCA em 4,39%, o cenário macroeconômico sugere controle inflacionário, enquanto o IBOV subindo 0.30% indica um leve otimismo no mercado. Para quem vai aportar R$100 hoje, o ambiente favorece alocações seguras e defensivas, especialmente em ativos que se beneficiam de juros altos.",
+  "macro_summary": "Com a SELIC em 14,40% e o IPCA em 4,39%, o cenário econômico é de juros altos e inflação controlada, pressionando o IBOV que caiu 0.92%. Em um ambiente RISK_OFF, investidores devem priorizar ativos defensivos e de renda fixa para proteger o capital ao investir R$100 hoje.",
   "analysts": {
     "enter": [
-      "LREN3 — devido ao forte momentum e desempenho no setor varejista"
+      "KNCR11 — devido ao seu ajuste perfeito ao regime RISK_OFF"
     ],
     "reinforce": [
-      "KNCR11 — beneficiado pelo ambiente de juros altos e estabilidade"
+      "LREN3 — por seu forte momentum de 10.48% em 5 dias"
     ],
     "avoid": [
-      "Petroleiras — devido ao impacto negativo das negociações com o Irã"
+      "Setor de tecnologia — devido ao momentum negativo recente"
     ],
     "realize": [
-      "LREN3 — após alta significativa recente, pode estar sobrecomprado"
+      "LREN3 — após a alta de 10.48% em 5 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,27",
+      "value": "R$ 21,12",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.58%",
+      "value": "-2.45%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+22.3%",
+      "value": "+23.2%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 21,27 com variação de +1.58%. Após o 1T26, que mostrou uma queda de 53% no lucro e inadimplência agro em 6.22%, o próximo gatilho é o resultado do 2T26 em agosto. A recomendação é aguardar novos dados para melhor avaliação.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 21,12, com uma variação de -2.45% hoje. Após um primeiro trimestre desafiador, com lucro reduzido em 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em LREN3, aproveitando o momentum positivo e alocando R$36.",
-    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente setores cíclicos e de alto risco.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno, beneficiando-se dos juros altos e estabilidade.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um ambiente de juros elevados e regime BEAR."
+    "smartest_move": "Investir em KNCR11 com R$35, aproveitando seu ajuste ao regime RISK_OFF.",
+    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um score de 0.785 e ajuste perfeito ao regime.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-05-25T12:01:03.587711-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-05-26T13:43:54.455432-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
+      "varejo",
       "fii_papel",
-      "saude",
-      "varejo"
+      "tecnologia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

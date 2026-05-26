@@ -50,5 +50,57 @@
       "dolar": "R$ 5,01",
       "ibov": "176.737"
     }
+  },
+  {
+    "date": "2026-05-26",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.92,
+      "r21d": -0.0787501802144224,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "35",
+        "price": "R$ 105,62",
+        "score": "0.785",
+        "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo recente (+1.39% em 5 dias) e sua natureza defensiva em um regime RISK_OFF.",
+        "potential": "Com um score elevado e ajuste perfeito ao regime atual, KNCR11 pode oferecer estabilidade e retorno consistente.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "33",
+        "price": "R$ 15,07",
+        "score": "0.737",
+        "reason": "LREN3 mostrou resiliência com um aumento de 10.48% nos últimos 5 dias, destacando-se no setor de varejo, apesar do regime adverso.",
+        "potential": "O potencial de crescimento é moderado, sustentado pelo bom desempenho recente e pela recuperação do setor de varejo.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "32",
+        "price": "R$ 31,53",
+        "score": "0.722",
+        "reason": "TOTVS ON apresenta um score sólido e alta novidade, com um ganho de 2.90% em 5 dias, apesar do ambiente desafiador para tecnologia.",
+        "potential": "A inovação contínua e a adaptação ao mercado podem sustentar seu crescimento, embora o risco seja mais elevado.",
+        "risk": "Médio",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,02",
+      "ibov": "175.724"
+    }
   }
 ]
