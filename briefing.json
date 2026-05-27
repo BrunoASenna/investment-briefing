@@ -1,42 +1,42 @@
 {
-  "date": "26/05/2026",
+  "date": "27/05/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, devido aos juros elevados e incertezas econômicas."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é de mercado BEAR com um perfil BALANCED, indicando que investidores devem buscar ativos defensivos e FIIs de papel, aproveitando a estabilidade dos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "35",
-      "price": "R$ 105,62",
-      "score": "0.785",
-      "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo recente (+1.39% em 5 dias) e sua natureza defensiva em um regime RISK_OFF.",
-      "potential": "Com um score elevado e ajuste perfeito ao regime atual, KNCR11 pode oferecer estabilidade e retorno consistente.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "34",
+      "price": "R$ 16,15",
+      "score": "0.762",
+      "reason": "Fleury ON se beneficia do regime BALANCED com um momentum positivo de +2.22% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser mais resiliente em períodos de incerteza.",
+      "potential": "Com um score de 0.762, a Fleury ON apresenta um bom potencial para ganhos moderados, especialmente em um ambiente de mercado equilibrado.",
       "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "33",
-      "price": "R$ 15,07",
-      "score": "0.737",
-      "reason": "LREN3 mostrou resiliência com um aumento de 10.48% nos últimos 5 dias, destacando-se no setor de varejo, apesar do regime adverso.",
-      "potential": "O potencial de crescimento é moderado, sustentado pelo bom desempenho recente e pela recuperação do setor de varejo.",
-      "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "32",
-      "price": "R$ 31,53",
-      "score": "0.722",
-      "reason": "TOTVS ON apresenta um score sólido e alta novidade, com um ganho de 2.90% em 5 dias, apesar do ambiente desafiador para tecnologia.",
-      "potential": "A inovação contínua e a adaptação ao mercado podem sustentar seu crescimento, embora o risco seja mais elevado.",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
+      "value": "33",
+      "price": "R$ 21,28",
+      "score": "0.757",
+      "reason": "O Banco do Brasil ON, apesar da queda de 5.46% nos últimos 21 dias, mostra resiliência com uma alta de 0.81% no dia, sendo uma opção atrativa em um cenário de juros elevados.",
+      "potential": "O potencial de recuperação é moderado, considerando o score de 0.757 e o contexto de mercado atual.",
       "risk": "Médio",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "33",
+      "price": "R$ 40,55",
+      "score": "0.749",
+      "reason": "Itaú Unibanco PN apresenta um momentum de recuperação com +1.22% no dia, apesar de uma queda de 7.82% nos últimos 21 dias, oferecendo uma oportunidade de entrada em um setor financeiro pressionado.",
+      "potential": "A recuperação pode ser gradual, refletindo o score de 0.749 e a atual dinâmica do mercado.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,02",
+      "value": "R$ 5,06",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "175.724",
-      "sub": "-0.92% hoje",
-      "trend": "down"
+      "value": "176.614",
+      "sub": "+0.01% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e o IPCA em 4,39%, o cenário econômico é de juros altos e inflação controlada, pressionando o IBOV que caiu 0.92%. Em um ambiente RISK_OFF, investidores devem priorizar ativos defensivos e de renda fixa para proteger o capital ao investir R$100 hoje.",
+  "macro_summary": "Com a SELIC em 14,40% e estável, o ambiente favorece investimentos defensivos. O IPCA de 4,39% sugere controle inflacionário, enquanto o IBOV subiu 0.01%, refletindo um mercado cauteloso. Para um aporte de R$100, o cenário sugere foco em ativos de baixo risco e rendimento estável.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao seu ajuste perfeito ao regime RISK_OFF"
+      "FLRY3 — Momentum positivo e resiliência no setor de saúde"
     ],
     "reinforce": [
-      "LREN3 — por seu forte momentum de 10.48% em 5 dias"
+      "FLRY3 — Bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — devido ao momentum negativo recente"
+      "Setor industrial — Momentum negativo de 0.63 nos últimos 5 dias"
     ],
     "realize": [
-      "LREN3 — após a alta de 10.48% em 5 dias, pode estar sobrecomprado"
+      "FLRY3 — Alta recente pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,12",
+      "value": "R$ 21,28",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-2.45%",
+      "value": "+0.81%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+23.2%",
+      "value": "+22.3%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 21,12, com uma variação de -2.45% hoje. Após um primeiro trimestre desafiador, com lucro reduzido em 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões de investimento.",
+  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 21,28, com uma variação diária de +0.81%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de recuperação é cautelosa, com um upside potencial de 22.31%.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com R$35, aproveitando seu ajuste ao regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos de maior risco.",
-    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um score de 0.785 e ajuste perfeito ao regime.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
+    "smartest_move": "Investir em FLRY3 com R$34, aproveitando o momentum positivo e resiliência do setor de saúde.",
+    "biggest_risk": "A pressão contínua no mercado de proteínas pode impactar negativamente setores relacionados, aumentando a volatilidade.",
+    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com um score elevado e bom ajuste ao regime atual.",
+    "common_mistake": "Subestimar o impacto dos juros elevados, levando a decisões precipitadas em ativos de maior risco."
   },
   "_meta": {
-    "generated_at": "2026-05-26T13:43:54.455432-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-05-27T13:38:43.515761-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "varejo",
-      "fii_papel",
-      "tecnologia"
+      "financeiro",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

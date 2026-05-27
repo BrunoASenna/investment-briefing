@@ -102,5 +102,57 @@
       "dolar": "R$ 5,02",
       "ibov": "175.724"
     }
+  },
+  {
+    "date": "2026-05-27",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.01,
+      "r21d": -0.068390024739027,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 16,15",
+        "score": "0.762",
+        "reason": "Fleury ON se beneficia do regime BALANCED com um momentum positivo de +2.22% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser mais resiliente em períodos de incerteza.",
+        "potential": "Com um score de 0.762, a Fleury ON apresenta um bom potencial para ganhos moderados, especialmente em um ambiente de mercado equilibrado.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "33",
+        "price": "R$ 21,28",
+        "score": "0.757",
+        "reason": "O Banco do Brasil ON, apesar da queda de 5.46% nos últimos 21 dias, mostra resiliência com uma alta de 0.81% no dia, sendo uma opção atrativa em um cenário de juros elevados.",
+        "potential": "O potencial de recuperação é moderado, considerando o score de 0.757 e o contexto de mercado atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "33",
+        "price": "R$ 40,55",
+        "score": "0.749",
+        "reason": "Itaú Unibanco PN apresenta um momentum de recuperação com +1.22% no dia, apesar de uma queda de 7.82% nos últimos 21 dias, oferecendo uma oportunidade de entrada em um setor financeiro pressionado.",
+        "potential": "A recuperação pode ser gradual, refletindo o score de 0.749 e a atual dinâmica do mercado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,06",
+      "ibov": "176.614"
+    }
   }
 ]
