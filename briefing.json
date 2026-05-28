@@ -1,42 +1,42 @@
 {
-  "date": "27/05/2026",
+  "date": "28/05/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é de mercado BEAR com um perfil BALANCED, indicando que investidores devem buscar ativos defensivos e FIIs de papel, aproveitando a estabilidade dos juros elevados."
+    "summary": "O regime atual é caracterizado por um mercado em baixa, mas com um perfil equilibrado, sugerindo que os investidores devem ser cautelosos, favorecendo ativos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 16,15",
-      "score": "0.762",
-      "reason": "Fleury ON se beneficia do regime BALANCED com um momentum positivo de +2.22% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser mais resiliente em períodos de incerteza.",
-      "potential": "Com um score de 0.762, a Fleury ON apresenta um bom potencial para ganhos moderados, especialmente em um ambiente de mercado equilibrado.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "38",
+      "price": "R$ 12,69",
+      "score": "0.897",
+      "reason": "Hapvida ON apresenta um bom momentum, com uma valorização de 2.84% nos últimos 5 dias, destacando-se no setor de saúde que é tradicionalmente defensivo, alinhado ao regime BALANCED.",
+      "potential": "Com um score elevado, HAPV3 tem potencial de continuar a atrair investidores que buscam estabilidade em um mercado volátil.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "31",
+      "price": "R$ 19,05",
+      "score": "0.744",
+      "reason": "Raia Drogasil ON, apesar de uma queda de 13.61% em 21 dias, mostra recuperação recente com alta de 2.97% no último dia, sugerindo uma possível reversão de tendência no setor de saúde.",
+      "potential": "O potencial de recuperação é moderado, dado o score e o recente desempenho positivo.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
+    },
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "31",
+      "price": "R$ 39,62",
+      "score": "0.726",
+      "reason": "Transmissão Paulista, com um aumento de 3.12% nos últimos 5 dias, é uma escolha defensiva no setor de utilidades, beneficiando-se do regime BALANCED.",
+      "potential": "Possui potencial de estabilidade e retorno moderado, especialmente em um ambiente de juros elevados.",
       "risk": "Baixo",
       "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "33",
-      "price": "R$ 21,28",
-      "score": "0.757",
-      "reason": "O Banco do Brasil ON, apesar da queda de 5.46% nos últimos 21 dias, mostra resiliência com uma alta de 0.81% no dia, sendo uma opção atrativa em um cenário de juros elevados.",
-      "potential": "O potencial de recuperação é moderado, considerando o score de 0.757 e o contexto de mercado atual.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "33",
-      "price": "R$ 40,55",
-      "score": "0.749",
-      "reason": "Itaú Unibanco PN apresenta um momentum de recuperação com +1.22% no dia, apesar de uma queda de 7.82% nos últimos 21 dias, oferecendo uma oportunidade de entrada em um setor financeiro pressionado.",
-      "potential": "A recuperação pode ser gradual, refletindo o score de 0.749 e a atual dinâmica do mercado.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,06",
+      "value": "R$ 5,05",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "176.614",
-      "sub": "+0.01% hoje",
+      "value": "175.775",
+      "sub": "+0.02% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e estável, o ambiente favorece investimentos defensivos. O IPCA de 4,39% sugere controle inflacionário, enquanto o IBOV subiu 0.01%, refletindo um mercado cauteloso. Para um aporte de R$100, o cenário sugere foco em ativos de baixo risco e rendimento estável.",
+  "macro_summary": "A SELIC está em 14,40%, mantendo-se estável, enquanto o IPCA acumulado em 12 meses está em 4,39%, indicando uma desaceleração da inflação. O IBOV registrou uma leve alta de 0.02%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o cenário sugere cautela e preferência por ativos defensivos, dada a estabilidade dos juros e a inflação controlada.",
   "analysts": {
     "enter": [
-      "FLRY3 — Momentum positivo e resiliência no setor de saúde"
+      "HAPV3 — devido ao seu forte momentum e score elevado"
     ],
     "reinforce": [
-      "FLRY3 — Bom momentum nos últimos 21 dias"
+      "TAEE11 — por sua estabilidade no setor de utilidades"
     ],
     "avoid": [
-      "Setor industrial — Momentum negativo de 0.63 nos últimos 5 dias"
+      "RADL3 — devido ao recente desempenho negativo em 21 dias"
     ],
     "realize": [
-      "FLRY3 — Alta recente pode indicar sobrecompra"
+      "HAPV3 — após recente valorização, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,28",
+      "value": "R$ 20,94",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.81%",
+      "value": "-0.62%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+22.3%",
+      "value": "+24.3%",
       "trend": "up"
     },
     {
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 21,28, com uma variação diária de +0.81%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de recuperação é cautelosa, com um upside potencial de 22.31%.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 20,94, com variação de -0.62%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, considerando o consenso neutro e o potencial de upside de 24.31%.",
   "executive_summary": {
-    "smartest_move": "Investir em FLRY3 com R$34, aproveitando o momentum positivo e resiliência do setor de saúde.",
-    "biggest_risk": "A pressão contínua no mercado de proteínas pode impactar negativamente setores relacionados, aumentando a volatilidade.",
-    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com um score elevado e bom ajuste ao regime atual.",
-    "common_mistake": "Subestimar o impacto dos juros elevados, levando a decisões precipitadas em ativos de maior risco."
+    "smartest_move": "Alocar R$38 em HAPV3, aproveitando seu forte momentum e score elevado.",
+    "biggest_risk": "A persistência de um regime BEAR pode impactar negativamente ativos mais voláteis.",
+    "best_opportunity": "TAEE11 oferece uma boa assimetria risco-retorno, com estabilidade em um setor defensivo.",
+    "common_mistake": "Subestimar a importância de diversificação em um mercado volátil e focar excessivamente em ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-05-27T13:38:43.515761-03:00",
+    "generated_at": "2026-05-28T13:54:46.809669-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "financeiro",
+      "utilidades",
       "saude"
     ],
     "diversity_ok": true,

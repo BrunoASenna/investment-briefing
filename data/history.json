@@ -154,5 +154,57 @@
       "dolar": "R$ 5,06",
       "ibov": "176.614"
     }
+  },
+  {
+    "date": "2026-05-28",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.02,
+      "r21d": -0.06809676517211946,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "38",
+        "price": "R$ 12,69",
+        "score": "0.897",
+        "reason": "Hapvida ON apresenta um bom momentum, com uma valorização de 2.84% nos últimos 5 dias, destacando-se no setor de saúde que é tradicionalmente defensivo, alinhado ao regime BALANCED.",
+        "potential": "Com um score elevado, HAPV3 tem potencial de continuar a atrair investidores que buscam estabilidade em um mercado volátil.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "31",
+        "price": "R$ 19,05",
+        "score": "0.744",
+        "reason": "Raia Drogasil ON, apesar de uma queda de 13.61% em 21 dias, mostra recuperação recente com alta de 2.97% no último dia, sugerindo uma possível reversão de tendência no setor de saúde.",
+        "potential": "O potencial de recuperação é moderado, dado o score e o recente desempenho positivo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "31",
+        "price": "R$ 39,62",
+        "score": "0.726",
+        "reason": "Transmissão Paulista, com um aumento de 3.12% nos últimos 5 dias, é uma escolha defensiva no setor de utilidades, beneficiando-se do regime BALANCED.",
+        "potential": "Possui potencial de estabilidade e retorno moderado, especialmente em um ambiente de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,05",
+      "ibov": "175.775"
+    }
   }
 ]
