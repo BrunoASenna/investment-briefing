@@ -2,7 +2,7 @@ name: Daily Investment Briefing
 
 on:
   schedule:
-    - cron: '0 13 * * 1-5'  # 10h Brasília (UTC-3) = 13h UTC — segunda a sexta
+    - cron: '0 10 * * 1-5'  # disparo 7h BRT (10h UTC) — absorve ~2-3h de fila do GitHub Actions para entrega ~10h BRT
   workflow_dispatch:          # permite rodar manualmente pelo GitHub
 
 permissions:
