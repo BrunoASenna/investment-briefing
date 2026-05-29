@@ -206,5 +206,57 @@
       "dolar": "R$ 5,05",
       "ibov": "175.775"
     }
+  },
+  {
+    "date": "2026-05-29",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.39,
+      "r21d": -0.07186974801053976,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "35",
+        "price": "R$ 106,85",
+        "score": "0.828",
+        "reason": "KNCR11 é uma escolha sólida hoje devido ao seu desempenho positivo de +1.02% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que é favorecido no regime atual BALANCED.",
+        "potential": "O ativo tem potencial de estabilidade e retorno consistente devido ao seu alto score e alinhamento com o regime.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 12,48",
+        "score": "0.792",
+        "reason": "HAPV3 apresenta um crescimento consistente, com alta de +3.65% em 21 dias, beneficiando-se do setor de saúde que pode ser resiliente em tempos de incerteza econômica.",
+        "potential": "Potencial de crescimento moderado, dado seu bom desempenho recente e score elevado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "32",
+        "price": "R$ 15,00",
+        "score": "0.758",
+        "reason": "LREN3 tem mostrado forte recuperação, com um aumento de +7.07% em 21 dias, indicando um bom momentum no setor de varejo.",
+        "potential": "Potencial de valorização se o momentum positivo continuar, apesar do risco de volatilidade do setor.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,05",
+      "ibov": "175.063"
+    }
   }
 ]

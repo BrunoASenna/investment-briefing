@@ -1,42 +1,42 @@
 {
-  "date": "28/05/2026",
+  "date": "29/05/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é caracterizado por um mercado em baixa, mas com um perfil equilibrado, sugerindo que os investidores devem ser cautelosos, favorecendo ativos defensivos e FIIs de papel."
+    "summary": "O regime atual BEAR com perfil BALANCED sugere um mercado cauteloso, favorecendo investimentos em ativos defensivos e FIIs de papel, devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "38",
-      "price": "R$ 12,69",
-      "score": "0.897",
-      "reason": "Hapvida ON apresenta um bom momentum, com uma valorização de 2.84% nos últimos 5 dias, destacando-se no setor de saúde que é tradicionalmente defensivo, alinhado ao regime BALANCED.",
-      "potential": "Com um score elevado, HAPV3 tem potencial de continuar a atrair investidores que buscam estabilidade em um mercado volátil.",
-      "risk": "Médio",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "35",
+      "price": "R$ 106,85",
+      "score": "0.828",
+      "reason": "KNCR11 é uma escolha sólida hoje devido ao seu desempenho positivo de +1.02% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que é favorecido no regime atual BALANCED.",
+      "potential": "O ativo tem potencial de estabilidade e retorno consistente devido ao seu alto score e alinhamento com o regime.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "31",
-      "price": "R$ 19,05",
-      "score": "0.744",
-      "reason": "Raia Drogasil ON, apesar de uma queda de 13.61% em 21 dias, mostra recuperação recente com alta de 2.97% no último dia, sugerindo uma possível reversão de tendência no setor de saúde.",
-      "potential": "O potencial de recuperação é moderado, dado o score e o recente desempenho positivo.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "33",
+      "price": "R$ 12,48",
+      "score": "0.792",
+      "reason": "HAPV3 apresenta um crescimento consistente, com alta de +3.65% em 21 dias, beneficiando-se do setor de saúde que pode ser resiliente em tempos de incerteza econômica.",
+      "potential": "Potencial de crescimento moderado, dado seu bom desempenho recente e score elevado.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "31",
-      "price": "R$ 39,62",
-      "score": "0.726",
-      "reason": "Transmissão Paulista, com um aumento de 3.12% nos últimos 5 dias, é uma escolha defensiva no setor de utilidades, beneficiando-se do regime BALANCED.",
-      "potential": "Possui potencial de estabilidade e retorno moderado, especialmente em um ambiente de juros elevados.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "32",
+      "price": "R$ 15,00",
+      "score": "0.758",
+      "reason": "LREN3 tem mostrado forte recuperação, com um aumento de +7.07% em 21 dias, indicando um bom momentum no setor de varejo.",
+      "potential": "Potencial de valorização se o momentum positivo continuar, apesar do risco de volatilidade do setor.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "175.775",
-      "sub": "+0.02% hoje",
-      "trend": "up"
+      "value": "175.063",
+      "sub": "-0.39% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 14,40%, mantendo-se estável, enquanto o IPCA acumulado em 12 meses está em 4,39%, indicando uma desaceleração da inflação. O IBOV registrou uma leve alta de 0.02%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o cenário sugere cautela e preferência por ativos defensivos, dada a estabilidade dos juros e a inflação controlada.",
+  "macro_summary": "A SELIC está em 14,40% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,39%, indicando um cenário de juros altos e inflação controlada. O IBOV recuou -0.39% hoje, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, é prudente considerar ativos defensivos que se beneficiam de juros elevados.",
   "analysts": {
     "enter": [
-      "HAPV3 — devido ao seu forte momentum e score elevado"
+      "KNCR11 — devido ao seu alto score e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "TAEE11 — por sua estabilidade no setor de utilidades"
+      "HAPV3 — bom momentum em 21 dias com crescimento de +3.65%"
     ],
     "avoid": [
-      "RADL3 — devido ao recente desempenho negativo em 21 dias"
+      "Setor de mineração — momentum negativo em relação a outros setores"
     ],
     "realize": [
-      "HAPV3 — após recente valorização, pode estar sobrecomprado"
+      "LREN3 — após alta de +7.07% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,94",
+      "value": "R$ 20,61",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.62%",
+      "value": "-2.18%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+24.3%",
+      "value": "+26.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 20,94, com variação de -0.62%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, considerando o consenso neutro e o potencial de upside de 24.31%.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,61, com uma variação de -2.18%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à volatilidade e incertezas atuais.",
   "executive_summary": {
-    "smartest_move": "Alocar R$38 em HAPV3, aproveitando seu forte momentum e score elevado.",
-    "biggest_risk": "A persistência de um regime BEAR pode impactar negativamente ativos mais voláteis.",
-    "best_opportunity": "TAEE11 oferece uma boa assimetria risco-retorno, com estabilidade em um setor defensivo.",
-    "common_mistake": "Subestimar a importância de diversificação em um mercado volátil e focar excessivamente em ativos de risco."
+    "smartest_move": "Investir R$35 em KNCR11, aproveitando seu alinhamento com o regime atual e score elevado.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ações de setores mais voláteis.",
+    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno, com estabilidade em um cenário de juros elevados.",
+    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR, focando apenas em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-05-28T13:54:46.809669-03:00",
+    "generated_at": "2026-05-29T09:41:08.022023-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "utilidades",
-      "saude"
+      "saude",
+      "varejo",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
