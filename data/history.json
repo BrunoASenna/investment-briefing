@@ -258,5 +258,57 @@
       "dolar": "R$ 5,05",
       "ibov": "175.063"
     }
+  },
+  {
+    "date": "2026-06-01",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.74,
+      "r21d": -0.07908818493150685,
+      "r63d": -0.08876396871219765
+    },
+    "opportunities": [
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "36",
+        "price": "R$ 34,01",
+        "score": "0.816",
+        "reason": "TOTVS ON se destaca pelo forte momentum, com um aumento de 6.61% nos últimos 5 dias, e pertence ao setor de tecnologia, que tem uma rotação positiva. No regime BALANCED, sua performance consistente a torna uma escolha atrativa.",
+        "potential": "Com um score elevado, a TOTVS ON tem potencial para continuar seu desempenho positivo, especialmente no contexto atual de mercado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "BTLG11",
+        "name": "BTG Logística",
+        "value": "32",
+        "price": "R$ 103,64",
+        "score": "0.748",
+        "reason": "BTG Logística é uma opção sólida em um cenário de juros elevados, com um leve aumento nos últimos 5 dias, refletindo estabilidade e resiliência em um mercado volátil.",
+        "potential": "Dado seu score e estabilidade, BTLG11 oferece um potencial de preservação de capital com dividendos regulares.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 105,67",
+        "score": "0.742",
+        "reason": "KNCR11 é favorecido pelo regime atual devido à sua natureza de fundo de papel, que se beneficia de juros elevados, apesar de uma leve queda recente.",
+        "potential": "A tendência de juros altos pode proporcionar rendimentos atrativos, compensando flutuações de preço.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,06",
+      "ibov": "172.503"
+    }
   }
 ]
