@@ -310,5 +310,57 @@
       "dolar": "R$ 5,06",
       "ibov": "172.503"
     }
+  },
+  {
+    "date": "2026-06-02",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.57,
+      "r21d": -0.06696659482758621,
+      "r63d": -0.05425302422107534
+    },
+    "opportunities": [
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "35",
+        "price": "R$ 33,18",
+        "score": "0.793",
+        "reason": "Engie Brasil ON apresenta um bom momentum de curto prazo com alta de 2.88% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece utilidades em períodos de incerteza.",
+        "potential": "Com um score elevado, EGIE3 tem potencial de estabilidade em um mercado volátil, especialmente em um regime equilibrado.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "VALE3",
+        "name": "Vale ON",
+        "value": "34",
+        "price": "R$ 82,99",
+        "score": "0.768",
+        "reason": "Vale ON se destaca com um crescimento de 5.50% nos últimos 21 dias, impulsionado pelo setor de mineração que tem mostrado resiliência mesmo em um regime de mercado em baixa.",
+        "potential": "A resiliência do setor de mineração sugere um potencial de retorno moderado, apesar do regime BEAR.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "31",
+        "price": "R$ 15,05",
+        "score": "0.714",
+        "reason": "Lojas Renner ON teve um desempenho positivo, com alta de 11.32% nos últimos 21 dias, indicando forte recuperação no setor de varejo.",
+        "potential": "O potencial de crescimento continua positivo, mas com risco moderado devido à volatilidade do setor de varejo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,03",
+      "ibov": "173.171"
+    }
   }
 ]
