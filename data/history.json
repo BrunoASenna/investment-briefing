@@ -362,5 +362,57 @@
       "dolar": "R$ 5,03",
       "ibov": "173.171"
     }
+  },
+  {
+    "date": "2026-06-03",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.54,
+      "r21d": -0.08156962166807673,
+      "r63d": -0.07469251710130229
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 106,53",
+        "score": "0.753",
+        "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo de +0.51% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que se beneficia do ambiente RISK_OFF.",
+        "potential": "Potencial de estabilidade e proteção em um cenário de alta de juros, com score elevado e ajuste perfeito ao regime.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "XPML11",
+        "name": "XP Malls",
+        "value": "33",
+        "price": "R$ 106,72",
+        "score": "0.731",
+        "reason": "XPML11, apesar de uma leve recuperação de +0.14% no dia, enfrenta desafios no setor de tijolos, mas apresenta um score competitivo e potencial de recuperação.",
+        "potential": "Potencial de recuperação moderada, considerando o score e a volatilidade do setor.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 39,06",
+        "score": "0.727",
+        "reason": "TAEE11 é uma opção defensiva em utilidades, com um score robusto, mas enfrenta pressão de curto prazo com queda de -5.63% em 21 dias.",
+        "potential": "Potencial de estabilidade a longo prazo, beneficiando-se de sua natureza defensiva.",
+        "risk": "Baixo",
+        "horizon": "Longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,02",
+      "ibov": "171.521"
+    }
   }
 ]

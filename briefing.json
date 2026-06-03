@@ -1,42 +1,42 @@
 {
-  "date": "02/06/2026",
+  "date": "03/06/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é de mercado em baixa com um perfil equilibrado, sugerindo cautela e foco em ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual é de aversão ao risco, favorecendo ativos defensivos e FIIs de papel, em um ambiente de juros elevados e incertezas econômicas."
   },
   "opportunities": [
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "35",
-      "price": "R$ 33,18",
-      "score": "0.793",
-      "reason": "Engie Brasil ON apresenta um bom momentum de curto prazo com alta de 2.88% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece utilidades em períodos de incerteza.",
-      "potential": "Com um score elevado, EGIE3 tem potencial de estabilidade em um mercado volátil, especialmente em um regime equilibrado.",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "34",
+      "price": "R$ 106,53",
+      "score": "0.753",
+      "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo de +0.51% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que se beneficia do ambiente RISK_OFF.",
+      "potential": "Potencial de estabilidade e proteção em um cenário de alta de juros, com score elevado e ajuste perfeito ao regime.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "VALE3",
-      "name": "Vale ON",
-      "value": "34",
-      "price": "R$ 82,99",
-      "score": "0.768",
-      "reason": "Vale ON se destaca com um crescimento de 5.50% nos últimos 21 dias, impulsionado pelo setor de mineração que tem mostrado resiliência mesmo em um regime de mercado em baixa.",
-      "potential": "A resiliência do setor de mineração sugere um potencial de retorno moderado, apesar do regime BEAR.",
+      "ticker": "XPML11",
+      "name": "XP Malls",
+      "value": "33",
+      "price": "R$ 106,72",
+      "score": "0.731",
+      "reason": "XPML11, apesar de uma leve recuperação de +0.14% no dia, enfrenta desafios no setor de tijolos, mas apresenta um score competitivo e potencial de recuperação.",
+      "potential": "Potencial de recuperação moderada, considerando o score e a volatilidade do setor.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "31",
-      "price": "R$ 15,05",
-      "score": "0.714",
-      "reason": "Lojas Renner ON teve um desempenho positivo, com alta de 11.32% nos últimos 21 dias, indicando forte recuperação no setor de varejo.",
-      "potential": "O potencial de crescimento continua positivo, mas com risco moderado devido à volatilidade do setor de varejo.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "33",
+      "price": "R$ 39,06",
+      "score": "0.727",
+      "reason": "TAEE11 é uma opção defensiva em utilidades, com um score robusto, mas enfrenta pressão de curto prazo com queda de -5.63% em 21 dias.",
+      "potential": "Potencial de estabilidade a longo prazo, beneficiando-se de sua natureza defensiva.",
+      "risk": "Baixo",
+      "horizon": "Longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,03",
+      "value": "R$ 5,02",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.171",
-      "sub": "+0.57% hoje",
-      "trend": "up"
+      "value": "171.521",
+      "sub": "-1.54% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o ambiente favorece investimentos de renda fixa. O IPCA em 4,39% sugere controle inflacionário, enquanto o IBOV subiu 0.57%, refletindo um dia de otimismo moderado. Para quem vai aportar R$100 hoje, a estabilidade dos juros oferece segurança, mas o regime BEAR recomenda cautela em ações.",
+  "macro_summary": "Com a SELIC a 14,40% e o IPCA em 4,39%, o ambiente econômico é de juros altos e inflação controlada, pressionando o IBOV que caiu 1,54%. Para quem vai aportar R$100 hoje, o cenário favorece ativos defensivos, como FIIs de papel, em um regime RISK_OFF.",
   "analysts": {
     "enter": [
-      "EGIE3 — devido ao seu bom desempenho recente e alinhamento com o regime BALANCED"
+      "KNCR11 — devido ao seu bom ajuste ao regime RISK_OFF"
     ],
     "reinforce": [
-      "VALE3 — devido ao seu bom momentum de 21 dias, apesar do regime BEAR"
+      "TAEE11 — apesar da queda recente, é defensivo e pode se beneficiar a longo prazo"
     ],
     "avoid": [
-      "Tecnologia — com momentum de 0.72, o setor mostra fraqueza em um mercado em baixa"
+      "Varejo — momentum negativo com rotação setorial de 0.73"
     ],
     "realize": [
-      "LREN3 — após a alta de 11.32% em 21 dias, pode estar sobrecomprado"
+      "Nenhum ativo específico indicado como sobrecomprado no momento"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,12",
+      "value": "R$ 19,78",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.20%",
+      "value": "-0.55%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+29.3%",
+      "value": "+31.5%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 20,12 com variação de +0.20%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho é o resultado do 2T26 em agosto. Aguardando mais clareza nos resultados futuros antes de tomar novas posições.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 19,78, com uma variação de -0.55% no dia. No contexto pós-1T26, o banco enfrenta desafios com lucro caindo 53% e inadimplência agro em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar a percepção do mercado.",
   "executive_summary": {
-    "smartest_move": "Investir em EGIE3 com R$35, aproveitando o bom momentum e o alinhamento com o regime BALANCED.",
-    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente setores mais cíclicos.",
-    "best_opportunity": "A Engie Brasil ON oferece boa assimetria risco-retorno devido ao seu desempenho estável em um mercado volátil.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a decisões precipitadas de investimento."
+    "smartest_move": "Investir R$34 em KNCR11, aproveitando seu ajuste perfeito ao regime RISK_OFF.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco e setores cíclicos.",
+    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno, com um score de 0.753 e alinhamento ao regime.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-06-02T10:47:54.934705-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-06-03T11:22:05.705404-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "mineracao",
       "utilidades",
-      "varejo"
+      "fii_tijolo",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
