@@ -1,41 +1,41 @@
 {
-  "date": "03/06/2026",
+  "date": "04/06/2026",
   "regime": {
     "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo ativos defensivos e FIIs de papel, em um ambiente de juros elevados e incertezas econômicas."
+    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, devido à instabilidade do mercado e juros elevados."
   },
   "opportunities": [
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
       "value": "34",
-      "price": "R$ 106,53",
-      "score": "0.753",
-      "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo de +0.51% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que se beneficia do ambiente RISK_OFF.",
-      "potential": "Potencial de estabilidade e proteção em um cenário de alta de juros, com score elevado e ajuste perfeito ao regime.",
+      "price": "R$ 106,62",
+      "score": "0.773",
+      "reason": "KNCR11 se destaca em um cenário de RISK_OFF devido ao seu perfil defensivo e ao momentum positivo de +0.59% nos últimos 5 dias, alinhado com a preferência por FIIs de papel.",
+      "potential": "Com um score alto e regime favorável, KNCR11 possui potencial de estabilidade e retorno consistente.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "XPML11",
-      "name": "XP Malls",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
       "value": "33",
-      "price": "R$ 106,72",
-      "score": "0.731",
-      "reason": "XPML11, apesar de uma leve recuperação de +0.14% no dia, enfrenta desafios no setor de tijolos, mas apresenta um score competitivo e potencial de recuperação.",
-      "potential": "Potencial de recuperação moderada, considerando o score e a volatilidade do setor.",
-      "risk": "Médio",
+      "price": "R$ 34,09",
+      "score": "0.769",
+      "reason": "EGIE3 apresenta um crescimento de 4.47% nos últimos 5 dias, indicando resiliência em um setor de utilidades que é tradicionalmente defensivo.",
+      "potential": "Potencial de crescimento moderado, sustentado por fundamentos sólidos e demanda estável por energia.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
+      "ticker": "HGRU11",
+      "name": "CSHG Renda Urbana",
       "value": "33",
-      "price": "R$ 39,06",
-      "score": "0.727",
-      "reason": "TAEE11 é uma opção defensiva em utilidades, com um score robusto, mas enfrenta pressão de curto prazo com queda de -5.63% em 21 dias.",
-      "potential": "Potencial de estabilidade a longo prazo, beneficiando-se de sua natureza defensiva.",
-      "risk": "Baixo",
+      "price": "R$ 127,40",
+      "score": "0.755",
+      "reason": "Apesar do desempenho negativo recente, HGRU11 oferece uma diversificação interessante em um portfólio defensivo, com potencial de recuperação no longo prazo.",
+      "potential": "Potencial de valorização a longo prazo, especialmente se o mercado imobiliário se estabilizar.",
+      "risk": "Médio",
       "horizon": "Longo prazo"
     }
   ],
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,02",
+      "value": "R$ 5,04",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "171.521",
-      "sub": "-1.54% hoje",
+      "value": "170.331",
+      "sub": "-2.22% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC a 14,40% e o IPCA em 4,39%, o ambiente econômico é de juros altos e inflação controlada, pressionando o IBOV que caiu 1,54%. Para quem vai aportar R$100 hoje, o cenário favorece ativos defensivos, como FIIs de papel, em um regime RISK_OFF.",
+  "macro_summary": "A SELIC mantida em 14,40% indica uma política monetária restritiva, enquanto o IPCA de 4,39% sugere controle inflacionário. A queda de 2.22% no IBOV reflete a aversão ao risco, reforçando a preferência por ativos defensivos em um cenário de RISK_OFF. Para quem vai aportar R$100 hoje, a estratégia deve focar em ativos que oferecem proteção contra volatilidade e juros elevados.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao seu bom ajuste ao regime RISK_OFF"
+      "KNCR11 — devido ao seu alinhamento com o regime RISK_OFF e momentum positivo"
     ],
     "reinforce": [
-      "TAEE11 — apesar da queda recente, é defensivo e pode se beneficiar a longo prazo"
+      "EGIE3 — por seu bom desempenho de +4.47% nos últimos 5 dias"
     ],
     "avoid": [
-      "Varejo — momentum negativo com rotação setorial de 0.73"
+      "Setor de materiais — devido ao momentum negativo de 0.68 na rotação setorial"
     ],
     "realize": [
-      "Nenhum ativo específico indicado como sobrecomprado no momento"
+      "Ativos de tecnologia — que podem estar sobrecomprados após recente alta"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,78",
+      "value": "R$ 19,53",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.55%",
+      "value": "-1.81%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.5%",
+      "value": "+33.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,78, com uma variação de -0.55% no dia. No contexto pós-1T26, o banco enfrenta desafios com lucro caindo 53% e inadimplência agro em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar a percepção do mercado.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,53, com uma variação de -1.81%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à volatilidade e incertezas no setor.",
   "executive_summary": {
-    "smartest_move": "Investir R$34 em KNCR11, aproveitando seu ajuste perfeito ao regime RISK_OFF.",
-    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco e setores cíclicos.",
-    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno, com um score de 0.753 e alinhamento ao regime.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
+    "smartest_move": "Investir em KNCR11 com R$34, aproveitando o regime RISK_OFF e seu perfil defensivo.",
+    "biggest_risk": "A persistência do regime BEAR, que pode prolongar a aversão ao risco e impactar negativamente ações cíclicas.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável com um score de 0.773 e momentum positivo.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-06-03T11:22:05.705404-03:00",
+    "generated_at": "2026-06-04T09:38:31.738918-03:00",
     "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "utilidades",
       "fii_tijolo",
+      "utilidades",
       "fii_papel"
     ],
     "diversity_ok": true,
