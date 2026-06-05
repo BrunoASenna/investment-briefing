@@ -466,5 +466,57 @@
       "dolar": "R$ 5,04",
       "ibov": "170.331"
     }
+  },
+  {
+    "date": "2026-06-05",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -2.22,
+      "r21d": -0.08793921415337824,
+      "r63d": -0.08110980438699654
+    },
+    "opportunities": [
+      {
+        "ticker": "BTLG11",
+        "name": "BTG Logística",
+        "value": "34",
+        "price": "R$ 102,97",
+        "score": "0.774",
+        "reason": "BTLG11 é uma opção atrativa devido à sua estabilidade em um setor defensivo como o de logística, especialmente em um cenário RISK_OFF. Apesar do leve declínio de -0.12% em 5 dias, sua resiliência o torna adequado para o atual ambiente de mercado.",
+        "potential": "Com um score elevado e alinhamento com o regime atual, BTLG11 apresenta potencial de estabilidade e proteção contra volatilidade.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 106,62",
+        "score": "0.773",
+        "reason": "KNCR11 se destaca por sua performance positiva de +1.56% em 21 dias, beneficiando-se do ambiente de juros elevados que favorece FIIs de papel.",
+        "potential": "Este ativo tem potencial de gerar retornos consistentes devido à sua correlação positiva com o regime de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "32",
+        "price": "R$ 33,62",
+        "score": "0.742",
+        "reason": "TOTS3 apresenta um crescimento notável de +8.17% em 5 dias, mostrando resiliência no setor de tecnologia, apesar do ambiente RISK_OFF.",
+        "potential": "Embora o risco seja maior devido à volatilidade do setor, o momentum positivo sugere oportunidades de ganhos no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,04",
+      "ibov": "170.331"
+    }
   }
 ]
