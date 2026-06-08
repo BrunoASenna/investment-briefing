@@ -1,42 +1,42 @@
 {
-  "date": "05/06/2026",
+  "date": "08/06/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, enquanto os investidores buscam segurança em meio a incertezas econômicas."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é BEAR com perfil BALANCED, indicando um mercado de baixa com estabilidade relativa, favorecendo ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
-      "ticker": "BTLG11",
-      "name": "BTG Logística",
-      "value": "34",
-      "price": "R$ 102,97",
-      "score": "0.774",
-      "reason": "BTLG11 é uma opção atrativa devido à sua estabilidade em um setor defensivo como o de logística, especialmente em um cenário RISK_OFF. Apesar do leve declínio de -0.12% em 5 dias, sua resiliência o torna adequado para o atual ambiente de mercado.",
-      "potential": "Com um score elevado e alinhamento com o regime atual, BTLG11 apresenta potencial de estabilidade e proteção contra volatilidade.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "34",
-      "price": "R$ 106,62",
-      "score": "0.773",
-      "reason": "KNCR11 se destaca por sua performance positiva de +1.56% em 21 dias, beneficiando-se do ambiente de juros elevados que favorece FIIs de papel.",
-      "potential": "Este ativo tem potencial de gerar retornos consistentes devido à sua correlação positiva com o regime de juros altos.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "32",
-      "price": "R$ 33,62",
-      "score": "0.742",
-      "reason": "TOTS3 apresenta um crescimento notável de +8.17% em 5 dias, mostrando resiliência no setor de tecnologia, apesar do ambiente RISK_OFF.",
-      "potential": "Embora o risco seja maior devido à volatilidade do setor, o momentum positivo sugere oportunidades de ganhos no curto prazo.",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "35",
+      "price": "R$ 14,92",
+      "score": "0.833",
+      "reason": "Lojas Renner é uma oportunidade devido ao seu leve momentum positivo de +0.13% nos últimos 5 dias, em um setor de varejo que está se ajustando bem ao regime BALANCED.",
+      "potential": "O score alto sugere potencial de valorização moderada, especialmente se o mercado se estabilizar.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "33",
+      "price": "R$ 33,81",
+      "score": "0.786",
+      "reason": "Engie Brasil se destaca por sua resiliência, com um aumento de +2.15% nos últimos 5 dias, beneficiando-se do regime de juros elevados que favorece empresas de utilidades.",
+      "potential": "Potencial de crescimento estável com baixo risco, dada a sua forte aderência ao regime atual.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
+    },
+    {
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "32",
+      "price": "R$ 43,87",
+      "score": "0.759",
+      "reason": "WEG apresenta um potencial de recuperação apesar do desempenho negativo recente de -0.52% em 5 dias, sendo uma escolha interessante no setor industrial.",
+      "potential": "Possibilidade de recuperação moderada, especialmente se o cenário macroeconômico melhorar.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,04",
+      "value": "R$ 5,12",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.331",
-      "sub": "-2.22% hoje",
-      "trend": "down"
+      "value": "169.190",
+      "sub": "+0.10% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e estável, o ambiente de juros altos continua a pressionar a atividade econômica, enquanto o IPCA de 4,39% sugere uma inflação controlada. O IBOV caiu 2,22%, refletindo a aversão ao risco no mercado. Para um investidor com R$100, a alocação em ativos defensivos pode ser mais prudente neste cenário RISK_OFF.",
+  "macro_summary": "Com a SELIC em 14,40% e o IPCA a 4,39%, a economia enfrenta juros altos, mas com inflação controlada. O IBOV subiu 0.10% hoje, refletindo um leve otimismo em um cenário de regime BALANCED. Para quem vai investir R$100 hoje, a escolha de ativos defensivos pode oferecer estabilidade em meio à volatilidade do mercado.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao alinhamento com o regime de juros elevados"
+      "LREN3 — Momentum positivo e adequação ao regime BALANCED"
     ],
     "reinforce": [
-      "TOTS3 — por seu bom momentum de 21 dias"
+      "EGIE3 — Forte performance nos últimos 5 dias"
     ],
     "avoid": [
-      "Setor de materiais — devido ao momentum negativo de 0.68 em 5 dias"
+      "Materiais — Momentum negativo com 0.71 nos últimos 5 dias"
     ],
     "realize": [
-      "TOTS3 — após alta recente de +8.17% em 5 dias, pode estar sobrecomprado"
+      "WEGE3 — Apesar do desempenho recente negativo, pode estar sobrecomprado se o cenário mudar"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,53",
+      "value": "R$ 19,20",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.81%",
+      "value": "+0.16%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.2%",
+      "value": "+35.5%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 19,53 com variação de -1.81%. Após o 1T26, o banco reportou queda de 53% no lucro e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode trazer mais clareza sobre a recuperação do banco.",
+  "bbas3_summary": "BBAS3 está cotado a R$ 19,20 com uma variação de +0.16% hoje. No contexto pós-1T26, o banco enfrentou um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode influenciar a percepção de risco e retorno.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com R$34, dado seu alinhamento com o regime atual de juros elevados.",
-    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando ativos de risco, aumentando a volatilidade.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno em um ambiente de juros altos.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
+    "smartest_move": "Investir em LREN3 com R$35, dado o seu momentum positivo e alinhamento com o regime.",
+    "biggest_risk": "O risco concreto é a persistência do regime BEAR, que pode impactar negativamente ativos de crescimento.",
+    "best_opportunity": "Engie Brasil ON (EGIE3) apresenta uma assimetria risco-retorno favorável, sustentada por seu desempenho recente e aderência ao regime.",
+    "common_mistake": "Subestimar o impacto de juros elevados, levando a uma alocação excessiva em ativos de crescimento."
   },
   "_meta": {
-    "generated_at": "2026-06-05T09:31:21.926221-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-06-08T10:58:37.238909-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "fii_papel",
-      "tecnologia",
-      "fii_tijolo"
+      "industrial",
+      "utilidades",
+      "varejo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

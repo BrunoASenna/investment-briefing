@@ -518,5 +518,57 @@
       "dolar": "R$ 5,04",
       "ibov": "170.331"
     }
+  },
+  {
+    "date": "2026-06-08",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.1,
+      "r21d": -0.07656580889978058,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "35",
+        "price": "R$ 14,92",
+        "score": "0.833",
+        "reason": "Lojas Renner é uma oportunidade devido ao seu leve momentum positivo de +0.13% nos últimos 5 dias, em um setor de varejo que está se ajustando bem ao regime BALANCED.",
+        "potential": "O score alto sugere potencial de valorização moderada, especialmente se o mercado se estabilizar.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "33",
+        "price": "R$ 33,81",
+        "score": "0.786",
+        "reason": "Engie Brasil se destaca por sua resiliência, com um aumento de +2.15% nos últimos 5 dias, beneficiando-se do regime de juros elevados que favorece empresas de utilidades.",
+        "potential": "Potencial de crescimento estável com baixo risco, dada a sua forte aderência ao regime atual.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "32",
+        "price": "R$ 43,87",
+        "score": "0.759",
+        "reason": "WEG apresenta um potencial de recuperação apesar do desempenho negativo recente de -0.52% em 5 dias, sendo uma escolha interessante no setor industrial.",
+        "potential": "Possibilidade de recuperação moderada, especialmente se o cenário macroeconômico melhorar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,12",
+      "ibov": "169.190"
+    }
   }
 ]
