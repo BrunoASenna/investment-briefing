@@ -570,5 +570,57 @@
       "dolar": "R$ 5,12",
       "ibov": "169.190"
     }
+  },
+  {
+    "date": "2026-06-09",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.21,
+      "r21d": -0.07940813675512232,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "34",
+        "price": "R$ 38,82",
+        "score": "0.775",
+        "reason": "TAEE11, apesar da queda de 0.87% nos últimos 5 dias, se beneficia do ambiente de juros elevados, sendo um ativo defensivo no setor de utilidades, adequado ao regime BALANCED.",
+        "potential": "Com um score de 0.775, TAEE11 apresenta potencial de estabilidade e resiliência em um mercado volátil.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "34",
+        "price": "R$ 14,97",
+        "score": "0.774",
+        "reason": "LREN3 demonstra resiliência com um leve ganho de 0.47% nos últimos 5 dias, sugerindo potencial de recuperação no setor de varejo, mesmo em um ambiente macroeconômico desafiador.",
+        "potential": "O score de 0.774 indica uma oportunidade de crescimento moderado, alinhada com o cenário atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "32",
+        "price": "R$ 10,76",
+        "score": "0.714",
+        "reason": "CMIG4, apesar da queda de 7.80% em 21 dias, é um ativo defensivo no setor de utilidades, que pode se beneficiar de um ambiente de juros elevados e estabilidade econômica.",
+        "potential": "Com um score de 0.714, CMIG4 oferece potencial de recuperação em um mercado estável.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,17",
+      "ibov": "168.669"
+    }
   }
 ]
