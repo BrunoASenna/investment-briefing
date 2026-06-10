@@ -622,5 +622,57 @@
       "dolar": "R$ 5,17",
       "ibov": "168.669"
     }
+  },
+  {
+    "date": "2026-06-10",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.21,
+      "r21d": -0.07940813675512232,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "35",
+        "price": "R$ 106,41",
+        "score": "0.833",
+        "reason": "KNCR11 se destaca pelo seu momentum positivo de +0.94% nos últimos 5 dias e por pertencer ao setor de FIIs de papel, que é favorecido no atual regime BALANCED.",
+        "potential": "Com um score de 0.833 e alinhamento perfeito com o regime, KNCR11 tem potencial de estabilidade e geração de renda.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "33",
+        "price": "R$ 33,83",
+        "score": "0.803",
+        "reason": "EGIE3 apresenta um bom desempenho recente com alta de +3.14% nos últimos 5 dias, sendo uma escolha sólida no setor de utilidades, que tende a ser menos volátil.",
+        "potential": "A estabilidade do setor de utilidades e o score de 0.803 indicam um potencial de crescimento moderado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 27,69",
+        "score": "0.778",
+        "reason": "Apesar da queda de -11.05% em 21 dias, SBSP3 tem mostrado recuperação recente e alta novelty, o que pode indicar uma oportunidade de recuperação no setor de utilidades.",
+        "potential": "Com um score de 0.778, há potencial de recuperação, especialmente se o mercado se estabilizar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,17",
+      "ibov": "168.669"
+    }
   }
 ]

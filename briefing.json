@@ -1,40 +1,40 @@
 {
-  "date": "09/06/2026",
+  "date": "10/06/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual BEAR com perfil BALANCED sugere cautela, favorecendo ativos defensivos e fundos imobiliários de papel, enquanto o mercado busca estabilidade em meio a incertezas econômicas."
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio, sugerindo que investidores devem focar em ativos defensivos e de renda fixa, como FIIs de papel, devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "34",
-      "price": "R$ 38,82",
-      "score": "0.775",
-      "reason": "TAEE11, apesar da queda de 0.87% nos últimos 5 dias, se beneficia do ambiente de juros elevados, sendo um ativo defensivo no setor de utilidades, adequado ao regime BALANCED.",
-      "potential": "Com um score de 0.775, TAEE11 apresenta potencial de estabilidade e resiliência em um mercado volátil.",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "35",
+      "price": "R$ 106,41",
+      "score": "0.833",
+      "reason": "KNCR11 se destaca pelo seu momentum positivo de +0.94% nos últimos 5 dias e por pertencer ao setor de FIIs de papel, que é favorecido no atual regime BALANCED.",
+      "potential": "Com um score de 0.833 e alinhamento perfeito com o regime, KNCR11 tem potencial de estabilidade e geração de renda.",
       "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "34",
-      "price": "R$ 14,97",
-      "score": "0.774",
-      "reason": "LREN3 demonstra resiliência com um leve ganho de 0.47% nos últimos 5 dias, sugerindo potencial de recuperação no setor de varejo, mesmo em um ambiente macroeconômico desafiador.",
-      "potential": "O score de 0.774 indica uma oportunidade de crescimento moderado, alinhada com o cenário atual.",
-      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "33",
+      "price": "R$ 33,83",
+      "score": "0.803",
+      "reason": "EGIE3 apresenta um bom desempenho recente com alta de +3.14% nos últimos 5 dias, sendo uma escolha sólida no setor de utilidades, que tende a ser menos volátil.",
+      "potential": "A estabilidade do setor de utilidades e o score de 0.803 indicam um potencial de crescimento moderado.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "32",
-      "price": "R$ 10,76",
-      "score": "0.714",
-      "reason": "CMIG4, apesar da queda de 7.80% em 21 dias, é um ativo defensivo no setor de utilidades, que pode se beneficiar de um ambiente de juros elevados e estabilidade econômica.",
-      "potential": "Com um score de 0.714, CMIG4 oferece potencial de recuperação em um mercado estável.",
+      "price": "R$ 27,69",
+      "score": "0.778",
+      "reason": "Apesar da queda de -11.05% em 21 dias, SBSP3 tem mostrado recuperação recente e alta novelty, o que pode indicar uma oportunidade de recuperação no setor de utilidades.",
+      "potential": "Com um score de 0.778, há potencial de recuperação, especialmente se o mercado se estabilizar.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     }
@@ -65,30 +65,30 @@
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o ambiente favorece investimentos em renda fixa e ativos defensivos. O IPCA de 4,39% sugere controle inflacionário, enquanto o IBOV recuou 0.21%, refletindo a cautela do mercado. Para quem investe R$100 hoje, a escolha por ativos defensivos pode mitigar riscos em um cenário de incerteza econômica.",
+  "macro_summary": "Com a SELIC em 14,40% e estável, há um incentivo para investimentos em renda fixa. O IPCA em 4,39% sugere controle inflacionário, enquanto o IBOV em queda de -0.21% reflete um mercado cauteloso. Para quem vai aportar R$100 hoje, a preferência pode ser por ativos defensivos que ofereçam proteção contra a volatilidade do mercado de ações.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu perfil defensivo e score elevado"
+      "KNCR11 — devido ao seu alinhamento com o regime e momentum positivo"
     ],
     "reinforce": [
-      "LREN3 — por apresentar resiliência no curto prazo"
+      "EGIE3 — bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "CMIG4 — devido ao momentum negativo de 21 dias"
+      "Setor de materiais — momentum negativo e menos favorecido no regime atual"
     ],
     "realize": [
-      "Nenhum ativo específico apresenta sinais claros de sobrecompra no momento"
+      "Ativos com alta recente acima de 5% — podem estar sobrecomprados"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,10",
+      "value": "R$ 19,11",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.37%",
+      "value": "+0.05%",
       "trend": "neutral"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação de R$ 19,10 com variação de -0.37%, em um contexto pós-1T26 onde o lucro caiu 53% e a inadimplência no setor agro alcançou 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá oferecer mais clareza sobre a recuperação financeira da empresa.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,11 com uma leve variação de +0.05%. Após o 1T26, com lucro reduzido em 53% e inadimplência agro em 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. O consenso é neutro, sugerindo cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em TAEE11 com R$34, aproveitando seu perfil defensivo e score elevado.",
-    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de maior risco e volatilidade.",
-    "best_opportunity": "TAEE11 apresenta uma assimetria risco-retorno favorável, com um score de 0.775 e resiliência em um mercado volátil.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e incerteza econômica."
+    "smartest_move": "Alocar R$35 em KNCR11, aproveitando seu alinhamento com o regime atual e momentum positivo.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco, aumentando a volatilidade.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com score alto e alinhamento ao regime.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e não diversificar adequadamente em ativos defensivos."
   },
   "_meta": {
-    "generated_at": "2026-06-09T09:31:24.451817-03:00",
+    "generated_at": "2026-06-10T09:49:10.220166-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "utilidades",
-      "varejo"
+      "fii_papel",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
