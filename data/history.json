@@ -674,5 +674,57 @@
       "dolar": "R$ 5,17",
       "ibov": "168.669"
     }
+  },
+  {
+    "date": "2026-06-11",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.46,
+      "r21d": -0.06072663328564616,
+      "r63d": -0.0792446689387886
+    },
+    "opportunities": [
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "35",
+        "price": "R$ 39,62",
+        "score": "0.774",
+        "reason": "O Itaú Unibanco apresenta um bom momentum de curto prazo com alta de 2.32% nos últimos 5 dias, beneficiando-se do ambiente financeiro estável no regime BALANCED.",
+        "potential": "Com um score elevado, o ativo tem potencial para se beneficiar de uma recuperação gradual do setor financeiro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "PVBI11",
+        "name": "VBI Prime Properties",
+        "value": "33",
+        "price": "R$ 71,95",
+        "score": "0.722",
+        "reason": "O fundo imobiliário de tijolo PVBI11 é uma escolha defensiva em um cenário de juros elevados, oferecendo estabilidade em um mercado volátil.",
+        "potential": "O ativo pode proporcionar retornos consistentes em um ambiente de alta de juros, mesmo com uma recente queda de 4.07% em 21 dias.",
+        "risk": "Médio",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "32",
+        "price": "R$ 34,40",
+        "score": "0.709",
+        "reason": "Engie Brasil se destaca no setor de utilidades com um crescimento de 3.74% em 21 dias, alinhado ao perfil defensivo do regime atual.",
+        "potential": "A empresa possui um potencial de crescimento estável, beneficiando-se de um regime que favorece utilidades.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,18",
+      "ibov": "169.390"
+    }
   }
 ]
