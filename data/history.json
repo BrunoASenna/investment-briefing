@@ -726,5 +726,57 @@
       "dolar": "R$ 5,18",
       "ibov": "169.390"
     }
+  },
+  {
+    "date": "2026-06-12",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.71,
+      "r21d": -0.049045702054984416,
+      "r63d": -0.06779403051601085
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "35",
+        "price": "R$ 15,39",
+        "score": "0.79",
+        "reason": "Lojas Renner se destaca pelo forte momentum recente, com alta de 5.12% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de varejo.",
+        "potential": "Com um score elevado e um ambiente favorável, há potencial para continuidade do crescimento no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo, alinhado ao perfil RISK_ON"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 39,70",
+        "score": "0.725",
+        "reason": "Apesar de um desempenho estável, a Transmissão Paulista se beneficia de sua resiliência em um ambiente de juros elevados, com um RegimeFit alto de 0.9.",
+        "potential": "Potencial de estabilidade e dividendos consistentes, especialmente atraente em um cenário de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo, devido à sua natureza defensiva"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "32",
+        "price": "R$ 17,68",
+        "score": "0.715",
+        "reason": "Bradesco apresenta um score robusto e um alto índice de novidade, sugerindo recuperação potencial, apesar da recente queda de 1.56% em 21 dias.",
+        "potential": "Potencial de recuperação no médio prazo, especialmente se o setor financeiro se estabilizar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo, com foco em recuperação"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,39%",
+      "dolar": "R$ 5,15",
+      "ibov": "171.497"
+    }
   }
 ]
