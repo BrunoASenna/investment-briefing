@@ -1,42 +1,42 @@
 {
-  "date": "12/06/2026",
+  "date": "15/06/2026",
   "regime": {
-    "label": "BEAR / RISK_ON",
-    "summary": "O regime atual é BEAR com perfil RISK_ON, indicando que, apesar do mercado em tendência de baixa, há uma disposição dos investidores em buscar ativos de risco, favorecidos pelas condições macroeconômicas atuais."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando um ambiente de mercado estável que favorece ativos defensivos e FIIs de papel, adequados para investidores que buscam proteção em tempos de juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "35",
-      "price": "R$ 15,39",
-      "score": "0.79",
-      "reason": "Lojas Renner se destaca pelo forte momentum recente, com alta de 5.12% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de varejo.",
-      "potential": "Com um score elevado e um ambiente favorável, há potencial para continuidade do crescimento no curto prazo.",
-      "risk": "Médio",
-      "horizon": "Curto prazo, alinhado ao perfil RISK_ON"
-    },
-    {
       "ticker": "TAEE11",
       "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 39,70",
-      "score": "0.725",
-      "reason": "Apesar de um desempenho estável, a Transmissão Paulista se beneficia de sua resiliência em um ambiente de juros elevados, com um RegimeFit alto de 0.9.",
-      "potential": "Potencial de estabilidade e dividendos consistentes, especialmente atraente em um cenário de juros altos.",
+      "value": "35",
+      "price": "R$ 40,23",
+      "score": "0.785",
+      "reason": "A Transmissão Paulista se destaca devido ao seu momentum positivo de +3.63% em 5 dias, alinhado ao setor de utilidades que é favorecido em um regime BALANCED, proporcionando estabilidade em tempos de juros elevados.",
+      "potential": "Com um score elevado e alinhamento ao regime, TAEE11 oferece potencial de crescimento moderado com baixa volatilidade.",
       "risk": "Baixo",
-      "horizon": "Médio prazo, devido à sua natureza defensiva"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
-      "value": "32",
-      "price": "R$ 17,68",
-      "score": "0.715",
-      "reason": "Bradesco apresenta um score robusto e um alto índice de novidade, sugerindo recuperação potencial, apesar da recente queda de 1.56% em 21 dias.",
-      "potential": "Potencial de recuperação no médio prazo, especialmente se o setor financeiro se estabilizar.",
+      "ticker": "VALE3",
+      "name": "Vale ON",
+      "value": "33",
+      "price": "R$ 82,36",
+      "score": "0.746",
+      "reason": "Vale ON apresenta um forte desempenho recente com alta de +5.50% em 5 dias, impulsionada por fatores externos favoráveis ao setor de mineração.",
+      "potential": "Embora o RegimeFit seja baixo, o momentum recente sugere potencial de valorização a curto prazo.",
       "risk": "Médio",
-      "horizon": "Médio prazo, com foco em recuperação"
+      "horizon": "Curto prazo"
+    },
+    {
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "32",
+      "price": "R$ 35,72",
+      "score": "0.736",
+      "reason": "Engie Brasil ON se beneficia de um momentum positivo de +9.91% em 21 dias, reforçado por sua posição no setor de utilidades, que é defensivo em um regime NEUTRAL.",
+      "potential": "Oferece potencial de retorno estável com riscos controlados devido ao alinhamento com o regime.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,39%",
+      "value": "4,72%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,15",
+      "value": "R$ 5,08",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "171.497",
-      "sub": "+1.71% hoje",
+      "value": "172.402",
+      "sub": "+0.74% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC a 14,40% e o IPCA em 4,39%, o ambiente de juros altos persiste, mas a inflação está sob controle. O IBOV subiu 1.71%, refletindo um dia de otimismo no mercado, compatível com o regime RISK_ON. Para quem investe R$100 hoje, há oportunidades em ativos de risco, mas com cautela devido ao cenário macroeconômico ainda desafiador.",
+  "macro_summary": "Com a SELIC mantida em 14,40% e o IPCA em 4,72%, o cenário sugere uma inflação controlada, mas com juros ainda elevados. O IBOV subindo 0.74% reflete um mercado otimista, mas ainda cauteloso. Investir R$100 hoje pode ser mais seguro em ativos defensivos, aproveitando o regime BALANCED para mitigar riscos de juros altos.",
   "analysts": {
     "enter": [
-      "LREN3 — devido ao forte momentum e ambiente favorável ao varejo"
+      "TAEE11 — devido ao seu forte momentum e alinhamento ao regime atual"
     ],
     "reinforce": [
-      "TAEE11 — pela estabilidade em um cenário de juros altos"
+      "EGIE3 — pelo desempenho positivo de +9.91% em 21 dias"
     ],
     "avoid": [
-      "BBDC4 — devido ao momentum negativo de 21 dias"
+      "VALE3 — dado o baixo RegimeFit, apesar do recente bom desempenho"
     ],
     "realize": [
-      "LREN3 — após a alta recente, pode haver realização de lucros"
+      "VALE3 — após a alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,41",
+      "value": "R$ 19,57",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.16%",
+      "value": "+0.57%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+34.1%",
+      "value": "+33.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: com cotação a R$ 19,41 e variação de +2.16%, o ativo está em um momento de recuperação após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 19,57, com uma variação diária de +0.57%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o mercado ainda aguarda sinais mais claros de recuperação.",
   "executive_summary": {
-    "smartest_move": "Investir em LREN3 com R$35, aproveitando o momentum positivo e o ambiente RISK_ON.",
-    "biggest_risk": "A persistência do regime BEAR pode trazer volatilidade inesperada, mesmo em dias de RISK_ON.",
-    "best_opportunity": "Lojas Renner oferece uma assimetria risco-retorno favorável, com momentum positivo e score elevado.",
-    "common_mistake": "Subestimar o impacto de juros elevados em ativos de risco, mesmo em um dia de RISK_ON."
+    "smartest_move": "Investir em TAEE11 com R$35, aproveitando seu bom momentum e estabilidade do setor.",
+    "biggest_risk": "A exposição a ativos de alta volatilidade em um regime NEUTRAL pode aumentar riscos desnecessários.",
+    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, com momentum positivo e alinhamento ao regime.",
+    "common_mistake": "Subestimar o impacto de juros elevados, levando a decisões de investimento impulsivas em ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-06-12T09:49:53.615199-03:00",
-    "regime": "BEAR / RISK_ON",
+    "generated_at": "2026-06-15T12:37:00.542898-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "financeiro",
-      "varejo",
+      "mineracao",
       "utilidades"
     ],
     "diversity_ok": true,

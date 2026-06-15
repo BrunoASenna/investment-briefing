@@ -778,5 +778,57 @@
       "dolar": "R$ 5,15",
       "ibov": "171.497"
     }
+  },
+  {
+    "date": "2026-06-15",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.74,
+      "r21d": -0.033438617785900904,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "35",
+        "price": "R$ 40,23",
+        "score": "0.785",
+        "reason": "A Transmissão Paulista se destaca devido ao seu momentum positivo de +3.63% em 5 dias, alinhado ao setor de utilidades que é favorecido em um regime BALANCED, proporcionando estabilidade em tempos de juros elevados.",
+        "potential": "Com um score elevado e alinhamento ao regime, TAEE11 oferece potencial de crescimento moderado com baixa volatilidade.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "VALE3",
+        "name": "Vale ON",
+        "value": "33",
+        "price": "R$ 82,36",
+        "score": "0.746",
+        "reason": "Vale ON apresenta um forte desempenho recente com alta de +5.50% em 5 dias, impulsionada por fatores externos favoráveis ao setor de mineração.",
+        "potential": "Embora o RegimeFit seja baixo, o momentum recente sugere potencial de valorização a curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "32",
+        "price": "R$ 35,72",
+        "score": "0.736",
+        "reason": "Engie Brasil ON se beneficia de um momentum positivo de +9.91% em 21 dias, reforçado por sua posição no setor de utilidades, que é defensivo em um regime NEUTRAL.",
+        "potential": "Oferece potencial de retorno estável com riscos controlados devido ao alinhamento com o regime.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,08",
+      "ibov": "172.402"
+    }
   }
 ]
