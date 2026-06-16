@@ -1,42 +1,42 @@
 {
-  "date": "15/06/2026",
+  "date": "16/06/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando um ambiente de mercado estável que favorece ativos defensivos e FIIs de papel, adequados para investidores que buscam proteção em tempos de juros elevados."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual é caracterizado por um mercado em baixa e aversão ao risco, o que sugere uma preferência por ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "35",
-      "price": "R$ 40,23",
-      "score": "0.785",
-      "reason": "A Transmissão Paulista se destaca devido ao seu momentum positivo de +3.63% em 5 dias, alinhado ao setor de utilidades que é favorecido em um regime BALANCED, proporcionando estabilidade em tempos de juros elevados.",
-      "potential": "Com um score elevado e alinhamento ao regime, TAEE11 oferece potencial de crescimento moderado com baixa volatilidade.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "33",
+      "price": "R$ 28,10",
+      "score": "0.799",
+      "reason": "A Sabesp ON se destaca por seu desempenho positivo recente, com um ganho de 1.48% nos últimos 5 dias, e pertence ao setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao perfil RISK_OFF do mercado.",
+      "potential": "Com um score elevado e alinhamento ao regime atual, a Sabesp ON tem potencial de oferecer estabilidade e leve valorização em um cenário de aversão ao risco.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "34",
+      "price": "R$ 106,83",
+      "score": "0.798",
+      "reason": "O fundo imobiliário Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo uma alternativa defensiva com potencial de rendimento estável.",
+      "potential": "Com um score quase perfeito e excelente adequação ao regime, o fundo pode proporcionar um fluxo de caixa consistente.",
       "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "VALE3",
-      "name": "Vale ON",
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
       "value": "33",
-      "price": "R$ 82,36",
-      "score": "0.746",
-      "reason": "Vale ON apresenta um forte desempenho recente com alta de +5.50% em 5 dias, impulsionada por fatores externos favoráveis ao setor de mineração.",
-      "potential": "Embora o RegimeFit seja baixo, o momentum recente sugere potencial de valorização a curto prazo.",
+      "price": "R$ 42,85",
+      "score": "0.781",
+      "reason": "A Suzano ON apresenta um bom momentum com ganhos de 2.76% nos últimos 21 dias, mas seu ajuste ao regime é limitado, tornando-a uma aposta mais arriscada.",
+      "potential": "Apesar do bom desempenho recente, a volatilidade do setor de materiais pode limitar seu potencial em um cenário de aversão ao risco.",
       "risk": "Médio",
       "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "32",
-      "price": "R$ 35,72",
-      "score": "0.736",
-      "reason": "Engie Brasil ON se beneficia de um momentum positivo de +9.91% em 21 dias, reforçado por sua posição no setor de utilidades, que é defensivo em um regime NEUTRAL.",
-      "potential": "Oferece potencial de retorno estável com riscos controlados devido ao alinhamento com o regime.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,08",
+      "value": "R$ 5,04",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.402",
-      "sub": "+0.74% hoje",
-      "trend": "up"
+      "value": "169.337",
+      "sub": "-1.05% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC mantida em 14,40% e o IPCA em 4,72%, o cenário sugere uma inflação controlada, mas com juros ainda elevados. O IBOV subindo 0.74% reflete um mercado otimista, mas ainda cauteloso. Investir R$100 hoje pode ser mais seguro em ativos defensivos, aproveitando o regime BALANCED para mitigar riscos de juros altos.",
+  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o ambiente de juros altos continua a favorecer investimentos em renda fixa e FIIs de papel. O IPCA acumulado em 12 meses está em 4,72%, indicando uma inflação sob controle. O IBOV caiu 1.05%, refletindo um mercado em baixa, o que reforça a necessidade de cautela para novos aportes, como um investimento de R$100 hoje, que deve priorizar ativos defensivos.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu forte momentum e alinhamento ao regime atual"
+      "SBSP3 — devido ao seu bom desempenho recente e alinhamento com o regime RISK_OFF"
     ],
     "reinforce": [
-      "EGIE3 — pelo desempenho positivo de +9.91% em 21 dias"
+      "SUZB3 — por seu momentum positivo nos últimos 21 dias"
     ],
     "avoid": [
-      "VALE3 — dado o baixo RegimeFit, apesar do recente bom desempenho"
+      "Varejo — com momentum negativo de 0.64 nos últimos 5 dias"
     ],
     "realize": [
-      "VALE3 — após a alta recente, pode estar sobrecomprado"
+      "Ativos do setor de mineração — devido à pressão recente e possível sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,57",
+      "value": "R$ 19,24",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.57%",
+      "value": "-0.77%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.0%",
+      "value": "+35.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,57, com uma variação diária de +0.57%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o mercado ainda aguarda sinais mais claros de recuperação.",
+  "bbas3_summary": "Status BBAS3 hoje: a ação está cotada a R$ 19,24, com uma variação de -0.77%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro alcançou 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e a expectativa de recuperação de resultados.",
   "executive_summary": {
-    "smartest_move": "Investir em TAEE11 com R$35, aproveitando seu bom momentum e estabilidade do setor.",
-    "biggest_risk": "A exposição a ativos de alta volatilidade em um regime NEUTRAL pode aumentar riscos desnecessários.",
-    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, com momentum positivo e alinhamento ao regime.",
-    "common_mistake": "Subestimar o impacto de juros elevados, levando a decisões de investimento impulsivas em ativos de risco."
+    "smartest_move": "Investir em KNCR11 com R$34, dado seu alinhamento com o regime RISK_OFF e potencial de rendimento estável.",
+    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando o mercado de ações, especialmente setores cíclicos.",
+    "best_opportunity": "A alocação em FIIs de papel, como KNCR11, oferece uma assimetria risco-retorno favorável em um ambiente de juros altos.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco, levando a perdas em setores mais voláteis."
   },
   "_meta": {
-    "generated_at": "2026-06-15T12:37:00.542898-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-06-16T11:52:25.743896-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "mineracao",
-      "utilidades"
+      "materiais",
+      "utilidades",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

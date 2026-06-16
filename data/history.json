@@ -830,5 +830,57 @@
       "dolar": "R$ 5,08",
       "ibov": "172.402"
     }
+  },
+  {
+    "date": "2026-06-16",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.05,
+      "r21d": -0.050619407566464464,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 28,10",
+        "score": "0.799",
+        "reason": "A Sabesp ON se destaca por seu desempenho positivo recente, com um ganho de 1.48% nos últimos 5 dias, e pertence ao setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao perfil RISK_OFF do mercado.",
+        "potential": "Com um score elevado e alinhamento ao regime atual, a Sabesp ON tem potencial de oferecer estabilidade e leve valorização em um cenário de aversão ao risco.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 106,83",
+        "score": "0.798",
+        "reason": "O fundo imobiliário Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo uma alternativa defensiva com potencial de rendimento estável.",
+        "potential": "Com um score quase perfeito e excelente adequação ao regime, o fundo pode proporcionar um fluxo de caixa consistente.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "33",
+        "price": "R$ 42,85",
+        "score": "0.781",
+        "reason": "A Suzano ON apresenta um bom momentum com ganhos de 2.76% nos últimos 21 dias, mas seu ajuste ao regime é limitado, tornando-a uma aposta mais arriscada.",
+        "potential": "Apesar do bom desempenho recente, a volatilidade do setor de materiais pode limitar seu potencial em um cenário de aversão ao risco.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,04",
+      "ibov": "169.337"
+    }
   }
 ]
