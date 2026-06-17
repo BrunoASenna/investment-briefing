@@ -1,42 +1,42 @@
 {
-  "date": "16/06/2026",
+  "date": "17/06/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é caracterizado por um mercado em baixa e aversão ao risco, o que sugere uma preferência por ativos defensivos e fundos imobiliários de papel."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há uma direção clara de tendência, favorecendo estratégias defensivas e investimentos em FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "33",
-      "price": "R$ 28,10",
-      "score": "0.799",
-      "reason": "A Sabesp ON se destaca por seu desempenho positivo recente, com um ganho de 1.48% nos últimos 5 dias, e pertence ao setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao perfil RISK_OFF do mercado.",
-      "potential": "Com um score elevado e alinhamento ao regime atual, a Sabesp ON tem potencial de oferecer estabilidade e leve valorização em um cenário de aversão ao risco.",
-      "risk": "Baixo",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "35",
+      "price": "R$ 41,10",
+      "score": "0.809",
+      "reason": "O Itaú Unibanco se destaca pelo seu forte momentum, com uma alta de 4.42% nos últimos 5 dias, refletindo resiliência no setor financeiro, que é favorecido em um regime BALANCED.",
+      "potential": "Com um score elevado, o ativo tem potencial de continuar performando bem, especialmente em um ambiente de juros altos que beneficia o setor financeiro.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
       "value": "34",
-      "price": "R$ 106,83",
-      "score": "0.798",
-      "reason": "O fundo imobiliário Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo uma alternativa defensiva com potencial de rendimento estável.",
-      "potential": "Com um score quase perfeito e excelente adequação ao regime, o fundo pode proporcionar um fluxo de caixa consistente.",
-      "risk": "Baixo",
+      "price": "R$ 43,93",
+      "score": "0.788",
+      "reason": "A WEG apresenta um sólido desempenho com alta de 3.63% nos últimos 5 dias, beneficiando-se do crescimento industrial e da estabilidade do regime atual.",
+      "potential": "A empresa tem potencial de crescimento contínuo devido à sua posição forte no setor industrial e à estabilidade econômica.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "33",
-      "price": "R$ 42,85",
-      "score": "0.781",
-      "reason": "A Suzano ON apresenta um bom momentum com ganhos de 2.76% nos últimos 21 dias, mas seu ajuste ao regime é limitado, tornando-a uma aposta mais arriscada.",
-      "potential": "Apesar do bom desempenho recente, a volatilidade do setor de materiais pode limitar seu potencial em um cenário de aversão ao risco.",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "31",
+      "price": "R$ 15,11",
+      "score": "0.701",
+      "reason": "Lojas Renner se destaca com um aumento de 9.73% em 21 dias, mostrando forte recuperação no setor de varejo, que pode estar se beneficiando de uma leve recuperação econômica.",
+      "potential": "O ativo pode continuar a subir se o consumo interno se fortalecer, mas deve-se monitorar a volatilidade do setor.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,04",
+      "value": "R$ 5,08",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "169.337",
-      "sub": "-1.05% hoje",
-      "trend": "down"
+      "value": "170.904",
+      "sub": "+0.74% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o ambiente de juros altos continua a favorecer investimentos em renda fixa e FIIs de papel. O IPCA acumulado em 12 meses está em 4,72%, indicando uma inflação sob controle. O IBOV caiu 1.05%, refletindo um mercado em baixa, o que reforça a necessidade de cautela para novos aportes, como um investimento de R$100 hoje, que deve priorizar ativos defensivos.",
+  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o custo do crédito permanece alto, restringindo o consumo e o investimento. O IPCA em 4,72% sugere uma inflação controlada, enquanto o IBOV subiu 0.74%, indicando otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário favorece investimentos defensivos e de renda fixa, enquanto o IBOV sugere oportunidades em ações específicas com bom desempenho recente.",
   "analysts": {
     "enter": [
-      "SBSP3 — devido ao seu bom desempenho recente e alinhamento com o regime RISK_OFF"
+      "ITUB4 — devido ao forte momentum e resiliência no setor financeiro"
     ],
     "reinforce": [
-      "SUZB3 — por seu momentum positivo nos últimos 21 dias"
+      "WEGE3 — bom momentum 21d e estabilidade no setor industrial"
     ],
     "avoid": [
-      "Varejo — com momentum negativo de 0.64 nos últimos 5 dias"
+      "Materiais — momentum negativo de 0.73 nos últimos 5 dias"
     ],
     "realize": [
-      "Ativos do setor de mineração — devido à pressão recente e possível sobrecompra"
+      "LREN3 — após alta de 9.73% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,24",
+      "value": "R$ 19,56",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.77%",
+      "value": "+0.82%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+35.2%",
+      "value": "+33.0%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a ação está cotada a R$ 19,24, com uma variação de -0.77%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro alcançou 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e a expectativa de recuperação de resultados.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,56, com uma variação de +0.82%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com R$34, dado seu alinhamento com o regime RISK_OFF e potencial de rendimento estável.",
-    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando o mercado de ações, especialmente setores cíclicos.",
-    "best_opportunity": "A alocação em FIIs de papel, como KNCR11, oferece uma assimetria risco-retorno favorável em um ambiente de juros altos.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco, levando a perdas em setores mais voláteis."
+    "smartest_move": "Investir em ITUB4 com alocação de R$35, aproveitando o momentum positivo e o ambiente favorável ao setor financeiro.",
+    "biggest_risk": "A volatilidade no setor de materiais, que apresenta momentum negativo, pode impactar negativamente investimentos nesse setor.",
+    "best_opportunity": "A assimetria risco-retorno em ITUB4, dado seu desempenho recente e a estabilidade do setor financeiro.",
+    "common_mistake": "Ignorar a importância de diversificação em um regime NEUTRAL, focando apenas em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-06-16T11:52:25.743896-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-06-17T10:36:29.811810-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "materiais",
-      "utilidades",
-      "fii_papel"
+      "financeiro",
+      "industrial",
+      "varejo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

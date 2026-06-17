@@ -882,5 +882,57 @@
       "dolar": "R$ 5,04",
       "ibov": "169.337"
     }
+  },
+  {
+    "date": "2026-06-17",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.74,
+      "r21d": -0.0343101783575174,
+      "r63d": -0.052691525552907265
+    },
+    "opportunities": [
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "35",
+        "price": "R$ 41,10",
+        "score": "0.809",
+        "reason": "O Itaú Unibanco se destaca pelo seu forte momentum, com uma alta de 4.42% nos últimos 5 dias, refletindo resiliência no setor financeiro, que é favorecido em um regime BALANCED.",
+        "potential": "Com um score elevado, o ativo tem potencial de continuar performando bem, especialmente em um ambiente de juros altos que beneficia o setor financeiro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "34",
+        "price": "R$ 43,93",
+        "score": "0.788",
+        "reason": "A WEG apresenta um sólido desempenho com alta de 3.63% nos últimos 5 dias, beneficiando-se do crescimento industrial e da estabilidade do regime atual.",
+        "potential": "A empresa tem potencial de crescimento contínuo devido à sua posição forte no setor industrial e à estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "31",
+        "price": "R$ 15,11",
+        "score": "0.701",
+        "reason": "Lojas Renner se destaca com um aumento de 9.73% em 21 dias, mostrando forte recuperação no setor de varejo, que pode estar se beneficiando de uma leve recuperação econômica.",
+        "potential": "O ativo pode continuar a subir se o consumo interno se fortalecer, mas deve-se monitorar a volatilidade do setor.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,08",
+      "ibov": "170.904"
+    }
   }
 ]
