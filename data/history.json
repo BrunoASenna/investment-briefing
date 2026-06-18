@@ -934,5 +934,57 @@
       "dolar": "R$ 5,08",
       "ibov": "170.904"
     }
+  },
+  {
+    "date": "2026-06-18",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.7,
+      "r21d": -0.04815342193291746,
+      "r63d": -0.06627127099384734
+    },
+    "opportunities": [
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "34",
+        "price": "R$ 40,80",
+        "score": "0.732",
+        "reason": "O Itaú Unibanco apresenta um bom momentum com um aumento de 3.66% nos últimos 5 dias, destacando-se no setor financeiro que é favorecido em um regime BALANCED.",
+        "potential": "Com um score de 0.732, o ativo tem potencial de crescimento moderado, especialmente em um cenário de juros elevados.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 106,51",
+        "score": "0.717",
+        "reason": "O fundo imobiliário de papel Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e um bom ajuste ao regime atual.",
+        "potential": "Com um score de 0.717 e um RegimeFit de 1.0, este ativo tem potencial de oferecer retornos consistentes em um ambiente de mercado desafiador.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "33",
+        "price": "R$ 43,80",
+        "score": "0.71",
+        "reason": "A WEG apresenta um bom desempenho recente com crescimento de 3.45% em 21 dias, destacando-se no setor industrial, apesar do regime de mercado desafiador.",
+        "potential": "Com um score de 0.71, a WEG tem potencial para continuar crescendo, especialmente se o ambiente macroeconômico melhorar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,40%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,06",
+      "ibov": "168.454"
+    }
   }
 ]

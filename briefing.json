@@ -1,42 +1,42 @@
 {
-  "date": "17/06/2026",
+  "date": "18/06/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há uma direção clara de tendência, favorecendo estratégias defensivas e investimentos em FIIs de papel devido aos juros elevados."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado de baixa com um perfil equilibrado, sugerindo cautela e favorecimento de ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
       "ticker": "ITUB4",
       "name": "Itaú Unibanco PN",
-      "value": "35",
-      "price": "R$ 41,10",
-      "score": "0.809",
-      "reason": "O Itaú Unibanco se destaca pelo seu forte momentum, com uma alta de 4.42% nos últimos 5 dias, refletindo resiliência no setor financeiro, que é favorecido em um regime BALANCED.",
-      "potential": "Com um score elevado, o ativo tem potencial de continuar performando bem, especialmente em um ambiente de juros altos que beneficia o setor financeiro.",
+      "value": "34",
+      "price": "R$ 40,80",
+      "score": "0.732",
+      "reason": "O Itaú Unibanco apresenta um bom momentum com um aumento de 3.66% nos últimos 5 dias, destacando-se no setor financeiro que é favorecido em um regime BALANCED.",
+      "potential": "Com um score de 0.732, o ativo tem potencial de crescimento moderado, especialmente em um cenário de juros elevados.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "33",
+      "price": "R$ 106,51",
+      "score": "0.717",
+      "reason": "O fundo imobiliário de papel Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e um bom ajuste ao regime atual.",
+      "potential": "Com um score de 0.717 e um RegimeFit de 1.0, este ativo tem potencial de oferecer retornos consistentes em um ambiente de mercado desafiador.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     },
     {
       "ticker": "WEGE3",
       "name": "WEG ON",
-      "value": "34",
-      "price": "R$ 43,93",
-      "score": "0.788",
-      "reason": "A WEG apresenta um sólido desempenho com alta de 3.63% nos últimos 5 dias, beneficiando-se do crescimento industrial e da estabilidade do regime atual.",
-      "potential": "A empresa tem potencial de crescimento contínuo devido à sua posição forte no setor industrial e à estabilidade econômica.",
+      "value": "33",
+      "price": "R$ 43,80",
+      "score": "0.71",
+      "reason": "A WEG apresenta um bom desempenho recente com crescimento de 3.45% em 21 dias, destacando-se no setor industrial, apesar do regime de mercado desafiador.",
+      "potential": "Com um score de 0.71, a WEG tem potencial para continuar crescendo, especialmente se o ambiente macroeconômico melhorar.",
       "risk": "Médio",
       "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "31",
-      "price": "R$ 15,11",
-      "score": "0.701",
-      "reason": "Lojas Renner se destaca com um aumento de 9.73% em 21 dias, mostrando forte recuperação no setor de varejo, que pode estar se beneficiando de uma leve recuperação econômica.",
-      "potential": "O ativo pode continuar a subir se o consumo interno se fortalecer, mas deve-se monitorar a volatilidade do setor.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,08",
+      "value": "R$ 5,06",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.904",
-      "sub": "+0.74% hoje",
-      "trend": "up"
+      "value": "168.454",
+      "sub": "-0.70% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,40% e tendência estável, o custo do crédito permanece alto, restringindo o consumo e o investimento. O IPCA em 4,72% sugere uma inflação controlada, enquanto o IBOV subiu 0.74%, indicando otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário favorece investimentos defensivos e de renda fixa, enquanto o IBOV sugere oportunidades em ações específicas com bom desempenho recente.",
+  "macro_summary": "Com a SELIC estável em 14,40% e o IPCA em 4,72%, o ambiente macroeconômico permanece desafiador, pressionando o IBOV que caiu 0.70% hoje. Para investidores, alocar R$100 hoje requer foco em ativos defensivos para mitigar riscos em um mercado de baixa e juros altos.",
   "analysts": {
     "enter": [
-      "ITUB4 — devido ao forte momentum e resiliência no setor financeiro"
+      "ITUB4 — devido ao seu bom momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "WEGE3 — bom momentum 21d e estabilidade no setor industrial"
+      "WEGE3 — com crescimento consistente de 3.45% em 21 dias"
     ],
     "avoid": [
-      "Materiais — momentum negativo de 0.73 nos últimos 5 dias"
+      "Setor financeiro com momentum negativo — como BBDC4"
     ],
     "realize": [
-      "LREN3 — após alta de 9.73% em 21 dias, pode estar sobrecomprado"
+      "VALE3 — após alta recente, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,56",
+      "value": "R$ 19,41",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.82%",
+      "value": "+0.05%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.0%",
+      "value": "+34.1%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,56, com uma variação de +0.82%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas para o ativo.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,41 com uma variação de +0.05%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso dos analistas é neutro, sugerindo cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em ITUB4 com alocação de R$35, aproveitando o momentum positivo e o ambiente favorável ao setor financeiro.",
-    "biggest_risk": "A volatilidade no setor de materiais, que apresenta momentum negativo, pode impactar negativamente investimentos nesse setor.",
-    "best_opportunity": "A assimetria risco-retorno em ITUB4, dado seu desempenho recente e a estabilidade do setor financeiro.",
-    "common_mistake": "Ignorar a importância de diversificação em um regime NEUTRAL, focando apenas em ativos de alto risco."
+    "smartest_move": "Investir em ITUB4 com alocação de R$34, devido ao seu bom desempenho recente e ajuste ao regime.",
+    "biggest_risk": "O maior risco é a persistência do regime BEAR, que pode continuar pressionando ativos de risco.",
+    "best_opportunity": "A melhor oportunidade está em KNCR11, que oferece estabilidade em um ambiente de juros elevados.",
+    "common_mistake": "Um erro comum seria subestimar o impacto dos juros elevados e não diversificar adequadamente o portfólio."
   },
   "_meta": {
-    "generated_at": "2026-06-17T10:36:29.811810-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-06-18T09:45:25.534256-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
       "financeiro",
-      "industrial",
-      "varejo"
+      "fii_papel",
+      "industrial"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
