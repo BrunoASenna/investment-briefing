@@ -986,5 +986,57 @@
       "dolar": "R$ 5,06",
       "ibov": "168.454"
     }
+  },
+  {
+    "date": "2026-06-19",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.23,
+      "r21d": -0.04897194766458422,
+      "r63d": -0.06435016586139757
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "35",
+        "price": "R$ 39,52",
+        "score": "0.758",
+        "reason": "TAEE11 se destaca no setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao regime BALANCED. Apesar de uma leve queda de -0.43% nos últimos 5 dias, o ativo mostra resiliência com um ganho de +2.49% em 21 dias.",
+        "potential": "O score elevado e o alinhamento com o regime sugerem um potencial de estabilidade e possível valorização moderada.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "34",
+        "price": "R$ 33,99",
+        "score": "0.746",
+        "reason": "EGIE3, também no setor de utilidades, apresenta um bom desempenho de +5.04% em 21 dias, apesar da queda recente de -3.46% em 5 dias, indicando potencial de recuperação e estabilidade.",
+        "potential": "Com um score robusto, o ativo tem potencial para se beneficiar de um ambiente estável, oferecendo um retorno consistente.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "31",
+        "price": "R$ 19,61",
+        "score": "0.669",
+        "reason": "BBAS3 apresenta uma recuperação de +0.41% no dia e +0.77% em 5 dias, apesar de um declínio de -5.27% em 21 dias, refletindo um cenário de recuperação gradual no setor financeiro.",
+        "potential": "O potencial de valorização é moderado, com um upside baseado no alvo consenso de R$ 26,02.",
+        "risk": "Médio",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,16",
+      "ibov": "168.671"
+    }
   }
 ]

@@ -1,48 +1,48 @@
 {
-  "date": "18/06/2026",
+  "date": "19/06/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é caracterizado por um mercado de baixa com um perfil equilibrado, sugerindo cautela e favorecimento de ativos defensivos e fundos imobiliários de papel."
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio, o que sugere cautela e foco em ativos defensivos, especialmente em um ambiente de juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "34",
-      "price": "R$ 40,80",
-      "score": "0.732",
-      "reason": "O Itaú Unibanco apresenta um bom momentum com um aumento de 3.66% nos últimos 5 dias, destacando-se no setor financeiro que é favorecido em um regime BALANCED.",
-      "potential": "Com um score de 0.732, o ativo tem potencial de crescimento moderado, especialmente em um cenário de juros elevados.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "33",
-      "price": "R$ 106,51",
-      "score": "0.717",
-      "reason": "O fundo imobiliário de papel Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e um bom ajuste ao regime atual.",
-      "potential": "Com um score de 0.717 e um RegimeFit de 1.0, este ativo tem potencial de oferecer retornos consistentes em um ambiente de mercado desafiador.",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "35",
+      "price": "R$ 39,52",
+      "score": "0.758",
+      "reason": "TAEE11 se destaca no setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao regime BALANCED. Apesar de uma leve queda de -0.43% nos últimos 5 dias, o ativo mostra resiliência com um ganho de +2.49% em 21 dias.",
+      "potential": "O score elevado e o alinhamento com o regime sugerem um potencial de estabilidade e possível valorização moderada.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "33",
-      "price": "R$ 43,80",
-      "score": "0.71",
-      "reason": "A WEG apresenta um bom desempenho recente com crescimento de 3.45% em 21 dias, destacando-se no setor industrial, apesar do regime de mercado desafiador.",
-      "potential": "Com um score de 0.71, a WEG tem potencial para continuar crescendo, especialmente se o ambiente macroeconômico melhorar.",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "34",
+      "price": "R$ 33,99",
+      "score": "0.746",
+      "reason": "EGIE3, também no setor de utilidades, apresenta um bom desempenho de +5.04% em 21 dias, apesar da queda recente de -3.46% em 5 dias, indicando potencial de recuperação e estabilidade.",
+      "potential": "Com um score robusto, o ativo tem potencial para se beneficiar de um ambiente estável, oferecendo um retorno consistente.",
       "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
+      "value": "31",
+      "price": "R$ 19,61",
+      "score": "0.669",
+      "reason": "BBAS3 apresenta uma recuperação de +0.41% no dia e +0.77% em 5 dias, apesar de um declínio de -5.27% em 21 dias, refletindo um cenário de recuperação gradual no setor financeiro.",
+      "potential": "O potencial de valorização é moderado, com um upside baseado no alvo consenso de R$ 26,02.",
+      "risk": "Médio",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "14,40%",
+      "value": "14,15%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,06",
+      "value": "R$ 5,16",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "168.454",
-      "sub": "-0.70% hoje",
-      "trend": "down"
+      "value": "168.671",
+      "sub": "+0.23% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 14,40% e o IPCA em 4,72%, o ambiente macroeconômico permanece desafiador, pressionando o IBOV que caiu 0.70% hoje. Para investidores, alocar R$100 hoje requer foco em ativos defensivos para mitigar riscos em um mercado de baixa e juros altos.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua a pressionar o crescimento econômico. O IPCA em 4,72% sugere uma inflação controlada, permitindo alguma flexibilidade para investimentos. O IBOV subindo 0.23% indica uma leve recuperação, mas o regime BALANCED sugere cautela para novos aportes, especialmente em ativos defensivos. Investir R$100 hoje requer foco em setores resilientes como utilidades e FIIs de papel.",
   "analysts": {
     "enter": [
-      "ITUB4 — devido ao seu bom momentum e ajuste ao regime atual"
+      "TAEE11 — devido ao seu alinhamento com o regime BALANCED e bom score"
     ],
     "reinforce": [
-      "WEGE3 — com crescimento consistente de 3.45% em 21 dias"
+      "EGIE3 — com bom momentum em 21 dias e potencial de recuperação"
     ],
     "avoid": [
-      "Setor financeiro com momentum negativo — como BBDC4"
+      "Setor de materiais — com momentum negativo de 0.80 em 5 dias"
     ],
     "realize": [
-      "VALE3 — após alta recente, pode estar sobrecomprada"
+      "Ativos com alta recente no setor industrial, que podem estar sobrecomprados"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,41",
+      "value": "R$ 19,61",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.05%",
+      "value": "+0.41%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+34.1%",
+      "value": "+32.7%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,41 com uma variação de +0.05%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso dos analistas é neutro, sugerindo cautela.",
+  "bbas3_summary": "Status BBAS3 hoje: com cotação a R$ 19,61 e variação de +0.41%, o ativo mostra sinais de recuperação após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá indicar uma direção mais clara para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em ITUB4 com alocação de R$34, devido ao seu bom desempenho recente e ajuste ao regime.",
-    "biggest_risk": "O maior risco é a persistência do regime BEAR, que pode continuar pressionando ativos de risco.",
-    "best_opportunity": "A melhor oportunidade está em KNCR11, que oferece estabilidade em um ambiente de juros elevados.",
-    "common_mistake": "Um erro comum seria subestimar o impacto dos juros elevados e não diversificar adequadamente o portfólio."
+    "smartest_move": "Alocar R$35 em TAEE11, aproveitando seu alinhamento com o regime atual e score elevado.",
+    "biggest_risk": "A persistência de um regime BEAR, que pode impactar negativamente ativos de setores cíclicos.",
+    "best_opportunity": "Ações de utilidades, como TAEE11 e EGIE3, que oferecem estabilidade e potencial de valorização moderada.",
+    "common_mistake": "Ignorar a importância de diversificação em um ambiente de mercado equilibrado, mas com tendência de baixa."
   },
   "_meta": {
-    "generated_at": "2026-06-18T09:45:25.534256-03:00",
+    "generated_at": "2026-06-19T10:27:41.112864-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
       "financeiro",
-      "fii_papel",
-      "industrial"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
