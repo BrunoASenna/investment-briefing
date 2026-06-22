@@ -1,42 +1,42 @@
 {
-  "date": "19/06/2026",
+  "date": "22/06/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio, o que sugere cautela e foco em ativos defensivos, especialmente em um ambiente de juros elevados."
+    "label": "BEAR / RISK_ON",
+    "summary": "O regime atual de mercado é BEAR com perfil RISK_ON, indicando que, apesar do mercado de ações estar em tendência de baixa, há uma disposição dos investidores para assumir riscos, favorecendo ativos de risco."
   },
   "opportunities": [
     {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "34",
+      "price": "R$ 33,40",
+      "score": "0.77",
+      "reason": "A Telefônica Vivo ON apresenta um momentum positivo de +0.78% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de telecomunicações.",
+      "potential": "Com um score elevado e alinhamento com o regime, a ação tem potencial de valorização em um cenário de maior apetite por risco.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "34",
+      "price": "R$ 10,83",
+      "score": "0.763",
+      "reason": "Cemig PN se destaca por sua resiliência em um setor de utilidades que permanece estável, mesmo em um ambiente de juros elevados.",
+      "potential": "Potencial de estabilidade e possível valorização moderada devido a sua posição no setor de utilidades em um regime RISK_ON.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
+    },
+    {
       "ticker": "TAEE11",
       "name": "Transmissão Paulista",
-      "value": "35",
-      "price": "R$ 39,52",
-      "score": "0.758",
-      "reason": "TAEE11 se destaca no setor de utilidades, que é tradicionalmente defensivo, alinhando-se bem ao regime BALANCED. Apesar de uma leve queda de -0.43% nos últimos 5 dias, o ativo mostra resiliência com um ganho de +2.49% em 21 dias.",
-      "potential": "O score elevado e o alinhamento com o regime sugerem um potencial de estabilidade e possível valorização moderada.",
+      "value": "32",
+      "price": "R$ 39,68",
+      "score": "0.737",
+      "reason": "Com um incremento de 3.28% em 21 dias, Transmissão Paulista se beneficia do ambiente de apetite por risco, além de sua estabilidade como empresa de utilidades.",
+      "potential": "Potencial de crescimento sustentado, especialmente se o apetite por risco se mantiver.",
       "risk": "Baixo",
       "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "34",
-      "price": "R$ 33,99",
-      "score": "0.746",
-      "reason": "EGIE3, também no setor de utilidades, apresenta um bom desempenho de +5.04% em 21 dias, apesar da queda recente de -3.46% em 5 dias, indicando potencial de recuperação e estabilidade.",
-      "potential": "Com um score robusto, o ativo tem potencial para se beneficiar de um ambiente estável, oferecendo um retorno consistente.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "31",
-      "price": "R$ 19,61",
-      "score": "0.669",
-      "reason": "BBAS3 apresenta uma recuperação de +0.41% no dia e +0.77% em 5 dias, apesar de um declínio de -5.27% em 21 dias, refletindo um cenário de recuperação gradual no setor financeiro.",
-      "potential": "O potencial de valorização é moderado, com um upside baseado no alvo consenso de R$ 26,02.",
-      "risk": "Médio",
-      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,14",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "168.671",
-      "sub": "+0.23% hoje",
+      "value": "170.358",
+      "sub": "+1.06% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua a pressionar o crescimento econômico. O IPCA em 4,72% sugere uma inflação controlada, permitindo alguma flexibilidade para investimentos. O IBOV subindo 0.23% indica uma leve recuperação, mas o regime BALANCED sugere cautela para novos aportes, especialmente em ativos defensivos. Investir R$100 hoje requer foco em setores resilientes como utilidades e FIIs de papel.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros elevados continua pressionando o custo do crédito, mas o IPCA em 4,72% sugere um controle da inflação. O IBOV subiu 1,06%, refletindo o perfil RISK_ON do dia, o que pode beneficiar investidores que alocarem R$100 em ativos de maior risco hoje.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu alinhamento com o regime BALANCED e bom score"
+      "VIVT3 — Telefônica Vivo ON devido ao bom momentum recente e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "EGIE3 — com bom momentum em 21 dias e potencial de recuperação"
+      "TAEE11 — Transmissão Paulista por seu incremento positivo de 21 dias"
     ],
     "avoid": [
-      "Setor de materiais — com momentum negativo de 0.80 em 5 dias"
+      "Setor financeiro — Momentum negativo no curto prazo, com score de 0.65"
     ],
     "realize": [
-      "Ativos com alta recente no setor industrial, que podem estar sobrecomprados"
+      "IBOV — Com alta recente, pode estar sobrecomprado no curto prazo"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,61",
+      "value": "R$ 19,57",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.41%",
+      "value": "+0.77%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+32.7%",
+      "value": "+33.0%",
       "trend": "up"
     },
     {
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: com cotação a R$ 19,61 e variação de +0.41%, o ativo mostra sinais de recuperação após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá indicar uma direção mais clara para o ativo.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 19,57 com uma variação diária de +0.77%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar novas informações antes de tomar uma decisão.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em TAEE11, aproveitando seu alinhamento com o regime atual e score elevado.",
-    "biggest_risk": "A persistência de um regime BEAR, que pode impactar negativamente ativos de setores cíclicos.",
-    "best_opportunity": "Ações de utilidades, como TAEE11 e EGIE3, que oferecem estabilidade e potencial de valorização moderada.",
-    "common_mistake": "Ignorar a importância de diversificação em um ambiente de mercado equilibrado, mas com tendência de baixa."
+    "smartest_move": "Considerar alocar em VIVT3 com R$34 devido ao seu bom desempenho recente e alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A persistência do regime BEAR pode limitar o potencial de crescimento dos ativos, mesmo em um dia RISK_ON.",
+    "best_opportunity": "A Telefônica Vivo ON (VIVT3) oferece uma assimetria risco-retorno favorável, com momentum positivo e score elevado.",
+    "common_mistake": "Subestimar o impacto dos juros elevados no custo de capital, mesmo em um dia de apetite por risco."
   },
   "_meta": {
-    "generated_at": "2026-06-19T10:27:41.112864-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-06-22T12:13:10.176972-03:00",
+    "regime": "BEAR / RISK_ON",
     "sectors": [
-      "financeiro",
+      "telecom",
       "utilidades"
     ],
     "diversity_ok": true,

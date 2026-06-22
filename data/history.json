@@ -1038,5 +1038,57 @@
       "dolar": "R$ 5,16",
       "ibov": "168.671"
     }
+  },
+  {
+    "date": "2026-06-22",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.06,
+      "r21d": -0.04104673867154517,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 33,40",
+        "score": "0.77",
+        "reason": "A Telefônica Vivo ON apresenta um momentum positivo de +0.78% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de telecomunicações.",
+        "potential": "Com um score elevado e alinhamento com o regime, a ação tem potencial de valorização em um cenário de maior apetite por risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "34",
+        "price": "R$ 10,83",
+        "score": "0.763",
+        "reason": "Cemig PN se destaca por sua resiliência em um setor de utilidades que permanece estável, mesmo em um ambiente de juros elevados.",
+        "potential": "Potencial de estabilidade e possível valorização moderada devido a sua posição no setor de utilidades em um regime RISK_ON.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "32",
+        "price": "R$ 39,68",
+        "score": "0.737",
+        "reason": "Com um incremento de 3.28% em 21 dias, Transmissão Paulista se beneficia do ambiente de apetite por risco, além de sua estabilidade como empresa de utilidades.",
+        "potential": "Potencial de crescimento sustentado, especialmente se o apetite por risco se mantiver.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,14",
+      "ibov": "170.358"
+    }
   }
 ]
