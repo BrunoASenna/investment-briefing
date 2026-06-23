@@ -1090,5 +1090,57 @@
       "dolar": "R$ 5,14",
       "ibov": "170.358"
     }
+  },
+  {
+    "date": "2026-06-23",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.06,
+      "r21d": -0.04097945398254996,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "36",
+        "price": "R$ 27,91",
+        "score": "0.779",
+        "reason": "A Sabesp ON destaca-se hoje devido ao seu desempenho positivo de +0.14% nos últimos 5 dias, alinhado ao perfil RISK_ON do mercado, favorecendo o setor de utilidades.",
+        "potential": "Com um score elevado e bom ajuste ao regime atual, a Sabesp ON pode oferecer retornos atrativos em um cenário de curto a médio prazo.",
+        "risk": "Médio",
+        "horizon": "curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "32",
+        "price": "R$ 10,94",
+        "score": "0.709",
+        "reason": "Cemig PN apresenta um desempenho positivo de +1.96% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e da estabilidade no setor de utilidades.",
+        "potential": "A Cemig PN tem potencial de crescimento moderado, sustentado por um bom score e alinhamento com o regime atual.",
+        "risk": "Médio",
+        "horizon": "curto a médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "32",
+        "price": "R$ 40,94",
+        "score": "0.706",
+        "reason": "O Itaú Unibanco PN se beneficia de um aumento de +2.04% nos últimos 21 dias, mostrando resiliência no setor financeiro em um ambiente de juros elevados.",
+        "potential": "Com um score sólido e crescimento recente, o Itaú Unibanco PN pode ser uma opção viável para investidores buscando estabilidade.",
+        "risk": "Médio",
+        "horizon": "curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,14",
+      "ibov": "170.370"
+    }
   }
 ]

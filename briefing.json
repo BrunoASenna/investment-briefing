@@ -1,42 +1,42 @@
 {
-  "date": "22/06/2026",
+  "date": "23/06/2026",
   "regime": {
     "label": "BEAR / RISK_ON",
-    "summary": "O regime atual de mercado é BEAR com perfil RISK_ON, indicando que, apesar do mercado de ações estar em tendência de baixa, há uma disposição dos investidores para assumir riscos, favorecendo ativos de risco."
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com uma predisposição a ativos de risco, o que pode indicar oportunidades para investidores dispostos a assumir mais risco."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "34",
-      "price": "R$ 33,40",
-      "score": "0.77",
-      "reason": "A Telefônica Vivo ON apresenta um momentum positivo de +0.78% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de telecomunicações.",
-      "potential": "Com um score elevado e alinhamento com o regime, a ação tem potencial de valorização em um cenário de maior apetite por risco.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "36",
+      "price": "R$ 27,91",
+      "score": "0.779",
+      "reason": "A Sabesp ON destaca-se hoje devido ao seu desempenho positivo de +0.14% nos últimos 5 dias, alinhado ao perfil RISK_ON do mercado, favorecendo o setor de utilidades.",
+      "potential": "Com um score elevado e bom ajuste ao regime atual, a Sabesp ON pode oferecer retornos atrativos em um cenário de curto a médio prazo.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "curto a médio prazo"
     },
     {
       "ticker": "CMIG4",
       "name": "Cemig PN",
-      "value": "34",
-      "price": "R$ 10,83",
-      "score": "0.763",
-      "reason": "Cemig PN se destaca por sua resiliência em um setor de utilidades que permanece estável, mesmo em um ambiente de juros elevados.",
-      "potential": "Potencial de estabilidade e possível valorização moderada devido a sua posição no setor de utilidades em um regime RISK_ON.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "value": "32",
+      "price": "R$ 10,94",
+      "score": "0.709",
+      "reason": "Cemig PN apresenta um desempenho positivo de +1.96% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e da estabilidade no setor de utilidades.",
+      "potential": "A Cemig PN tem potencial de crescimento moderado, sustentado por um bom score e alinhamento com o regime atual.",
+      "risk": "Médio",
+      "horizon": "curto a médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
       "value": "32",
-      "price": "R$ 39,68",
-      "score": "0.737",
-      "reason": "Com um incremento de 3.28% em 21 dias, Transmissão Paulista se beneficia do ambiente de apetite por risco, além de sua estabilidade como empresa de utilidades.",
-      "potential": "Potencial de crescimento sustentado, especialmente se o apetite por risco se mantiver.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "price": "R$ 40,94",
+      "score": "0.706",
+      "reason": "O Itaú Unibanco PN se beneficia de um aumento de +2.04% nos últimos 21 dias, mostrando resiliência no setor financeiro em um ambiente de juros elevados.",
+      "potential": "Com um score sólido e crescimento recente, o Itaú Unibanco PN pode ser uma opção viável para investidores buscando estabilidade.",
+      "risk": "Médio",
+      "horizon": "curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "170.358",
+      "value": "170.370",
       "sub": "+1.06% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros elevados continua pressionando o custo do crédito, mas o IPCA em 4,72% sugere um controle da inflação. O IBOV subiu 1,06%, refletindo o perfil RISK_ON do dia, o que pode beneficiar investidores que alocarem R$100 em ativos de maior risco hoje.",
+  "macro_summary": "A SELIC em 14,15% sugere um ambiente de juros elevados, enquanto o IPCA de 4,72% indica controle da inflação. O IBOV subindo 1.06% reflete otimismo no mercado, especialmente em um regime RISK_ON, onde investidores podem considerar alocar R$100 em ativos de risco para potencializar ganhos.",
   "analysts": {
     "enter": [
-      "VIVT3 — Telefônica Vivo ON devido ao bom momentum recente e alinhamento com o regime RISK_ON"
+      "SBSP3 — devido ao seu alinhamento com o regime RISK_ON e desempenho positivo recente"
     ],
     "reinforce": [
-      "TAEE11 — Transmissão Paulista por seu incremento positivo de 21 dias"
+      "ITUB4 — com crescimento de +2.04% em 21 dias, mostra resiliência no setor financeiro"
     ],
     "avoid": [
-      "Setor financeiro — Momentum negativo no curto prazo, com score de 0.65"
+      "Setor industrial — devido ao menor momentum de 0.80 em comparação com outros setores"
     ],
     "realize": [
-      "IBOV — Com alta recente, pode estar sobrecomprado no curto prazo"
+      "CMIG4 — após alta de +1.96% em 5 dias, pode estar próximo de uma correção"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,57",
+      "value": "R$ 19,58",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.77%",
+      "value": "+0.82%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.0%",
+      "value": "+32.9%",
       "trend": "up"
     },
     {
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,57 com uma variação diária de +0.77%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar novas informações antes de tomar uma decisão.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 19,58, com variação de +0.82% hoje. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. A estratégia atual é aguardar, dado o contexto de incertezas e a expectativa de recuperação do preço.",
   "executive_summary": {
-    "smartest_move": "Considerar alocar em VIVT3 com R$34 devido ao seu bom desempenho recente e alinhamento com o regime RISK_ON.",
-    "biggest_risk": "A persistência do regime BEAR pode limitar o potencial de crescimento dos ativos, mesmo em um dia RISK_ON.",
-    "best_opportunity": "A Telefônica Vivo ON (VIVT3) oferece uma assimetria risco-retorno favorável, com momentum positivo e score elevado.",
-    "common_mistake": "Subestimar o impacto dos juros elevados no custo de capital, mesmo em um dia de apetite por risco."
+    "smartest_move": "Investir em SBSP3 com alocação de R$36, aproveitando o bom score e alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos de risco.",
+    "best_opportunity": "A Sabesp ON, com um score de 0.779, oferece uma boa assimetria risco-retorno no cenário atual.",
+    "common_mistake": "Subestimar o impacto dos juros elevados na rentabilidade de investimentos de longo prazo."
   },
   "_meta": {
-    "generated_at": "2026-06-22T12:13:10.176972-03:00",
+    "generated_at": "2026-06-23T09:28:08.324489-03:00",
     "regime": "BEAR / RISK_ON",
     "sectors": [
-      "telecom",
+      "financeiro",
       "utilidades"
     ],
     "diversity_ok": true,
