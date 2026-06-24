@@ -1142,5 +1142,57 @@
       "dolar": "R$ 5,14",
       "ibov": "170.370"
     }
+  },
+  {
+    "date": "2026-06-24",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.52,
+      "r21d": -0.028097156801543614,
+      "r63d": -0.0586647758503177
+    },
+    "opportunities": [
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "35",
+        "price": "R$ 45,71",
+        "score": "0.794",
+        "reason": "WEGE3 se destaca pelo forte momentum, com valorização de 6.72% nos últimos 5 dias, refletindo a resiliência do setor industrial em um regime BALANCED.",
+        "potential": "Com um score elevado, WEGE3 tem potencial de continuar performando bem, especialmente em um cenário de equilíbrio econômico.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 107,28",
+        "score": "0.776",
+        "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e rendimentos consistentes em um cenário de regime NEUTRAL.",
+        "potential": "O fundo tem potencial de proporcionar rendimentos estáveis, alinhados com a política monetária atual.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "32",
+        "price": "R$ 34,28",
+        "score": "0.747",
+        "reason": "VIVT3 apresenta recuperação recente com alta de 2.21% em 1 dia, beneficiando-se do regime BALANCED e da estabilidade no setor de telecomunicações.",
+        "potential": "Com um score sólido, VIVT3 pode oferecer um bom equilíbrio entre crescimento e estabilidade.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,17",
+      "ibov": "171.259"
+    }
   }
 ]
