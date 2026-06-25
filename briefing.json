@@ -1,42 +1,42 @@
 {
-  "date": "24/06/2026",
+  "date": "25/06/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
     "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre risco e retorno, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "35",
-      "price": "R$ 45,71",
-      "score": "0.794",
-      "reason": "WEGE3 se destaca pelo forte momentum, com valorização de 6.72% nos últimos 5 dias, refletindo a resiliência do setor industrial em um regime BALANCED.",
-      "potential": "Com um score elevado, WEGE3 tem potencial de continuar performando bem, especialmente em um cenário de equilíbrio econômico.",
-      "risk": "Médio",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "34",
+      "price": "R$ 33,60",
+      "score": "0.763",
+      "reason": "A Engie Brasil ON apresenta um momentum positivo de +0.45% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
+      "potential": "Com um score elevado e ajuste ao regime, há potencial para estabilidade e ganhos moderados.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
       "value": "33",
-      "price": "R$ 107,28",
-      "score": "0.776",
-      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e rendimentos consistentes em um cenário de regime NEUTRAL.",
-      "potential": "O fundo tem potencial de proporcionar rendimentos estáveis, alinhados com a política monetária atual.",
+      "price": "R$ 107,21",
+      "score": "0.752",
+      "reason": "Com um ajuste perfeito ao regime NEUTRAL e perfil BALANCED, KNCR11 se beneficia dos juros elevados, tornando-se uma escolha sólida entre os FIIs de papel.",
+      "potential": "Potencial de retorno estável devido à alta correlação com o cenário de juros elevados.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "32",
-      "price": "R$ 34,28",
-      "score": "0.747",
-      "reason": "VIVT3 apresenta recuperação recente com alta de 2.21% em 1 dia, beneficiando-se do regime BALANCED e da estabilidade no setor de telecomunicações.",
-      "potential": "Com um score sólido, VIVT3 pode oferecer um bom equilíbrio entre crescimento e estabilidade.",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "33",
+      "price": "R$ 46,61",
+      "score": "0.734",
+      "reason": "A WEG ON destaca-se com um forte momentum de +6.42% nos últimos 5 dias, impulsionada por sua performance no setor industrial, apesar do regime NEUTRAL.",
+      "potential": "Potencial de crescimento contínuo, mas com maior volatilidade devido ao ajuste menor ao regime.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,17",
+      "value": "R$ 5,21",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "171.259",
-      "sub": "+0.52% hoje",
-      "trend": "up"
+      "value": "170.507",
+      "sub": "-0.44% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A taxa SELIC em 14,15% mantém o custo do crédito elevado, enquanto o IPCA em 4,72% sinaliza controle inflacionário. O IBOV subiu 0.52% hoje, refletindo um mercado otimista. Para quem investe R$100, o cenário favorece uma abordagem equilibrada, priorizando ativos defensivos e de renda fixa, aproveitando os juros altos para proteção e rendimento.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário favorece aplicações de renda fixa e FIIs de papel. O IPCA de 4,72% indica inflação controlada, enquanto o IBOV recuou 0.44%, refletindo um mercado cauteloso. Investir R$100 hoje requer foco em ativos defensivos e de menor risco, compatíveis com o regime BALANCED.",
   "analysts": {
     "enter": [
-      "WEGE3 — devido ao forte momentum e resiliência do setor industrial"
+      "KNCR11 — devido ao ajuste perfeito ao regime e estabilidade proporcionada pelos juros elevados"
     ],
     "reinforce": [
-      "KNCR11 — por sua estabilidade em um ambiente de juros elevados"
+      "WEGE3 — forte momentum de 21 dias, com ganhos significativos no setor industrial"
     ],
     "avoid": [
-      "Setor financeiro — devido ao momentum negativo de 0.63 nos últimos 5 dias"
+      "Telecom — momentum negativo com rotação setorial de 0.83"
     ],
     "realize": [
-      "VIVT3 — após recente alta de 2.21%, pode estar sobrecomprado"
+      "WEGE3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,86",
+      "value": "R$ 19,73",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.43%",
+      "value": "-0.65%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.0%",
+      "value": "+31.9%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 19,86 com variação de +1.43%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer mais clareza sobre a recuperação financeira do banco.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 19,73, com variação de -0.65%. Após o 1T26, que mostrou um lucro reduzido em 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside de 31.91%.",
   "executive_summary": {
-    "smartest_move": "Investir em WEGE3 com alocação de R$35, aproveitando o momentum positivo e a resiliência do setor industrial.",
-    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores mais alavancados, exigindo cautela.",
-    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com estabilidade e rendimentos consistentes em um cenário de juros altos.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a alocações excessivas em setores vulneráveis."
+    "smartest_move": "Investir em KNCR11 com alocação de R$33, aproveitando o ajuste ao regime e os juros elevados.",
+    "biggest_risk": "A volatilidade do IBOV, que caiu 0.44% hoje, pode afetar ativos de maior risco.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um score de 0.752 e ajuste perfeito ao regime.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de renda variável, favorecendo escolhas defensivas."
   },
   "_meta": {
-    "generated_at": "2026-06-24T09:13:51.286494-03:00",
+    "generated_at": "2026-06-25T09:12:09.639671-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
       "fii_papel",
-      "telecom",
+      "utilidades",
       "industrial"
     ],
     "diversity_ok": true,

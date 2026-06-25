@@ -1194,5 +1194,57 @@
       "dolar": "R$ 5,17",
       "ibov": "171.259"
     }
+  },
+  {
+    "date": "2026-06-25",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.44,
+      "r21d": -0.03863350605269538,
+      "r63d": -0.0657611405464936
+    },
+    "opportunities": [
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "34",
+        "price": "R$ 33,60",
+        "score": "0.763",
+        "reason": "A Engie Brasil ON apresenta um momentum positivo de +0.45% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
+        "potential": "Com um score elevado e ajuste ao regime, há potencial para estabilidade e ganhos moderados.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 107,21",
+        "score": "0.752",
+        "reason": "Com um ajuste perfeito ao regime NEUTRAL e perfil BALANCED, KNCR11 se beneficia dos juros elevados, tornando-se uma escolha sólida entre os FIIs de papel.",
+        "potential": "Potencial de retorno estável devido à alta correlação com o cenário de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "33",
+        "price": "R$ 46,61",
+        "score": "0.734",
+        "reason": "A WEG ON destaca-se com um forte momentum de +6.42% nos últimos 5 dias, impulsionada por sua performance no setor industrial, apesar do regime NEUTRAL.",
+        "potential": "Potencial de crescimento contínuo, mas com maior volatilidade devido ao ajuste menor ao regime.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,21",
+      "ibov": "170.507"
+    }
   }
 ]
