@@ -1,42 +1,42 @@
 {
-  "date": "25/06/2026",
+  "date": "26/06/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre risco e retorno, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando um ambiente favorável para ativos de risco devido à estabilidade nas taxas de juros e um aumento recente no IBOV."
   },
   "opportunities": [
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
       "value": "34",
-      "price": "R$ 33,60",
-      "score": "0.763",
-      "reason": "A Engie Brasil ON apresenta um momentum positivo de +0.45% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
-      "potential": "Com um score elevado e ajuste ao regime, há potencial para estabilidade e ganhos moderados.",
-      "risk": "Baixo",
+      "price": "R$ 34,57",
+      "score": "0.808",
+      "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu forte momentum de +5.78% nos últimos 5 dias, alinhado com o perfil RISK_ON, que favorece o setor de telecomunicações.",
+      "potential": "Com um score de 0.808 e regime favorável, a expectativa é de continuidade no desempenho positivo.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
       "value": "33",
-      "price": "R$ 107,21",
-      "score": "0.752",
-      "reason": "Com um ajuste perfeito ao regime NEUTRAL e perfil BALANCED, KNCR11 se beneficia dos juros elevados, tornando-se uma escolha sólida entre os FIIs de papel.",
-      "potential": "Potencial de retorno estável devido à alta correlação com o cenário de juros elevados.",
+      "price": "R$ 39,88",
+      "score": "0.787",
+      "reason": "Transmissão Paulista apresenta estabilidade e um leve crescimento, com um score de 0.787, sendo uma escolha sólida em um cenário de juros elevados.",
+      "potential": "Potencial de crescimento moderado, sustentado por sua estabilidade no setor de utilidades.",
       "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "33",
-      "price": "R$ 46,61",
-      "score": "0.734",
-      "reason": "A WEG ON destaca-se com um forte momentum de +6.42% nos últimos 5 dias, impulsionada por sua performance no setor industrial, apesar do regime NEUTRAL.",
-      "potential": "Potencial de crescimento contínuo, mas com maior volatilidade devido ao ajuste menor ao regime.",
+      "price": "R$ 28,90",
+      "score": "0.77",
+      "reason": "Sabesp ON teve um aumento significativo de +7.43% nos últimos 5 dias, refletindo uma forte recuperação e alinhamento com o perfil RISK_ON.",
+      "potential": "Expectativa de crescimento contínuo dado o momentum recente e o regime atual.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,21",
+      "value": "R$ 5,19",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.507",
-      "sub": "-0.44% hoje",
-      "trend": "down"
+      "value": "171.990",
+      "sub": "+0.87% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário favorece aplicações de renda fixa e FIIs de papel. O IPCA de 4,72% indica inflação controlada, enquanto o IBOV recuou 0.44%, refletindo um mercado cauteloso. Investir R$100 hoje requer foco em ativos defensivos e de menor risco, compatíveis com o regime BALANCED.",
+  "macro_summary": "A taxa SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,72%, indicando uma inflação sob controle. O IBOV subiu 0.87% hoje, refletindo um ambiente positivo para ativos de risco. Para quem vai aportar R$100 hoje, o cenário sugere oportunidades em ações com bom momentum, aproveitando o perfil RISK_ON do mercado.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao ajuste perfeito ao regime e estabilidade proporcionada pelos juros elevados"
+      "VIVT3 — devido ao forte momentum de curto prazo e alinhamento com o perfil RISK_ON"
     ],
     "reinforce": [
-      "WEGE3 — forte momentum de 21 dias, com ganhos significativos no setor industrial"
+      "SBSP3 — bom momentum de 21 dias e recuperação recente"
     ],
     "avoid": [
-      "Telecom — momentum negativo com rotação setorial de 0.83"
+      "Setor industrial — momentum mais fraco comparado a telecom e utilidades"
     ],
     "realize": [
-      "WEGE3 — após alta recente, pode estar sobrecomprado"
+      "SBSP3 — após alta recente de +7.43% em 5 dias, pode haver realização de lucros"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,73",
+      "value": "R$ 20,05",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.65%",
+      "value": "+1.62%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.9%",
+      "value": "+29.8%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 19,73, com variação de -0.65%. Após o 1T26, que mostrou um lucro reduzido em 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside de 31.91%.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,05, com variação de +1.62%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode trazer mais clareza sobre a recuperação financeira da empresa.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com alocação de R$33, aproveitando o ajuste ao regime e os juros elevados.",
-    "biggest_risk": "A volatilidade do IBOV, que caiu 0.44% hoje, pode afetar ativos de maior risco.",
-    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um score de 0.752 e ajuste perfeito ao regime.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de renda variável, favorecendo escolhas defensivas."
+    "smartest_move": "Investir em VIVT3 com alocação de R$34, aproveitando o momentum positivo e o perfil RISK_ON.",
+    "biggest_risk": "A manutenção de juros elevados pode limitar o crescimento econômico, impactando negativamente setores mais sensíveis.",
+    "best_opportunity": "VIVT3 apresenta uma assimetria risco-retorno favorável, com um score de 0.808 e bom desempenho recente.",
+    "common_mistake": "Subestimar o impacto de juros elevados na avaliação de ativos de risco, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-06-25T09:12:09.639671-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-06-26T09:06:18.988107-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "fii_papel",
       "utilidades",
-      "industrial"
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

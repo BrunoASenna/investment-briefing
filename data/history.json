@@ -1246,5 +1246,57 @@
       "dolar": "R$ 5,21",
       "ibov": "170.507"
     }
+  },
+  {
+    "date": "2026-06-26",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 0.87,
+      "r21d": -0.026043524794862646,
+      "r63d": -0.07245016826300803
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 34,57",
+        "score": "0.808",
+        "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu forte momentum de +5.78% nos últimos 5 dias, alinhado com o perfil RISK_ON, que favorece o setor de telecomunicações.",
+        "potential": "Com um score de 0.808 e regime favorável, a expectativa é de continuidade no desempenho positivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 39,88",
+        "score": "0.787",
+        "reason": "Transmissão Paulista apresenta estabilidade e um leve crescimento, com um score de 0.787, sendo uma escolha sólida em um cenário de juros elevados.",
+        "potential": "Potencial de crescimento moderado, sustentado por sua estabilidade no setor de utilidades.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 28,90",
+        "score": "0.77",
+        "reason": "Sabesp ON teve um aumento significativo de +7.43% nos últimos 5 dias, refletindo uma forte recuperação e alinhamento com o perfil RISK_ON.",
+        "potential": "Expectativa de crescimento contínuo dado o momentum recente e o regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,19",
+      "ibov": "171.990"
+    }
   }
 ]
