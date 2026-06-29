@@ -1,40 +1,40 @@
 {
-  "date": "26/06/2026",
+  "date": "29/06/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando um ambiente favorável para ativos de risco devido à estabilidade nas taxas de juros e um aumento recente no IBOV."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, o que sugere um ambiente de mercado estável sem grandes oscilações, favorecendo a alocação em ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
       "value": "34",
-      "price": "R$ 34,57",
-      "score": "0.808",
-      "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu forte momentum de +5.78% nos últimos 5 dias, alinhado com o perfil RISK_ON, que favorece o setor de telecomunicações.",
-      "potential": "Com um score de 0.808 e regime favorável, a expectativa é de continuidade no desempenho positivo.",
+      "price": "R$ 42,31",
+      "score": "0.797",
+      "reason": "O Itaú Unibanco apresenta um momentum positivo, subindo 3.35% nos últimos 5 dias, beneficiado pelo ambiente estável do regime BALANCED e pela resiliência do setor financeiro.",
+      "potential": "Com um score de 0.797, o ativo pode continuar a apresentar ganhos consistentes, embora limitados pelo regime neutro.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 39,88",
-      "score": "0.787",
-      "reason": "Transmissão Paulista apresenta estabilidade e um leve crescimento, com um score de 0.787, sendo uma escolha sólida em um cenário de juros elevados.",
-      "potential": "Potencial de crescimento moderado, sustentado por sua estabilidade no setor de utilidades.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
     },
     {
       "ticker": "SBSP3",
       "name": "Sabesp ON",
       "value": "33",
-      "price": "R$ 28,90",
-      "score": "0.77",
-      "reason": "Sabesp ON teve um aumento significativo de +7.43% nos últimos 5 dias, refletindo uma forte recuperação e alinhamento com o perfil RISK_ON.",
-      "potential": "Expectativa de crescimento contínuo dado o momentum recente e o regime atual.",
+      "price": "R$ 29,54",
+      "score": "0.794",
+      "reason": "A Sabesp se destaca pela alta de 5.84% nos últimos 5 dias, sendo uma boa opção em utilidades que se beneficia de um regime BALANCED e de um score elevado.",
+      "potential": "Com um score de 0.794 e uma boa adaptação ao regime, a Sabesp tem potencial de crescimento moderado.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "33",
+      "price": "R$ 15,03",
+      "score": "0.786",
+      "reason": "Lojas Renner mostra resiliência com um aumento de 4.45% nos últimos 5 dias, aproveitando-se do momentum do setor de varejo.",
+      "potential": "O score de 0.786 indica potencial de crescimento, mas limitado pelo regime neutro.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,19",
+      "value": "R$ 5,17",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "171.990",
-      "sub": "+0.87% hoje",
-      "trend": "up"
+      "value": "173.097",
+      "sub": "-0.11% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A taxa SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,72%, indicando uma inflação sob controle. O IBOV subiu 0.87% hoje, refletindo um ambiente positivo para ativos de risco. Para quem vai aportar R$100 hoje, o cenário sugere oportunidades em ações com bom momentum, aproveitando o perfil RISK_ON do mercado.",
+  "macro_summary": "A SELIC em 14,15% permanece estável, mantendo o custo do crédito elevado, enquanto o IPCA de 4,72% sugere uma inflação sob controle. O IBOV caiu 0.11%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o ambiente favorece uma postura defensiva, com foco em ativos que ofereçam proteção contra a inflação e juros elevados.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao forte momentum de curto prazo e alinhamento com o perfil RISK_ON"
+      "ITUB4 — Momentum positivo e adaptação ao regime BALANCED"
     ],
     "reinforce": [
-      "SBSP3 — bom momentum de 21 dias e recuperação recente"
+      "SBSP3 — Forte desempenho em utilidades com boa adaptação ao regime"
     ],
     "avoid": [
-      "Setor industrial — momentum mais fraco comparado a telecom e utilidades"
+      "Setor de tecnologia — Alto risco em ambiente de juros elevados"
     ],
     "realize": [
-      "SBSP3 — após alta recente de +7.43% em 5 dias, pode haver realização de lucros"
+      "Varejo — Após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,05",
+      "value": "R$ 20,22",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.62%",
+      "value": "-0.59%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+29.8%",
+      "value": "+28.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,05, com variação de +1.62%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode trazer mais clareza sobre a recuperação financeira da empresa.",
+  "bbas3_summary": "A BBAS3 está cotada a R$ 20,22, com uma variação diária de -0.59%. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A ação possui um upside potencial de 28.65% até o alvo consenso de R$ 26,02, mas o contexto atual sugere cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com alocação de R$34, aproveitando o momentum positivo e o perfil RISK_ON.",
-    "biggest_risk": "A manutenção de juros elevados pode limitar o crescimento econômico, impactando negativamente setores mais sensíveis.",
-    "best_opportunity": "VIVT3 apresenta uma assimetria risco-retorno favorável, com um score de 0.808 e bom desempenho recente.",
-    "common_mistake": "Subestimar o impacto de juros elevados na avaliação de ativos de risco, levando a decisões precipitadas."
+    "smartest_move": "Investir em ITUB4 com R$34, aproveitando o momentum positivo e a resiliência do setor financeiro.",
+    "biggest_risk": "O regime NEUTRAL pode limitar ganhos em ações mais voláteis, especialmente em setores de maior risco.",
+    "best_opportunity": "A Sabesp (SBSP3) oferece uma assimetria favorável risco-retorno, com um bom desempenho recente e baixo risco.",
+    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento, levando a alocações excessivas em setores de risco."
   },
   "_meta": {
-    "generated_at": "2026-06-26T09:06:18.988107-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-06-29T11:02:34.630737-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "utilidades",
-      "telecom"
+      "varejo",
+      "financeiro",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
