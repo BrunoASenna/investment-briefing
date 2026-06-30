@@ -1350,5 +1350,57 @@
       "dolar": "R$ 5,17",
       "ibov": "173.097"
     }
+  },
+  {
+    "date": "2026-06-30",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.05,
+      "r21d": -0.010613322061200825,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "35",
+        "price": "R$ 18,17",
+        "score": "0.782",
+        "reason": "Bradesco PN apresenta um bom momentum, com alta de 2.77% nos últimos 5 dias, e se beneficia do regime BALANCED, que favorece o setor financeiro em ambiente de juros elevados.",
+        "potential": "Com um score de 0.782, há potencial de valorização moderada, especialmente se o cenário macroeconômico permanecer estável.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "33",
+        "price": "R$ 42,41",
+        "score": "0.749",
+        "reason": "Itaú Unibanco PN tem mostrado resiliência com uma alta de 6.02% em 21 dias, beneficiando-se do ambiente de juros altos que favorece o setor financeiro.",
+        "potential": "O score de 0.749 sugere um potencial de crescimento contínuo, suportado pela estabilidade econômica atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 29,65",
+        "score": "0.722",
+        "reason": "Sabesp ON se destaca por sua performance de 6.23% nos últimos 5 dias, sendo uma escolha sólida em um regime BALANCED devido à sua natureza defensiva.",
+        "potential": "Com um score de 0.722 e um bom ajuste ao regime atual, há um potencial de crescimento estável.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,17",
+      "ibov": "173.205"
+    }
   }
 ]
