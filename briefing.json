@@ -1,42 +1,42 @@
 {
-  "date": "30/06/2026",
+  "date": "01/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, sugerindo que investidores devem buscar um equilíbrio entre ativos defensivos e de crescimento, aproveitando a estabilidade dos juros elevados."
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre ativos defensivos e de crescimento, favorecendo uma abordagem diversificada."
   },
   "opportunities": [
     {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
-      "value": "35",
-      "price": "R$ 18,17",
-      "score": "0.782",
-      "reason": "Bradesco PN apresenta um bom momentum, com alta de 2.77% nos últimos 5 dias, e se beneficia do regime BALANCED, que favorece o setor financeiro em ambiente de juros elevados.",
-      "potential": "Com um score de 0.782, há potencial de valorização moderada, especialmente se o cenário macroeconômico permanecer estável.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "33",
-      "price": "R$ 42,41",
-      "score": "0.749",
-      "reason": "Itaú Unibanco PN tem mostrado resiliência com uma alta de 6.02% em 21 dias, beneficiando-se do ambiente de juros altos que favorece o setor financeiro.",
-      "potential": "O score de 0.749 sugere um potencial de crescimento contínuo, suportado pela estabilidade econômica atual.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "32",
-      "price": "R$ 29,65",
-      "score": "0.722",
-      "reason": "Sabesp ON se destaca por sua performance de 6.23% nos últimos 5 dias, sendo uma escolha sólida em um regime BALANCED devido à sua natureza defensiva.",
-      "potential": "Com um score de 0.722 e um bom ajuste ao regime atual, há um potencial de crescimento estável.",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "36",
+      "price": "R$ 34,83",
+      "score": "0.863",
+      "reason": "Engie Brasil ON se destaca pelo momentum positivo de +1.84% nos últimos 5 dias, beneficiando-se do ambiente BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
+      "potential": "Com um score elevado, há potencial para desempenho consistente no curto a médio prazo, especialmente em um cenário de juros elevados.",
       "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "32",
+      "price": "R$ 46,91",
+      "score": "0.789",
+      "reason": "WEG ON apresenta um crescimento de +2.63% em 5 dias, mostrando resiliência no setor industrial, embora o RegimeFit seja baixo, indicando que o ativo pode não estar perfeitamente alinhado com o regime atual.",
+      "potential": "Potencial de crescimento moderado, sustentado por inovação e expansão internacional.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "32",
+      "price": "R$ 107,89",
+      "score": "0.787",
+      "reason": "KNCR11 é uma escolha sólida em um cenário de juros elevados, com um RegimeFit perfeito, oferecendo estabilidade e rendimentos previsíveis.",
+      "potential": "Potencial de retorno estável devido à natureza defensiva dos FIIs de papel em ambientes de alta de juros.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,72%",
+      "value": "N/D",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,17",
+      "value": "R$ 5,18",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.205",
-      "sub": "-0.05% hoje",
+      "value": "172.024",
+      "sub": "-0.68% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente favorece investimentos em ativos de renda fixa e defensivos. O IPCA de 4,72% sugere controle inflacionário, enquanto o IBOV, com leve queda de 0.05%, reflete um mercado cauteloso. Para quem vai aportar R$100 hoje, a estratégia deve ser focada em ativos que se beneficiem de juros altos e estabilidade econômica.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua a pressionar o mercado, enquanto a ausência de dados do IPCA 12m gera incertezas sobre a inflação. O IBOV recuou 0.68%, refletindo um dia de ajuste no mercado. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode mitigar riscos de volatilidade.",
   "analysts": {
     "enter": [
-      "BBDC4 — Momentum positivo e ajuste ao regime atual"
+      "EGIE3 — devido ao seu bom momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "ITUB4 — Bom momentum de 21 dias com alta de 6.02%"
+      "WEGE3 — pelo crescimento consistente nos últimos 21 dias"
     ],
     "avoid": [
-      "Varejo — Momentum negativo com rotação setorial de 0.69"
+      "Setor de consumo — devido à falta de momentum positivo recente"
     ],
     "realize": [
-      "SBSP3 — Alta recente de 6.23% em 5 dias pode indicar sobrecompra"
+      "Ações de tecnologia — após recentes altas, podem estar sobrecompradas"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,26",
+      "value": "R$ 19,91",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.39%",
+      "value": "-1.73%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+28.4%",
+      "value": "+30.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 20,26, com uma variação diária de -0.39%. Após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A estratégia é aguardar, dado o consenso neutro e o potencial de upside de 28.47%.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,91, com uma variação de -1.73%. Após o 1T26, que apresentou um lucro 53% menor e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de um upside de 30.71% sugere potencial de valorização, mas o cenário atual recomenda cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em BBDC4 com R$35, aproveitando o momentum positivo e o ajuste ao regime BALANCED.",
-    "biggest_risk": "A instabilidade econômica global que pode afetar o mercado brasileiro, apesar do regime NEUTRAL.",
-    "best_opportunity": "Sabesp ON oferece uma assimetria risco-retorno favorável com um score de 0.722 e baixo risco.",
-    "common_mistake": "Subestimar a importância de diversificação em um cenário de juros elevados e estabilidade econômica."
+    "smartest_move": "Investir em EGIE3 com alocação de R$36, aproveitando seu alinhamento com o regime atual.",
+    "biggest_risk": "A volatilidade do mercado devido à incerteza inflacionária e juros altos pode impactar ativos de crescimento.",
+    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno, beneficiando-se de juros elevados com estabilidade.",
+    "common_mistake": "Subestimar o impacto dos juros altos em ativos de crescimento, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-06-30T09:04:17.567488-03:00",
+    "generated_at": "2026-07-01T09:27:45.249434-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
+      "industrial",
       "utilidades",
-      "financeiro"
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

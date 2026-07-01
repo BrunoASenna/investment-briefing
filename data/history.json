@@ -1402,5 +1402,57 @@
       "dolar": "R$ 5,17",
       "ibov": "173.205"
     }
+  },
+  {
+    "date": "2026-07-01",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.68,
+      "r21d": -0.010150298064308238,
+      "r63d": -0.0574750430103992
+    },
+    "opportunities": [
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "36",
+        "price": "R$ 34,83",
+        "score": "0.863",
+        "reason": "Engie Brasil ON se destaca pelo momentum positivo de +1.84% nos últimos 5 dias, beneficiando-se do ambiente BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
+        "potential": "Com um score elevado, há potencial para desempenho consistente no curto a médio prazo, especialmente em um cenário de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "32",
+        "price": "R$ 46,91",
+        "score": "0.789",
+        "reason": "WEG ON apresenta um crescimento de +2.63% em 5 dias, mostrando resiliência no setor industrial, embora o RegimeFit seja baixo, indicando que o ativo pode não estar perfeitamente alinhado com o regime atual.",
+        "potential": "Potencial de crescimento moderado, sustentado por inovação e expansão internacional.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 107,89",
+        "score": "0.787",
+        "reason": "KNCR11 é uma escolha sólida em um cenário de juros elevados, com um RegimeFit perfeito, oferecendo estabilidade e rendimentos previsíveis.",
+        "potential": "Potencial de retorno estável devido à natureza defensiva dos FIIs de papel em ambientes de alta de juros.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "N/D",
+      "dolar": "R$ 5,18",
+      "ibov": "172.024"
+    }
   }
 ]
