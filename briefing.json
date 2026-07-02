@@ -1,42 +1,42 @@
 {
-  "date": "01/07/2026",
+  "date": "02/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre ativos defensivos e de crescimento, favorecendo uma abordagem diversificada."
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de investimentos onde a cautela é recomendada, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "36",
-      "price": "R$ 34,83",
-      "score": "0.863",
-      "reason": "Engie Brasil ON se destaca pelo momentum positivo de +1.84% nos últimos 5 dias, beneficiando-se do ambiente BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
-      "potential": "Com um score elevado, há potencial para desempenho consistente no curto a médio prazo, especialmente em um cenário de juros elevados.",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "35",
+      "price": "R$ 39,85",
+      "score": "0.826",
+      "reason": "TAEE11 se destaca pelo seu momentum positivo de +0.33% em 5 dias e +2.44% em 21 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades.",
+      "potential": "Com um score de 0.826, TAEE11 apresenta um potencial de valorização moderado, alinhado ao regime BALANCED.",
       "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "horizon": "médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "32",
-      "price": "R$ 46,91",
-      "score": "0.789",
-      "reason": "WEG ON apresenta um crescimento de +2.63% em 5 dias, mostrando resiliência no setor industrial, embora o RegimeFit seja baixo, indicando que o ativo pode não estar perfeitamente alinhado com o regime atual.",
-      "potential": "Potencial de crescimento moderado, sustentado por inovação e expansão internacional.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "33",
+      "price": "R$ 15,48",
+      "score": "0.774",
+      "reason": "FLRY3 mostra um desempenho sólido com um aumento de +2.11% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em ambientes de juros elevados.",
+      "potential": "O score de 0.774 sugere um potencial de crescimento estável, adequado para investidores buscando segurança.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
       "value": "32",
-      "price": "R$ 107,89",
-      "score": "0.787",
-      "reason": "KNCR11 é uma escolha sólida em um cenário de juros elevados, com um RegimeFit perfeito, oferecendo estabilidade e rendimentos previsíveis.",
-      "potential": "Potencial de retorno estável devido à natureza defensiva dos FIIs de papel em ambientes de alta de juros.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "price": "R$ 10,81",
+      "score": "0.768",
+      "reason": "CMIG4, apesar da queda de -0.55% no dia, mantém um crescimento de +0.84% nos últimos 5 dias, beneficiando-se do perfil defensivo do setor de utilidades.",
+      "potential": "Com um score de 0.768, CMIG4 oferece um potencial de recuperação moderado, especialmente em um regime NEUTRAL.",
+      "risk": "Médio",
+      "horizon": "curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "N/D",
+      "value": "4,72%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,18",
+      "value": "R$ 5,20",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.024",
-      "sub": "-0.68% hoje",
+      "value": "171.689",
+      "sub": "-0.19% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua a pressionar o mercado, enquanto a ausência de dados do IPCA 12m gera incertezas sobre a inflação. O IBOV recuou 0.68%, refletindo um dia de ajuste no mercado. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode mitigar riscos de volatilidade.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente econômico continua a favorecer ativos defensivos. O IPCA de 4,72% sugere uma inflação controlada, enquanto o IBOV recuou 0.19%, refletindo a cautela dos investidores. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode mitigar riscos em um cenário de juros elevados.",
   "analysts": {
     "enter": [
-      "EGIE3 — devido ao seu bom momentum e alinhamento com o regime atual"
+      "TAEE11 — devido ao seu forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "WEGE3 — pelo crescimento consistente nos últimos 21 dias"
+      "FLRY3 — bom momentum de 21 dias e resiliência no setor de saúde"
     ],
     "avoid": [
-      "Setor de consumo — devido à falta de momentum positivo recente"
+      "Ativos de varejo — momentum negativo e sensibilidade a juros altos"
     ],
     "realize": [
-      "Ações de tecnologia — após recentes altas, podem estar sobrecompradas"
+      "Ativos que tiveram alta recente e podem estar sobrecomprados, como aqueles no setor de tecnologia"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,91",
+      "value": "R$ 19,73",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.73%",
+      "value": "-0.90%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+30.7%",
+      "value": "+31.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,91, com uma variação de -1.73%. Após o 1T26, que apresentou um lucro 53% menor e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de um upside de 30.71% sugere potencial de valorização, mas o cenário atual recomenda cautela.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 19,73, com uma variação negativa de 0.90% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar, dado o cenário atual e o consenso neutro dos analistas.",
   "executive_summary": {
-    "smartest_move": "Investir em EGIE3 com alocação de R$36, aproveitando seu alinhamento com o regime atual.",
-    "biggest_risk": "A volatilidade do mercado devido à incerteza inflacionária e juros altos pode impactar ativos de crescimento.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno, beneficiando-se de juros elevados com estabilidade.",
-    "common_mistake": "Subestimar o impacto dos juros altos em ativos de crescimento, levando a decisões precipitadas."
+    "smartest_move": "Investir em TAEE11 com R$35, aproveitando seu momentum positivo e alinhamento com o regime atual.",
+    "biggest_risk": "A exposição a ativos de varejo, que podem sofrer com os juros elevados e o ambiente econômico neutro.",
+    "best_opportunity": "TAEE11 apresenta uma assimetria risco-retorno favorável, com um score alto e momentum positivo.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em setores sensíveis, como o varejo, e não ajustar o portfólio adequadamente."
   },
   "_meta": {
-    "generated_at": "2026-07-01T09:27:45.249434-03:00",
+    "generated_at": "2026-07-02T09:02:00.593934-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "industrial",
-      "utilidades",
-      "fii_papel"
+      "saude",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

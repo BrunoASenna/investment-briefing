@@ -1454,5 +1454,57 @@
       "dolar": "R$ 5,18",
       "ibov": "172.024"
     }
+  },
+  {
+    "date": "2026-07-02",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.19,
+      "r21d": -0.0029558996039442966,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "35",
+        "price": "R$ 39,85",
+        "score": "0.826",
+        "reason": "TAEE11 se destaca pelo seu momentum positivo de +0.33% em 5 dias e +2.44% em 21 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades.",
+        "potential": "Com um score de 0.826, TAEE11 apresenta um potencial de valorização moderado, alinhado ao regime BALANCED.",
+        "risk": "Baixo",
+        "horizon": "médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 15,48",
+        "score": "0.774",
+        "reason": "FLRY3 mostra um desempenho sólido com um aumento de +2.11% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em ambientes de juros elevados.",
+        "potential": "O score de 0.774 sugere um potencial de crescimento estável, adequado para investidores buscando segurança.",
+        "risk": "Médio",
+        "horizon": "médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "32",
+        "price": "R$ 10,81",
+        "score": "0.768",
+        "reason": "CMIG4, apesar da queda de -0.55% no dia, mantém um crescimento de +0.84% nos últimos 5 dias, beneficiando-se do perfil defensivo do setor de utilidades.",
+        "potential": "Com um score de 0.768, CMIG4 oferece um potencial de recuperação moderado, especialmente em um regime NEUTRAL.",
+        "risk": "Médio",
+        "horizon": "curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,20",
+      "ibov": "171.689"
+    }
   }
 ]
