@@ -1506,5 +1506,57 @@
       "dolar": "R$ 5,20",
       "ibov": "171.689"
     }
+  },
+  {
+    "date": "2026-07-03",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.64,
+      "r21d": -0.00809423759170599,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "35",
+        "price": "R$ 34,61",
+        "score": "0.847",
+        "reason": "VIVT3 apresenta um momentum positivo de +0.12% nos últimos 5 dias, beneficiando-se do regime BALANCED atual que favorece o setor de telecomunicações. A alta pontuação de 0.847 reflete um bom ajuste ao regime atual.",
+        "potential": "Com um score elevado e bom ajuste ao regime, VIVT3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 40,89",
+        "score": "0.808",
+        "reason": "TAEE11 se destaca por sua performance positiva de +2.53% nos últimos 5 dias, alinhando-se bem ao regime NEUTRAL que favorece utilidades. O score de 0.808 indica uma boa perspectiva de estabilidade.",
+        "potential": "O ativo tem potencial de retorno estável, beneficiando-se de um ambiente econômico equilibrado e de sua posição no setor de utilidades.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 29,91",
+        "score": "0.784",
+        "reason": "SBSP3 mostra um forte momentum com +8.02% nos últimos 21 dias, destacando-se no setor de utilidades em um regime NEUTRAL. O crescimento recente reflete uma boa adaptação ao cenário atual.",
+        "potential": "Com base no momentum recente, SBSP3 tem potencial de crescimento contínuo, especialmente em um ambiente de juros elevados que favorece utilidades.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,19",
+      "ibov": "172.788"
+    }
   }
 ]

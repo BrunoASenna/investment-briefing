@@ -1,42 +1,42 @@
 {
-  "date": "02/07/2026",
+  "date": "03/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de investimentos onde a cautela é recomendada, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando que o mercado está em um estado de equilíbrio, favorecendo investimentos em ativos defensivos e FIIs de papel, dado o cenário de juros elevados."
   },
   "opportunities": [
     {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "35",
+      "price": "R$ 34,61",
+      "score": "0.847",
+      "reason": "VIVT3 apresenta um momentum positivo de +0.12% nos últimos 5 dias, beneficiando-se do regime BALANCED atual que favorece o setor de telecomunicações. A alta pontuação de 0.847 reflete um bom ajuste ao regime atual.",
+      "potential": "Com um score elevado e bom ajuste ao regime, VIVT3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
       "ticker": "TAEE11",
       "name": "Transmissão Paulista",
-      "value": "35",
-      "price": "R$ 39,85",
-      "score": "0.826",
-      "reason": "TAEE11 se destaca pelo seu momentum positivo de +0.33% em 5 dias e +2.44% em 21 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades.",
-      "potential": "Com um score de 0.826, TAEE11 apresenta um potencial de valorização moderado, alinhado ao regime BALANCED.",
-      "risk": "Baixo",
-      "horizon": "médio prazo"
-    },
-    {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
       "value": "33",
-      "price": "R$ 15,48",
-      "score": "0.774",
-      "reason": "FLRY3 mostra um desempenho sólido com um aumento de +2.11% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em ambientes de juros elevados.",
-      "potential": "O score de 0.774 sugere um potencial de crescimento estável, adequado para investidores buscando segurança.",
-      "risk": "Médio",
-      "horizon": "médio prazo"
+      "price": "R$ 40,89",
+      "score": "0.808",
+      "reason": "TAEE11 se destaca por sua performance positiva de +2.53% nos últimos 5 dias, alinhando-se bem ao regime NEUTRAL que favorece utilidades. O score de 0.808 indica uma boa perspectiva de estabilidade.",
+      "potential": "O ativo tem potencial de retorno estável, beneficiando-se de um ambiente econômico equilibrado e de sua posição no setor de utilidades.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "32",
-      "price": "R$ 10,81",
-      "score": "0.768",
-      "reason": "CMIG4, apesar da queda de -0.55% no dia, mantém um crescimento de +0.84% nos últimos 5 dias, beneficiando-se do perfil defensivo do setor de utilidades.",
-      "potential": "Com um score de 0.768, CMIG4 oferece um potencial de recuperação moderado, especialmente em um regime NEUTRAL.",
+      "price": "R$ 29,91",
+      "score": "0.784",
+      "reason": "SBSP3 mostra um forte momentum com +8.02% nos últimos 21 dias, destacando-se no setor de utilidades em um regime NEUTRAL. O crescimento recente reflete uma boa adaptação ao cenário atual.",
+      "potential": "Com base no momentum recente, SBSP3 tem potencial de crescimento contínuo, especialmente em um ambiente de juros elevados que favorece utilidades.",
       "risk": "Médio",
-      "horizon": "curto a médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,20",
+      "value": "R$ 5,19",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "171.689",
-      "sub": "-0.19% hoje",
-      "trend": "down"
+      "value": "172.788",
+      "sub": "+0.64% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente econômico continua a favorecer ativos defensivos. O IPCA de 4,72% sugere uma inflação controlada, enquanto o IBOV recuou 0.19%, refletindo a cautela dos investidores. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode mitigar riscos em um cenário de juros elevados.",
+  "macro_summary": "A SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,72%, indicando um controle da inflação. O IBOV subiu 0.64% hoje, refletindo um mercado mais otimista. Para quem vai aportar R$100 hoje, o ambiente é favorável para ativos defensivos, aproveitando a estabilidade dos juros e a leve alta do mercado.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu forte momentum e alinhamento com o regime atual"
+      "VIVT3 — devido ao seu bom ajuste ao regime BALANCED e momentum positivo"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum de 21 dias e resiliência no setor de saúde"
+      "SBSP3 — com forte momentum de +8.02% nos últimos 21 dias"
     ],
     "avoid": [
-      "Ativos de varejo — momentum negativo e sensibilidade a juros altos"
+      "Setor de mineração — devido ao recuo do minério de ferro"
     ],
     "realize": [
-      "Ativos que tiveram alta recente e podem estar sobrecomprados, como aqueles no setor de tecnologia"
+      "TAEE11 — após alta de +2.53% nos últimos 5 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,73",
+      "value": "R$ 20,00",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.90%",
+      "value": "+1.37%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.9%",
+      "value": "+30.1%",
       "trend": "up"
     },
     {
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,73, com uma variação negativa de 0.90% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar, dado o cenário atual e o consenso neutro dos analistas.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,00 com uma variação de +1.37%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto. Dada a situação atual, é prudente aguardar novos desenvolvimentos antes de tomar decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Investir em TAEE11 com R$35, aproveitando seu momentum positivo e alinhamento com o regime atual.",
-    "biggest_risk": "A exposição a ativos de varejo, que podem sofrer com os juros elevados e o ambiente econômico neutro.",
-    "best_opportunity": "TAEE11 apresenta uma assimetria risco-retorno favorável, com um score alto e momentum positivo.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em setores sensíveis, como o varejo, e não ajustar o portfólio adequadamente."
+    "smartest_move": "Investir em VIVT3 alocando R$35, aproveitando seu bom ajuste ao regime atual.",
+    "biggest_risk": "A volatilidade no setor de mineração devido ao recuo do minério de ferro pode impactar negativamente.",
+    "best_opportunity": "SBSP3 oferece uma assimetria risco-retorno favorável com seu forte momentum recente.",
+    "common_mistake": "Ignorar o impacto dos juros elevados ao investir em setores mais cíclicos."
   },
   "_meta": {
-    "generated_at": "2026-07-02T09:02:00.593934-03:00",
+    "generated_at": "2026-07-03T09:00:02.306424-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "saude",
+      "telecom",
       "utilidades"
     ],
     "diversity_ok": true,
