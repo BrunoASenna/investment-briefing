@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-05-25",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.3,
-      "r21d": -0.07650149507780414,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "36",
-        "price": "R$ 15,19",
-        "score": "0.853",
-        "reason": "Lojas Renner apresenta um forte momentum com alta de 10.31% nos últimos 5 dias, destacando-se no setor varejista em um dia de perfil BALANCED.",
-        "potential": "Com um score elevado, LREN3 pode continuar a performar bem no curto prazo, especialmente se o cenário macroeconômico se mantiver estável.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 105,15",
-        "score": "0.779",
-        "reason": "Com regime favorável a FIIs de papel e um score robusto, KNCR11 se beneficia dos altos juros, proporcionando uma alternativa defensiva.",
-        "potential": "A estabilidade dos juros favorece o rendimento constante deste FII, tornando-o atrativo para investidores buscando segurança.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "32",
-        "price": "R$ 15,79",
-        "score": "0.766",
-        "reason": "Apesar da queda recente de 3.25% em 21 dias, Fleury se destaca pela resiliência no setor de saúde, com potencial de recuperação em um ambiente estável.",
-        "potential": "O score sólido sugere potencial de recuperação, especialmente se o setor de saúde continuar a mostrar resiliência.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,01",
-      "ibov": "176.737"
-    }
-  },
-  {
     "date": "2026-05-26",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,72%",
       "dolar": "R$ 5,19",
       "ibov": "172.788"
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.98,
+      "r21d": 0.020937365029967046,
+      "r63d": -0.08292953678213455
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "34",
+        "price": "R$ 30,15",
+        "score": "0.777",
+        "reason": "Com um momentum positivo de +1.69% nos últimos 5 dias e operando no setor de utilidades, a Sabesp se beneficia do regime RISK_OFF, que favorece ativos defensivos.",
+        "potential": "Potencial de crescimento sólido devido ao bom score e alinhamento com o regime atual.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 34,67",
+        "score": "0.774",
+        "reason": "A Telefônica Vivo apresenta um desempenho estável com um crescimento de +0.78% em 5 dias, sendo uma escolha adequada em telecomunicações para um cenário RISK_OFF.",
+        "potential": "Potencial de estabilidade e proteção, alinhado ao perfil defensivo do regime.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "32",
+        "price": "R$ 3,83",
+        "score": "0.738",
+        "reason": "Cosan ON se destaca com um crescimento de +3.23% em 5 dias, atraindo interesse apesar do baixo RegimeFit, devido ao seu alto novelty.",
+        "potential": "Potencial moderado, mas com risco devido ao baixo RegimeFit.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,17",
+      "ibov": "172.558"
     }
   }
 ]

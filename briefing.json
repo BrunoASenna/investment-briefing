@@ -1,42 +1,42 @@
 {
-  "date": "03/07/2026",
+  "date": "06/07/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando que o mercado está em um estado de equilíbrio, favorecendo investimentos em ativos defensivos e FIIs de papel, dado o cenário de juros elevados."
+    "label": "NEUTRAL / RISK_OFF",
+    "summary": "O regime atual NEUTRAL com perfil RISK_OFF sugere que os investidores devem adotar uma postura cautelosa, focando em ativos defensivos que oferecem estabilidade em tempos de incerteza."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "35",
-      "price": "R$ 34,61",
-      "score": "0.847",
-      "reason": "VIVT3 apresenta um momentum positivo de +0.12% nos últimos 5 dias, beneficiando-se do regime BALANCED atual que favorece o setor de telecomunicações. A alta pontuação de 0.847 reflete um bom ajuste ao regime atual.",
-      "potential": "Com um score elevado e bom ajuste ao regime, VIVT3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 40,89",
-      "score": "0.808",
-      "reason": "TAEE11 se destaca por sua performance positiva de +2.53% nos últimos 5 dias, alinhando-se bem ao regime NEUTRAL que favorece utilidades. O score de 0.808 indica uma boa perspectiva de estabilidade.",
-      "potential": "O ativo tem potencial de retorno estável, beneficiando-se de um ambiente econômico equilibrado e de sua posição no setor de utilidades.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
       "ticker": "SBSP3",
       "name": "Sabesp ON",
-      "value": "32",
-      "price": "R$ 29,91",
-      "score": "0.784",
-      "reason": "SBSP3 mostra um forte momentum com +8.02% nos últimos 21 dias, destacando-se no setor de utilidades em um regime NEUTRAL. O crescimento recente reflete uma boa adaptação ao cenário atual.",
-      "potential": "Com base no momentum recente, SBSP3 tem potencial de crescimento contínuo, especialmente em um ambiente de juros elevados que favorece utilidades.",
-      "risk": "Médio",
+      "value": "34",
+      "price": "R$ 30,15",
+      "score": "0.777",
+      "reason": "Com um momentum positivo de +1.69% nos últimos 5 dias e operando no setor de utilidades, a Sabesp se beneficia do regime RISK_OFF, que favorece ativos defensivos.",
+      "potential": "Potencial de crescimento sólido devido ao bom score e alinhamento com o regime atual.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "34",
+      "price": "R$ 34,67",
+      "score": "0.774",
+      "reason": "A Telefônica Vivo apresenta um desempenho estável com um crescimento de +0.78% em 5 dias, sendo uma escolha adequada em telecomunicações para um cenário RISK_OFF.",
+      "potential": "Potencial de estabilidade e proteção, alinhado ao perfil defensivo do regime.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "32",
+      "price": "R$ 3,83",
+      "score": "0.738",
+      "reason": "Cosan ON se destaca com um crescimento de +3.23% em 5 dias, atraindo interesse apesar do baixo RegimeFit, devido ao seu alto novelty.",
+      "potential": "Potencial moderado, mas com risco devido ao baixo RegimeFit.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,19",
+      "value": "R$ 5,17",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.788",
-      "sub": "+0.64% hoje",
-      "trend": "up"
+      "value": "172.558",
+      "sub": "-0.98% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,72%, indicando um controle da inflação. O IBOV subiu 0.64% hoje, refletindo um mercado mais otimista. Para quem vai aportar R$100 hoje, o ambiente é favorável para ativos defensivos, aproveitando a estabilidade dos juros e a leve alta do mercado.",
+  "macro_summary": "Com a SELIC mantida em 14,15% e um IPCA acumulado de 4,72%, o cenário econômico sugere estabilidade nos juros, mas com uma inflação controlada. O IBOV em queda de 0.98% reflete a aversão ao risco, alinhando-se ao regime RISK_OFF. Para quem vai aportar R$100 hoje, a preferência deve ser por ativos defensivos que resistem melhor à volatilidade.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao seu bom ajuste ao regime BALANCED e momentum positivo"
+      "SBSP3 — Utilidades com momentum positivo e alinhamento com regime RISK_OFF"
     ],
     "reinforce": [
-      "SBSP3 — com forte momentum de +8.02% nos últimos 21 dias"
+      "CSAN3 — Bom momentum em 21 dias, mas com cautela devido ao baixo RegimeFit"
     ],
     "avoid": [
-      "Setor de mineração — devido ao recuo do minério de ferro"
+      "Setor industrial — Momentum de 0.59 sugere performance inferior"
     ],
     "realize": [
-      "TAEE11 — após alta de +2.53% nos últimos 5 dias, pode estar sobrecomprado"
+      "Ativos com ganhos expressivos recentes podem estar sobrecomprados, como CSAN3"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,00",
+      "value": "R$ 19,76",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.37%",
+      "value": "-1.10%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+30.1%",
+      "value": "+31.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,00 com uma variação de +1.37%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto. Dada a situação atual, é prudente aguardar novos desenvolvimentos antes de tomar decisões de investimento.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 19,76 com uma variação de -1.10%. No contexto pós-1T26, o banco enfrenta desafios, com lucro reduzido em 53% e inadimplência no setor agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode redefinir expectativas.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 alocando R$35, aproveitando seu bom ajuste ao regime atual.",
-    "biggest_risk": "A volatilidade no setor de mineração devido ao recuo do minério de ferro pode impactar negativamente.",
-    "best_opportunity": "SBSP3 oferece uma assimetria risco-retorno favorável com seu forte momentum recente.",
-    "common_mistake": "Ignorar o impacto dos juros elevados ao investir em setores mais cíclicos."
+    "smartest_move": "Alocar R$34 em SBSP3, aproveitando o bom momentum e alinhamento com o regime RISK_OFF.",
+    "biggest_risk": "A volatilidade do mercado acionário, refletida na queda do IBOV, pode impactar negativamente ativos de risco.",
+    "best_opportunity": "A Sabesp (SBSP3) apresenta uma assimetria risco-retorno favorável, com score elevado e bom desempenho recente.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-07-03T09:00:02.306424-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-07-06T10:37:33.658799-03:00",
+    "regime": "NEUTRAL / RISK_OFF",
     "sectors": [
-      "telecom",
-      "utilidades"
+      "energia",
+      "utilidades",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
