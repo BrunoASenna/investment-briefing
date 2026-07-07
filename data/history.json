@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-05-26",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -0.92,
-      "r21d": -0.0787501802144224,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "35",
-        "price": "R$ 105,62",
-        "score": "0.785",
-        "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo recente (+1.39% em 5 dias) e sua natureza defensiva em um regime RISK_OFF.",
-        "potential": "Com um score elevado e ajuste perfeito ao regime atual, KNCR11 pode oferecer estabilidade e retorno consistente.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "33",
-        "price": "R$ 15,07",
-        "score": "0.737",
-        "reason": "LREN3 mostrou resiliência com um aumento de 10.48% nos últimos 5 dias, destacando-se no setor de varejo, apesar do regime adverso.",
-        "potential": "O potencial de crescimento é moderado, sustentado pelo bom desempenho recente e pela recuperação do setor de varejo.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "32",
-        "price": "R$ 31,53",
-        "score": "0.722",
-        "reason": "TOTVS ON apresenta um score sólido e alta novidade, com um ganho de 2.90% em 5 dias, apesar do ambiente desafiador para tecnologia.",
-        "potential": "A inovação contínua e a adaptação ao mercado podem sustentar seu crescimento, embora o risco seja mais elevado.",
-        "risk": "Médio",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,02",
-      "ibov": "175.724"
-    }
-  },
-  {
     "date": "2026-05-27",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,72%",
       "dolar": "R$ 5,17",
       "ibov": "172.558"
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.04,
+      "r21d": 0.02028765996722262,
+      "r63d": -0.08351314293002839
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 17,44",
+        "score": "0.841",
+        "reason": "Raia Drogasil apresenta um momentum positivo de +1.63% nos últimos 5 dias, beneficiando-se do regime RISK_OFF que favorece o setor de saúde por sua natureza defensiva.",
+        "potential": "Com um score elevado e bom ajuste ao regime, a ação pode continuar a apresentar resiliência em um cenário de aversão ao risco.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 107,80",
+        "score": "0.832",
+        "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, proporcionando rendimentos estáveis e ajustados ao perfil RISK_OFF do dia.",
+        "potential": "O fundo pode oferecer retornos consistentes devido à sua adequação ao regime atual e à estabilidade dos juros.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "32",
+        "price": "R$ 42,56",
+        "score": "0.789",
+        "reason": "Itaú Unibanco se destaca com um ganho de +9.61% em 21 dias, mostrando forte desempenho no setor financeiro, apesar do ajuste ao regime ser moderado.",
+        "potential": "A ação tem potencial para manter o crescimento, mas com risco moderado devido à sua exposição ao mercado financeiro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,17",
+      "ibov": "172.448"
     }
   }
 ]

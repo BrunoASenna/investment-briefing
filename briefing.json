@@ -1,42 +1,42 @@
 {
-  "date": "06/07/2026",
+  "date": "07/07/2026",
   "regime": {
     "label": "NEUTRAL / RISK_OFF",
-    "summary": "O regime atual NEUTRAL com perfil RISK_OFF sugere que os investidores devem adotar uma postura cautelosa, focando em ativos defensivos que oferecem estabilidade em tempos de incerteza."
+    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando uma preferência por ativos defensivos e menor exposição ao risco, em um cenário de juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
       "value": "34",
-      "price": "R$ 30,15",
-      "score": "0.777",
-      "reason": "Com um momentum positivo de +1.69% nos últimos 5 dias e operando no setor de utilidades, a Sabesp se beneficia do regime RISK_OFF, que favorece ativos defensivos.",
-      "potential": "Potencial de crescimento sólido devido ao bom score e alinhamento com o regime atual.",
+      "price": "R$ 17,44",
+      "score": "0.841",
+      "reason": "Raia Drogasil apresenta um momentum positivo de +1.63% nos últimos 5 dias, beneficiando-se do regime RISK_OFF que favorece o setor de saúde por sua natureza defensiva.",
+      "potential": "Com um score elevado e bom ajuste ao regime, a ação pode continuar a apresentar resiliência em um cenário de aversão ao risco.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
       "value": "34",
-      "price": "R$ 34,67",
-      "score": "0.774",
-      "reason": "A Telefônica Vivo apresenta um desempenho estável com um crescimento de +0.78% em 5 dias, sendo uma escolha adequada em telecomunicações para um cenário RISK_OFF.",
-      "potential": "Potencial de estabilidade e proteção, alinhado ao perfil defensivo do regime.",
+      "price": "R$ 107,80",
+      "score": "0.832",
+      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, proporcionando rendimentos estáveis e ajustados ao perfil RISK_OFF do dia.",
+      "potential": "O fundo pode oferecer retornos consistentes devido à sua adequação ao regime atual e à estabilidade dos juros.",
       "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
       "value": "32",
-      "price": "R$ 3,83",
-      "score": "0.738",
-      "reason": "Cosan ON se destaca com um crescimento de +3.23% em 5 dias, atraindo interesse apesar do baixo RegimeFit, devido ao seu alto novelty.",
-      "potential": "Potencial moderado, mas com risco devido ao baixo RegimeFit.",
+      "price": "R$ 42,56",
+      "score": "0.789",
+      "reason": "Itaú Unibanco se destaca com um ganho de +9.61% em 21 dias, mostrando forte desempenho no setor financeiro, apesar do ajuste ao regime ser moderado.",
+      "potential": "A ação tem potencial para manter o crescimento, mas com risco moderado devido à sua exposição ao mercado financeiro.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "172.558",
-      "sub": "-0.98% hoje",
+      "value": "172.448",
+      "sub": "-1.04% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC mantida em 14,15% e um IPCA acumulado de 4,72%, o cenário econômico sugere estabilidade nos juros, mas com uma inflação controlada. O IBOV em queda de 0.98% reflete a aversão ao risco, alinhando-se ao regime RISK_OFF. Para quem vai aportar R$100 hoje, a preferência deve ser por ativos defensivos que resistem melhor à volatilidade.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o cenário de juros elevados pressiona o consumo e favorece ativos de renda fixa. O IPCA em 4,72% indica uma inflação sob controle, enquanto o IBOV caiu 1,04%, refletindo a aversão ao risco no mercado. Investidores que aportarem R$100 hoje devem considerar ativos defensivos para mitigar riscos associados ao regime RISK_OFF.",
   "analysts": {
     "enter": [
-      "SBSP3 — Utilidades com momentum positivo e alinhamento com regime RISK_OFF"
+      "RADL3 — devido ao seu momentum positivo e ajuste ao regime RISK_OFF"
     ],
     "reinforce": [
-      "CSAN3 — Bom momentum em 21 dias, mas com cautela devido ao baixo RegimeFit"
+      "ITUB4 — pela forte performance de +9.61% em 21 dias"
     ],
     "avoid": [
-      "Setor industrial — Momentum de 0.59 sugere performance inferior"
+      "Setor industrial — momentum relativamente baixo comparado a outros setores"
     ],
     "realize": [
-      "Ativos com ganhos expressivos recentes podem estar sobrecomprados, como CSAN3"
+      "ITUB4 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,76",
+      "value": "R$ 19,77",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.10%",
+      "value": "-1.05%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.7%",
+      "value": "+31.6%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 19,76 com uma variação de -1.10%. No contexto pós-1T26, o banco enfrenta desafios, com lucro reduzido em 53% e inadimplência no setor agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode redefinir expectativas.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,77, com uma variação de -1.05%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 31.63%, o consenso é neutro, sugerindo cautela.",
   "executive_summary": {
-    "smartest_move": "Alocar R$34 em SBSP3, aproveitando o bom momentum e alinhamento com o regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado acionário, refletida na queda do IBOV, pode impactar negativamente ativos de risco.",
-    "best_opportunity": "A Sabesp (SBSP3) apresenta uma assimetria risco-retorno favorável, com score elevado e bom desempenho recente.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e aversão ao risco."
+    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando seu momentum positivo e ajuste ao regime RISK_OFF.",
+    "biggest_risk": "A volatilidade do IBOV e a aversão ao risco podem impactar negativamente ativos mais voláteis.",
+    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno em um cenário de juros altos e perfil RISK_OFF.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para ativos defensivos."
   },
   "_meta": {
-    "generated_at": "2026-07-06T10:37:33.658799-03:00",
+    "generated_at": "2026-07-07T09:21:40.194810-03:00",
     "regime": "NEUTRAL / RISK_OFF",
     "sectors": [
-      "energia",
-      "utilidades",
-      "telecom"
+      "financeiro",
+      "fii_papel",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
