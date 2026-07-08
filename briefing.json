@@ -1,42 +1,42 @@
 {
-  "date": "07/07/2026",
+  "date": "08/07/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_OFF",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando uma preferência por ativos defensivos e menor exposição ao risco, em um cenário de juros elevados."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde não há uma direção clara, favorecendo uma abordagem equilibrada entre ativos de risco e defensivos."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 17,44",
-      "score": "0.841",
-      "reason": "Raia Drogasil apresenta um momentum positivo de +1.63% nos últimos 5 dias, beneficiando-se do regime RISK_OFF que favorece o setor de saúde por sua natureza defensiva.",
-      "potential": "Com um score elevado e bom ajuste ao regime, a ação pode continuar a apresentar resiliência em um cenário de aversão ao risco.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "34",
-      "price": "R$ 107,80",
-      "score": "0.832",
-      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, proporcionando rendimentos estáveis e ajustados ao perfil RISK_OFF do dia.",
-      "potential": "O fundo pode oferecer retornos consistentes devido à sua adequação ao regime atual e à estabilidade dos juros.",
-      "risk": "Baixo",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "35",
+      "price": "R$ 15,57",
+      "score": "0.831",
+      "reason": "Fleury ON se destaca pelo bom momentum recente, com alta de +1.10% nos últimos 5 dias, e pertence ao setor de saúde, que tende a ser resiliente em um regime BALANCED.",
+      "potential": "Com um score de 0.831, há potencial de valorização moderada, especialmente se o setor de saúde continuar atraente.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "33",
+      "price": "R$ 10,93",
+      "score": "0.792",
+      "reason": "Cemig PN apresenta estabilidade com um aumento de +0.55% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
+      "potential": "Potencial de crescimento estável com base no score de 0.792 e a natureza defensiva do setor de utilidades.",
+      "risk": "Baixo",
+      "horizon": "Longo prazo"
+    },
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
       "value": "32",
-      "price": "R$ 42,56",
-      "score": "0.789",
-      "reason": "Itaú Unibanco se destaca com um ganho de +9.61% em 21 dias, mostrando forte desempenho no setor financeiro, apesar do ajuste ao regime ser moderado.",
-      "potential": "A ação tem potencial para manter o crescimento, mas com risco moderado devido à sua exposição ao mercado financeiro.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "price": "R$ 40,40",
+      "score": "0.768",
+      "reason": "Transmissão Paulista tem se beneficiado de um aumento de +1.56% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece ativos de utilidades.",
+      "potential": "Score de 0.768 indica potencial de valorização moderada, suportado pela estabilidade do setor de transmissão elétrica.",
+      "risk": "Baixo",
+      "horizon": "Longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,17",
+      "value": "R$ 5,15",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.448",
-      "sub": "-1.04% hoje",
+      "value": "172.021",
+      "sub": "-0.25% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o cenário de juros elevados pressiona o consumo e favorece ativos de renda fixa. O IPCA em 4,72% indica uma inflação sob controle, enquanto o IBOV caiu 1,04%, refletindo a aversão ao risco no mercado. Investidores que aportarem R$100 hoje devem considerar ativos defensivos para mitigar riscos associados ao regime RISK_OFF.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua, pressionando o consumo e favorecendo ativos defensivos. O IPCA em 4,72% sugere uma inflação controlada, enquanto o IBOV caiu 0.25%, refletindo um dia de cautela no mercado. Investidores que aportarem R$100 hoje devem considerar ativos que se beneficiam de juros altos e inflação estável.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao seu momentum positivo e ajuste ao regime RISK_OFF"
+      "FLRY3 — devido ao bom momentum e resiliência do setor de saúde"
     ],
     "reinforce": [
-      "ITUB4 — pela forte performance de +9.61% em 21 dias"
+      "TAEE11 — momentum positivo de 21 dias e estabilidade do setor"
     ],
     "avoid": [
-      "Setor industrial — momentum relativamente baixo comparado a outros setores"
+      "Setor de tecnologia — devido à volatilidade e momentum negativo recente"
     ],
     "realize": [
-      "ITUB4 — após alta recente, pode estar sobrecomprado"
+      "Ações de varejo que tiveram alta recente e podem estar sobrecompradas"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,77",
+      "value": "R$ 19,73",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.05%",
+      "value": "-0.20%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.6%",
+      "value": "+31.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,77, com uma variação de -1.05%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 31.63%, o consenso é neutro, sugerindo cautela.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,73, com uma variação diária de -0.20%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Apesar do consenso neutro, o potencial de upside de 31.92% sugere que investidores devem aguardar por mais clareza nos resultados futuros.",
   "executive_summary": {
-    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando seu momentum positivo e ajuste ao regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do IBOV e a aversão ao risco podem impactar negativamente ativos mais voláteis.",
-    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno em um cenário de juros altos e perfil RISK_OFF.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para ativos defensivos."
+    "smartest_move": "Investir em FLRY3 com alocação de R$35, aproveitando o bom momentum e a resiliência do setor de saúde.",
+    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores mais dependentes de crédito.",
+    "best_opportunity": "Ações de utilidades como CMIG4 oferecem uma boa assimetria risco-retorno em um cenário de juros altos.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em setores cíclicos, levando a decisões precipitadas de investimento."
   },
   "_meta": {
-    "generated_at": "2026-07-07T09:21:40.194810-03:00",
-    "regime": "NEUTRAL / RISK_OFF",
+    "generated_at": "2026-07-08T08:41:43.445150-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "financeiro",
-      "fii_papel",
-      "saude"
+      "saude",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
