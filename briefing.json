@@ -1,42 +1,42 @@
 {
-  "date": "08/07/2026",
+  "date": "09/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde não há uma direção clara, favorecendo uma abordagem equilibrada entre ativos de risco e defensivos."
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre risco e retorno, favorecendo ativos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "35",
-      "price": "R$ 15,57",
-      "score": "0.831",
-      "reason": "Fleury ON se destaca pelo bom momentum recente, com alta de +1.10% nos últimos 5 dias, e pertence ao setor de saúde, que tende a ser resiliente em um regime BALANCED.",
-      "potential": "Com um score de 0.831, há potencial de valorização moderada, especialmente se o setor de saúde continuar atraente.",
-      "risk": "Médio",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "36",
+      "price": "R$ 34,31",
+      "score": "0.825",
+      "reason": "VIVT3 apresenta um momentum positivo de +1.57% em 5 dias, destacando-se no setor de telecomunicações que está em rotação favorável. O regime BALANCED suporta a alocação em ativos defensivos como este.",
+      "potential": "O score elevado e o ajuste ao regime sugerem um potencial de crescimento moderado, com volatilidade controlada.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "34",
+      "price": "R$ 107,81",
+      "score": "0.773",
+      "reason": "KNCR11 se beneficia do ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-o atraente para investidores buscando renda fixa em um cenário de estabilidade.",
+      "potential": "Com um regime fit ideal e um score sólido, o potencial de retorno é consistente com a busca por estabilidade e renda.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "33",
-      "price": "R$ 10,93",
-      "score": "0.792",
-      "reason": "Cemig PN apresenta estabilidade com um aumento de +0.55% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
-      "potential": "Potencial de crescimento estável com base no score de 0.792 e a natureza defensiva do setor de utilidades.",
-      "risk": "Baixo",
-      "horizon": "Longo prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "32",
-      "price": "R$ 40,40",
-      "score": "0.768",
-      "reason": "Transmissão Paulista tem se beneficiado de um aumento de +1.56% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece ativos de utilidades.",
-      "potential": "Score de 0.768 indica potencial de valorização moderada, suportado pela estabilidade do setor de transmissão elétrica.",
-      "risk": "Baixo",
-      "horizon": "Longo prazo"
+      "ticker": "BTLG11",
+      "name": "BTG Logística",
+      "value": "30",
+      "price": "R$ 102,43",
+      "score": "0.693",
+      "reason": "BTLG11, apesar de um momentum mais modesto, oferece exposição ao setor de logística, que pode se beneficiar de uma recuperação econômica gradual.",
+      "potential": "O potencial de crescimento é limitado, mas oferece diversificação em um portfólio equilibrado.",
+      "risk": "Médio",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,15",
+      "value": "R$ 5,16",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.021",
-      "sub": "-0.25% hoje",
+      "value": "170.654",
+      "sub": "-0.79% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua, pressionando o consumo e favorecendo ativos defensivos. O IPCA em 4,72% sugere uma inflação controlada, enquanto o IBOV caiu 0.25%, refletindo um dia de cautela no mercado. Investidores que aportarem R$100 hoje devem considerar ativos que se beneficiam de juros altos e inflação estável.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente continua favorável para investimentos em renda fixa. O IPCA em 4,72% indica controle inflacionário, enquanto o IBOV em queda de 0.79% reflete um mercado acionário cauteloso. Para quem vai investir R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o regime BALANCED e a estabilidade dos juros.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao bom momentum e resiliência do setor de saúde"
+      "VIVT3 — devido ao forte score e momentum positivo no setor de telecom"
     ],
     "reinforce": [
-      "TAEE11 — momentum positivo de 21 dias e estabilidade do setor"
+      "KNCR11 — por seu ajuste perfeito ao regime de juros elevados"
     ],
     "avoid": [
-      "Setor de tecnologia — devido à volatilidade e momentum negativo recente"
+      "Setores com momentum negativo, como o de consumo, devido à pressão inflacionária"
     ],
     "realize": [
-      "Ações de varejo que tiveram alta recente e podem estar sobrecompradas"
+      "Ativos de tecnologia que tiveram alta recente, evitando sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,73",
+      "value": "R$ 19,53",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.20%",
+      "value": "-1.01%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+31.9%",
+      "value": "+33.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,73, com uma variação diária de -0.20%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Apesar do consenso neutro, o potencial de upside de 31.92% sugere que investidores devem aguardar por mais clareza nos resultados futuros.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 19,53, com uma variação de -1.01% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho significativo será o resultado do segundo trimestre em agosto. O consenso permanece neutro, sugerindo cautela até novas informações financeiras.",
   "executive_summary": {
-    "smartest_move": "Investir em FLRY3 com alocação de R$35, aproveitando o bom momentum e a resiliência do setor de saúde.",
-    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores mais dependentes de crédito.",
-    "best_opportunity": "Ações de utilidades como CMIG4 oferecem uma boa assimetria risco-retorno em um cenário de juros altos.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em setores cíclicos, levando a decisões precipitadas de investimento."
+    "smartest_move": "Investir em VIVT3 com alocação de R$36, aproveitando o momentum positivo no setor de telecom.",
+    "biggest_risk": "A volatilidade do mercado acionário em um regime NEUTRAL, especialmente em setores cíclicos.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um regime fit ideal e estabilidade em um cenário de juros elevados.",
+    "common_mistake": "Subestimar a importância de diversificação em um regime NEUTRAL, focando excessivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-07-08T08:41:43.445150-03:00",
+    "generated_at": "2026-07-09T09:25:58.174280-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "saude",
-      "utilidades"
+      "fii_tijolo",
+      "telecom",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
