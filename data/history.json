@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-05-29",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.39,
-      "r21d": -0.07186974801053976,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "35",
-        "price": "R$ 106,85",
-        "score": "0.828",
-        "reason": "KNCR11 é uma escolha sólida hoje devido ao seu desempenho positivo de +1.02% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que é favorecido no regime atual BALANCED.",
-        "potential": "O ativo tem potencial de estabilidade e retorno consistente devido ao seu alto score e alinhamento com o regime.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "33",
-        "price": "R$ 12,48",
-        "score": "0.792",
-        "reason": "HAPV3 apresenta um crescimento consistente, com alta de +3.65% em 21 dias, beneficiando-se do setor de saúde que pode ser resiliente em tempos de incerteza econômica.",
-        "potential": "Potencial de crescimento moderado, dado seu bom desempenho recente e score elevado.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "32",
-        "price": "R$ 15,00",
-        "score": "0.758",
-        "reason": "LREN3 tem mostrado forte recuperação, com um aumento de +7.07% em 21 dias, indicando um bom momentum no setor de varejo.",
-        "potential": "Potencial de valorização se o momentum positivo continuar, apesar do risco de volatilidade do setor.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,05",
-      "ibov": "175.063"
-    }
-  },
-  {
     "date": "2026-06-01",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,72%",
       "dolar": "R$ 5,16",
       "ibov": "170.654"
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.22,
+      "r21d": 0.02445157425912857,
+      "r63d": -0.11472923040655156
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "36",
+        "price": "R$ 30,00",
+        "score": "0.886",
+        "reason": "A Sabesp ON apresenta um momentum positivo de +0.30% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de utilidades é tradicionalmente defensivo, mas a estabilidade atual dos juros permite um potencial de valorização adicional.",
+        "potential": "Com um score elevado e alinhamento com o regime atual, a Sabesp ON tem potencial de valorização consistente.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "33",
+        "price": "R$ 3,86",
+        "score": "0.805",
+        "reason": "A Cosan ON destaca-se com um crescimento de +3.76% nos últimos 5 dias, impulsionada pelo setor de energia que tem mostrado resiliência. O regime RISK_ON favorece empresas que podem se beneficiar de um ambiente econômico mais estável.",
+        "potential": "A Cosan ON tem um bom potencial de crescimento, especialmente se o cenário macroeconômico continuar favorável.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "31",
+        "price": "R$ 20,00",
+        "score": "0.765",
+        "reason": "O Banco do Brasil ON apresenta um crescimento de +2.41% no dia, com um histórico de 21 dias positivo. O setor financeiro pode se beneficiar da estabilidade dos juros, apesar dos desafios recentes.",
+        "potential": "Com um score razoável e um regime que favorece ativos de risco, o Banco do Brasil ON tem um potencial de recuperação moderado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,72%",
+      "dolar": "R$ 5,13",
+      "ibov": "172.742"
     }
   }
 ]

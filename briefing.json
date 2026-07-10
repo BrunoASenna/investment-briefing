@@ -1,42 +1,42 @@
 {
-  "date": "09/07/2026",
+  "date": "10/07/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde os investidores devem buscar equilíbrio entre risco e retorno, favorecendo ativos defensivos e FIIs de papel."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual é caracterizado por um ambiente neutro com tendência RISK_ON, favorecendo investimentos em ativos de maior risco devido à estabilidade nos juros e um cenário macroeconômico positivo."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "36",
-      "price": "R$ 34,31",
-      "score": "0.825",
-      "reason": "VIVT3 apresenta um momentum positivo de +1.57% em 5 dias, destacando-se no setor de telecomunicações que está em rotação favorável. O regime BALANCED suporta a alocação em ativos defensivos como este.",
-      "potential": "O score elevado e o ajuste ao regime sugerem um potencial de crescimento moderado, com volatilidade controlada.",
+      "price": "R$ 30,00",
+      "score": "0.886",
+      "reason": "A Sabesp ON apresenta um momentum positivo de +0.30% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de utilidades é tradicionalmente defensivo, mas a estabilidade atual dos juros permite um potencial de valorização adicional.",
+      "potential": "Com um score elevado e alinhamento com o regime atual, a Sabesp ON tem potencial de valorização consistente.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "34",
-      "price": "R$ 107,81",
-      "score": "0.773",
-      "reason": "KNCR11 se beneficia do ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-o atraente para investidores buscando renda fixa em um cenário de estabilidade.",
-      "potential": "Com um regime fit ideal e um score sólido, o potencial de retorno é consistente com a busca por estabilidade e renda.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "33",
+      "price": "R$ 3,86",
+      "score": "0.805",
+      "reason": "A Cosan ON destaca-se com um crescimento de +3.76% nos últimos 5 dias, impulsionada pelo setor de energia que tem mostrado resiliência. O regime RISK_ON favorece empresas que podem se beneficiar de um ambiente econômico mais estável.",
+      "potential": "A Cosan ON tem um bom potencial de crescimento, especialmente se o cenário macroeconômico continuar favorável.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BTLG11",
-      "name": "BTG Logística",
-      "value": "30",
-      "price": "R$ 102,43",
-      "score": "0.693",
-      "reason": "BTLG11, apesar de um momentum mais modesto, oferece exposição ao setor de logística, que pode se beneficiar de uma recuperação econômica gradual.",
-      "potential": "O potencial de crescimento é limitado, mas oferece diversificação em um portfólio equilibrado.",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
+      "value": "31",
+      "price": "R$ 20,00",
+      "score": "0.765",
+      "reason": "O Banco do Brasil ON apresenta um crescimento de +2.41% no dia, com um histórico de 21 dias positivo. O setor financeiro pode se beneficiar da estabilidade dos juros, apesar dos desafios recentes.",
+      "potential": "Com um score razoável e um regime que favorece ativos de risco, o Banco do Brasil ON tem um potencial de recuperação moderado.",
       "risk": "Médio",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,13",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.654",
-      "sub": "-0.79% hoje",
-      "trend": "down"
+      "value": "172.742",
+      "sub": "+1.22% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente continua favorável para investimentos em renda fixa. O IPCA em 4,72% indica controle inflacionário, enquanto o IBOV em queda de 0.79% reflete um mercado acionário cauteloso. Para quem vai investir R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o regime BALANCED e a estabilidade dos juros.",
+  "macro_summary": "A SELIC estável em 14,15% e o IPCA de 4,72% indicam um controle inflacionário eficaz, enquanto o IBOV subiu 1.22%, refletindo otimismo do mercado. Para um investidor com R$100, o ambiente RISK_ON sugere oportunidades em ativos de maior risco com potencial de retorno superior.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao forte score e momentum positivo no setor de telecom"
+      "SBSP3 — devido ao seu excelente score e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "KNCR11 — por seu ajuste perfeito ao regime de juros elevados"
+      "CSAN3 — por seu forte momentum de 21 dias e potencial de crescimento no setor de energia"
     ],
     "avoid": [
-      "Setores com momentum negativo, como o de consumo, devido à pressão inflacionária"
+      "Setor de tecnologia — devido ao menor momentum comparativo nos últimos 5 dias"
     ],
     "realize": [
-      "Ativos de tecnologia que tiveram alta recente, evitando sobrecompra"
+      "BBAS3 — após recente alta de +2.41%, pode estar próximo de um ponto de realização"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,53",
+      "value": "R$ 20,00",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.01%",
+      "value": "+2.41%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.2%",
+      "value": "+30.1%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,53, com uma variação de -1.01% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho significativo será o resultado do segundo trimestre em agosto. O consenso permanece neutro, sugerindo cautela até novas informações financeiras.",
+  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 20,00, com uma variação diária de +2.41%. Após o primeiro trimestre de 2026, o banco reportou uma queda de lucro de 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será a divulgação dos resultados do segundo trimestre de 2026 em agosto, o que pode trazer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com alocação de R$36, aproveitando o momentum positivo no setor de telecom.",
-    "biggest_risk": "A volatilidade do mercado acionário em um regime NEUTRAL, especialmente em setores cíclicos.",
-    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com um regime fit ideal e estabilidade em um cenário de juros elevados.",
-    "common_mistake": "Subestimar a importância de diversificação em um regime NEUTRAL, focando excessivamente em ativos de alto risco."
+    "smartest_move": "Investir em SBSP3 com alocação de R$36, devido ao seu alto score e alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado financeiro, especialmente em setores mais arriscados, dado o regime NEUTRAL.",
+    "best_opportunity": "A Sabesp ON, com um score de 0.886 e momentum positivo, oferece uma boa assimetria risco-retorno.",
+    "common_mistake": "Subestimar o impacto de juros estáveis em ativos de risco, levando a decisões de investimento excessivamente conservadoras."
   },
   "_meta": {
-    "generated_at": "2026-07-09T09:25:58.174280-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-07-10T09:18:46.912665-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "fii_tijolo",
-      "telecom",
-      "fii_papel"
+      "financeiro",
+      "energia",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
