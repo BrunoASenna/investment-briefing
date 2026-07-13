@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-01",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.74,
-      "r21d": -0.07908818493150685,
-      "r63d": -0.08876396871219765
-    },
-    "opportunities": [
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "36",
-        "price": "R$ 34,01",
-        "score": "0.816",
-        "reason": "TOTVS ON se destaca pelo forte momentum, com um aumento de 6.61% nos últimos 5 dias, e pertence ao setor de tecnologia, que tem uma rotação positiva. No regime BALANCED, sua performance consistente a torna uma escolha atrativa.",
-        "potential": "Com um score elevado, a TOTVS ON tem potencial para continuar seu desempenho positivo, especialmente no contexto atual de mercado.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "BTLG11",
-        "name": "BTG Logística",
-        "value": "32",
-        "price": "R$ 103,64",
-        "score": "0.748",
-        "reason": "BTG Logística é uma opção sólida em um cenário de juros elevados, com um leve aumento nos últimos 5 dias, refletindo estabilidade e resiliência em um mercado volátil.",
-        "potential": "Dado seu score e estabilidade, BTLG11 oferece um potencial de preservação de capital com dividendos regulares.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 105,67",
-        "score": "0.742",
-        "reason": "KNCR11 é favorecido pelo regime atual devido à sua natureza de fundo de papel, que se beneficia de juros elevados, apesar de uma leve queda recente.",
-        "potential": "A tendência de juros altos pode proporcionar rendimentos atrativos, compensando flutuações de preço.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,06",
-      "ibov": "172.503"
-    }
-  },
-  {
     "date": "2026-06-02",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,72%",
       "dolar": "R$ 5,13",
       "ibov": "172.742"
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 2.97,
+      "r21d": 0.03713767587771215,
+      "r63d": -0.09860939368753928
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "35",
+        "price": "R$ 18,77",
+        "score": "0.864",
+        "reason": "Raia Drogasil apresenta um forte momentum com alta de 9.96% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e do setor de saúde, que é menos impactado por oscilações macroeconômicas.",
+        "potential": "Com um score de 0.864, a ação tem potencial de valorização moderado considerando o ambiente de risco atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "33",
+        "price": "R$ 44,30",
+        "score": "0.815",
+        "reason": "Itaú Unibanco se beneficia do ambiente de juros elevados com potencial de crescimento, refletido no aumento de 4.02% no último dia e 9.38% em 21 dias.",
+        "potential": "O score de 0.815 sugere potencial de valorização, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "32",
+        "price": "R$ 18,86",
+        "score": "0.804",
+        "reason": "Bradesco mostra recuperação com alta de 4.78% no último dia, sustentado por uma atuação sólida no setor financeiro, que se adapta bem ao regime RISK_ON.",
+        "potential": "Com um score de 0.804, há potencial de ganhos moderados, favorecido pela estabilidade do setor financeiro.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,11",
+      "ibov": "177.866"
     }
   }
 ]

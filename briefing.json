@@ -1,42 +1,42 @@
 {
-  "date": "10/07/2026",
+  "date": "13/07/2026",
   "regime": {
     "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é caracterizado por um ambiente neutro com tendência RISK_ON, favorecendo investimentos em ativos de maior risco devido à estabilidade nos juros e um cenário macroeconômico positivo."
+    "summary": "O regime atual NEUTRAL com perfil RISK_ON indica um ambiente favorável para ativos de risco, apesar dos juros elevados, incentivando investidores a buscar ganhos em ações e setores mais voláteis."
   },
   "opportunities": [
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "36",
-      "price": "R$ 30,00",
-      "score": "0.886",
-      "reason": "A Sabesp ON apresenta um momentum positivo de +0.30% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de utilidades é tradicionalmente defensivo, mas a estabilidade atual dos juros permite um potencial de valorização adicional.",
-      "potential": "Com um score elevado e alinhamento com o regime atual, a Sabesp ON tem potencial de valorização consistente.",
-      "risk": "Baixo",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "35",
+      "price": "R$ 18,77",
+      "score": "0.864",
+      "reason": "Raia Drogasil apresenta um forte momentum com alta de 9.96% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e do setor de saúde, que é menos impactado por oscilações macroeconômicas.",
+      "potential": "Com um score de 0.864, a ação tem potencial de valorização moderado considerando o ambiente de risco atual.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
       "value": "33",
-      "price": "R$ 3,86",
-      "score": "0.805",
-      "reason": "A Cosan ON destaca-se com um crescimento de +3.76% nos últimos 5 dias, impulsionada pelo setor de energia que tem mostrado resiliência. O regime RISK_ON favorece empresas que podem se beneficiar de um ambiente econômico mais estável.",
-      "potential": "A Cosan ON tem um bom potencial de crescimento, especialmente se o cenário macroeconômico continuar favorável.",
+      "price": "R$ 44,30",
+      "score": "0.815",
+      "reason": "Itaú Unibanco se beneficia do ambiente de juros elevados com potencial de crescimento, refletido no aumento de 4.02% no último dia e 9.38% em 21 dias.",
+      "potential": "O score de 0.815 sugere potencial de valorização, especialmente em um cenário de estabilidade econômica.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "31",
-      "price": "R$ 20,00",
-      "score": "0.765",
-      "reason": "O Banco do Brasil ON apresenta um crescimento de +2.41% no dia, com um histórico de 21 dias positivo. O setor financeiro pode se beneficiar da estabilidade dos juros, apesar dos desafios recentes.",
-      "potential": "Com um score razoável e um regime que favorece ativos de risco, o Banco do Brasil ON tem um potencial de recuperação moderado.",
+      "ticker": "BBDC4",
+      "name": "Bradesco PN",
+      "value": "32",
+      "price": "R$ 18,86",
+      "score": "0.804",
+      "reason": "Bradesco mostra recuperação com alta de 4.78% no último dia, sustentado por uma atuação sólida no setor financeiro, que se adapta bem ao regime RISK_ON.",
+      "potential": "Com um score de 0.804, há potencial de ganhos moderados, favorecido pela estabilidade do setor financeiro.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,72%",
+      "value": "4,64%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,13",
+      "value": "R$ 5,11",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.742",
-      "sub": "+1.22% hoje",
+      "value": "177.866",
+      "sub": "+2.97% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC estável em 14,15% e o IPCA de 4,72% indicam um controle inflacionário eficaz, enquanto o IBOV subiu 1.22%, refletindo otimismo do mercado. Para um investidor com R$100, o ambiente RISK_ON sugere oportunidades em ativos de maior risco com potencial de retorno superior.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente permanece desafiador para investimentos de renda fixa. No entanto, o IPCA em 4,64% sugere controle da inflação, enquanto o IBOV subiu 2.97%, indicando otimismo no mercado de ações. Para quem vai aportar R$100 hoje, o regime RISK_ON pode oferecer melhores retornos em ações do que em ativos de renda fixa.",
   "analysts": {
     "enter": [
-      "SBSP3 — devido ao seu excelente score e alinhamento com o regime RISK_ON"
+      "RADL3 — devido ao forte momentum e perfil RISK_ON"
     ],
     "reinforce": [
-      "CSAN3 — por seu forte momentum de 21 dias e potencial de crescimento no setor de energia"
+      "ITUB4 — devido ao bom desempenho nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — devido ao menor momentum comparativo nos últimos 5 dias"
+      "Setor de telecom — momentum relativamente baixo em 5 dias"
     ],
     "realize": [
-      "BBAS3 — após recente alta de +2.41%, pode estar próximo de um ponto de realização"
+      "BBDC4 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,00",
+      "value": "R$ 20,58",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.41%",
+      "value": "+2.90%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+30.1%",
+      "value": "+26.4%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 20,00, com uma variação diária de +2.41%. Após o primeiro trimestre de 2026, o banco reportou uma queda de lucro de 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será a divulgação dos resultados do segundo trimestre de 2026 em agosto, o que pode trazer novas perspectivas para o ativo.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 20,58 com variação de +2.90% reflete um mercado cauteloso após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%. O próximo gatilho significativo será o resultado do 2T26 em agosto, que poderá trazer mais clareza sobre a recuperação financeira do banco.",
   "executive_summary": {
-    "smartest_move": "Investir em SBSP3 com alocação de R$36, devido ao seu alto score e alinhamento com o regime RISK_ON.",
-    "biggest_risk": "A volatilidade do mercado financeiro, especialmente em setores mais arriscados, dado o regime NEUTRAL.",
-    "best_opportunity": "A Sabesp ON, com um score de 0.886 e momentum positivo, oferece uma boa assimetria risco-retorno.",
-    "common_mistake": "Subestimar o impacto de juros estáveis em ativos de risco, levando a decisões de investimento excessivamente conservadoras."
+    "smartest_move": "Alocar R$35 em RADL3, que apresenta forte momentum e é favorecida pelo regime RISK_ON.",
+    "biggest_risk": "A volatilidade externa, especialmente devido às tensões geopolíticas no Oriente Médio, pode impactar negativamente os mercados.",
+    "best_opportunity": "RADL3 oferece uma assimetria risco-retorno atrativa, com alta recente de 9.96% em 5 dias e um score elevado.",
+    "common_mistake": "Subestimar o impacto das tensões geopolíticas e não diversificar adequadamente o portfólio."
   },
   "_meta": {
-    "generated_at": "2026-07-10T09:18:46.912665-03:00",
+    "generated_at": "2026-07-13T09:25:48.870166-03:00",
     "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "financeiro",
-      "energia",
-      "utilidades"
+      "saude",
+      "financeiro"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
