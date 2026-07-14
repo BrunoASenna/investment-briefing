@@ -1,42 +1,42 @@
 {
-  "date": "13/07/2026",
+  "date": "14/07/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual NEUTRAL com perfil RISK_ON indica um ambiente favorável para ativos de risco, apesar dos juros elevados, incentivando investidores a buscar ganhos em ações e setores mais voláteis."
+    "label": "NEUTRAL / RISK_OFF",
+    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando que investidores devem priorizar ativos defensivos e de menor risco, como FIIs de papel, devido à aversão ao risco predominante no mercado."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "35",
-      "price": "R$ 18,77",
-      "score": "0.864",
-      "reason": "Raia Drogasil apresenta um forte momentum com alta de 9.96% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e do setor de saúde, que é menos impactado por oscilações macroeconômicas.",
-      "potential": "Com um score de 0.864, a ação tem potencial de valorização moderado considerando o ambiente de risco atual.",
+      "price": "R$ 16,15",
+      "score": "0.85",
+      "reason": "Fleury ON apresenta um momentum positivo de +3.19% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido em um ambiente RISK_OFF. Este ativo se beneficia da estabilidade em meio a incertezas macroeconômicas.",
+      "potential": "Com um score de 0.85 e alinhamento ao regime atual, FLRY3 tem potencial de crescimento moderado, especialmente em um cenário de aversão ao risco.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "33",
-      "price": "R$ 44,30",
-      "score": "0.815",
-      "reason": "Itaú Unibanco se beneficia do ambiente de juros elevados com potencial de crescimento, refletido no aumento de 4.02% no último dia e 9.38% em 21 dias.",
-      "potential": "O score de 0.815 sugere potencial de valorização, especialmente em um cenário de estabilidade econômica.",
-      "risk": "Médio",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "34",
+      "price": "R$ 41,35",
+      "score": "0.82",
+      "reason": "Transmissão Paulista é uma escolha defensiva sólida, com um desempenho de +2.68% nos últimos 5 dias, beneficiando-se de sua posição no setor de utilidades, que é tradicionalmente resiliente em períodos de alta de juros.",
+      "potential": "O ativo tem potencial de estabilidade e rendimentos consistentes, adequado para investidores buscando segurança em um ambiente de juros elevados.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
       "ticker": "BBDC4",
       "name": "Bradesco PN",
-      "value": "32",
-      "price": "R$ 18,86",
-      "score": "0.804",
-      "reason": "Bradesco mostra recuperação com alta de 4.78% no último dia, sustentado por uma atuação sólida no setor financeiro, que se adapta bem ao regime RISK_ON.",
-      "potential": "Com um score de 0.804, há potencial de ganhos moderados, favorecido pela estabilidade do setor financeiro.",
+      "value": "31",
+      "price": "R$ 18,77",
+      "score": "0.741",
+      "reason": "Bradesco PN tem mostrado recuperação com um aumento de +4.74% em 5 dias, sendo uma opção interessante no setor financeiro, apesar do ambiente de juros elevados.",
+      "potential": "O potencial de BBDC4 está em sua capacidade de adaptação ao ambiente macroeconômico, com um crescimento moderado esperado.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,11",
+      "value": "R$ 5,12",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.866",
-      "sub": "+2.97% hoje",
-      "trend": "up"
+      "value": "175.739",
+      "sub": "-1.20% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente permanece desafiador para investimentos de renda fixa. No entanto, o IPCA em 4,64% sugere controle da inflação, enquanto o IBOV subiu 2.97%, indicando otimismo no mercado de ações. Para quem vai aportar R$100 hoje, o regime RISK_ON pode oferecer melhores retornos em ações do que em ativos de renda fixa.",
+  "macro_summary": "A taxa SELIC está em 14,15% e permanece estável, indicando um ambiente de juros elevados que pressiona o consumo e os investimentos. O IPCA de 4,64% sugere uma inflação sob controle, mas ainda acima da meta, enquanto o IBOV recuou 1.20%, refletindo a aversão ao risco no mercado. Para quem vai aportar R$100 hoje, é crucial focar em ativos defensivos que possam oferecer proteção e estabilidade.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao forte momentum e perfil RISK_ON"
+      "FLRY3 — devido ao seu forte momentum e alinhamento com o regime RISK_OFF"
     ],
     "reinforce": [
-      "ITUB4 — devido ao bom desempenho nos últimos 21 dias"
+      "BBDC4 — pelo bom momentum de 21 dias e recuperação recente"
     ],
     "avoid": [
-      "Setor de telecom — momentum relativamente baixo em 5 dias"
+      "Setor de tecnologia — devido ao momentum negativo e sensibilidade a juros elevados"
     ],
     "realize": [
-      "BBDC4 — após alta recente, pode estar sobrecomprado"
+      "Ações de energia — que tiveram alta recente e podem estar sobrecompradas"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,58",
+      "value": "R$ 20,24",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.90%",
+      "value": "-1.65%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+26.4%",
+      "value": "+28.6%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 20,58 com variação de +2.90% reflete um mercado cauteloso após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%. O próximo gatilho significativo será o resultado do 2T26 em agosto, que poderá trazer mais clareza sobre a recuperação financeira do banco.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 20,24, com uma variação de -1.65% hoje. Após o 1T26, que apresentou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%, o mercado aguarda os resultados do 2T26 em agosto como próximo gatilho. A expectativa é de que o ativo se mantenha estável até novas informações serem divulgadas.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em RADL3, que apresenta forte momentum e é favorecida pelo regime RISK_ON.",
-    "biggest_risk": "A volatilidade externa, especialmente devido às tensões geopolíticas no Oriente Médio, pode impactar negativamente os mercados.",
-    "best_opportunity": "RADL3 oferece uma assimetria risco-retorno atrativa, com alta recente de 9.96% em 5 dias e um score elevado.",
-    "common_mistake": "Subestimar o impacto das tensões geopolíticas e não diversificar adequadamente o portfólio."
+    "smartest_move": "Investir em FLRY3 alocando R$35, aproveitando seu momentum positivo e alinhamento com o regime RISK_OFF.",
+    "biggest_risk": "A instabilidade do IBOV, que caiu 1.20%, representa um risco concreto em um ambiente de aversão ao risco.",
+    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com um score de 0.85 e bom desempenho recente.",
+    "common_mistake": "Subestimar o impacto dos juros elevados na rentabilidade dos setores mais sensíveis a crédito."
   },
   "_meta": {
-    "generated_at": "2026-07-13T09:25:48.870166-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-07-14T08:17:24.964758-03:00",
+    "regime": "NEUTRAL / RISK_OFF",
     "sectors": [
+      "financeiro",
       "saude",
-      "financeiro"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-02",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.57,
-      "r21d": -0.06696659482758621,
-      "r63d": -0.05425302422107534
-    },
-    "opportunities": [
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "35",
-        "price": "R$ 33,18",
-        "score": "0.793",
-        "reason": "Engie Brasil ON apresenta um bom momentum de curto prazo com alta de 2.88% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece utilidades em períodos de incerteza.",
-        "potential": "Com um score elevado, EGIE3 tem potencial de estabilidade em um mercado volátil, especialmente em um regime equilibrado.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "VALE3",
-        "name": "Vale ON",
-        "value": "34",
-        "price": "R$ 82,99",
-        "score": "0.768",
-        "reason": "Vale ON se destaca com um crescimento de 5.50% nos últimos 21 dias, impulsionado pelo setor de mineração que tem mostrado resiliência mesmo em um regime de mercado em baixa.",
-        "potential": "A resiliência do setor de mineração sugere um potencial de retorno moderado, apesar do regime BEAR.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "31",
-        "price": "R$ 15,05",
-        "score": "0.714",
-        "reason": "Lojas Renner ON teve um desempenho positivo, com alta de 11.32% nos últimos 21 dias, indicando forte recuperação no setor de varejo.",
-        "potential": "O potencial de crescimento continua positivo, mas com risco moderado devido à volatilidade do setor de varejo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,03",
-      "ibov": "173.171"
-    }
-  },
-  {
     "date": "2026-06-03",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,11",
       "ibov": "177.866"
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.2,
+      "r21d": 0.0269147388288641,
+      "r63d": -0.11243377558699198
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "35",
+        "price": "R$ 16,15",
+        "score": "0.85",
+        "reason": "Fleury ON apresenta um momentum positivo de +3.19% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido em um ambiente RISK_OFF. Este ativo se beneficia da estabilidade em meio a incertezas macroeconômicas.",
+        "potential": "Com um score de 0.85 e alinhamento ao regime atual, FLRY3 tem potencial de crescimento moderado, especialmente em um cenário de aversão ao risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "34",
+        "price": "R$ 41,35",
+        "score": "0.82",
+        "reason": "Transmissão Paulista é uma escolha defensiva sólida, com um desempenho de +2.68% nos últimos 5 dias, beneficiando-se de sua posição no setor de utilidades, que é tradicionalmente resiliente em períodos de alta de juros.",
+        "potential": "O ativo tem potencial de estabilidade e rendimentos consistentes, adequado para investidores buscando segurança em um ambiente de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "31",
+        "price": "R$ 18,77",
+        "score": "0.741",
+        "reason": "Bradesco PN tem mostrado recuperação com um aumento de +4.74% em 5 dias, sendo uma opção interessante no setor financeiro, apesar do ambiente de juros elevados.",
+        "potential": "O potencial de BBDC4 está em sua capacidade de adaptação ao ambiente macroeconômico, com um crescimento moderado esperado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,12",
+      "ibov": "175.739"
     }
   }
 ]
