@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-03",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.54,
-      "r21d": -0.08156962166807673,
-      "r63d": -0.07469251710130229
-    },
-    "opportunities": [
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "34",
-        "price": "R$ 106,53",
-        "score": "0.753",
-        "reason": "KNCR11 é uma escolha sólida devido ao seu desempenho positivo de +0.51% nos últimos 5 dias, alinhado ao setor de FIIs de papel, que se beneficia do ambiente RISK_OFF.",
-        "potential": "Potencial de estabilidade e proteção em um cenário de alta de juros, com score elevado e ajuste perfeito ao regime.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "XPML11",
-        "name": "XP Malls",
-        "value": "33",
-        "price": "R$ 106,72",
-        "score": "0.731",
-        "reason": "XPML11, apesar de uma leve recuperação de +0.14% no dia, enfrenta desafios no setor de tijolos, mas apresenta um score competitivo e potencial de recuperação.",
-        "potential": "Potencial de recuperação moderada, considerando o score e a volatilidade do setor.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 39,06",
-        "score": "0.727",
-        "reason": "TAEE11 é uma opção defensiva em utilidades, com um score robusto, mas enfrenta pressão de curto prazo com queda de -5.63% em 21 dias.",
-        "potential": "Potencial de estabilidade a longo prazo, beneficiando-se de sua natureza defensiva.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,02",
-      "ibov": "171.521"
-    }
-  },
-  {
     "date": "2026-06-04",
     "regime": {
       "regime": "BEAR",
@@ -1556,6 +1504,58 @@
       "selic": "14,15%",
       "ipca": "4,64%",
       "dolar": "R$ 5,12",
+      "ibov": "175.739"
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.2,
+      "r21d": 0.0269147388288641,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 35,52",
+        "score": "0.861",
+        "reason": "A Telefônica Vivo apresenta um momentum positivo com alta de 3.53% nos últimos 5 dias, beneficiando-se do perfil RISK_OFF que favorece o setor de telecomunicações.",
+        "potential": "Com um score de 0.861, a VIVT3 está bem posicionada para continuar seu desempenho positivo, especialmente em um ambiente de aversão ao risco.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 16,41",
+        "score": "0.839",
+        "reason": "Fleury ON se destaca com um crescimento de 5.39% nos últimos 5 dias, sendo uma escolha sólida no setor de saúde, que é favorecido em regimes de aversão ao risco.",
+        "potential": "A tendência de crescimento recente sugere um potencial de valorização contínua, apoiado por um score robusto de 0.839.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 11,19",
+        "score": "0.83",
+        "reason": "Apesar da queda de 2.01% em 21 dias, Hapvida ON mostra recuperação com um aumento de 9.81% nos últimos 5 dias, sugerindo um potencial de reversão de tendência.",
+        "potential": "O desempenho recente indica uma possível recuperação, suportada por um score de 0.83.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,07",
       "ibov": "175.739"
     }
   }

@@ -1,40 +1,40 @@
 {
-  "date": "14/07/2026",
+  "date": "15/07/2026",
   "regime": {
     "label": "NEUTRAL / RISK_OFF",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando que investidores devem priorizar ativos defensivos e de menor risco, como FIIs de papel, devido à aversão ao risco predominante no mercado."
+    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando que os investidores estão cautelosos e preferem ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "35",
-      "price": "R$ 16,15",
-      "score": "0.85",
-      "reason": "Fleury ON apresenta um momentum positivo de +3.19% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido em um ambiente RISK_OFF. Este ativo se beneficia da estabilidade em meio a incertezas macroeconômicas.",
-      "potential": "Com um score de 0.85 e alinhamento ao regime atual, FLRY3 tem potencial de crescimento moderado, especialmente em um cenário de aversão ao risco.",
-      "risk": "Médio",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "34",
+      "price": "R$ 35,52",
+      "score": "0.861",
+      "reason": "A Telefônica Vivo apresenta um momentum positivo com alta de 3.53% nos últimos 5 dias, beneficiando-se do perfil RISK_OFF que favorece o setor de telecomunicações.",
+      "potential": "Com um score de 0.861, a VIVT3 está bem posicionada para continuar seu desempenho positivo, especialmente em um ambiente de aversão ao risco.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "34",
-      "price": "R$ 41,35",
-      "score": "0.82",
-      "reason": "Transmissão Paulista é uma escolha defensiva sólida, com um desempenho de +2.68% nos últimos 5 dias, beneficiando-se de sua posição no setor de utilidades, que é tradicionalmente resiliente em períodos de alta de juros.",
-      "potential": "O ativo tem potencial de estabilidade e rendimentos consistentes, adequado para investidores buscando segurança em um ambiente de juros elevados.",
-      "risk": "Baixo",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "33",
+      "price": "R$ 16,41",
+      "score": "0.839",
+      "reason": "Fleury ON se destaca com um crescimento de 5.39% nos últimos 5 dias, sendo uma escolha sólida no setor de saúde, que é favorecido em regimes de aversão ao risco.",
+      "potential": "A tendência de crescimento recente sugere um potencial de valorização contínua, apoiado por um score robusto de 0.839.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
-      "value": "31",
-      "price": "R$ 18,77",
-      "score": "0.741",
-      "reason": "Bradesco PN tem mostrado recuperação com um aumento de +4.74% em 5 dias, sendo uma opção interessante no setor financeiro, apesar do ambiente de juros elevados.",
-      "potential": "O potencial de BBDC4 está em sua capacidade de adaptação ao ambiente macroeconômico, com um crescimento moderado esperado.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "33",
+      "price": "R$ 11,19",
+      "score": "0.83",
+      "reason": "Apesar da queda de 2.01% em 21 dias, Hapvida ON mostra recuperação com um aumento de 9.81% nos últimos 5 dias, sugerindo um potencial de reversão de tendência.",
+      "potential": "O desempenho recente indica uma possível recuperação, suportada por um score de 0.83.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -54,7 +54,7 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,12",
+      "value": "R$ 5,07",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
@@ -65,30 +65,30 @@
       "trend": "down"
     }
   ],
-  "macro_summary": "A taxa SELIC está em 14,15% e permanece estável, indicando um ambiente de juros elevados que pressiona o consumo e os investimentos. O IPCA de 4,64% sugere uma inflação sob controle, mas ainda acima da meta, enquanto o IBOV recuou 1.20%, refletindo a aversão ao risco no mercado. Para quem vai aportar R$100 hoje, é crucial focar em ativos defensivos que possam oferecer proteção e estabilidade.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente econômico é de juros elevados, o que geralmente pressiona o consumo e o investimento. O IPCA em 4,64% sugere que a inflação está sob controle, mas ainda acima da meta. O IBOV caiu 1.20% hoje, refletindo o sentimento de aversão ao risco. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao seu forte momentum e alinhamento com o regime RISK_OFF"
+      "VIVT3 — devido ao forte momentum e ajuste ao regime RISK_OFF"
     ],
     "reinforce": [
-      "BBDC4 — pelo bom momentum de 21 dias e recuperação recente"
+      "FLRY3 — pelo bom desempenho nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — devido ao momentum negativo e sensibilidade a juros elevados"
+      "Setores cíclicos — devido ao momentum negativo e alta dos juros"
     ],
     "realize": [
-      "Ações de energia — que tiveram alta recente e podem estar sobrecompradas"
+      "HAPV3 — após recente alta significativa, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,24",
+      "value": "R$ 20,59",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.65%",
+      "value": "+1.73%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+28.6%",
+      "value": "+26.4%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O BBAS3 está cotado a R$ 20,24, com uma variação de -1.65% hoje. Após o 1T26, que apresentou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%, o mercado aguarda os resultados do 2T26 em agosto como próximo gatilho. A expectativa é de que o ativo se mantenha estável até novas informações serem divulgadas.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,59 com variação de +1.73%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões.",
   "executive_summary": {
-    "smartest_move": "Investir em FLRY3 alocando R$35, aproveitando seu momentum positivo e alinhamento com o regime RISK_OFF.",
-    "biggest_risk": "A instabilidade do IBOV, que caiu 1.20%, representa um risco concreto em um ambiente de aversão ao risco.",
-    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com um score de 0.85 e bom desempenho recente.",
-    "common_mistake": "Subestimar o impacto dos juros elevados na rentabilidade dos setores mais sensíveis a crédito."
+    "smartest_move": "Investir em VIVT3 com R$34, aproveitando o momentum positivo e o ajuste ao regime RISK_OFF.",
+    "biggest_risk": "A persistência de juros elevados pode continuar pressionando ativos cíclicos e de crescimento.",
+    "best_opportunity": "VIVT3 apresenta uma assimetria risco-retorno favorável, com bom momentum e ajuste ao regime atual.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para ativos defensivos."
   },
   "_meta": {
-    "generated_at": "2026-07-14T08:17:24.964758-03:00",
+    "generated_at": "2026-07-15T08:20:43.878339-03:00",
     "regime": "NEUTRAL / RISK_OFF",
     "sectors": [
-      "financeiro",
-      "saude",
-      "utilidades"
+      "telecom",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
