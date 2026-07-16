@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-04",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -2.22,
-      "r21d": -0.08793921415337824,
-      "r63d": -0.08110980438699654
-    },
-    "opportunities": [
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "34",
-        "price": "R$ 106,62",
-        "score": "0.773",
-        "reason": "KNCR11 se destaca em um cenário de RISK_OFF devido ao seu perfil defensivo e ao momentum positivo de +0.59% nos últimos 5 dias, alinhado com a preferência por FIIs de papel.",
-        "potential": "Com um score alto e regime favorável, KNCR11 possui potencial de estabilidade e retorno consistente.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 34,09",
-        "score": "0.769",
-        "reason": "EGIE3 apresenta um crescimento de 4.47% nos últimos 5 dias, indicando resiliência em um setor de utilidades que é tradicionalmente defensivo.",
-        "potential": "Potencial de crescimento moderado, sustentado por fundamentos sólidos e demanda estável por energia.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "HGRU11",
-        "name": "CSHG Renda Urbana",
-        "value": "33",
-        "price": "R$ 127,40",
-        "score": "0.755",
-        "reason": "Apesar do desempenho negativo recente, HGRU11 oferece uma diversificação interessante em um portfólio defensivo, com potencial de recuperação no longo prazo.",
-        "potential": "Potencial de valorização a longo prazo, especialmente se o mercado imobiliário se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,04",
-      "ibov": "170.331"
-    }
-  },
-  {
     "date": "2026-06-05",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,07",
       "ibov": "175.739"
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.36,
+      "r21d": 0.037500957860052225,
+      "r63d": -0.10987771697903286
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 18,67",
+        "score": "0.82",
+        "reason": "RADL3 apresenta um forte momentum com alta de 7.79% nos últimos 5 dias, beneficiando-se do regime BALANCED e da estabilidade no setor de saúde.",
+        "potential": "Com um score de 0.82, RADL3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "33",
+        "price": "R$ 3,93",
+        "score": "0.782",
+        "reason": "CSAN3 se destaca pelo seu crescimento de 20.18% em 21 dias, impulsionado por inovações no setor de energia e um alto índice de novidade.",
+        "potential": "O potencial de CSAN3 é promissor, especialmente com sua alta recente e score elevado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "33",
+        "price": "R$ 20,55",
+        "score": "0.775",
+        "reason": "BBAS3 tem um bom desempenho de 5.93% nos últimos 21 dias, com um score sólido, apesar de desafios no setor financeiro.",
+        "potential": "Com um score de 0.775, BBAS3 oferece um potencial de valorização moderado, considerando o regime atual.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,07",
+      "ibov": "176.011"
     }
   }
 ]
