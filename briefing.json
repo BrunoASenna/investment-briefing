@@ -1,42 +1,42 @@
 {
-  "date": "16/07/2026",
+  "date": "17/07/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando que o mercado está em um estado de equilíbrio, favorecendo investimentos defensivos e FIIs de papel devido aos juros elevados."
+    "label": "NEUTRAL / RISK_OFF",
+    "summary": "O regime atual NEUTRAL com perfil RISK_OFF sugere cautela dos investidores, favorecendo ativos defensivos e fundos imobiliários de papel, devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 18,67",
-      "score": "0.82",
-      "reason": "RADL3 apresenta um forte momentum com alta de 7.79% nos últimos 5 dias, beneficiando-se do regime BALANCED e da estabilidade no setor de saúde.",
-      "potential": "Com um score de 0.82, RADL3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "36",
+      "price": "R$ 35,47",
+      "score": "0.828",
+      "reason": "Telefônica Vivo ON se destaca pelo momentum positivo de +2.81% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de telecomunicações.",
+      "potential": "Com um score elevado de 0.828, o ativo pode continuar a apresentar resiliência em um cenário de aversão ao risco.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
-      "value": "33",
-      "price": "R$ 3,93",
-      "score": "0.782",
-      "reason": "CSAN3 se destaca pelo seu crescimento de 20.18% em 21 dias, impulsionado por inovações no setor de energia e um alto índice de novidade.",
-      "potential": "O potencial de CSAN3 é promissor, especialmente com sua alta recente e score elevado.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "32",
+      "price": "R$ 10,95",
+      "score": "0.742",
+      "reason": "Hapvida ON apresentou um aumento significativo de +8.74% nos últimos 5 dias, indicando um forte momentum no setor de saúde, que é tradicionalmente defensivo.",
+      "potential": "O score de 0.742 sugere potencial de crescimento adicional, especialmente em um ambiente de juros elevados.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "33",
-      "price": "R$ 20,55",
-      "score": "0.775",
-      "reason": "BBAS3 tem um bom desempenho de 5.93% nos últimos 21 dias, com um score sólido, apesar de desafios no setor financeiro.",
-      "potential": "Com um score de 0.775, BBAS3 oferece um potencial de valorização moderado, considerando o regime atual.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "32",
+      "price": "R$ 18,52",
+      "score": "0.737",
+      "reason": "Raia Drogasil ON, com um crescimento de +5.77% nos últimos 21 dias, se beneficia do perfil defensivo do setor de saúde em um ambiente de incerteza econômica.",
+      "potential": "O score de 0.737 indica que o ativo pode continuar a atrair investidores buscando segurança.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,07",
+      "value": "R$ 5,10",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "176.011",
-      "sub": "-0.36% hoje",
+      "value": "173.825",
+      "sub": "-1.24% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC em 14,15% mantém os juros elevados, favorecendo investimentos defensivos. O IPCA em 4,64% sugere controle inflacionário, enquanto o IBOV caiu 0.36%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o cenário sugere prudência e foco em ativos defensivos ou de menor risco.",
+  "macro_summary": "Com a SELIC em 14,15% e o IPCA em 4,64%, o cenário macroeconômico apresenta juros elevados e inflação controlada. O IBOV caiu 1.24% hoje, refletindo um ambiente de aversão ao risco. Para quem vai aportar R$100 hoje, a preferência por ativos defensivos pode ser uma estratégia prudente no regime RISK_OFF atual.",
   "analysts": {
     "enter": [
-      "CSAN3 — devido ao seu forte crescimento de 20.18% em 21 dias"
+      "VIVT3 — devido ao forte momentum e resiliência no setor de telecomunicações"
     ],
     "reinforce": [
-      "RADL3 — bom momentum de 7.79% em 5 dias"
+      "HAPV3 — por seu desempenho positivo recente e potencial de crescimento no setor de saúde"
     ],
     "avoid": [
-      "Ativos do setor industrial — afetados pelo tarifaço dos EUA"
+      "Setor de tecnologia — momentum negativo recente"
     ],
     "realize": [
-      "CSAN3 — após alta de 20.18%, pode estar sobrecomprado"
+      "RADL3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,55",
+      "value": "R$ 20,76",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.19%",
+      "value": "+1.02%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+26.6%",
+      "value": "+25.3%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação de R$ 20,55 com variação de -0.19%. Após o 1T26, que registrou uma queda de 53% no lucro e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A cautela é recomendada até que novos dados sejam divulgados.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 20,76 com variação de +1.02%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro está em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Investir R$34 em RADL3 devido ao seu forte momentum e estabilidade no setor de saúde.",
-    "biggest_risk": "O impacto do tarifaço dos EUA nas exportações brasileiras, que pode afetar setores específicos.",
-    "best_opportunity": "RADL3, com um score de 0.82 e momentum positivo, oferece uma boa relação risco-retorno.",
-    "common_mistake": "Ignorar o impacto dos juros elevados, levando a decisões impulsivas em ativos de alto risco."
+    "smartest_move": "Investir em VIVT3 alocando R$36, aproveitando o momentum positivo no setor de telecom.",
+    "biggest_risk": "A persistência do regime RISK_OFF, que pode afetar negativamente ativos de risco.",
+    "best_opportunity": "A assimetria risco-retorno em VIVT3, com um score de 0.828 e momentum positivo.",
+    "common_mistake": "Subestimar a importância de alocar em ativos defensivos em um ambiente de juros elevados."
   },
   "_meta": {
-    "generated_at": "2026-07-16T08:27:02.137899-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-07-17T08:14:08.291940-03:00",
+    "regime": "NEUTRAL / RISK_OFF",
     "sectors": [
-      "saude",
-      "energia",
-      "financeiro"
+      "telecom",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
