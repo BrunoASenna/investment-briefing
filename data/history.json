@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-08",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.1,
-      "r21d": -0.07656580889978058,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "35",
-        "price": "R$ 14,92",
-        "score": "0.833",
-        "reason": "Lojas Renner é uma oportunidade devido ao seu leve momentum positivo de +0.13% nos últimos 5 dias, em um setor de varejo que está se ajustando bem ao regime BALANCED.",
-        "potential": "O score alto sugere potencial de valorização moderada, especialmente se o mercado se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 33,81",
-        "score": "0.786",
-        "reason": "Engie Brasil se destaca por sua resiliência, com um aumento de +2.15% nos últimos 5 dias, beneficiando-se do regime de juros elevados que favorece empresas de utilidades.",
-        "potential": "Potencial de crescimento estável com baixo risco, dada a sua forte aderência ao regime atual.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "32",
-        "price": "R$ 43,87",
-        "score": "0.759",
-        "reason": "WEG apresenta um potencial de recuperação apesar do desempenho negativo recente de -0.52% em 5 dias, sendo uma escolha interessante no setor industrial.",
-        "potential": "Possibilidade de recuperação moderada, especialmente se o cenário macroeconômico melhorar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,12",
-      "ibov": "169.190"
-    }
-  },
-  {
     "date": "2026-06-09",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,10",
       "ibov": "173.825"
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.06,
+      "r21d": 0.03230368794494824,
+      "r63d": -0.11249961682691817
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "36",
+        "price": "R$ 16,59",
+        "score": "0.847",
+        "reason": "Fleury ON se destaca com um momentum positivo de +1.04% em 5 dias, beneficiando-se do regime BALANCED e da resiliência do setor de saúde.",
+        "potential": "A expectativa é de uma performance sólida, alinhada ao score elevado e ao ajuste ao regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "32",
+        "price": "R$ 11,38",
+        "score": "0.759",
+        "reason": "Hapvida ON apresenta um crescimento robusto de +7.36% em 5 dias, impulsionado por melhorias operacionais e a estabilidade do setor de saúde.",
+        "potential": "O potencial de valorização é moderado, refletindo o score e o ajuste ao regime.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 108,50",
+        "score": "0.752",
+        "reason": "O fundo imobiliário KNCR11 é favorecido pelo ambiente de juros elevados, proporcionando estabilidade e rendimento atrativo.",
+        "potential": "Potencial de retorno estável, ideal para investidores buscando proteção contra inflação.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,12",
+      "ibov": "173.714"
     }
   }
 ]
