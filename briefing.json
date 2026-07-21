@@ -1,42 +1,42 @@
 {
-  "date": "20/07/2026",
+  "date": "21/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL / BALANCED, indicando um ambiente de equilíbrio entre risco e retorno, favorecendo estratégias defensivas e investimentos em fundos imobiliários de papel devido aos juros elevados."
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando que o mercado não apresenta tendências claras, favorecendo uma abordagem equilibrada entre ativos defensivos e de crescimento."
   },
   "opportunities": [
     {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "34",
+      "price": "R$ 35,67",
+      "score": "0.815",
+      "reason": "A Telefônica Vivo ON se destaca pelo bom momentum recente, com valorização de 2.71% nos últimos 5 dias, e está bem posicionada no setor de telecomunicações, que é resiliente em um regime BALANCED.",
+      "potential": "Com um alto score e alinhamento com o regime atual, a VIVT3 tem potencial de continuar performando bem em um cenário de estabilidade econômica.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
       "ticker": "FLRY3",
       "name": "Fleury ON",
-      "value": "36",
-      "price": "R$ 16,59",
-      "score": "0.847",
-      "reason": "Fleury ON se destaca com um momentum positivo de +1.04% em 5 dias, beneficiando-se do regime BALANCED e da resiliência do setor de saúde.",
-      "potential": "A expectativa é de uma performance sólida, alinhada ao score elevado e ao ajuste ao regime atual.",
+      "value": "33",
+      "price": "R$ 16,56",
+      "score": "0.808",
+      "reason": "A Fleury ON apresenta um crescimento consistente de 2.54% nos últimos 5 dias, beneficiando-se do setor de saúde, que é favorecido em ambientes de juros elevados.",
+      "potential": "Dado o seu desempenho recente e o ambiente macroeconômico, a FLRY3 tem potencial para continuar sua trajetória de valorização.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "HAPV3",
       "name": "Hapvida ON",
-      "value": "32",
-      "price": "R$ 11,38",
-      "score": "0.759",
-      "reason": "Hapvida ON apresenta um crescimento robusto de +7.36% em 5 dias, impulsionado por melhorias operacionais e a estabilidade do setor de saúde.",
-      "potential": "O potencial de valorização é moderado, refletindo o score e o ajuste ao regime.",
+      "value": "33",
+      "price": "R$ 11,55",
+      "score": "0.789",
+      "reason": "Hapvida ON se beneficia de um forte momentum de 10.42% nos últimos 5 dias, refletindo a resiliência do setor de saúde em um cenário de juros altos.",
+      "potential": "Com base no seu desempenho recente e o contexto econômico, a HAPV3 pode continuar a apresentar bons resultados.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "32",
-      "price": "R$ 108,50",
-      "score": "0.752",
-      "reason": "O fundo imobiliário KNCR11 é favorecido pelo ambiente de juros elevados, proporcionando estabilidade e rendimento atrativo.",
-      "potential": "Potencial de retorno estável, ideal para investidores buscando proteção contra inflação.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,12",
+      "value": "R$ 5,09",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.714",
-      "sub": "-0.06% hoje",
+      "value": "173.371",
+      "sub": "-0.20% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 14,15% e o IPCA em 4,64%, o ambiente econômico é de juros altos, favorecendo ativos defensivos. O IBOV recuou 0.06%, refletindo a cautela do mercado. Para quem pretende investir R$100 hoje, a estratégia defensiva pode ser mais apropriada.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, os investidores enfrentam um ambiente de juros altos, o que favorece investimentos em renda fixa e FIIs de papel. O IPCA de 4,64% indica uma inflação controlada, enquanto o IBOV recuou 0.20%, refletindo uma leve cautela no mercado. Para quem vai aportar R$100 hoje, é prudente considerar ativos defensivos devido ao regime BALANCED.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao seu forte momentum e alinhamento com o regime atual"
+      "VIVT3 — devido ao seu forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "HAPV3 — bom momentum de 21 dias, com crescimento de 7.56%"
+      "HAPV3 — com um excelente momentum de 12.03% em 21 dias"
     ],
     "avoid": [
-      "Setor de telecom — momentum de 0.72 em 5 dias indica fraqueza relativa"
+      "Setor de energia — com momentum de apenas 0.61% nos últimos 5 dias"
     ],
     "realize": [
-      "Ações de saúde com alta recente podem estar sobrecompradas"
+      "HAPV3 — após forte alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,49",
+      "value": "R$ 20,17",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.30%",
+      "value": "-1.56%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+27.0%",
+      "value": "+29.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,49 com uma variação de -1.30%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode trazer novas perspectivas.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 20,17, com uma variação de -1.56% no dia. No contexto pós-1T26, o banco enfrenta desafios com um lucro reduzido em 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Alocar R$36 em FLRY3, aproveitando o momentum positivo e o ajuste ao regime.",
-    "biggest_risk": "A volatilidade do mercado devido aos juros elevados no regime NEUTRAL.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno com estabilidade em um ambiente de juros altos.",
-    "common_mistake": "Subestimar os riscos de ativos cíclicos em um regime NEUTRAL e com alta SELIC."
+    "smartest_move": "Investir em VIVT3 com uma alocação de R$34, aproveitando seu momentum positivo e alinhamento com o regime atual.",
+    "biggest_risk": "A persistência de juros elevados, que pode limitar o crescimento econômico e afetar setores mais sensíveis.",
+    "best_opportunity": "A VIVT3 apresenta uma boa assimetria risco-retorno, com um momentum positivo e um score elevado.",
+    "common_mistake": "Ignorar a importância de diversificar em um regime NEUTRAL, concentrando-se excessivamente em um único setor ou ativo."
   },
   "_meta": {
-    "generated_at": "2026-07-20T09:08:27.089180-03:00",
+    "generated_at": "2026-07-21T08:41:40.972645-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "saude",
-      "fii_papel"
+      "telecom",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
