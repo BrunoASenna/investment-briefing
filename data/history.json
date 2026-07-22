@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-10",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.21,
-      "r21d": -0.07940813675512232,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "35",
-        "price": "R$ 106,41",
-        "score": "0.833",
-        "reason": "KNCR11 se destaca pelo seu momentum positivo de +0.94% nos últimos 5 dias e por pertencer ao setor de FIIs de papel, que é favorecido no atual regime BALANCED.",
-        "potential": "Com um score de 0.833 e alinhamento perfeito com o regime, KNCR11 tem potencial de estabilidade e geração de renda.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 33,83",
-        "score": "0.803",
-        "reason": "EGIE3 apresenta um bom desempenho recente com alta de +3.14% nos últimos 5 dias, sendo uma escolha sólida no setor de utilidades, que tende a ser menos volátil.",
-        "potential": "A estabilidade do setor de utilidades e o score de 0.803 indicam um potencial de crescimento moderado.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "32",
-        "price": "R$ 27,69",
-        "score": "0.778",
-        "reason": "Apesar da queda de -11.05% em 21 dias, SBSP3 tem mostrado recuperação recente e alta novelty, o que pode indicar uma oportunidade de recuperação no setor de utilidades.",
-        "potential": "Com um score de 0.778, há potencial de recuperação, especialmente se o mercado se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,17",
-      "ibov": "168.669"
-    }
-  },
-  {
     "date": "2026-06-11",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,09",
       "ibov": "173.371"
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.03,
+      "r21d": 0.017350472501027177,
+      "r63d": -0.1014210245270596
+    },
+    "opportunities": [
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "36",
+        "price": "R$ 20,88",
+        "score": "0.833",
+        "reason": "O Banco do Brasil ON apresenta um momentum positivo de +1.41% nos últimos 5 dias, beneficiando-se do ambiente BALANCED e do setor financeiro, que está em rotação setorial favorável.",
+        "potential": "Com um score de 0.833, o ativo tem potencial de valorização moderada, especialmente se o regime permanecer estável.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "32",
+        "price": "R$ 18,55",
+        "score": "0.757",
+        "reason": "Apesar de uma leve queda de -0.43% nos últimos 5 dias, o Bradesco PN continua sendo uma escolha sólida devido ao seu desempenho de +4.92% nos últimos 21 dias e à estabilidade do setor financeiro.",
+        "potential": "O ativo tem potencial de recuperação e valorização moderada, alinhado com o score de 0.757.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "32",
+        "price": "R$ 41,66",
+        "score": "0.752",
+        "reason": "Petrobras PN mostra um bom desempenho recente com +2.46% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente de mercado equilibrado.",
+        "potential": "Com um score de 0.752, o potencial de valorização é moderado, especialmente se as condições do mercado de energia permanecerem favoráveis.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,08",
+      "ibov": "173.326"
     }
   }
 ]
