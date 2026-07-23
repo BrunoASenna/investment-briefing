@@ -1,42 +1,42 @@
 {
-  "date": "22/07/2026",
+  "date": "23/07/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando que o mercado está em um estado de equilíbrio, favorecendo investimentos defensivos e FIIs de papel, especialmente em um ambiente de juros elevados."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual NEUTRAL com perfil RISK_ON sugere um ambiente favorável para ativos de risco, incentivando investidores a buscar oportunidades em ações com bom potencial de valorização."
   },
   "opportunities": [
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "36",
-      "price": "R$ 20,88",
-      "score": "0.833",
-      "reason": "O Banco do Brasil ON apresenta um momentum positivo de +1.41% nos últimos 5 dias, beneficiando-se do ambiente BALANCED e do setor financeiro, que está em rotação setorial favorável.",
-      "potential": "Com um score de 0.833, o ativo tem potencial de valorização moderada, especialmente se o regime permanecer estável.",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "34",
+      "price": "R$ 18,29",
+      "score": "0.769",
+      "reason": "Apesar do desempenho negativo de -2.04% nos últimos 5 dias, o setor de saúde é favorecido no regime RISK_ON, e a Raia Drogasil apresenta um score elevado, indicando potencial de recuperação.",
+      "potential": "Com um score de 0.769, há um potencial moderado de valorização, especialmente se o mercado continuar a favorecer ativos de risco.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
-      "value": "32",
-      "price": "R$ 18,55",
-      "score": "0.757",
-      "reason": "Apesar de uma leve queda de -0.43% nos últimos 5 dias, o Bradesco PN continua sendo uma escolha sólida devido ao seu desempenho de +4.92% nos últimos 21 dias e à estabilidade do setor financeiro.",
-      "potential": "O ativo tem potencial de recuperação e valorização moderada, alinhado com o score de 0.757.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "32",
-      "price": "R$ 41,66",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "33",
+      "price": "R$ 41,59",
       "score": "0.752",
-      "reason": "Petrobras PN mostra um bom desempenho recente com +2.46% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente de mercado equilibrado.",
-      "potential": "Com um score de 0.752, o potencial de valorização é moderado, especialmente se as condições do mercado de energia permanecerem favoráveis.",
+      "reason": "A Transmissão Paulista tem mostrado resiliência com uma alta de 1.64% nos últimos 5 dias, sendo uma escolha sólida em um cenário de juros elevados, o que beneficia o setor de utilidades.",
+      "potential": "O score de 0.752 sugere um potencial de valorização estável, alinhado à segurança do setor de utilidades.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
+    },
+    {
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "33",
+      "price": "R$ 11,39",
+      "score": "0.737",
+      "reason": "Com um ganho expressivo de 10.80% em 21 dias, a Hapvida se destaca no setor de saúde, beneficiada pelo perfil RISK_ON do mercado.",
+      "potential": "Dado o score de 0.737, há um potencial de valorização considerável se o momentum positivo continuar.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,64%",
+      "value": "N/D",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,08",
+      "value": "R$ 5,06",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.326",
-      "sub": "-0.03% hoje",
-      "trend": "down"
+      "value": "177.548",
+      "sub": "+2.44% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses caiu para 4,64%, indicando um controle da inflação. O IBOV recuou levemente -0.03% hoje, refletindo um mercado em equilíbrio. Para quem vai investir R$100 hoje, o cenário sugere cautela, priorizando ativos defensivos ou de renda fixa que se beneficiam de juros elevados.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário de juros elevados persiste, mas o IBOV subiu 2.44%, refletindo um apetite por risco. A ausência de dados do IPCA sugere incerteza inflacionária, enquanto o dólar estável a R$ 5,06 indica equilíbrio cambial. Para quem vai aportar R$100 hoje, o ambiente RISK_ON pode oferecer boas oportunidades em ações, apesar dos juros altos.",
   "analysts": {
     "enter": [
-      "BBAS3 — devido ao seu momentum positivo e score elevado"
+      "RADL3 — devido ao seu score elevado e potencial de recuperação no setor de saúde"
     ],
     "reinforce": [
-      "PETR4 — bom momentum nos últimos 21 dias"
+      "HAPV3 — pelo forte momentum de 21 dias e alinhamento com o perfil RISK_ON"
     ],
     "avoid": [
-      "Setor de saúde — momentum negativo recente"
+      "Setor de saúde — devido ao momentum negativo de -2.04% em 5 dias para RADL3"
     ],
     "realize": [
-      "BBAS3 — após alta recente de +3.52% no dia"
+      "HAPV3 — após a alta expressiva de 10.80% em 21 dias, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,88",
+      "value": "R$ 21,09",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+3.52%",
+      "value": "+1.01%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+24.6%",
+      "value": "+23.4%",
       "trend": "up"
     },
     {
@@ -112,20 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,88, com uma variação de +3.52% no dia. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O ativo ainda apresenta um upside de 24.61% em relação ao alvo consenso de R$ 26,02.",
+  "bbas3_strategy": "Aguardar",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 21,09, com uma variação de +1.01%. No contexto pós-1T26, o banco enfrenta desafios com um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer maior clareza sobre a recuperação financeira.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em BBAS3, alocando R$36, devido ao seu bom desempenho recente e potencial de upside.",
-    "biggest_risk": "O maior risco é a manutenção dos juros elevados, que pode impactar negativamente o consumo e a atividade econômica.",
-    "best_opportunity": "BBAS3 apresenta uma assimetria risco-retorno favorável, com potencial de valorização de 24.61% em relação ao alvo consenso.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar o portfólio para incluir ativos defensivos."
+    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando o potencial de recuperação no setor de saúde.",
+    "biggest_risk": "A persistência de juros elevados pode limitar o crescimento econômico, afetando o mercado de ações.",
+    "best_opportunity": "A Hapvida ON (HAPV3) oferece uma assimetria risco-retorno favorável, com um ganho de 10.80% em 21 dias.",
+    "common_mistake": "Subestimar o impacto dos juros altos no custo de oportunidade ao investir em ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-07-22T08:41:32.965054-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-07-23T08:45:37.864975-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "energia",
-      "financeiro"
+      "utilidades",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

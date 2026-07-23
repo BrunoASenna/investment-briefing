@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-11",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.46,
-      "r21d": -0.06072663328564616,
-      "r63d": -0.0792446689387886
-    },
-    "opportunities": [
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "35",
-        "price": "R$ 39,62",
-        "score": "0.774",
-        "reason": "O Itaú Unibanco apresenta um bom momentum de curto prazo com alta de 2.32% nos últimos 5 dias, beneficiando-se do ambiente financeiro estável no regime BALANCED.",
-        "potential": "Com um score elevado, o ativo tem potencial para se beneficiar de uma recuperação gradual do setor financeiro.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "PVBI11",
-        "name": "VBI Prime Properties",
-        "value": "33",
-        "price": "R$ 71,95",
-        "score": "0.722",
-        "reason": "O fundo imobiliário de tijolo PVBI11 é uma escolha defensiva em um cenário de juros elevados, oferecendo estabilidade em um mercado volátil.",
-        "potential": "O ativo pode proporcionar retornos consistentes em um ambiente de alta de juros, mesmo com uma recente queda de 4.07% em 21 dias.",
-        "risk": "Médio",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "32",
-        "price": "R$ 34,40",
-        "score": "0.709",
-        "reason": "Engie Brasil se destaca no setor de utilidades com um crescimento de 3.74% em 21 dias, alinhado ao perfil defensivo do regime atual.",
-        "potential": "A empresa possui um potencial de crescimento estável, beneficiando-se de um regime que favorece utilidades.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,18",
-      "ibov": "169.390"
-    }
-  },
-  {
     "date": "2026-06-12",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,08",
       "ibov": "173.326"
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 2.44,
+      "r21d": 0.03672215766762623,
+      "r63d": -0.07226535965471476
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 18,29",
+        "score": "0.769",
+        "reason": "Apesar do desempenho negativo de -2.04% nos últimos 5 dias, o setor de saúde é favorecido no regime RISK_ON, e a Raia Drogasil apresenta um score elevado, indicando potencial de recuperação.",
+        "potential": "Com um score de 0.769, há um potencial moderado de valorização, especialmente se o mercado continuar a favorecer ativos de risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 41,59",
+        "score": "0.752",
+        "reason": "A Transmissão Paulista tem mostrado resiliência com uma alta de 1.64% nos últimos 5 dias, sendo uma escolha sólida em um cenário de juros elevados, o que beneficia o setor de utilidades.",
+        "potential": "O score de 0.752 sugere um potencial de valorização estável, alinhado à segurança do setor de utilidades.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 11,39",
+        "score": "0.737",
+        "reason": "Com um ganho expressivo de 10.80% em 21 dias, a Hapvida se destaca no setor de saúde, beneficiada pelo perfil RISK_ON do mercado.",
+        "potential": "Dado o score de 0.737, há um potencial de valorização considerável se o momentum positivo continuar.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "N/D",
+      "dolar": "R$ 5,06",
+      "ibov": "177.548"
     }
   }
 ]
