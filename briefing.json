@@ -1,42 +1,42 @@
 {
-  "date": "23/07/2026",
+  "date": "24/07/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual NEUTRAL com perfil RISK_ON sugere um ambiente favorável para ativos de risco, incentivando investidores a buscar oportunidades em ações com bom potencial de valorização."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde não há tendências claras, favorecendo estratégias defensivas e investimentos em FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 18,29",
-      "score": "0.769",
-      "reason": "Apesar do desempenho negativo de -2.04% nos últimos 5 dias, o setor de saúde é favorecido no regime RISK_ON, e a Raia Drogasil apresenta um score elevado, indicando potencial de recuperação.",
-      "potential": "Com um score de 0.769, há um potencial moderado de valorização, especialmente se o mercado continuar a favorecer ativos de risco.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 41,59",
-      "score": "0.752",
-      "reason": "A Transmissão Paulista tem mostrado resiliência com uma alta de 1.64% nos últimos 5 dias, sendo uma escolha sólida em um cenário de juros elevados, o que beneficia o setor de utilidades.",
-      "potential": "O score de 0.752 sugere um potencial de valorização estável, alinhado à segurança do setor de utilidades.",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "35",
+      "price": "R$ 11,19",
+      "score": "0.799",
+      "reason": "Cemig PN apresenta um momentum positivo de +0.90% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em um regime BALANCED.",
+      "potential": "Com um score de 0.799 e alta resiliência setorial, a ação tem potencial de estabilidade e crescimento moderado.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "33",
-      "price": "R$ 11,39",
-      "score": "0.737",
-      "reason": "Com um ganho expressivo de 10.80% em 21 dias, a Hapvida se destaca no setor de saúde, beneficiada pelo perfil RISK_ON do mercado.",
-      "potential": "Dado o score de 0.737, há um potencial de valorização considerável se o momentum positivo continuar.",
+      "price": "R$ 16,58",
+      "score": "0.761",
+      "reason": "Fleury ON se destaca por um crescimento de +9.37% em 21 dias, refletindo forte desempenho no setor de saúde, que é defensivo e adequado ao regime atual.",
+      "potential": "O potencial é de crescimento contínuo, apoiado por um score robusto e boa adaptação ao regime.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "32",
+      "price": "R$ 42,95",
+      "score": "0.74",
+      "reason": "Petrobras PN teve um desempenho expressivo de +12.17% em 21 dias, impulsionado por fatores setoriais e expectativas de mercado, apesar de um RegimeFit baixo.",
+      "potential": "O potencial é de valorização adicional, mas com maior volatilidade devido ao baixo RegimeFit.",
+      "risk": "Alto",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "N/D",
+      "value": "4,64%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,06",
+      "value": "R$ 5,08",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.548",
-      "sub": "+2.44% hoje",
-      "trend": "up"
+      "value": "176.724",
+      "sub": "-0.46% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário de juros elevados persiste, mas o IBOV subiu 2.44%, refletindo um apetite por risco. A ausência de dados do IPCA sugere incerteza inflacionária, enquanto o dólar estável a R$ 5,06 indica equilíbrio cambial. Para quem vai aportar R$100 hoje, o ambiente RISK_ON pode oferecer boas oportunidades em ações, apesar dos juros altos.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente de juros altos persiste, pressionando o consumo e favorecendo ativos defensivos. O IPCA de 4,64% sugere controle inflacionário, enquanto o IBOV recuou 0.46%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a estratégia defensiva é prudente, buscando proteção contra volatilidade e inflação controlada.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao seu score elevado e potencial de recuperação no setor de saúde"
+      "CMIG4 — devido ao momentum positivo e resiliência setorial"
     ],
     "reinforce": [
-      "HAPV3 — pelo forte momentum de 21 dias e alinhamento com o perfil RISK_ON"
+      "FLRY3 — por seu forte desempenho em 21 dias e adaptação ao regime"
     ],
     "avoid": [
-      "Setor de saúde — devido ao momentum negativo de -2.04% em 5 dias para RADL3"
+      "Setor de materiais — momentum negativo de 0.57 em 5 dias"
     ],
     "realize": [
-      "HAPV3 — após a alta expressiva de 10.80% em 21 dias, pode estar sobrecomprada"
+      "PETR4 — após alta recente de 12.17% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,09",
+      "value": "R$ 20,93",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.01%",
+      "value": "-0.76%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+23.4%",
+      "value": "+24.3%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 21,09, com uma variação de +1.01%. No contexto pós-1T26, o banco enfrenta desafios com um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer maior clareza sobre a recuperação financeira.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,93, com variação de -0.76%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o contexto desafiador e o consenso neutro do mercado.",
   "executive_summary": {
-    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando o potencial de recuperação no setor de saúde.",
-    "biggest_risk": "A persistência de juros elevados pode limitar o crescimento econômico, afetando o mercado de ações.",
-    "best_opportunity": "A Hapvida ON (HAPV3) oferece uma assimetria risco-retorno favorável, com um ganho de 10.80% em 21 dias.",
-    "common_mistake": "Subestimar o impacto dos juros altos no custo de oportunidade ao investir em ativos de risco."
+    "smartest_move": "Investir em CMIG4 com alocação de R$35, aproveitando o momentum positivo e a resiliência do setor de utilidades.",
+    "biggest_risk": "A volatilidade do mercado em um regime NEUTRAL pode impactar negativamente ativos de alto risco como PETR4.",
+    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com crescimento sólido e adaptação ao regime atual.",
+    "common_mistake": "Subestimar a importância de diversificação em um cenário de juros elevados e mercado neutro, levando a uma exposição excessiva a ativos voláteis."
   },
   "_meta": {
-    "generated_at": "2026-07-23T08:45:37.864975-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-07-24T08:30:10.414862-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "utilidades",
-      "saude"
+      "saude",
+      "energia",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-12",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.71,
-      "r21d": -0.049045702054984416,
-      "r63d": -0.06779403051601085
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "35",
-        "price": "R$ 15,39",
-        "score": "0.79",
-        "reason": "Lojas Renner se destaca pelo forte momentum recente, com alta de 5.12% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de varejo.",
-        "potential": "Com um score elevado e um ambiente favorável, há potencial para continuidade do crescimento no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto prazo, alinhado ao perfil RISK_ON"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 39,70",
-        "score": "0.725",
-        "reason": "Apesar de um desempenho estável, a Transmissão Paulista se beneficia de sua resiliência em um ambiente de juros elevados, com um RegimeFit alto de 0.9.",
-        "potential": "Potencial de estabilidade e dividendos consistentes, especialmente atraente em um cenário de juros altos.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo, devido à sua natureza defensiva"
-      },
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "32",
-        "price": "R$ 17,68",
-        "score": "0.715",
-        "reason": "Bradesco apresenta um score robusto e um alto índice de novidade, sugerindo recuperação potencial, apesar da recente queda de 1.56% em 21 dias.",
-        "potential": "Potencial de recuperação no médio prazo, especialmente se o setor financeiro se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo, com foco em recuperação"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,39%",
-      "dolar": "R$ 5,15",
-      "ibov": "171.497"
-    }
-  },
-  {
     "date": "2026-06-15",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "N/D",
       "dolar": "R$ 5,06",
       "ibov": "177.548"
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.46,
+      "r21d": 0.036461846141214144,
+      "r63d": -0.07350651393221316
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "35",
+        "price": "R$ 11,19",
+        "score": "0.799",
+        "reason": "Cemig PN apresenta um momentum positivo de +0.90% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em um regime BALANCED.",
+        "potential": "Com um score de 0.799 e alta resiliência setorial, a ação tem potencial de estabilidade e crescimento moderado.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 16,58",
+        "score": "0.761",
+        "reason": "Fleury ON se destaca por um crescimento de +9.37% em 21 dias, refletindo forte desempenho no setor de saúde, que é defensivo e adequado ao regime atual.",
+        "potential": "O potencial é de crescimento contínuo, apoiado por um score robusto e boa adaptação ao regime.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "32",
+        "price": "R$ 42,95",
+        "score": "0.74",
+        "reason": "Petrobras PN teve um desempenho expressivo de +12.17% em 21 dias, impulsionado por fatores setoriais e expectativas de mercado, apesar de um RegimeFit baixo.",
+        "potential": "O potencial é de valorização adicional, mas com maior volatilidade devido ao baixo RegimeFit.",
+        "risk": "Alto",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,08",
+      "ibov": "176.724"
     }
   }
 ]
