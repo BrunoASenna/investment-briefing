@@ -1,42 +1,42 @@
 {
-  "date": "24/07/2026",
+  "date": "27/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado onde não há tendências claras, favorecendo estratégias defensivas e investimentos em FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual é neutro com um perfil equilibrado, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "35",
-      "price": "R$ 11,19",
-      "score": "0.799",
-      "reason": "Cemig PN apresenta um momentum positivo de +0.90% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em um regime BALANCED.",
-      "potential": "Com um score de 0.799 e alta resiliência setorial, a ação tem potencial de estabilidade e crescimento moderado.",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "40",
+      "price": "R$ 35,47",
+      "score": "0.904",
+      "reason": "A Telefônica Vivo ON se destaca pelo seu momentum positivo a longo prazo, com um aumento de 2.60% em 21 dias, e está bem posicionada no setor de telecomunicações, que apresenta uma rotação setorial favorável.",
+      "potential": "Com um score elevado de 0.904, VIVT3 possui um potencial de valorização consistente dentro do regime equilibrado.",
       "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "33",
-      "price": "R$ 16,58",
-      "score": "0.761",
-      "reason": "Fleury ON se destaca por um crescimento de +9.37% em 21 dias, refletindo forte desempenho no setor de saúde, que é defensivo e adequado ao regime atual.",
-      "potential": "O potencial é de crescimento contínuo, apoiado por um score robusto e boa adaptação ao regime.",
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "30",
+      "price": "R$ 42,10",
+      "score": "0.699",
+      "reason": "Itaú Unibanco PN apresenta um comportamento estável, com variação positiva de 0.96% em 21 dias, e é uma escolha defensiva em um cenário de juros elevados.",
+      "potential": "O potencial de crescimento é moderado, refletindo um score de 0.699 e a estabilidade proporcionada pelo regime atual.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "32",
-      "price": "R$ 42,95",
-      "score": "0.74",
-      "reason": "Petrobras PN teve um desempenho expressivo de +12.17% em 21 dias, impulsionado por fatores setoriais e expectativas de mercado, apesar de um RegimeFit baixo.",
-      "potential": "O potencial é de valorização adicional, mas com maior volatilidade devido ao baixo RegimeFit.",
-      "risk": "Alto",
-      "horizon": "Curto prazo"
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "30",
+      "price": "R$ 45,99",
+      "score": "0.693",
+      "reason": "WEG ON se beneficia de um forte desempenho recente, com um crescimento de 5.41% em 5 dias, apesar de uma ligeira queda em 21 dias, refletindo resiliência no setor industrial.",
+      "potential": "Com um score de 0.693, WEGE3 tem potencial de valorização, especialmente com a recuperação do setor industrial.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,7 +54,7 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,08",
+      "value": "R$ 5,07",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
@@ -65,30 +65,30 @@
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente de juros altos persiste, pressionando o consumo e favorecendo ativos defensivos. O IPCA de 4,64% sugere controle inflacionário, enquanto o IBOV recuou 0.46%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a estratégia defensiva é prudente, buscando proteção contra volatilidade e inflação controlada.",
+  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário atual mantém juros elevados, favorecendo ativos defensivos. O IPCA de 4,64% sugere controle da inflação, enquanto o IBOV recua 0.46%, refletindo um mercado cauteloso. Investir R$100 hoje requer uma abordagem prudente, priorizando ativos com bom histórico de resiliência.",
   "analysts": {
     "enter": [
-      "CMIG4 — devido ao momentum positivo e resiliência setorial"
+      "VIVT3 — devido ao seu alto score e resiliência no setor de telecom"
     ],
     "reinforce": [
-      "FLRY3 — por seu forte desempenho em 21 dias e adaptação ao regime"
+      "WEGE3 — com momentum positivo de 5.41% em 5 dias"
     ],
     "avoid": [
-      "Setor de materiais — momentum negativo de 0.57 em 5 dias"
+      "ISAE4 — rebaixado para neutro, com perspectiva de menos valorização"
     ],
     "realize": [
-      "PETR4 — após alta recente de 12.17% em 21 dias, pode estar sobrecomprado"
+      "VALE3 — com recomendação neutra e poucos gatilhos de curto prazo"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,93",
+      "value": "R$ 20,35",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.76%",
+      "value": "-2.77%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+24.3%",
+      "value": "+27.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,93, com variação de -0.76%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o contexto desafiador e o consenso neutro do mercado.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 20,35, com variação de -2.77%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso do mercado é neutro, com um upside potencial de 27.88%, sugerindo cautela até a divulgação de novos resultados.",
   "executive_summary": {
-    "smartest_move": "Investir em CMIG4 com alocação de R$35, aproveitando o momentum positivo e a resiliência do setor de utilidades.",
-    "biggest_risk": "A volatilidade do mercado em um regime NEUTRAL pode impactar negativamente ativos de alto risco como PETR4.",
-    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com crescimento sólido e adaptação ao regime atual.",
-    "common_mistake": "Subestimar a importância de diversificação em um cenário de juros elevados e mercado neutro, levando a uma exposição excessiva a ativos voláteis."
+    "smartest_move": "Investir em VIVT3, alocando R$40, aproveitando seu alto score e resiliência no setor de telecom.",
+    "biggest_risk": "A manutenção de juros elevados no regime NEUTRAL pode limitar o crescimento de ativos de risco.",
+    "best_opportunity": "VIVT3 apresenta uma assimetria favorável de risco-retorno, com um score elevado e momentum positivo.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros altos e inflação controlada."
   },
   "_meta": {
-    "generated_at": "2026-07-24T08:30:10.414862-03:00",
+    "generated_at": "2026-07-27T09:49:43.715206-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "saude",
-      "energia",
-      "utilidades"
+      "telecom",
+      "industrial",
+      "financeiro"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
