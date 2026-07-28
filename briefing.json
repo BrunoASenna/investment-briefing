@@ -1,42 +1,42 @@
 {
-  "date": "27/07/2026",
+  "date": "28/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é neutro com um perfil equilibrado, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, sugerindo que investidores devem buscar equilíbrio entre ativos defensivos e de crescimento, aproveitando a estabilidade dos juros elevados."
   },
   "opportunities": [
     {
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "34",
+      "price": "R$ 3,95",
+      "score": "0.783",
+      "reason": "Cosan ON apresenta um momentum positivo de +3.40% nos últimos 5 dias, destacando-se no setor de energia, que está em rotação favorável. O regime BALANCED suporta a tese de investimento em ativos de setores estáveis como energia.",
+      "potential": "Com um score elevado, a Cosan ON pode continuar a apresentar bom desempenho, especialmente em um ambiente de juros elevados que favorece setores defensivos.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "33",
+      "price": "R$ 29,38",
+      "score": "0.748",
+      "reason": "TOTVS ON se beneficia do momentum positivo de +6.95% em 1 dia e +1.91% em 5 dias, com um bom desempenho no setor de tecnologia, que está em rotação favorável.",
+      "potential": "A TOTVS ON tem potencial de crescimento contínuo, apoiada por sua forte presença no setor de tecnologia, que está em alta.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
       "ticker": "VIVT3",
       "name": "Telefônica Vivo ON",
-      "value": "40",
-      "price": "R$ 35,47",
-      "score": "0.904",
-      "reason": "A Telefônica Vivo ON se destaca pelo seu momentum positivo a longo prazo, com um aumento de 2.60% em 21 dias, e está bem posicionada no setor de telecomunicações, que apresenta uma rotação setorial favorável.",
-      "potential": "Com um score elevado de 0.904, VIVT3 possui um potencial de valorização consistente dentro do regime equilibrado.",
+      "value": "33",
+      "price": "R$ 36,11",
+      "score": "0.744",
+      "reason": "Telefônica Vivo ON demonstra estabilidade com um crescimento de +1.80% em 1 dia e +3.79% em 21 dias, beneficiando-se do regime BALANCED que favorece setores defensivos como telecom.",
+      "potential": "O potencial de crescimento é suportado pelo regime atual, que favorece empresas de telecomunicações devido à sua natureza defensiva.",
       "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "30",
-      "price": "R$ 42,10",
-      "score": "0.699",
-      "reason": "Itaú Unibanco PN apresenta um comportamento estável, com variação positiva de 0.96% em 21 dias, e é uma escolha defensiva em um cenário de juros elevados.",
-      "potential": "O potencial de crescimento é moderado, refletindo um score de 0.699 e a estabilidade proporcionada pelo regime atual.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "30",
-      "price": "R$ 45,99",
-      "score": "0.693",
-      "reason": "WEG ON se beneficia de um forte desempenho recente, com um crescimento de 5.41% em 5 dias, apesar de uma ligeira queda em 21 dias, refletindo resiliência no setor industrial.",
-      "potential": "Com um score de 0.693, WEGE3 tem potencial de valorização, especialmente com a recuperação do setor industrial.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,07",
+      "value": "R$ 5,10",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "176.724",
-      "sub": "-0.46% hoje",
-      "trend": "down"
+      "value": "175.335",
+      "sub": "+0.74% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o cenário atual mantém juros elevados, favorecendo ativos defensivos. O IPCA de 4,64% sugere controle da inflação, enquanto o IBOV recua 0.46%, refletindo um mercado cauteloso. Investir R$100 hoje requer uma abordagem prudente, priorizando ativos com bom histórico de resiliência.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente favorece investimentos em ativos de renda fixa e setores defensivos. O IPCA em 4,64% sugere controle inflacionário, enquanto o IBOV subiu +0.74%, indicando otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário sugere alocação prudente em ativos defensivos e de renda fixa para minimizar riscos e aproveitar juros elevados.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao seu alto score e resiliência no setor de telecom"
+      "CSAN3 — devido ao seu bom momentum e posição no setor de energia"
     ],
     "reinforce": [
-      "WEGE3 — com momentum positivo de 5.41% em 5 dias"
+      "VIVT3 — com momentum positivo de 21 dias e suporte do regime BALANCED"
     ],
     "avoid": [
-      "ISAE4 — rebaixado para neutro, com perspectiva de menos valorização"
+      "Setor de chips — devido ao recente 'sell-off' e queda no Kospi"
     ],
     "realize": [
-      "VALE3 — com recomendação neutra e poucos gatilhos de curto prazo"
+      "TOTS3 — após alta de +6.95% em 1 dia, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,35",
+      "value": "R$ 20,50",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-2.77%",
+      "value": "+0.74%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+27.9%",
+      "value": "+26.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 20,35, com variação de -2.77%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso do mercado é neutro, com um upside potencial de 27.88%, sugerindo cautela até a divulgação de novos resultados.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 20,50, com variação de +0.74%. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência no setor agro de 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. O consenso é neutro, com um upside potencial de 26.95%, sugerindo cautela até novos dados.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3, alocando R$40, aproveitando seu alto score e resiliência no setor de telecom.",
-    "biggest_risk": "A manutenção de juros elevados no regime NEUTRAL pode limitar o crescimento de ativos de risco.",
-    "best_opportunity": "VIVT3 apresenta uma assimetria favorável de risco-retorno, com um score elevado e momentum positivo.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros altos e inflação controlada."
+    "smartest_move": "Investir em CSAN3 com alocação de R$34, aproveitando o momentum positivo e o suporte do regime atual.",
+    "biggest_risk": "A volatilidade em setores de tecnologia e chips, que podem afetar ativos correlacionados negativamente.",
+    "best_opportunity": "VIVT3 apresenta uma boa assimetria risco-retorno, com suporte do regime BALANCED e momentum positivo.",
+    "common_mistake": "Subestimar o impacto dos juros elevados na alocação de ativos, levando a uma exposição excessiva em ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-07-27T09:49:43.715206-03:00",
+    "generated_at": "2026-07-28T08:49:59.884314-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "telecom",
-      "industrial",
-      "financeiro"
+      "energia",
+      "tecnologia",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
