@@ -1,41 +1,41 @@
 {
-  "date": "28/07/2026",
+  "date": "29/07/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, sugerindo que investidores devem buscar equilíbrio entre ativos defensivos e de crescimento, aproveitando a estabilidade dos juros elevados."
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando que o mercado está em um estado de equilíbrio, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "34",
-      "price": "R$ 3,95",
-      "score": "0.783",
-      "reason": "Cosan ON apresenta um momentum positivo de +3.40% nos últimos 5 dias, destacando-se no setor de energia, que está em rotação favorável. O regime BALANCED suporta a tese de investimento em ativos de setores estáveis como energia.",
-      "potential": "Com um score elevado, a Cosan ON pode continuar a apresentar bom desempenho, especialmente em um ambiente de juros elevados que favorece setores defensivos.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "33",
-      "price": "R$ 29,38",
-      "score": "0.748",
-      "reason": "TOTVS ON se beneficia do momentum positivo de +6.95% em 1 dia e +1.91% em 5 dias, com um bom desempenho no setor de tecnologia, que está em rotação favorável.",
-      "potential": "A TOTVS ON tem potencial de crescimento contínuo, apoiada por sua forte presença no setor de tecnologia, que está em alta.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "33",
-      "price": "R$ 36,11",
-      "score": "0.744",
-      "reason": "Telefônica Vivo ON demonstra estabilidade com um crescimento de +1.80% em 1 dia e +3.79% em 21 dias, beneficiando-se do regime BALANCED que favorece setores defensivos como telecom.",
-      "potential": "O potencial de crescimento é suportado pelo regime atual, que favorece empresas de telecomunicações devido à sua natureza defensiva.",
+      "price": "R$ 17,06",
+      "score": "0.792",
+      "reason": "Fleury ON se destaca pelo momentum positivo, com alta de 3.08% nos últimos 5 dias, e por pertencer ao setor de saúde, que é defensivo e favorecido pelo regime BALANCED.",
+      "potential": "Com um score de 0.792, há um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
       "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "33",
+      "price": "R$ 18,20",
+      "score": "0.775",
+      "reason": "Raia Drogasil ON apresenta uma estabilidade de crescimento com um aumento de 0.39% nos últimos 5 dias, beneficiando-se do setor de saúde e do regime atual.",
+      "potential": "O score de 0.775 sugere um potencial de crescimento consistente, alinhado ao perfil defensivo do setor.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "33",
+      "price": "R$ 43,10",
+      "score": "0.774",
+      "reason": "Suzano ON, com um aumento de 3.53% nos últimos 5 dias, é impulsionada pelo setor de materiais, que tem mostrado resiliência apesar das condições macroeconômicas desafiadoras.",
+      "potential": "O score de 0.774 indica um potencial de valorização moderado, embora o RegimeFit de 0.2 sugira cautela.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
   ],
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,10",
+      "value": "R$ 5,12",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
       "value": "175.335",
-      "sub": "+0.74% hoje",
-      "trend": "up"
+      "sub": "-0.79% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente favorece investimentos em ativos de renda fixa e setores defensivos. O IPCA em 4,64% sugere controle inflacionário, enquanto o IBOV subiu +0.74%, indicando otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário sugere alocação prudente em ativos defensivos e de renda fixa para minimizar riscos e aproveitar juros elevados.",
+  "macro_summary": "A SELIC em 14,15% sugere um ambiente de juros altos, enquanto o IPCA de 4,64% indica uma inflação sob controle. O IBOV, com queda de 0.79%, reflete um mercado cauteloso. Para quem vai aportar R$100 hoje, o cenário favorece investimentos em ativos defensivos, minimizando riscos em um ambiente de estabilidade econômica e inflação controlada.",
   "analysts": {
     "enter": [
-      "CSAN3 — devido ao seu bom momentum e posição no setor de energia"
+      "FLRY3 — devido ao seu forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "VIVT3 — com momentum positivo de 21 dias e suporte do regime BALANCED"
+      "FLRY3 — momentum positivo de 9.50% em 21 dias"
     ],
     "avoid": [
-      "Setor de chips — devido ao recente 'sell-off' e queda no Kospi"
+      "Tecnologia — momentum negativo com rotação setorial de 0.73"
     ],
     "realize": [
-      "TOTS3 — após alta de +6.95% em 1 dia, pode estar sobrecomprado"
+      "FLRY3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,50",
+      "value": "R$ 20,83",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.74%",
+      "value": "+1.61%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+26.9%",
+      "value": "+24.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 20,50, com variação de +0.74%. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência no setor agro de 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. O consenso é neutro, com um upside potencial de 26.95%, sugerindo cautela até novos dados.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,83 com uma variação de +1.61%. Após o 1T26, que apresentou um lucro 53% menor e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até novos dados.",
   "executive_summary": {
-    "smartest_move": "Investir em CSAN3 com alocação de R$34, aproveitando o momentum positivo e o suporte do regime atual.",
-    "biggest_risk": "A volatilidade em setores de tecnologia e chips, que podem afetar ativos correlacionados negativamente.",
-    "best_opportunity": "VIVT3 apresenta uma boa assimetria risco-retorno, com suporte do regime BALANCED e momentum positivo.",
-    "common_mistake": "Subestimar o impacto dos juros elevados na alocação de ativos, levando a uma exposição excessiva em ativos de risco."
+    "smartest_move": "Investir R$34 em FLRY3, aproveitando seu momentum positivo e alinhamento com o regime atual.",
+    "biggest_risk": "A volatilidade do mercado de materiais, como evidenciado pela rotação setorial recente.",
+    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno favorável, com um score de 0.792 e momentum positivo.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em setores mais sensíveis, como tecnologia."
   },
   "_meta": {
-    "generated_at": "2026-07-28T08:49:59.884314-03:00",
+    "generated_at": "2026-07-29T08:53:34.032024-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "energia",
-      "tecnologia",
-      "telecom"
+      "saude",
+      "materiais"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

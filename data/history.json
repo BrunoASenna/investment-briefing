@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-17",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.74,
-      "r21d": -0.0343101783575174,
-      "r63d": -0.052691525552907265
-    },
-    "opportunities": [
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "35",
-        "price": "R$ 41,10",
-        "score": "0.809",
-        "reason": "O Itaú Unibanco se destaca pelo seu forte momentum, com uma alta de 4.42% nos últimos 5 dias, refletindo resiliência no setor financeiro, que é favorecido em um regime BALANCED.",
-        "potential": "Com um score elevado, o ativo tem potencial de continuar performando bem, especialmente em um ambiente de juros altos que beneficia o setor financeiro.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "34",
-        "price": "R$ 43,93",
-        "score": "0.788",
-        "reason": "A WEG apresenta um sólido desempenho com alta de 3.63% nos últimos 5 dias, beneficiando-se do crescimento industrial e da estabilidade do regime atual.",
-        "potential": "A empresa tem potencial de crescimento contínuo devido à sua posição forte no setor industrial e à estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "31",
-        "price": "R$ 15,11",
-        "score": "0.701",
-        "reason": "Lojas Renner se destaca com um aumento de 9.73% em 21 dias, mostrando forte recuperação no setor de varejo, que pode estar se beneficiando de uma leve recuperação econômica.",
-        "potential": "O ativo pode continuar a subir se o consumo interno se fortalecer, mas deve-se monitorar a volatilidade do setor.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,40%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,08",
-      "ibov": "170.904"
-    }
-  },
-  {
     "date": "2026-06-18",
     "regime": {
       "regime": "BEAR",
@@ -1556,6 +1504,58 @@
       "selic": "14,15%",
       "ipca": "4,64%",
       "dolar": "R$ 5,10",
+      "ibov": "175.335"
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.79,
+      "r21d": 0.019448805163090877,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 17,06",
+        "score": "0.792",
+        "reason": "Fleury ON se destaca pelo momentum positivo, com alta de 3.08% nos últimos 5 dias, e por pertencer ao setor de saúde, que é defensivo e favorecido pelo regime BALANCED.",
+        "potential": "Com um score de 0.792, há um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "33",
+        "price": "R$ 18,20",
+        "score": "0.775",
+        "reason": "Raia Drogasil ON apresenta uma estabilidade de crescimento com um aumento de 0.39% nos últimos 5 dias, beneficiando-se do setor de saúde e do regime atual.",
+        "potential": "O score de 0.775 sugere um potencial de crescimento consistente, alinhado ao perfil defensivo do setor.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "33",
+        "price": "R$ 43,10",
+        "score": "0.774",
+        "reason": "Suzano ON, com um aumento de 3.53% nos últimos 5 dias, é impulsionada pelo setor de materiais, que tem mostrado resiliência apesar das condições macroeconômicas desafiadoras.",
+        "potential": "O score de 0.774 indica um potencial de valorização moderado, embora o RegimeFit de 0.2 sugira cautela.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,12",
       "ibov": "175.335"
     }
   }
