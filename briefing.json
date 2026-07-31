@@ -1,41 +1,41 @@
 {
-  "date": "30/07/2026",
+  "date": "31/07/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_OFF",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_OFF, indicando que os investidores estão cautelosos, favorecendo ativos defensivos e FIIs de papel em um ambiente de juros elevados."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que investidores podem se sentir encorajados a buscar ativos de maior risco devido à estabilidade nos juros e ao desempenho positivo do mercado."
   },
   "opportunities": [
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "34",
-      "price": "R$ 106,86",
-      "score": "0.81",
-      "reason": "KNCR11 se destaca por ser um FII de papel, ideal para um regime RISK_OFF, com desempenho estável (-0.29% em 5 dias) e alta compatibilidade com o regime atual.",
-      "potential": "A perspectiva é de estabilidade e geração de renda passiva, alinhada ao perfil defensivo do regime.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "38",
+      "price": "R$ 11,01",
+      "score": "0.876",
+      "reason": "Hapvida ON apresenta um forte momentum de curto prazo com um crescimento de 5.16% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e da estabilidade no setor de saúde.",
+      "potential": "Com um alto score de 0.876 e alinhamento com o regime atual, a ação tem potencial para continuar seu crescimento no curto prazo.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 16,83",
-      "score": "0.797",
-      "reason": "FLRY3 apresenta um bom desempenho recente com alta de 9.29% em 21 dias, beneficiando-se do setor de saúde que oferece resiliência em tempos de incerteza.",
-      "potential": "Potencial de valorização moderado, sustentado pelo crescimento no setor de saúde.",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "32",
+      "price": "R$ 18,25",
+      "score": "0.753",
+      "reason": "Raia Drogasil ON demonstra resiliência com um crescimento de 9.28% em 21 dias, destacando-se no setor de saúde, que é favorecido no atual cenário RISK_ON.",
+      "potential": "O crescimento consistente sugere potencial de valorização moderada, especialmente se o regime RISK_ON se mantiver.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "32",
-      "price": "R$ 42,00",
-      "score": "0.752",
-      "reason": "PETR4 teve uma alta expressiva de 11.11% em 21 dias, refletindo uma recuperação no setor de energia, mas com risco associado devido à baixa compatibilidade com o regime atual.",
-      "potential": "O potencial de ganho é limitado pela volatilidade do setor de energia e pela baixa RegimeFit.",
-      "risk": "Alto",
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "30",
+      "price": "R$ 31,13",
+      "score": "0.71",
+      "reason": "TOTVS ON se beneficia de um forte impulso no setor de tecnologia, com um aumento de 15.08% nos últimos 5 dias, apesar de um ajuste de regime mais limitado.",
+      "potential": "O momentum recente sugere uma oportunidade de curto prazo, embora o ajuste ao regime seja menor.",
+      "risk": "Médio",
       "horizon": "Curto prazo"
     }
   ],
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,12",
+      "value": "R$ 5,07",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.885",
-      "sub": "-1.52% hoje",
-      "trend": "down"
+      "value": "177.159",
+      "sub": "+1.88% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e tendência estável, o ambiente de juros elevados continua pressionando o mercado. O IPCA de 4,64% sugere controle inflacionário, mas o IBOV caiu 1.52%, refletindo um cenário de aversão ao risco. Para quem vai investir R$100 hoje, o foco deve ser em ativos defensivos que se beneficiam de um regime RISK_OFF.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua, mas o IPCA em 4,64% sugere uma inflação sob controle. O IBOV subiu 1.88% hoje, refletindo um apetite por risco no mercado. Para quem vai investir R$100 hoje, o cenário RISK_ON pode oferecer boas oportunidades em ações de maior risco, mas é necessário cautela devido aos juros elevados.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido à sua estabilidade e alinhamento com o regime RISK_OFF"
+      "HAPV3 — forte momentum e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum de 21 dias com alta de 9.29%"
+      "RADL3 — crescimento consistente de 9.28% em 21 dias"
     ],
     "avoid": [
-      "PETR4 — devido ao risco elevado e baixa RegimeFit"
+      "Setor de energia — momentum negativo de 0.71 nos últimos 5 dias"
     ],
     "realize": [
-      "PETR4 — após alta recente de 11.11%, pode estar sobrecomprada"
+      "TOTS3 — forte alta recente de 15.08% em 5 dias pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,78",
+      "value": "R$ 21,19",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.24%",
+      "value": "+1.97%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+25.2%",
+      "value": "+22.8%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "A ação BBAS3 está cotada a R$ 20,78, com uma leve variação de -0.24% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o consenso permanece neutro.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 21,19, com uma variação de +1.97% hoje. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A ação tem um upside de 22.79% em relação ao alvo consenso, mas o cenário atual sugere cautela até a divulgação dos próximos resultados.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com R$34, dado seu perfil defensivo e alinhamento com o regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado de energia, especialmente em ativos como PETR4, que não se alinham bem com o regime atual.",
-    "best_opportunity": "A assimetria risco-retorno em KNCR11, que oferece estabilidade em um ambiente de juros altos.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e investir em ativos de alto risco sem considerar o perfil RISK_OFF do dia."
+    "smartest_move": "Investir em HAPV3 com R$38, aproveitando o momentum positivo e o alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado devido ao regime NEUTRAL, que pode impactar negativamente ativos de risco.",
+    "best_opportunity": "HAPV3 oferece uma assimetria favorável de risco-retorno com um score de 0.876 e momentum positivo.",
+    "common_mistake": "Subestimar o impacto dos juros elevados ao alocar em ativos de risco sem considerar o horizonte de investimento."
   },
   "_meta": {
-    "generated_at": "2026-07-30T08:44:55.722164-03:00",
-    "regime": "NEUTRAL / RISK_OFF",
+    "generated_at": "2026-07-31T08:51:56.816909-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "energia",
       "saude",
-      "fii_papel"
+      "tecnologia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
