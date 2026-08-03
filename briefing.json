@@ -1,42 +1,42 @@
 {
-  "date": "31/07/2026",
+  "date": "03/08/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que investidores podem se sentir encorajados a buscar ativos de maior risco devido à estabilidade nos juros e ao desempenho positivo do mercado."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, sugerindo que os investidores devem buscar uma abordagem equilibrada, favorecendo ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
       "ticker": "HAPV3",
       "name": "Hapvida ON",
-      "value": "38",
-      "price": "R$ 11,01",
-      "score": "0.876",
-      "reason": "Hapvida ON apresenta um forte momentum de curto prazo com um crescimento de 5.16% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e da estabilidade no setor de saúde.",
-      "potential": "Com um alto score de 0.876 e alinhamento com o regime atual, a ação tem potencial para continuar seu crescimento no curto prazo.",
+      "value": "35",
+      "price": "R$ 11,28",
+      "score": "0.844",
+      "reason": "Hapvida ON tem apresentado um forte momentum, com alta de 13.71% nos últimos 5 dias, destacando-se no setor de saúde que está bem posicionado no regime BALANCED.",
+      "potential": "Com um score de 0.844, o ativo tem potencial para continuar se beneficiando do ambiente macroeconômico atual, especialmente com a estabilidade dos juros.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "34",
+      "price": "R$ 4,07",
+      "score": "0.793",
+      "reason": "Cosan ON se destaca no setor de energia, que está em rotação positiva, e apresenta um bom momentum de 7.11% nos últimos 5 dias.",
+      "potential": "A empresa pode se beneficiar do ambiente de juros elevados, embora o RegimeFit seja baixo, indicando uma necessidade de cautela.",
       "risk": "Médio",
       "horizon": "Curto prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "32",
-      "price": "R$ 18,25",
-      "score": "0.753",
-      "reason": "Raia Drogasil ON demonstra resiliência com um crescimento de 9.28% em 21 dias, destacando-se no setor de saúde, que é favorecido no atual cenário RISK_ON.",
-      "potential": "O crescimento consistente sugere potencial de valorização moderada, especialmente se o regime RISK_ON se mantiver.",
-      "risk": "Médio",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "31",
+      "price": "R$ 11,34",
+      "score": "0.73",
+      "reason": "Cemig PN está bem alinhada com o regime atual, apresentando um RegimeFit de 0.9 e um crescimento estável de 3.28% nos últimos 5 dias.",
+      "potential": "O ativo tem potencial de estabilidade devido à sua posição no setor de utilidades, favorecido por um cenário de juros elevados.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "30",
-      "price": "R$ 31,13",
-      "score": "0.71",
-      "reason": "TOTVS ON se beneficia de um forte impulso no setor de tecnologia, com um aumento de 15.08% nos últimos 5 dias, apesar de um ajuste de regime mais limitado.",
-      "potential": "O momentum recente sugere uma oportunidade de curto prazo, embora o ajuste ao regime seja menor.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,07",
+      "value": "R$ 5,08",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.159",
-      "sub": "+1.88% hoje",
+      "value": "177.999",
+      "sub": "+0.47% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente de juros altos continua, mas o IPCA em 4,64% sugere uma inflação sob controle. O IBOV subiu 1.88% hoje, refletindo um apetite por risco no mercado. Para quem vai investir R$100 hoje, o cenário RISK_ON pode oferecer boas oportunidades em ações de maior risco, mas é necessário cautela devido aos juros elevados.",
+  "macro_summary": "Com a SELIC em 14,15% e estável, o ambiente favorece ativos de renda fixa e defensivos. O IPCA em 4,64% indica controle inflacionário, enquanto o IBOV subiu 0.47%, mostrando otimismo moderado. Para quem vai aportar R$100 hoje, é importante considerar a estabilidade do dólar a R$5,08 para decisões de investimento em moeda estrangeira.",
   "analysts": {
     "enter": [
-      "HAPV3 — forte momentum e alinhamento com o regime RISK_ON"
+      "HAPV3 — devido ao forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "RADL3 — crescimento consistente de 9.28% em 21 dias"
+      "CSAN3 — bom desempenho no setor de energia, apesar do baixo RegimeFit"
     ],
     "avoid": [
-      "Setor de energia — momentum negativo de 0.71 nos últimos 5 dias"
+      "Materiais — momentum negativo no setor com rotação de 0.75"
     ],
     "realize": [
-      "TOTS3 — forte alta recente de 15.08% em 5 dias pode indicar sobrecompra"
+      "HAPV3 — após recente alta de 13.71% em 5 dias"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,19",
+      "value": "R$ 21,35",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.97%",
+      "value": "+0.76%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+22.8%",
+      "value": "+21.9%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 21,19, com uma variação de +1.97% hoje. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A ação tem um upside de 22.79% em relação ao alvo consenso, mas o cenário atual sugere cautela até a divulgação dos próximos resultados.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 21,35, com variação de +0.76% hoje. Após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à incerteza no curto prazo.",
   "executive_summary": {
-    "smartest_move": "Investir em HAPV3 com R$38, aproveitando o momentum positivo e o alinhamento com o regime RISK_ON.",
-    "biggest_risk": "A volatilidade do mercado devido ao regime NEUTRAL, que pode impactar negativamente ativos de risco.",
-    "best_opportunity": "HAPV3 oferece uma assimetria favorável de risco-retorno com um score de 0.876 e momentum positivo.",
-    "common_mistake": "Subestimar o impacto dos juros elevados ao alocar em ativos de risco sem considerar o horizonte de investimento."
+    "smartest_move": "Investir R$35 em HAPV3, aproveitando o forte momentum e alinhamento com o regime.",
+    "biggest_risk": "A instabilidade no setor de materiais, que pode impactar negativamente investimentos neste segmento.",
+    "best_opportunity": "A Hapvida ON oferece uma boa assimetria risco-retorno, com momentum positivo e score elevado.",
+    "common_mistake": "Subestimar a importância de um portfólio equilibrado em um regime NEUTRAL/BALANCED, levando a decisões impulsivas."
   },
   "_meta": {
-    "generated_at": "2026-07-31T08:51:56.816909-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-08-03T09:48:26.723675-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "saude",
-      "tecnologia"
+      "energia",
+      "utilidades",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

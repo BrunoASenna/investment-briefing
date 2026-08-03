@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-22",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.06,
-      "r21d": -0.04104673867154517,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "34",
-        "price": "R$ 33,40",
-        "score": "0.77",
-        "reason": "A Telefônica Vivo ON apresenta um momentum positivo de +0.78% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de telecomunicações.",
-        "potential": "Com um score elevado e alinhamento com o regime, a ação tem potencial de valorização em um cenário de maior apetite por risco.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "34",
-        "price": "R$ 10,83",
-        "score": "0.763",
-        "reason": "Cemig PN se destaca por sua resiliência em um setor de utilidades que permanece estável, mesmo em um ambiente de juros elevados.",
-        "potential": "Potencial de estabilidade e possível valorização moderada devido a sua posição no setor de utilidades em um regime RISK_ON.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "32",
-        "price": "R$ 39,68",
-        "score": "0.737",
-        "reason": "Com um incremento de 3.28% em 21 dias, Transmissão Paulista se beneficia do ambiente de apetite por risco, além de sua estabilidade como empresa de utilidades.",
-        "potential": "Potencial de crescimento sustentado, especialmente se o apetite por risco se mantiver.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,14",
-      "ibov": "170.358"
-    }
-  },
-  {
     "date": "2026-06-23",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,07",
       "ibov": "177.159"
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.47,
+      "r21d": 0.030158344329467325,
+      "r63d": -0.046879852640371825
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "35",
+        "price": "R$ 11,28",
+        "score": "0.844",
+        "reason": "Hapvida ON tem apresentado um forte momentum, com alta de 13.71% nos últimos 5 dias, destacando-se no setor de saúde que está bem posicionado no regime BALANCED.",
+        "potential": "Com um score de 0.844, o ativo tem potencial para continuar se beneficiando do ambiente macroeconômico atual, especialmente com a estabilidade dos juros.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "34",
+        "price": "R$ 4,07",
+        "score": "0.793",
+        "reason": "Cosan ON se destaca no setor de energia, que está em rotação positiva, e apresenta um bom momentum de 7.11% nos últimos 5 dias.",
+        "potential": "A empresa pode se beneficiar do ambiente de juros elevados, embora o RegimeFit seja baixo, indicando uma necessidade de cautela.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "31",
+        "price": "R$ 11,34",
+        "score": "0.73",
+        "reason": "Cemig PN está bem alinhada com o regime atual, apresentando um RegimeFit de 0.9 e um crescimento estável de 3.28% nos últimos 5 dias.",
+        "potential": "O ativo tem potencial de estabilidade devido à sua posição no setor de utilidades, favorecido por um cenário de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,08",
+      "ibov": "177.999"
     }
   }
 ]
