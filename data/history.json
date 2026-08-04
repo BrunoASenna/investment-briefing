@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-23",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.06,
-      "r21d": -0.04097945398254996,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "36",
-        "price": "R$ 27,91",
-        "score": "0.779",
-        "reason": "A Sabesp ON destaca-se hoje devido ao seu desempenho positivo de +0.14% nos últimos 5 dias, alinhado ao perfil RISK_ON do mercado, favorecendo o setor de utilidades.",
-        "potential": "Com um score elevado e bom ajuste ao regime atual, a Sabesp ON pode oferecer retornos atrativos em um cenário de curto a médio prazo.",
-        "risk": "Médio",
-        "horizon": "curto a médio prazo"
-      },
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "32",
-        "price": "R$ 10,94",
-        "score": "0.709",
-        "reason": "Cemig PN apresenta um desempenho positivo de +1.96% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e da estabilidade no setor de utilidades.",
-        "potential": "A Cemig PN tem potencial de crescimento moderado, sustentado por um bom score e alinhamento com o regime atual.",
-        "risk": "Médio",
-        "horizon": "curto a médio prazo"
-      },
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "32",
-        "price": "R$ 40,94",
-        "score": "0.706",
-        "reason": "O Itaú Unibanco PN se beneficia de um aumento de +2.04% nos últimos 21 dias, mostrando resiliência no setor financeiro em um ambiente de juros elevados.",
-        "potential": "Com um score sólido e crescimento recente, o Itaú Unibanco PN pode ser uma opção viável para investidores buscando estabilidade.",
-        "risk": "Médio",
-        "horizon": "curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,14",
-      "ibov": "170.370"
-    }
-  },
-  {
     "date": "2026-06-24",
     "regime": {
       "regime": "NEUTRAL",
@@ -1556,6 +1504,58 @@
       "selic": "14,15%",
       "ipca": "4,64%",
       "dolar": "R$ 5,08",
+      "ibov": "177.999"
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.47,
+      "r21d": 0.030158344329467325,
+      "r63d": -0.046879852640371825
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "36",
+        "price": "R$ 17,27",
+        "score": "0.817",
+        "reason": "Fleury ON apresenta um forte momentum de +6.21% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido pelo regime BALANCED atual.",
+        "potential": "Com um score de 0.817 e bom ajuste ao regime, há potencial para continuidade no crescimento, especialmente em um ambiente neutro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "34",
+        "price": "R$ 11,91",
+        "score": "0.79",
+        "reason": "Hapvida ON teve um desempenho impressionante com alta de +20.06% em 5 dias, refletindo forte interesse no setor de saúde.",
+        "potential": "Dado o score de 0.79 e o momentum positivo, o ativo pode continuar a se beneficiar do interesse no setor.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "30",
+        "price": "R$ 21,27",
+        "score": "0.697",
+        "reason": "Banco do Brasil ON tem um score de 0.697, com um upside potencial baseado no consenso de mercado, apesar de um RegimeFit mais baixo.",
+        "potential": "O ativo possui um potencial de valorização moderado, especialmente se o cenário macroeconômico melhorar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,07",
       "ibov": "177.999"
     }
   }
