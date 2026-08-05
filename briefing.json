@@ -1,42 +1,42 @@
 {
-  "date": "04/08/2026",
+  "date": "05/08/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há uma direção clara, favorecendo investimentos em ativos defensivos e FIIs de papel."
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há uma direção clara, favorecendo a alocação em ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "35",
+      "price": "R$ 19,41",
+      "score": "0.838",
+      "reason": "Raia Drogasil apresenta um forte momentum com alta de 6.65% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+      "potential": "Com um score elevado e ajuste ao regime, há potencial para continuidade do crescimento no curto prazo.",
+      "risk": "Baixo",
+      "horizon": "Curto prazo"
+    },
+    {
       "ticker": "FLRY3",
       "name": "Fleury ON",
-      "value": "36",
-      "price": "R$ 17,27",
-      "score": "0.817",
-      "reason": "Fleury ON apresenta um forte momentum de +6.21% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido pelo regime BALANCED atual.",
-      "potential": "Com um score de 0.817 e bom ajuste ao regime, há potencial para continuidade no crescimento, especialmente em um ambiente neutro.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
       "value": "34",
-      "price": "R$ 11,91",
-      "score": "0.79",
-      "reason": "Hapvida ON teve um desempenho impressionante com alta de +20.06% em 5 dias, refletindo forte interesse no setor de saúde.",
-      "potential": "Dado o score de 0.79 e o momentum positivo, o ativo pode continuar a se beneficiar do interesse no setor.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "price": "R$ 17,49",
+      "score": "0.819",
+      "reason": "Fleury ON se destaca pelo crescimento de 11.76% em 21 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
+      "potential": "A performance recente sugere potencial de valorização adicional, sustentada pelo cenário macroeconômico.",
+      "risk": "Baixo",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "30",
-      "price": "R$ 21,27",
-      "score": "0.697",
-      "reason": "Banco do Brasil ON tem um score de 0.697, com um upside potencial baseado no consenso de mercado, apesar de um RegimeFit mais baixo.",
-      "potential": "O ativo possui um potencial de valorização moderado, especialmente se o cenário macroeconômico melhorar.",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "31",
+      "price": "R$ 49,17",
+      "score": "0.752",
+      "reason": "WEG ON tem mostrado um bom desempenho com alta de 6.29% em 21 dias, embora o RegimeFit seja baixo, indicando uma possível resistência a mudanças no regime.",
+      "potential": "Apesar do baixo RegimeFit, o momentum sugere potencial de ganhos no curto prazo.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,07",
+      "value": "R$ 5,11",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.999",
-      "sub": "+0.47% hoje",
-      "trend": "up"
+      "value": "177.895",
+      "sub": "-0.06% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A taxa SELIC está em 14,15% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,64%, indicando controle inflacionário. O IBOV subiu 0.47% hoje, refletindo um otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário sugere cautela com foco em ativos defensivos devido ao ambiente de juros elevados.",
+  "macro_summary": "Com a SELIC em 14,15% e IPCA em 4,64%, o ambiente de juros elevados persiste, pressionando o consumo e favorecendo investimentos em renda fixa. O IBOV recuou 0.06%, refletindo a cautela dos investidores. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser estratégica, dado o regime BALANCED atual.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
+      "RADL3 — devido ao forte momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "HAPV3 — por seu desempenho robusto nos últimos 21 dias"
+      "FLRY3 — bom momentum de 21 dias e alinhamento com o regime"
     ],
     "avoid": [
-      "Setores com baixa rotação, como energia, que apresenta 0.73"
+      "Setor de tecnologia — momentum inferior comparado a saúde e industrial"
     ],
     "realize": [
-      "Ativos que tiveram alta expressiva recentemente, como HAPV3"
+      "WEGE3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,27",
+      "value": "R$ 20,99",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.38%",
+      "value": "-1.32%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+22.3%",
+      "value": "+24.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 21,27 com variação diária de +0.38%. No contexto pós-1T26, o banco enfrentou um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar a percepção do mercado.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 20,99 com variação de -1.32%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até que novos dados sejam divulgados.",
   "executive_summary": {
-    "smartest_move": "Considerar alocar R$36 em FLRY3, que apresenta um forte momentum e ajuste ao regime atual.",
-    "biggest_risk": "O risco concreto é a manutenção dos juros elevados, que pode impactar negativamente setores mais alavancados.",
-    "best_opportunity": "A assimetria risco-retorno em FLRY3, dado seu score elevado e momentum positivo, oferece uma boa oportunidade.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, que podem sofrer em um cenário de SELIC alta."
+    "smartest_move": "Alocar R$35 em RADL3, aproveitando o momentum positivo e o ajuste ao regime.",
+    "biggest_risk": "A persistência de juros elevados que pode limitar o crescimento econômico e impactar setores mais sensíveis.",
+    "best_opportunity": "RADL3 apresenta uma assimetria risco-retorno favorável, com bom momentum e alinhamento ao regime.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e investir impulsivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-08-04T08:54:50.705115-03:00",
+    "generated_at": "2026-08-05T08:50:47.471800-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "financeiro",
-      "saude"
+      "saude",
+      "industrial"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

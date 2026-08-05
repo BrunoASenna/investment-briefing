@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-24",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.52,
-      "r21d": -0.028097156801543614,
-      "r63d": -0.0586647758503177
-    },
-    "opportunities": [
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "35",
-        "price": "R$ 45,71",
-        "score": "0.794",
-        "reason": "WEGE3 se destaca pelo forte momentum, com valorização de 6.72% nos últimos 5 dias, refletindo a resiliência do setor industrial em um regime BALANCED.",
-        "potential": "Com um score elevado, WEGE3 tem potencial de continuar performando bem, especialmente em um cenário de equilíbrio econômico.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "33",
-        "price": "R$ 107,28",
-        "score": "0.776",
-        "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e rendimentos consistentes em um cenário de regime NEUTRAL.",
-        "potential": "O fundo tem potencial de proporcionar rendimentos estáveis, alinhados com a política monetária atual.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "32",
-        "price": "R$ 34,28",
-        "score": "0.747",
-        "reason": "VIVT3 apresenta recuperação recente com alta de 2.21% em 1 dia, beneficiando-se do regime BALANCED e da estabilidade no setor de telecomunicações.",
-        "potential": "Com um score sólido, VIVT3 pode oferecer um bom equilíbrio entre crescimento e estabilidade.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,17",
-      "ibov": "171.259"
-    }
-  },
-  {
     "date": "2026-06-25",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,07",
       "ibov": "177.999"
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.06,
+      "r21d": 0.03158633327147894,
+      "r63d": -0.029052822320950997
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "35",
+        "price": "R$ 19,41",
+        "score": "0.838",
+        "reason": "Raia Drogasil apresenta um forte momentum com alta de 6.65% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+        "potential": "Com um score elevado e ajuste ao regime, há potencial para continuidade do crescimento no curto prazo.",
+        "risk": "Baixo",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 17,49",
+        "score": "0.819",
+        "reason": "Fleury ON se destaca pelo crescimento de 11.76% em 21 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
+        "potential": "A performance recente sugere potencial de valorização adicional, sustentada pelo cenário macroeconômico.",
+        "risk": "Baixo",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "31",
+        "price": "R$ 49,17",
+        "score": "0.752",
+        "reason": "WEG ON tem mostrado um bom desempenho com alta de 6.29% em 21 dias, embora o RegimeFit seja baixo, indicando uma possível resistência a mudanças no regime.",
+        "potential": "Apesar do baixo RegimeFit, o momentum sugere potencial de ganhos no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "14,15%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,11",
+      "ibov": "177.895"
     }
   }
 ]
