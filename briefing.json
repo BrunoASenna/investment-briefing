@@ -1,42 +1,42 @@
 {
-  "date": "05/08/2026",
+  "date": "06/08/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há uma direção clara, favorecendo a alocação em ativos defensivos e FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de mercado estável, onde investidores podem buscar oportunidades em ativos defensivos e fundos imobiliários de papel, aproveitando a estabilidade dos juros elevados."
   },
   "opportunities": [
     {
       "ticker": "RADL3",
       "name": "Raia Drogasil ON",
-      "value": "35",
-      "price": "R$ 19,41",
-      "score": "0.838",
-      "reason": "Raia Drogasil apresenta um forte momentum com alta de 6.65% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
-      "potential": "Com um score elevado e ajuste ao regime, há potencial para continuidade do crescimento no curto prazo.",
-      "risk": "Baixo",
-      "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 17,49",
-      "score": "0.819",
-      "reason": "Fleury ON se destaca pelo crescimento de 11.76% em 21 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
-      "potential": "A performance recente sugere potencial de valorização adicional, sustentada pelo cenário macroeconômico.",
-      "risk": "Baixo",
-      "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "31",
-      "price": "R$ 49,17",
-      "score": "0.752",
-      "reason": "WEG ON tem mostrado um bom desempenho com alta de 6.29% em 21 dias, embora o RegimeFit seja baixo, indicando uma possível resistência a mudanças no regime.",
-      "potential": "Apesar do baixo RegimeFit, o momentum sugere potencial de ganhos no curto prazo.",
+      "value": "36",
+      "price": "R$ 20,55",
+      "score": "0.856",
+      "reason": "Raia Drogasil se destaca pelo forte momentum, com alta de 15.71% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+      "potential": "Com um score de 0.856, RADL3 possui um potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "34",
+      "price": "R$ 32,51",
+      "score": "0.807",
+      "reason": "TOTVS apresenta um crescimento consistente, impulsionado pelo setor de tecnologia, com um aumento de 10.43% nos últimos 5 dias, apesar de um regime fit baixo.",
+      "potential": "O score de 0.807 indica um potencial de valorização, especialmente se o setor de tecnologia continuar a mostrar resiliência.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "30",
+      "price": "R$ 40,06",
+      "score": "0.708",
+      "reason": "Transmissão Paulista é uma escolha defensiva em utilidades, com um score razoável e um regime fit alto, apesar da leve queda de 0.84% em 21 dias.",
+      "potential": "Com um score de 0.708, TAEE11 oferece um potencial de estabilidade e dividendos em um ambiente de juros elevados.",
+      "risk": "Baixo",
+      "horizon": "Longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,11",
+      "value": "R$ 5,12",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "177.895",
-      "sub": "-0.06% hoje",
+      "value": "177.726",
+      "sub": "-0.09% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 14,15% e IPCA em 4,64%, o ambiente de juros elevados persiste, pressionando o consumo e favorecendo investimentos em renda fixa. O IBOV recuou 0.06%, refletindo a cautela dos investidores. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser estratégica, dado o regime BALANCED atual.",
+  "macro_summary": "A SELIC em 14,15% mantém o custo do dinheiro elevado, enquanto o IPCA de 4,64% sugere controle inflacionário. O IBOV recuou 0.09%, refletindo um mercado cauteloso. Para quem vai investir R$100 hoje, a estabilidade dos juros pode favorecer investimentos em renda fixa e ativos defensivos, enquanto o regime BALANCED sugere cautela em ações de crescimento.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao forte momentum e ajuste ao regime atual"
+      "RADL3 — forte momentum e setor de saúde favorecido"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum de 21 dias e alinhamento com o regime"
+      "TOTS3 — momentum positivo em 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — momentum inferior comparado a saúde e industrial"
+      "Setor industrial — momentum negativo com 0.69"
     ],
     "realize": [
-      "WEGE3 — após alta recente, pode estar sobrecomprado"
+      "RADL3 — alta recente pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,99",
+      "value": "R$ 21,05",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.32%",
+      "value": "+0.29%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+24.0%",
+      "value": "+23.6%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 20,99 com variação de -1.32%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até que novos dados sejam divulgados.",
+  "bbas3_summary": "BBAS3 hoje está cotado a R$ 21,05, com uma variação de +0.29%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. O consenso é neutro, sugerindo cautela até que novos dados sejam divulgados.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em RADL3, aproveitando o momentum positivo e o ajuste ao regime.",
-    "biggest_risk": "A persistência de juros elevados que pode limitar o crescimento econômico e impactar setores mais sensíveis.",
-    "best_opportunity": "RADL3 apresenta uma assimetria risco-retorno favorável, com bom momentum e alinhamento ao regime.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e investir impulsivamente em ativos de alto risco."
+    "smartest_move": "Investir em RADL3 com R$36, aproveitando o momentum positivo e o suporte do setor de saúde.",
+    "biggest_risk": "A instabilidade econômica global pode impactar negativamente setores mais voláteis, mesmo em um regime NEUTRAL.",
+    "best_opportunity": "RADL3 apresenta uma assimetria risco-retorno favorável, com forte momentum e suporte do regime atual.",
+    "common_mistake": "Subestimar a importância de diversificação em um regime NEUTRAL, focando excessivamente em um único setor ou ativo."
   },
   "_meta": {
-    "generated_at": "2026-08-05T08:50:47.471800-03:00",
+    "generated_at": "2026-08-06T08:56:55.255278-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
+      "tecnologia",
       "saude",
-      "industrial"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
