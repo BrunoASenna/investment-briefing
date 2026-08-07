@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-26",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 0.87,
-      "r21d": -0.026043524794862646,
-      "r63d": -0.07245016826300803
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "34",
-        "price": "R$ 34,57",
-        "score": "0.808",
-        "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu forte momentum de +5.78% nos últimos 5 dias, alinhado com o perfil RISK_ON, que favorece o setor de telecomunicações.",
-        "potential": "Com um score de 0.808 e regime favorável, a expectativa é de continuidade no desempenho positivo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 39,88",
-        "score": "0.787",
-        "reason": "Transmissão Paulista apresenta estabilidade e um leve crescimento, com um score de 0.787, sendo uma escolha sólida em um cenário de juros elevados.",
-        "potential": "Potencial de crescimento moderado, sustentado por sua estabilidade no setor de utilidades.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "33",
-        "price": "R$ 28,90",
-        "score": "0.77",
-        "reason": "Sabesp ON teve um aumento significativo de +7.43% nos últimos 5 dias, refletindo uma forte recuperação e alinhamento com o perfil RISK_ON.",
-        "potential": "Expectativa de crescimento contínuo dado o momentum recente e o regime atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,19",
-      "ibov": "171.990"
-    }
-  },
-  {
     "date": "2026-06-29",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,12",
       "ibov": "177.726"
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.23,
+      "r21d": 0.02866619006879417,
+      "r63d": -0.034979027975526225
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "36",
+        "price": "R$ 11,13",
+        "score": "0.835",
+        "reason": "Hapvida ON apresenta um momentum positivo de +1.09% nos últimos 5 dias, beneficiando-se do setor de saúde que está em alta e do regime RISK_OFF que favorece ativos defensivos.",
+        "potential": "Com um score de 0.835 e bom ajuste ao regime, pode oferecer um retorno sólido em um ambiente de aversão ao risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 17,27",
+        "score": "0.755",
+        "reason": "Fleury ON, embora tenha caído -0.52% no último dia, mantém um crescimento de +1.77% em 5 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
+        "potential": "Potencial de valorização moderado, com base em seu score e alinhamento setorial.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "31",
+        "price": "R$ 106,50",
+        "score": "0.719",
+        "reason": "KNCR11 é favorecido pelo regime RISK_OFF, sendo um FII de papel que oferece estabilidade em tempos de juros elevados.",
+        "potential": "Potencial de estabilidade e renda passiva, ideal para investidores buscando segurança.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,10",
+      "ibov": "175.546"
     }
   }
 ]
