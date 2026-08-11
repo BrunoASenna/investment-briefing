@@ -1,8 +1,8 @@
 {
-  "date": "10/08/2026",
+  "date": "11/08/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_OFF",
-    "summary": "O regime atual de NEUTRAL com perfil RISK_OFF indica que os investidores devem ser cautelosos, priorizando ativos defensivos e FIIs de papel devido aos juros elevados."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de investimentos onde não há uma clara direção de mercado, favorecendo uma abordagem equilibrada entre ativos defensivos e de crescimento."
   },
   "opportunities": [
     {
@@ -11,8 +11,8 @@
       "value": "34",
       "price": "R$ 18,95",
       "score": "0.789",
-      "reason": "Fleury ON apresenta forte momentum com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de saúde.",
-      "potential": "Com um score elevado e alinhado ao regime, há potencial de continuidade no desempenho positivo.",
+      "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente neutro e balanceado que favorece o setor de saúde.",
+      "potential": "Com um score elevado e bom ajuste ao regime, há potencial para continuidade do desempenho positivo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
@@ -21,22 +21,22 @@
       "name": "Raia Drogasil ON",
       "value": "34",
       "price": "R$ 20,22",
-      "score": "0.766",
-      "reason": "Raia Drogasil ON mantém um bom desempenho, com alta de 10.79% em 5 dias, aproveitando-se do regime que favorece o setor de saúde.",
-      "potential": "Potencial de crescimento sustentado pelo bom momentum e condições de mercado favoráveis.",
+      "score": "0.769",
+      "reason": "Raia Drogasil ON apresenta um crescimento consistente de 10.79% nos últimos 5 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
+      "potential": "O ativo tem potencial de valorização contínua, respaldado por seu bom desempenho recente.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
       "value": "32",
-      "price": "R$ 106,64",
-      "score": "0.726",
-      "reason": "KNCR11 é um FII de papel que se beneficia das altas taxas de juros, sendo uma escolha defensiva em um cenário RISK_OFF.",
-      "potential": "Potencial de estabilidade e rendimento consistente devido ao regime atual.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "price": "R$ 48,12",
+      "score": "0.735",
+      "reason": "Apesar de uma leve queda diária, WEG ON mantém um crescimento de 2.78% nos últimos 5 dias, mostrando resiliência no setor industrial.",
+      "potential": "O potencial de crescimento é moderado, considerando o score e o ajuste ao regime.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,27 +54,27 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,09",
+      "value": "R$ 5,10",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.513",
-      "sub": "-1.73% hoje",
+      "value": "172.180",
+      "sub": "-0.19% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está estável em 13,90%, enquanto o IPCA desacelera para 4,64%, indicando um ambiente de inflação controlada. O IBOV caiu 1.73%, refletindo um mercado mais avesso ao risco. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos é prudente, dadas as condições de juros elevados e o regime RISK_OFF.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros elevados continua, pressionando o custo do crédito. O IPCA em 4,64% sugere uma inflação controlada, enquanto o IBOV recuou 0.19%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a abordagem deve ser cuidadosa, priorizando ativos defensivos ou com bom potencial de crescimento no médio prazo.",
   "analysts": {
     "enter": [
-      "FLRY3 — forte desempenho recente e alinhamento com o regime atual"
+      "FLRY3 — devido ao forte momentum e ajuste ao regime"
     ],
     "reinforce": [
-      "FLRY3 — momentum positivo de 21 dias"
+      "RADL3 — bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor industrial — momentum negativo recente"
+      "Setor industrial — devido ao momentum negativo recente"
     ],
     "realize": [
       "FLRY3 — após alta recente, pode estar sobrecomprado"
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 20,06, com variação diária de -1.08%. Após o 1T26, que mostrou um lucro reduzido em 53% e inadimplência agro de 6.22%, o próximo gatilho é o resultado do 2T26 em agosto. O consenso permanece neutro, sugerindo cautela até que novos dados sejam divulgados.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,06, com variação de -1.08%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. O cenário atual sugere cautela, com potencial de upside de 29.75% até o alvo consenso de R$ 26,02.",
   "executive_summary": {
-    "smartest_move": "Investir R$34 em FLRY3, aproveitando o momentum positivo e a adequação ao regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado, combinada com o perfil RISK_OFF, pode impactar negativamente ativos mais arriscados.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com um score elevado e alinhamento ao regime.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para ativos defensivos."
+    "smartest_move": "Entrar em FLRY3 com alocação de R$34, aproveitando o momentum positivo.",
+    "biggest_risk": "A volatilidade no mercado devido à alta taxa SELIC e possíveis ajustes inflacionários.",
+    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com bom momentum e ajuste ao regime.",
+    "common_mistake": "Ignorar o impacto dos juros elevados e investir em ativos de alto risco sem proteção adequada."
   },
   "_meta": {
-    "generated_at": "2026-08-10T07:56:53.785032-03:00",
-    "regime": "NEUTRAL / RISK_OFF",
+    "generated_at": "2026-08-11T07:41:08.348289-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "fii_papel",
+      "industrial",
       "saude"
     ],
     "diversity_ok": true,

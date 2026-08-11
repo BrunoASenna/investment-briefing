@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-06-30",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.05,
-      "r21d": -0.010613322061200825,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "35",
-        "price": "R$ 18,17",
-        "score": "0.782",
-        "reason": "Bradesco PN apresenta um bom momentum, com alta de 2.77% nos últimos 5 dias, e se beneficia do regime BALANCED, que favorece o setor financeiro em ambiente de juros elevados.",
-        "potential": "Com um score de 0.782, há potencial de valorização moderada, especialmente se o cenário macroeconômico permanecer estável.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "33",
-        "price": "R$ 42,41",
-        "score": "0.749",
-        "reason": "Itaú Unibanco PN tem mostrado resiliência com uma alta de 6.02% em 21 dias, beneficiando-se do ambiente de juros altos que favorece o setor financeiro.",
-        "potential": "O score de 0.749 sugere um potencial de crescimento contínuo, suportado pela estabilidade econômica atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "32",
-        "price": "R$ 29,65",
-        "score": "0.722",
-        "reason": "Sabesp ON se destaca por sua performance de 6.23% nos últimos 5 dias, sendo uma escolha sólida em um regime BALANCED devido à sua natureza defensiva.",
-        "potential": "Com um score de 0.722 e um bom ajuste ao regime atual, há um potencial de crescimento estável.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,17",
-      "ibov": "173.205"
-    }
-  },
-  {
     "date": "2026-07-01",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,09",
       "ibov": "172.513"
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.19,
+      "r21d": -0.03196788593660396,
+      "r63d": -0.027769935290065387
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 18,95",
+        "score": "0.789",
+        "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente neutro e balanceado que favorece o setor de saúde.",
+        "potential": "Com um score elevado e bom ajuste ao regime, há potencial para continuidade do desempenho positivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 20,22",
+        "score": "0.769",
+        "reason": "Raia Drogasil ON apresenta um crescimento consistente de 10.79% nos últimos 5 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
+        "potential": "O ativo tem potencial de valorização contínua, respaldado por seu bom desempenho recente.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "32",
+        "price": "R$ 48,12",
+        "score": "0.735",
+        "reason": "Apesar de uma leve queda diária, WEG ON mantém um crescimento de 2.78% nos últimos 5 dias, mostrando resiliência no setor industrial.",
+        "potential": "O potencial de crescimento é moderado, considerando o score e o ajuste ao regime.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,64%",
+      "dolar": "R$ 5,10",
+      "ibov": "172.180"
     }
   }
 ]
