@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.68,
-      "r21d": -0.010150298064308238,
-      "r63d": -0.0574750430103992
-    },
-    "opportunities": [
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "36",
-        "price": "R$ 34,83",
-        "score": "0.863",
-        "reason": "Engie Brasil ON se destaca pelo momentum positivo de +1.84% nos últimos 5 dias, beneficiando-se do ambiente BALANCED que favorece o setor de utilidades, tradicionalmente defensivo.",
-        "potential": "Com um score elevado, há potencial para desempenho consistente no curto a médio prazo, especialmente em um cenário de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "32",
-        "price": "R$ 46,91",
-        "score": "0.789",
-        "reason": "WEG ON apresenta um crescimento de +2.63% em 5 dias, mostrando resiliência no setor industrial, embora o RegimeFit seja baixo, indicando que o ativo pode não estar perfeitamente alinhado com o regime atual.",
-        "potential": "Potencial de crescimento moderado, sustentado por inovação e expansão internacional.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 107,89",
-        "score": "0.787",
-        "reason": "KNCR11 é uma escolha sólida em um cenário de juros elevados, com um RegimeFit perfeito, oferecendo estabilidade e rendimentos previsíveis.",
-        "potential": "Potencial de retorno estável devido à natureza defensiva dos FIIs de papel em ambientes de alta de juros.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "N/D",
-      "dolar": "R$ 5,18",
-      "ibov": "172.024"
-    }
-  },
-  {
     "date": "2026-07-02",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,64%",
       "dolar": "R$ 5,10",
       "ibov": "172.180"
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -2.5,
+      "r21d": -0.044748177695332285,
+      "r63d": -0.058817263379792116
+    },
+    "opportunities": [
+      {
+        "ticker": "BTLG11",
+        "name": "BTG Logística",
+        "value": "35",
+        "price": "R$ 100,38",
+        "score": "0.805",
+        "reason": "BTLG11 apresenta um score elevado de 0.805, com um momentum relativamente estável (-0.12% em 5 dias), o que é atrativo em um regime RISK_OFF, dado seu perfil de fii_tijolo que oferece maior segurança.",
+        "potential": "Considerando o score e o regime atual, o ativo tem potencial de manter estabilidade e proporcionar segurança ao portfólio.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "XPML11",
+        "name": "XP Malls",
+        "value": "34",
+        "price": "R$ 103,61",
+        "score": "0.787",
+        "reason": "XPML11, com um score de 0.787, é uma opção sólida em um regime de aversão ao risco, oferecendo exposição a ativos imobiliários de tijolo, que são tradicionalmente mais estáveis.",
+        "potential": "O potencial está em sua capacidade de manter valor em um cenário de incerteza econômica.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "31",
+        "price": "R$ 105,60",
+        "score": "0.73",
+        "reason": "KNCR11 é destacado por sua adequação ao regime RISK_OFF, com um RegimeFit de 1.0, sendo um fii_papel que pode oferecer proteção contra a volatilidade de mercado.",
+        "potential": "O potencial está em sua capacidade de gerar renda estável em um ambiente de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,13",
+      "ibov": "167.875"
     }
   }
 ]

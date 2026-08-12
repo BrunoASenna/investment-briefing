@@ -1,42 +1,42 @@
 {
-  "date": "11/08/2026",
+  "date": "12/08/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere um ambiente de investimentos onde não há uma clara direção de mercado, favorecendo uma abordagem equilibrada entre ativos defensivos e de crescimento."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual BEAR/RISK_OFF indica um ambiente de aversão ao risco, onde investidores tendem a buscar segurança em ativos defensivos e de menor volatilidade, como FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 18,95",
-      "score": "0.789",
-      "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente neutro e balanceado que favorece o setor de saúde.",
-      "potential": "Com um score elevado e bom ajuste ao regime, há potencial para continuidade do desempenho positivo.",
+      "ticker": "BTLG11",
+      "name": "BTG Logística",
+      "value": "35",
+      "price": "R$ 100,38",
+      "score": "0.805",
+      "reason": "BTLG11 apresenta um score elevado de 0.805, com um momentum relativamente estável (-0.12% em 5 dias), o que é atrativo em um regime RISK_OFF, dado seu perfil de fii_tijolo que oferece maior segurança.",
+      "potential": "Considerando o score e o regime atual, o ativo tem potencial de manter estabilidade e proporcionar segurança ao portfólio.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
+      "ticker": "XPML11",
+      "name": "XP Malls",
       "value": "34",
-      "price": "R$ 20,22",
-      "score": "0.769",
-      "reason": "Raia Drogasil ON apresenta um crescimento consistente de 10.79% nos últimos 5 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
-      "potential": "O ativo tem potencial de valorização contínua, respaldado por seu bom desempenho recente.",
+      "price": "R$ 103,61",
+      "score": "0.787",
+      "reason": "XPML11, com um score de 0.787, é uma opção sólida em um regime de aversão ao risco, oferecendo exposição a ativos imobiliários de tijolo, que são tradicionalmente mais estáveis.",
+      "potential": "O potencial está em sua capacidade de manter valor em um cenário de incerteza econômica.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "32",
-      "price": "R$ 48,12",
-      "score": "0.735",
-      "reason": "Apesar de uma leve queda diária, WEG ON mantém um crescimento de 2.78% nos últimos 5 dias, mostrando resiliência no setor industrial.",
-      "potential": "O potencial de crescimento é moderado, considerando o score e o ajuste ao regime.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "31",
+      "price": "R$ 105,60",
+      "score": "0.73",
+      "reason": "KNCR11 é destacado por sua adequação ao regime RISK_OFF, com um RegimeFit de 1.0, sendo um fii_papel que pode oferecer proteção contra a volatilidade de mercado.",
+      "potential": "O potencial está em sua capacidade de gerar renda estável em um ambiente de juros elevados.",
+      "risk": "Baixo",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,64%",
+      "value": "4,44%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,10",
+      "value": "R$ 5,13",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.180",
-      "sub": "-0.19% hoje",
+      "value": "167.875",
+      "sub": "-2.50% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros elevados continua, pressionando o custo do crédito. O IPCA em 4,64% sugere uma inflação controlada, enquanto o IBOV recuou 0.19%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a abordagem deve ser cuidadosa, priorizando ativos defensivos ou com bom potencial de crescimento no médio prazo.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente favorece investimentos em renda fixa e FIIs de papel. O IPCA acumulado de 4,44% sugere controle inflacionário, enquanto o IBOV em queda de 2,50% reflete a aversão ao risco do mercado. Para quem vai aportar R$100 hoje, é prudente priorizar ativos defensivos que possam oferecer proteção contra a volatilidade atual.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao forte momentum e ajuste ao regime"
+      "BTLG11 — devido ao seu score elevado e estabilidade em regimes de aversão ao risco"
     ],
     "reinforce": [
-      "RADL3 — bom momentum nos últimos 21 dias"
+      "KNCR11 — por sua adequação ao regime RISK_OFF e potencial de renda estável"
     ],
     "avoid": [
-      "Setor industrial — devido ao momentum negativo recente"
+      "Setor de mineração — devido ao momentum negativo e alta volatilidade"
     ],
     "realize": [
-      "FLRY3 — após alta recente, pode estar sobrecomprado"
+      "Nenhum ativo específico identificado como sobrecomprado no momento"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,06",
+      "value": "R$ 19,28",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.08%",
+      "value": "-3.74%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+29.7%",
+      "value": "+35.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 20,06, com variação de -1.08%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. O cenário atual sugere cautela, com potencial de upside de 29.75% até o alvo consenso de R$ 26,02.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 19,28, com uma variação de -3.74%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro alcançou 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. A expectativa é de que esses resultados tragam mais clareza sobre a recuperação da empresa.",
   "executive_summary": {
-    "smartest_move": "Entrar em FLRY3 com alocação de R$34, aproveitando o momentum positivo.",
-    "biggest_risk": "A volatilidade no mercado devido à alta taxa SELIC e possíveis ajustes inflacionários.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com bom momentum e ajuste ao regime.",
-    "common_mistake": "Ignorar o impacto dos juros elevados e investir em ativos de alto risco sem proteção adequada."
+    "smartest_move": "Alocar R$35 em BTLG11, aproveitando seu score elevado e estabilidade no regime atual.",
+    "biggest_risk": "A volatilidade do mercado acionário, refletida na queda do IBOV, pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "A alocação em KNCR11 oferece uma boa assimetria risco-retorno, com potencial de renda estável em um ambiente de juros elevados.",
+    "common_mistake": "Subestimar o impacto da alta taxa SELIC na atratividade de ativos de renda fixa e FIIs de papel."
   },
   "_meta": {
-    "generated_at": "2026-08-11T07:41:08.348289-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-08-12T07:50:41.359362-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "industrial",
-      "saude"
+      "fii_tijolo",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
