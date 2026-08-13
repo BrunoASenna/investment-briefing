@@ -1,42 +1,42 @@
 {
-  "date": "12/08/2026",
+  "date": "13/08/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual BEAR/RISK_OFF indica um ambiente de aversão ao risco, onde investidores tendem a buscar segurança em ativos defensivos e de menor volatilidade, como FIIs de papel."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual BEAR com perfil BALANCED indica um mercado em queda, mas com oportunidades equilibradas, favorecendo investimentos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "BTLG11",
-      "name": "BTG Logística",
-      "value": "35",
-      "price": "R$ 100,38",
-      "score": "0.805",
-      "reason": "BTLG11 apresenta um score elevado de 0.805, com um momentum relativamente estável (-0.12% em 5 dias), o que é atrativo em um regime RISK_OFF, dado seu perfil de fii_tijolo que oferece maior segurança.",
-      "potential": "Considerando o score e o regime atual, o ativo tem potencial de manter estabilidade e proporcionar segurança ao portfólio.",
+      "ticker": "PVBI11",
+      "name": "VBI Prime Properties",
+      "value": "33",
+      "price": "R$ 66,31",
+      "score": "0.761",
+      "reason": "PVBI11, um fundo de tijolo, apresenta uma leve queda de -0.66% nos últimos 5 dias, mas se beneficia do perfil BALANCED do regime atual, oferecendo potencial de estabilidade em um mercado volátil.",
+      "potential": "Com um score de 0.761, PVBI11 pode oferecer uma proteção moderada contra a volatilidade do mercado atual.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "XPML11",
-      "name": "XP Malls",
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
       "value": "34",
-      "price": "R$ 103,61",
-      "score": "0.787",
-      "reason": "XPML11, com um score de 0.787, é uma opção sólida em um regime de aversão ao risco, oferecendo exposição a ativos imobiliários de tijolo, que são tradicionalmente mais estáveis.",
-      "potential": "O potencial está em sua capacidade de manter valor em um cenário de incerteza econômica.",
+      "price": "R$ 41,45",
+      "score": "0.753",
+      "reason": "Suzano ON, apesar de uma queda de -3.24% nos últimos 5 dias, mostra resiliência com um ganho de +2.65% no último dia, indicando potencial de recuperação em um mercado de materiais desafiador.",
+      "potential": "O score de 0.753 sugere uma oportunidade de recuperação com riscos moderados em um cenário de mercado instável.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
-      "value": "31",
-      "price": "R$ 105,60",
-      "score": "0.73",
-      "reason": "KNCR11 é destacado por sua adequação ao regime RISK_OFF, com um RegimeFit de 1.0, sendo um fii_papel que pode oferecer proteção contra a volatilidade de mercado.",
-      "potential": "O potencial está em sua capacidade de gerar renda estável em um ambiente de juros elevados.",
+      "value": "33",
+      "price": "R$ 105,71",
+      "score": "0.729",
+      "reason": "KNCR11, um FII de papel, é favorecido pelo atual ambiente de juros elevados, apresentando um score de 0.729 e estabilidade relativa no mercado.",
+      "potential": "Com um RegimeFit de 1.0, KNCR11 oferece um potencial defensivo sólido em um mercado de juros altos.",
       "risk": "Baixo",
-      "horizon": "Curto prazo"
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,13",
+      "value": "R$ 5,16",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "167.875",
-      "sub": "-2.50% hoje",
+      "value": "167.491",
+      "sub": "-0.23% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente favorece investimentos em renda fixa e FIIs de papel. O IPCA acumulado de 4,44% sugere controle inflacionário, enquanto o IBOV em queda de 2,50% reflete a aversão ao risco do mercado. Para quem vai aportar R$100 hoje, é prudente priorizar ativos defensivos que possam oferecer proteção contra a volatilidade atual.",
+  "macro_summary": "Com a SELIC estável em 13,90% e o IPCA em 4,44%, o ambiente de juros altos continua pressionando o mercado. O IBOV, em queda de -0.23%, reflete a cautela dos investidores. Para quem vai aportar R$100 hoje, a preferência por ativos defensivos pode mitigar riscos em um cenário de incertezas econômicas.",
   "analysts": {
     "enter": [
-      "BTLG11 — devido ao seu score elevado e estabilidade em regimes de aversão ao risco"
+      "PVBI11 — devido ao seu score elevado e potencial defensivo em um mercado volátil"
     ],
     "reinforce": [
-      "KNCR11 — por sua adequação ao regime RISK_OFF e potencial de renda estável"
+      "SUZB3 — por apresentar recuperação recente e potencial de valorização"
     ],
     "avoid": [
-      "Setor de mineração — devido ao momentum negativo e alta volatilidade"
+      "Setor de materiais — devido ao momentum negativo recente"
     ],
     "realize": [
-      "Nenhum ativo específico identificado como sobrecomprado no momento"
+      "Ativos com alta recente e potencial de sobrecompra, como aqueles com ganhos significativos de curto prazo"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,28",
+      "value": "R$ 19,00",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-3.74%",
+      "value": "-1.45%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+35.0%",
+      "value": "+36.9%",
       "trend": "up"
     },
     {
@@ -113,18 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 19,28, com uma variação de -3.74%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro alcançou 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. A expectativa é de que esses resultados tragam mais clareza sobre a recuperação da empresa.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,00, com uma variação negativa de -1.45%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de que os resultados tragam maior clareza sobre a recuperação da empresa.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em BTLG11, aproveitando seu score elevado e estabilidade no regime atual.",
-    "biggest_risk": "A volatilidade do mercado acionário, refletida na queda do IBOV, pode impactar negativamente ativos de maior risco.",
-    "best_opportunity": "A alocação em KNCR11 oferece uma boa assimetria risco-retorno, com potencial de renda estável em um ambiente de juros elevados.",
-    "common_mistake": "Subestimar o impacto da alta taxa SELIC na atratividade de ativos de renda fixa e FIIs de papel."
+    "smartest_move": "Investir em PVBI11 com alocação de R$33, aproveitando seu potencial defensivo no atual regime.",
+    "biggest_risk": "A persistência do regime BEAR pode intensificar a volatilidade, afetando negativamente ativos de risco.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com proteção contra juros elevados.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de mercado incerto e volátil."
   },
   "_meta": {
-    "generated_at": "2026-08-12T07:50:41.359362-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-08-13T07:52:07.630321-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
       "fii_tijolo",
+      "materiais",
       "fii_papel"
     ],
     "diversity_ok": true,
