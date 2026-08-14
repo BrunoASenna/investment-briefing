@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-03",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.64,
-      "r21d": -0.00809423759170599,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "35",
-        "price": "R$ 34,61",
-        "score": "0.847",
-        "reason": "VIVT3 apresenta um momentum positivo de +0.12% nos últimos 5 dias, beneficiando-se do regime BALANCED atual que favorece o setor de telecomunicações. A alta pontuação de 0.847 reflete um bom ajuste ao regime atual.",
-        "potential": "Com um score elevado e bom ajuste ao regime, VIVT3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 40,89",
-        "score": "0.808",
-        "reason": "TAEE11 se destaca por sua performance positiva de +2.53% nos últimos 5 dias, alinhando-se bem ao regime NEUTRAL que favorece utilidades. O score de 0.808 indica uma boa perspectiva de estabilidade.",
-        "potential": "O ativo tem potencial de retorno estável, beneficiando-se de um ambiente econômico equilibrado e de sua posição no setor de utilidades.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "32",
-        "price": "R$ 29,91",
-        "score": "0.784",
-        "reason": "SBSP3 mostra um forte momentum com +8.02% nos últimos 21 dias, destacando-se no setor de utilidades em um regime NEUTRAL. O crescimento recente reflete uma boa adaptação ao cenário atual.",
-        "potential": "Com base no momentum recente, SBSP3 tem potencial de crescimento contínuo, especialmente em um ambiente de juros elevados que favorece utilidades.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,19",
-      "ibov": "172.788"
-    }
-  },
-  {
     "date": "2026-07-06",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,16",
       "ibov": "167.491"
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.23,
+      "r21d": -0.06052309041638087,
+      "r63d": -0.05644897175575105
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "37",
+        "price": "R$ 18,32",
+        "score": "0.831",
+        "reason": "Fleury ON apresenta um forte momentum com alta de 6.08% nos últimos 5 dias, beneficiando-se do setor de saúde que é tradicionalmente defensivo em um regime BALANCED.",
+        "potential": "Com um score elevado e bom ajuste ao regime, o potencial é positivo, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 105,71",
+        "score": "0.734",
+        "reason": "KNCR11 é atraente devido à sua natureza de fundo imobiliário de papel, que se beneficia de juros elevados, ajustando-se bem ao regime atual.",
+        "potential": "O potencial é estável, com foco em geração de renda passiva, adequado para investidores buscando segurança.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "31",
+        "price": "R$ 18,30",
+        "score": "0.703",
+        "reason": "Apesar da queda recente, Raia Drogasil ON tem um score razoável e se beneficia do setor de saúde, que é defensivo em tempos de incerteza.",
+        "potential": "Potencial de recuperação moderado, com base na resiliência do setor de saúde.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,19",
+      "ibov": "167.101"
     }
   }
 ]

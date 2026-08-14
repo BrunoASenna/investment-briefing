@@ -1,42 +1,42 @@
 {
-  "date": "13/08/2026",
+  "date": "14/08/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual BEAR com perfil BALANCED indica um mercado em queda, mas com oportunidades equilibradas, favorecendo investimentos defensivos e FIIs de papel."
+    "summary": "O regime atual é de mercado em baixa com perfil equilibrado, sugerindo cautela e favorecendo investimentos em ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
-      "ticker": "PVBI11",
-      "name": "VBI Prime Properties",
-      "value": "33",
-      "price": "R$ 66,31",
-      "score": "0.761",
-      "reason": "PVBI11, um fundo de tijolo, apresenta uma leve queda de -0.66% nos últimos 5 dias, mas se beneficia do perfil BALANCED do regime atual, oferecendo potencial de estabilidade em um mercado volátil.",
-      "potential": "Com um score de 0.761, PVBI11 pode oferecer uma proteção moderada contra a volatilidade do mercado atual.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "34",
-      "price": "R$ 41,45",
-      "score": "0.753",
-      "reason": "Suzano ON, apesar de uma queda de -3.24% nos últimos 5 dias, mostra resiliência com um ganho de +2.65% no último dia, indicando potencial de recuperação em um mercado de materiais desafiador.",
-      "potential": "O score de 0.753 sugere uma oportunidade de recuperação com riscos moderados em um cenário de mercado instável.",
-      "risk": "Médio",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "37",
+      "price": "R$ 18,32",
+      "score": "0.831",
+      "reason": "Fleury ON apresenta um forte momentum com alta de 6.08% nos últimos 5 dias, beneficiando-se do setor de saúde que é tradicionalmente defensivo em um regime BALANCED.",
+      "potential": "Com um score elevado e bom ajuste ao regime, o potencial é positivo, especialmente em um cenário de estabilidade econômica.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
-      "value": "33",
+      "value": "32",
       "price": "R$ 105,71",
-      "score": "0.729",
-      "reason": "KNCR11, um FII de papel, é favorecido pelo atual ambiente de juros elevados, apresentando um score de 0.729 e estabilidade relativa no mercado.",
-      "potential": "Com um RegimeFit de 1.0, KNCR11 oferece um potencial defensivo sólido em um mercado de juros altos.",
+      "score": "0.734",
+      "reason": "KNCR11 é atraente devido à sua natureza de fundo imobiliário de papel, que se beneficia de juros elevados, ajustando-se bem ao regime atual.",
+      "potential": "O potencial é estável, com foco em geração de renda passiva, adequado para investidores buscando segurança.",
       "risk": "Baixo",
       "horizon": "Médio a longo prazo"
+    },
+    {
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "31",
+      "price": "R$ 18,30",
+      "score": "0.703",
+      "reason": "Apesar da queda recente, Raia Drogasil ON tem um score razoável e se beneficia do setor de saúde, que é defensivo em tempos de incerteza.",
+      "potential": "Potencial de recuperação moderado, com base na resiliência do setor de saúde.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,30 +54,30 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,19",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "167.491",
+      "value": "167.101",
       "sub": "-0.23% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 13,90% e o IPCA em 4,44%, o ambiente de juros altos continua pressionando o mercado. O IBOV, em queda de -0.23%, reflete a cautela dos investidores. Para quem vai aportar R$100 hoje, a preferência por ativos defensivos pode mitigar riscos em um cenário de incertezas econômicas.",
+  "macro_summary": "Com a SELIC estável em 13,90% e o IPCA em 4,44%, o ambiente econômico é de juros altos e inflação controlada, favorecendo ativos defensivos. O IBOV recuou 0,23%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser mais prudente.",
   "analysts": {
     "enter": [
-      "PVBI11 — devido ao seu score elevado e potencial defensivo em um mercado volátil"
+      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "SUZB3 — por apresentar recuperação recente e potencial de valorização"
+      "FLRY3 — bom momentum de 21 dias com alta de 10.96%"
     ],
     "avoid": [
-      "Setor de materiais — devido ao momentum negativo recente"
+      "Setor industrial — momentum fraco com rotação de 0.80"
     ],
     "realize": [
-      "Ativos com alta recente e potencial de sobrecompra, como aqueles com ganhos significativos de curto prazo"
+      "Braskem — após reversão de prejuízo, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
@@ -113,19 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,00, com uma variação negativa de -1.45%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de que os resultados tragam maior clareza sobre a recuperação da empresa.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,00, com variação de -1.45%. No contexto pós-1T26, o banco enfrenta desafios com lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar o preço das ações.",
   "executive_summary": {
-    "smartest_move": "Investir em PVBI11 com alocação de R$33, aproveitando seu potencial defensivo no atual regime.",
-    "biggest_risk": "A persistência do regime BEAR pode intensificar a volatilidade, afetando negativamente ativos de risco.",
-    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com proteção contra juros elevados.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de mercado incerto e volátil."
+    "smartest_move": "Alocar R$37 em FLRY3, aproveitando o bom momentum e ajuste ao regime.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos cíclicos.",
+    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável devido ao seu desempenho recente e setor defensivo.",
+    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento."
   },
   "_meta": {
-    "generated_at": "2026-08-13T07:52:07.630321-03:00",
+    "generated_at": "2026-08-14T07:47:48.598853-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "fii_tijolo",
-      "materiais",
+      "saude",
       "fii_papel"
     ],
     "diversity_ok": true,
