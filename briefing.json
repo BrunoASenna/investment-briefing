@@ -1,42 +1,42 @@
 {
-  "date": "14/08/2026",
+  "date": "17/08/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é de mercado em baixa com perfil equilibrado, sugerindo cautela e favorecendo investimentos em ativos defensivos e fundos imobiliários de papel."
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com equilíbrio entre forças compradoras e vendedoras, favorecendo estratégias defensivas e investimentos em FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "37",
-      "price": "R$ 18,32",
-      "score": "0.831",
-      "reason": "Fleury ON apresenta um forte momentum com alta de 6.08% nos últimos 5 dias, beneficiando-se do setor de saúde que é tradicionalmente defensivo em um regime BALANCED.",
-      "potential": "Com um score elevado e bom ajuste ao regime, o potencial é positivo, especialmente em um cenário de estabilidade econômica.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "32",
-      "price": "R$ 105,71",
-      "score": "0.734",
-      "reason": "KNCR11 é atraente devido à sua natureza de fundo imobiliário de papel, que se beneficia de juros elevados, ajustando-se bem ao regime atual.",
-      "potential": "O potencial é estável, com foco em geração de renda passiva, adequado para investidores buscando segurança.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
-    },
-    {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "31",
-      "price": "R$ 18,30",
-      "score": "0.703",
-      "reason": "Apesar da queda recente, Raia Drogasil ON tem um score razoável e se beneficia do setor de saúde, que é defensivo em tempos de incerteza.",
-      "potential": "Potencial de recuperação moderado, com base na resiliência do setor de saúde.",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "35",
+      "price": "R$ 47,50",
+      "score": "0.76",
+      "reason": "WEG ON apresenta um desempenho positivo de 7.47% em 21 dias, indicando força relativa no setor industrial, que é favorecido pelo perfil BALANCED do dia.",
+      "potential": "A alta pontuação sugere um potencial de valorização moderado, alinhado ao regime atual.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "33",
+      "price": "R$ 42,09",
+      "score": "0.72",
+      "reason": "Petrobras apresenta crescimento consistente de 3.52% em 21 dias, beneficiando-se da resiliência do setor de energia e da estabilidade no cenário macroeconômico.",
+      "potential": "Potencial de valorização moderado, impulsionado pela estabilidade dos preços de commodities.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "32",
+      "price": "R$ 29,74",
+      "score": "0.706",
+      "reason": "Apesar da queda de 16.27% em 21 dias, a Telefônica Vivo pode se beneficiar de uma recuperação no setor de telecomunicações, dada sua alta RegimeFit.",
+      "potential": "Potencial de recuperação, especialmente se o setor de telecomunicações apresentar sinais de melhora.",
+      "risk": "Alto",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,44%",
+      "value": "N/D",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,19",
+      "value": "R$ 5,22",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "167.101",
-      "sub": "-0.23% hoje",
+      "value": "166.934",
+      "sub": "-0.10% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 13,90% e o IPCA em 4,44%, o ambiente econômico é de juros altos e inflação controlada, favorecendo ativos defensivos. O IBOV recuou 0,23%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser mais prudente.",
+  "macro_summary": "A taxa SELIC permanece alta em 13,90%, mantendo o custo do crédito elevado, o que pode pressionar o consumo e investimentos. A ausência de dados do IPCA reflete incertezas inflacionárias, enquanto o IBOV recua 0.10%, refletindo o regime BEAR. Para quem vai aportar R$100 hoje, a estabilidade do dólar em R$ 5,22 oferece alguma proteção contra volatilidade cambial.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
+      "WEGE3 — devido ao bom desempenho em 21 dias e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum de 21 dias com alta de 10.96%"
+      "PETR4 — consistente crescimento em 21 dias e resiliência do setor de energia"
     ],
     "avoid": [
-      "Setor industrial — momentum fraco com rotação de 0.80"
+      "VIVT3 — devido ao momentum negativo de -16.27% em 21 dias"
     ],
     "realize": [
-      "Braskem — após reversão de prejuízo, pode estar sobrecomprada"
+      "Ativos que apresentaram alta significativa recentemente podem estar sobrecomprados"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,00",
+      "value": "R$ 18,38",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.45%",
+      "value": "+0.93%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+36.9%",
+      "value": "+41.6%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 19,00, com variação de -1.45%. No contexto pós-1T26, o banco enfrenta desafios com lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar o preço das ações.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 18,38 com uma variação de +0.93%. O contexto pós-1T26, com lucro em queda de 53% e inadimplência agro em 6.22%, sugere cautela. O próximo gatilho será o resultado do 2T26 em agosto, que poderá fornecer melhor visibilidade sobre a recuperação da empresa.",
   "executive_summary": {
-    "smartest_move": "Alocar R$37 em FLRY3, aproveitando o bom momentum e ajuste ao regime.",
-    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos cíclicos.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável devido ao seu desempenho recente e setor defensivo.",
-    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento."
+    "smartest_move": "Ação executável hoje — considerar alocação em WEGE3 com R$35, devido ao seu desempenho positivo recente.",
+    "biggest_risk": "Risco concreto baseado no regime BEAR — a persistência de um mercado em baixa pode continuar pressionando ações cíclicas.",
+    "best_opportunity": "Assimetria risco-retorno em WEGE3, que apresenta um bom score e potencial de valorização no curto a médio prazo.",
+    "common_mistake": "Erro comportamental específico — subestimar a importância de diversificação em um regime de mercado BEAR."
   },
   "_meta": {
-    "generated_at": "2026-08-14T07:47:48.598853-03:00",
+    "generated_at": "2026-08-17T07:21:33.204129-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "saude",
-      "fii_papel"
+      "energia",
+      "industrial",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

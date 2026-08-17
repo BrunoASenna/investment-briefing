@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -0.98,
-      "r21d": 0.020937365029967046,
-      "r63d": -0.08292953678213455
-    },
-    "opportunities": [
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "34",
-        "price": "R$ 30,15",
-        "score": "0.777",
-        "reason": "Com um momentum positivo de +1.69% nos últimos 5 dias e operando no setor de utilidades, a Sabesp se beneficia do regime RISK_OFF, que favorece ativos defensivos.",
-        "potential": "Potencial de crescimento sólido devido ao bom score e alinhamento com o regime atual.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "34",
-        "price": "R$ 34,67",
-        "score": "0.774",
-        "reason": "A Telefônica Vivo apresenta um desempenho estável com um crescimento de +0.78% em 5 dias, sendo uma escolha adequada em telecomunicações para um cenário RISK_OFF.",
-        "potential": "Potencial de estabilidade e proteção, alinhado ao perfil defensivo do regime.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "32",
-        "price": "R$ 3,83",
-        "score": "0.738",
-        "reason": "Cosan ON se destaca com um crescimento de +3.23% em 5 dias, atraindo interesse apesar do baixo RegimeFit, devido ao seu alto novelty.",
-        "potential": "Potencial moderado, mas com risco devido ao baixo RegimeFit.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,17",
-      "ibov": "172.558"
-    }
-  },
-  {
     "date": "2026-07-07",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,19",
       "ibov": "167.101"
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.1,
+      "r21d": -0.05010270913115472,
+      "r63d": -0.064092932509559
+    },
+    "opportunities": [
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "35",
+        "price": "R$ 47,50",
+        "score": "0.76",
+        "reason": "WEG ON apresenta um desempenho positivo de 7.47% em 21 dias, indicando força relativa no setor industrial, que é favorecido pelo perfil BALANCED do dia.",
+        "potential": "A alta pontuação sugere um potencial de valorização moderado, alinhado ao regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "33",
+        "price": "R$ 42,09",
+        "score": "0.72",
+        "reason": "Petrobras apresenta crescimento consistente de 3.52% em 21 dias, beneficiando-se da resiliência do setor de energia e da estabilidade no cenário macroeconômico.",
+        "potential": "Potencial de valorização moderado, impulsionado pela estabilidade dos preços de commodities.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "32",
+        "price": "R$ 29,74",
+        "score": "0.706",
+        "reason": "Apesar da queda de 16.27% em 21 dias, a Telefônica Vivo pode se beneficiar de uma recuperação no setor de telecomunicações, dada sua alta RegimeFit.",
+        "potential": "Potencial de recuperação, especialmente se o setor de telecomunicações apresentar sinais de melhora.",
+        "risk": "Alto",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "N/D",
+      "dolar": "R$ 5,22",
+      "ibov": "166.934"
     }
   }
 ]
