@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.25,
-      "r21d": 0.019873242860276637,
-      "r63d": -0.08625351244827605
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "35",
-        "price": "R$ 15,57",
-        "score": "0.831",
-        "reason": "Fleury ON se destaca pelo bom momentum recente, com alta de +1.10% nos últimos 5 dias, e pertence ao setor de saúde, que tende a ser resiliente em um regime BALANCED.",
-        "potential": "Com um score de 0.831, há potencial de valorização moderada, especialmente se o setor de saúde continuar atraente.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "33",
-        "price": "R$ 10,93",
-        "score": "0.792",
-        "reason": "Cemig PN apresenta estabilidade com um aumento de +0.55% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
-        "potential": "Potencial de crescimento estável com base no score de 0.792 e a natureza defensiva do setor de utilidades.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "32",
-        "price": "R$ 40,40",
-        "score": "0.768",
-        "reason": "Transmissão Paulista tem se beneficiado de um aumento de +1.56% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece ativos de utilidades.",
-        "potential": "Score de 0.768 indica potencial de valorização moderada, suportado pela estabilidade do setor de transmissão elétrica.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,15",
-      "ibov": "172.021"
-    }
-  },
-  {
     "date": "2026-07-09",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,20",
       "ibov": "166.934"
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.27,
+      "r21d": -0.054973836862468824,
+      "r63d": -0.060126796853810685
+    },
+    "opportunities": [
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "34",
+        "price": "R$ 31,18",
+        "score": "0.767",
+        "reason": "A TOTVS ON se destaca pelo momentum positivo de +1.93% nos últimos 5 dias, beneficiando-se do perfil BALANCED do regime atual. O setor de tecnologia pode oferecer resiliência em meio à volatilidade.",
+        "potential": "Com um score de 0.767, a TOTVS tem potencial de crescimento moderado, especialmente se o mercado continuar favorecendo empresas tecnológicas.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "34",
+        "price": "R$ 41,16",
+        "score": "0.756",
+        "reason": "Suzano ON apresenta uma recuperação de +1.43% no último dia, apesar da queda de -1.29% nos últimos 21 dias, indicando potencial de reversão no setor de materiais.",
+        "potential": "O score de 0.756 sugere um potencial de recuperação moderado, alinhado com a estabilidade esperada no mercado de materiais.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "32",
+        "price": "R$ 10,17",
+        "score": "0.715",
+        "reason": "Cemig PN, apesar da queda de -8.30% nos últimos 21 dias, pode se beneficiar de um ambiente de juros elevados, favorecendo o setor de utilidades.",
+        "potential": "Com um score de 0.715, há um potencial de estabilização, especialmente se o mercado buscar segurança em utilidades.",
+        "risk": "Alto",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,20",
+      "ibov": "166.335"
     }
   }
 ]
