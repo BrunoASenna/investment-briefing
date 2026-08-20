@@ -1,42 +1,42 @@
 {
-  "date": "19/08/2026",
+  "date": "20/08/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é de mercado BEAR com perfil BALANCED, sugerindo que investidores devem buscar ativos defensivos e FIIs de papel, enquanto permanecem atentos a oportunidades de curto prazo em setores resilientes."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando um ambiente favorável para ativos de risco, apesar dos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "34",
-      "price": "R$ 31,18",
-      "score": "0.767",
-      "reason": "A TOTVS ON se destaca pelo momentum positivo de +1.93% nos últimos 5 dias, beneficiando-se do perfil BALANCED do regime atual. O setor de tecnologia pode oferecer resiliência em meio à volatilidade.",
-      "potential": "Com um score de 0.767, a TOTVS tem potencial de crescimento moderado, especialmente se o mercado continuar favorecendo empresas tecnológicas.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "36",
+      "price": "R$ 18,28",
+      "score": "0.819",
+      "reason": "Fleury ON apresenta um momentum positivo de +0.16% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de saúde pode oferecer resiliência em meio à volatilidade.",
+      "potential": "Com um score elevado e alinhamento com o regime, há potencial para valorização moderada.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "34",
-      "price": "R$ 41,16",
-      "score": "0.756",
-      "reason": "Suzano ON apresenta uma recuperação de +1.43% no último dia, apesar da queda de -1.29% nos últimos 21 dias, indicando potencial de reversão no setor de materiais.",
-      "potential": "O score de 0.756 sugere um potencial de recuperação moderado, alinhado com a estabilidade esperada no mercado de materiais.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
       "value": "32",
-      "price": "R$ 10,17",
-      "score": "0.715",
-      "reason": "Cemig PN, apesar da queda de -8.30% nos últimos 21 dias, pode se beneficiar de um ambiente de juros elevados, favorecendo o setor de utilidades.",
-      "potential": "Com um score de 0.715, há um potencial de estabilização, especialmente se o mercado buscar segurança em utilidades.",
-      "risk": "Alto",
+      "price": "R$ 17,72",
+      "score": "0.735",
+      "reason": "Apesar da queda de -1.56% em 5 dias, Raia Drogasil ON pode se beneficiar do ambiente RISK_ON e da estabilidade no setor de saúde.",
+      "potential": "Potencial de recuperação devido ao regime favorável, mas com cautela devido ao desempenho recente.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "32",
+      "price": "R$ 106,57",
+      "score": "0.731",
+      "reason": "KNCR11, um fundo imobiliário de papel, oferece estabilidade em um cenário de juros elevados, com leve alta de +0.81% em 5 dias.",
+      "potential": "Potencial de retorno estável, adequado para diversificação em renda fixa.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,20",
+      "value": "R$ 5,17",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "166.335",
-      "sub": "-0.27% hoje",
-      "trend": "down"
+      "value": "167.830",
+      "sub": "+0.90% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e o IPCA em 4,44%, o ambiente econômico favorece investimentos mais conservadores. O IBOV, que caiu -0.27% hoje, reflete a cautela dos investidores em um mercado BEAR. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode mitigar riscos associados à volatilidade atual.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos persiste, mas o IPCA de 4,44% sugere controle inflacionário. O IBOV subiu 0.90%, refletindo o perfil RISK_ON, o que pode incentivar aportes em ativos de risco, mesmo com apenas R$100 disponíveis.",
   "analysts": {
     "enter": [
-      "TOTS3 — devido ao seu bom momentum e resiliência no setor de tecnologia"
+      "FLRY3 — Score elevado e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "TOTS3 — com momentum positivo de +4.28% em 21 dias"
+      "FLRY3 — Momentum positivo de 21 dias"
     ],
     "avoid": [
-      "CMIG4 — devido ao momentum negativo de -8.30% em 21 dias"
+      "RADL3 — Desempenho negativo em 5 dias"
     ],
     "realize": [
-      "TOTS3 — após alta recente, pode estar sobrecomprado"
+      "IBOV — Alta recente pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 17,80",
+      "value": "R$ 18,08",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.84%",
+      "value": "+1.57%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+46.2%",
+      "value": "+43.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 17,80, com variação de -0.84%. Após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho é o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside significativo.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 18,08, com variação de +1.57% hoje. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela antes de novas decisões.",
   "executive_summary": {
-    "smartest_move": "Alocar R$34 em TOTS3, aproveitando o momentum positivo e a resiliência do setor de tecnologia.",
-    "biggest_risk": "A persistência do regime BEAR pode ampliar a volatilidade, afetando negativamente ativos mais arriscados.",
-    "best_opportunity": "TOTVS ON apresenta uma assimetria risco-retorno favorável, com momentum positivo e um score alto.",
-    "common_mistake": "Subestimar a importância de diversificação em um mercado BEAR, focando excessivamente em ativos de alto risco."
+    "smartest_move": "Considerar alocação em FLRY3 com R$36 devido ao score elevado e alinhamento com o regime.",
+    "biggest_risk": "A volatilidade do mercado, mesmo em um ambiente RISK_ON, pode impactar negativamente ativos de alto risco.",
+    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno com momentum positivo e score elevado.",
+    "common_mistake": "Subestimar o impacto dos juros elevados na rentabilidade de ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-08-19T07:17:42.477091-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-08-20T07:19:06.504668-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "utilidades",
-      "tecnologia",
-      "materiais"
+      "fii_papel",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

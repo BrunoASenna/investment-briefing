@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-09",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.79,
-      "r21d": 0.004952506580768257,
-      "r63d": -0.11210659673987128
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "36",
-        "price": "R$ 34,31",
-        "score": "0.825",
-        "reason": "VIVT3 apresenta um momentum positivo de +1.57% em 5 dias, destacando-se no setor de telecomunicações que está em rotação favorável. O regime BALANCED suporta a alocação em ativos defensivos como este.",
-        "potential": "O score elevado e o ajuste ao regime sugerem um potencial de crescimento moderado, com volatilidade controlada.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "34",
-        "price": "R$ 107,81",
-        "score": "0.773",
-        "reason": "KNCR11 se beneficia do ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-o atraente para investidores buscando renda fixa em um cenário de estabilidade.",
-        "potential": "Com um regime fit ideal e um score sólido, o potencial de retorno é consistente com a busca por estabilidade e renda.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BTLG11",
-        "name": "BTG Logística",
-        "value": "30",
-        "price": "R$ 102,43",
-        "score": "0.693",
-        "reason": "BTLG11, apesar de um momentum mais modesto, oferece exposição ao setor de logística, que pode se beneficiar de uma recuperação econômica gradual.",
-        "potential": "O potencial de crescimento é limitado, mas oferece diversificação em um portfólio equilibrado.",
-        "risk": "Médio",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,16",
-      "ibov": "170.654"
-    }
-  },
-  {
     "date": "2026-07-10",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,20",
       "ibov": "166.335"
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 0.9,
+      "r21d": -0.03170903384373954,
+      "r63d": -0.04755689234436184
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "36",
+        "price": "R$ 18,28",
+        "score": "0.819",
+        "reason": "Fleury ON apresenta um momentum positivo de +0.16% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de saúde pode oferecer resiliência em meio à volatilidade.",
+        "potential": "Com um score elevado e alinhamento com o regime, há potencial para valorização moderada.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "32",
+        "price": "R$ 17,72",
+        "score": "0.735",
+        "reason": "Apesar da queda de -1.56% em 5 dias, Raia Drogasil ON pode se beneficiar do ambiente RISK_ON e da estabilidade no setor de saúde.",
+        "potential": "Potencial de recuperação devido ao regime favorável, mas com cautela devido ao desempenho recente.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 106,57",
+        "score": "0.731",
+        "reason": "KNCR11, um fundo imobiliário de papel, oferece estabilidade em um cenário de juros elevados, com leve alta de +0.81% em 5 dias.",
+        "potential": "Potencial de retorno estável, adequado para diversificação em renda fixa.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,17",
+      "ibov": "167.830"
     }
   }
 ]
