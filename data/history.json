@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-10",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.22,
-      "r21d": 0.02445157425912857,
-      "r63d": -0.11472923040655156
-    },
-    "opportunities": [
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "36",
-        "price": "R$ 30,00",
-        "score": "0.886",
-        "reason": "A Sabesp ON apresenta um momentum positivo de +0.30% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de utilidades é tradicionalmente defensivo, mas a estabilidade atual dos juros permite um potencial de valorização adicional.",
-        "potential": "Com um score elevado e alinhamento com o regime atual, a Sabesp ON tem potencial de valorização consistente.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "33",
-        "price": "R$ 3,86",
-        "score": "0.805",
-        "reason": "A Cosan ON destaca-se com um crescimento de +3.76% nos últimos 5 dias, impulsionada pelo setor de energia que tem mostrado resiliência. O regime RISK_ON favorece empresas que podem se beneficiar de um ambiente econômico mais estável.",
-        "potential": "A Cosan ON tem um bom potencial de crescimento, especialmente se o cenário macroeconômico continuar favorável.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "31",
-        "price": "R$ 20,00",
-        "score": "0.765",
-        "reason": "O Banco do Brasil ON apresenta um crescimento de +2.41% no dia, com um histórico de 21 dias positivo. O setor financeiro pode se beneficiar da estabilidade dos juros, apesar dos desafios recentes.",
-        "potential": "Com um score razoável e um regime que favorece ativos de risco, o Banco do Brasil ON tem um potencial de recuperação moderado.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,72%",
-      "dolar": "R$ 5,13",
-      "ibov": "172.742"
-    }
-  },
-  {
     "date": "2026-07-13",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,17",
       "ibov": "167.830"
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.06,
+      "r21d": -0.05418816320093721,
+      "r63d": -0.053180272780067546
+    },
+    "opportunities": [
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "34",
+        "price": "R$ 44,32",
+        "score": "0.764",
+        "reason": "Petrobras PN se destaca devido ao seu forte momentum de +5.78% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de energia.",
+        "potential": "Com um score elevado e alinhamento parcial ao regime, há potencial de valorização, mas com cautela devido ao ambiente de mercado BEAR.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "VALE3",
+        "name": "Vale ON",
+        "value": "34",
+        "price": "R$ 74,02",
+        "score": "0.744",
+        "reason": "Vale ON apresenta um desempenho positivo recente de +2.95% em 5 dias, sendo uma escolha interessante apesar da leve queda de -1.44% em 21 dias.",
+        "potential": "Potencial de recuperação moderado, especialmente se o setor de mineração ganhar força no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 18,13",
+        "score": "0.704",
+        "reason": "Fleury ON se destaca por um crescimento expressivo de +8.89% em 21 dias, mostrando resiliência no setor de saúde.",
+        "potential": "Bom potencial de continuidade de crescimento, especialmente em um cenário de mercado equilibrado.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,19",
+      "ibov": "167.927"
     }
   }
 ]

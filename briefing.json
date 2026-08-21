@@ -1,42 +1,42 @@
 {
-  "date": "20/08/2026",
+  "date": "21/08/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando um ambiente favorável para ativos de risco, apesar dos juros elevados."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com equilíbrio setorial, favorecendo investimentos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "36",
-      "price": "R$ 18,28",
-      "score": "0.819",
-      "reason": "Fleury ON apresenta um momentum positivo de +0.16% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de saúde pode oferecer resiliência em meio à volatilidade.",
-      "potential": "Com um score elevado e alinhamento com o regime, há potencial para valorização moderada.",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "34",
+      "price": "R$ 44,32",
+      "score": "0.764",
+      "reason": "Petrobras PN se destaca devido ao seu forte momentum de +5.78% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de energia.",
+      "potential": "Com um score elevado e alinhamento parcial ao regime, há potencial de valorização, mas com cautela devido ao ambiente de mercado BEAR.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "32",
-      "price": "R$ 17,72",
-      "score": "0.735",
-      "reason": "Apesar da queda de -1.56% em 5 dias, Raia Drogasil ON pode se beneficiar do ambiente RISK_ON e da estabilidade no setor de saúde.",
-      "potential": "Potencial de recuperação devido ao regime favorável, mas com cautela devido ao desempenho recente.",
+      "ticker": "VALE3",
+      "name": "Vale ON",
+      "value": "34",
+      "price": "R$ 74,02",
+      "score": "0.744",
+      "reason": "Vale ON apresenta um desempenho positivo recente de +2.95% em 5 dias, sendo uma escolha interessante apesar da leve queda de -1.44% em 21 dias.",
+      "potential": "Potencial de recuperação moderado, especialmente se o setor de mineração ganhar força no curto prazo.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "32",
-      "price": "R$ 106,57",
-      "score": "0.731",
-      "reason": "KNCR11, um fundo imobiliário de papel, oferece estabilidade em um cenário de juros elevados, com leve alta de +0.81% em 5 dias.",
-      "potential": "Potencial de retorno estável, adequado para diversificação em renda fixa.",
+      "price": "R$ 18,13",
+      "score": "0.704",
+      "reason": "Fleury ON se destaca por um crescimento expressivo de +8.89% em 21 dias, mostrando resiliência no setor de saúde.",
+      "potential": "Bom potencial de continuidade de crescimento, especialmente em um cenário de mercado equilibrado.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,17",
+      "value": "R$ 5,19",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "167.830",
-      "sub": "+0.90% hoje",
+      "value": "167.927",
+      "sub": "+0.06% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos persiste, mas o IPCA de 4,44% sugere controle inflacionário. O IBOV subiu 0.90%, refletindo o perfil RISK_ON, o que pode incentivar aportes em ativos de risco, mesmo com apenas R$100 disponíveis.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente de juros altos continua a pressionar o consumo e o investimento, enquanto o IPCA em 4,44% indica uma inflação controlada. O IBOV teve leve alta de +0.06%, refletindo um mercado cauteloso mas com potencial de recuperação. Investir R$100 hoje exige foco em ativos defensivos e setores resilientes.",
   "analysts": {
     "enter": [
-      "FLRY3 — Score elevado e alinhamento com o regime RISK_ON"
+      "PETR4 — Forte momentum e alinhamento parcial ao regime atual"
     ],
     "reinforce": [
-      "FLRY3 — Momentum positivo de 21 dias"
+      "FLRY3 — Crescimento consistente de +8.89% em 21 dias"
     ],
     "avoid": [
-      "RADL3 — Desempenho negativo em 5 dias"
+      "Setor de mineração — Momentum negativo em 21 dias"
     ],
     "realize": [
-      "IBOV — Alta recente pode indicar sobrecompra"
+      "PETR4 — Após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 18,08",
+      "value": "R$ 18,04",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.57%",
+      "value": "-0.22%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+43.9%",
+      "value": "+44.2%",
       "trend": "up"
     },
     {
@@ -113,18 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 18,08, com variação de +1.57% hoje. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela antes de novas decisões.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 18,04, com variação de -0.22%. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização antes de novas decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em FLRY3 com R$36 devido ao score elevado e alinhamento com o regime.",
-    "biggest_risk": "A volatilidade do mercado, mesmo em um ambiente RISK_ON, pode impactar negativamente ativos de alto risco.",
-    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno com momentum positivo e score elevado.",
-    "common_mistake": "Subestimar o impacto dos juros elevados na rentabilidade de ativos de risco."
+    "smartest_move": "Considerar alocação em FLRY3 com R$32 devido ao seu desempenho robusto recente.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com crescimento sólido em 21 dias.",
+    "common_mistake": "Subestimar o impacto dos juros altos na economia e sobrecarregar a carteira com ativos de risco elevado."
   },
   "_meta": {
-    "generated_at": "2026-08-20T07:19:06.504668-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-08-21T07:19:02.708245-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "fii_papel",
+      "mineracao",
+      "energia",
       "saude"
     ],
     "diversity_ok": true,
