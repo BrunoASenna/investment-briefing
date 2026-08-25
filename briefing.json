@@ -1,42 +1,42 @@
 {
-  "date": "24/08/2026",
+  "date": "25/08/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual NEUTRAL / BALANCED sugere um ambiente de mercado estável, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel, dado o cenário de juros elevados."
+    "summary": "O regime atual NEUTRAL / BALANCED indica um ambiente de mercado equilibrado, favorecendo investimentos defensivos e FIIs de papel, enquanto os investidores devem ser cautelosos com ativos de maior risco."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 18,43",
-      "score": "0.742",
-      "reason": "Raia Drogasil se destaca pelo momentum positivo (+5.13% em 5 dias) e está bem posicionada no setor de saúde, que é menos volátil em um regime BALANCED.",
-      "potential": "Alto potencial de crescimento devido ao score elevado e bom fit com o regime atual.",
-      "risk": "Baixo",
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "35",
+      "price": "R$ 44,97",
+      "score": "0.768",
+      "reason": "Suzano ON apresenta um forte momentum com um ganho de 7.00% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de materiais.",
+      "potential": "Com um score de 0.768, Suzano ON tem potencial de continuar sua trajetória positiva, especialmente em um ambiente de mercado equilibrado.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
       "value": "33",
-      "price": "R$ 3,64",
-      "score": "0.708",
-      "reason": "Cosan apresenta uma recuperação notável nos últimos 5 dias (+9.97%), apesar da queda em 21 dias, sugerindo uma oportunidade de compra tática.",
-      "potential": "Potencial moderado, considerando a volatilidade recente e o score sólido.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
+      "price": "R$ 106,98",
+      "score": "0.716",
+      "reason": "KNCR11 se beneficia do ambiente de juros elevados, com uma performance estável de +1.65% em 5 dias, sendo uma escolha defensiva sólida.",
+      "potential": "Dado o regime atual e seu score de 0.716, KNCR11 oferece um potencial de retorno estável e seguro.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "33",
-      "price": "R$ 49,27",
-      "score": "0.701",
-      "reason": "WEG mostra um crescimento consistente de 7.88% em 21 dias, alinhando-se bem com o regime NEUTRAL, especialmente no setor industrial.",
-      "potential": "Bom potencial de valorização, sustentado por um score robusto.",
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "32",
+      "price": "R$ 31,92",
+      "score": "0.71",
+      "reason": "TOTVS ON mostra um forte crescimento de 16.20% em 21 dias, destacando-se no setor de tecnologia, mesmo em um regime neutro.",
+      "potential": "Com um score de 0.71, TOTVS ON tem um potencial de crescimento significativo, aproveitando o momento positivo do setor.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,15",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.449",
-      "sub": "-0.34% hoje",
-      "trend": "down"
+      "value": "171.907",
+      "sub": "+0.51% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC está em 13,90% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,44%, indicando uma leve redução na inflação. O IBOV fechou em 170.449 pontos, com uma queda de 0.34% hoje, refletindo um mercado ainda cauteloso. Para quem vai aportar R$100 hoje, o ambiente favorece ativos defensivos devido à estabilidade dos juros e inflação controlada.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos persiste, enquanto o IPCA em 4,44% sugere uma inflação sob controle. O IBOV subiu 0.51% hoje, refletindo um cenário de mercado positivo. Para um investidor com R$100, o regime BALANCED sugere cautela, favorecendo ativos defensivos e FIIs de papel para proteção e rendimento estável.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao momentum positivo e alinhamento com o regime atual"
+      "SUZB3 — devido ao forte momentum e score elevado"
     ],
     "reinforce": [
-      "WEGE3 — por seu crescimento consistente em 21 dias"
+      "TOTS3 — com crescimento de 16.20% em 21 dias, aproveitando o bom momento do setor"
     ],
     "avoid": [
-      "CSAN3 — devido à volatilidade recente, apesar do ganho de curto prazo"
+      "Setor de tecnologia — devido à volatilidade potencial em um regime neutro"
     ],
     "realize": [
-      "RADL3 — após a alta recente, pode ser prudente realizar lucros"
+      "Ativos de mineração — após recente alta, podem estar sobrecomprados"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 18,43",
+      "value": "R$ 18,60",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.16%",
+      "value": "+0.92%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+41.2%",
+      "value": "+39.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 18,43 com variação de +2.16%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro está em 6.22%, o próximo gatilho relevante será o resultado do 2T26 em agosto. Recomenda-se aguardar novos dados para uma decisão mais informada.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 18,60, com uma variação de +0.92% hoje. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso atual é neutro, sugerindo cautela até a divulgação de novos resultados.",
   "executive_summary": {
-    "smartest_move": "Investir em RADL3 com alocação de R$34, considerando seu bom momentum e score.",
-    "biggest_risk": "A volatilidade em setores cíclicos, como o industrial, no regime NEUTRAL.",
-    "best_opportunity": "RADL3 oferece uma assimetria risco-retorno favorável, dado seu desempenho recente e score elevado.",
-    "common_mistake": "Subestimar a importância de diversificação em um regime NEUTRAL, focando apenas em ativos de alto risco."
+    "smartest_move": "Investir em SUZB3 com R$35, aproveitando seu forte momentum e score elevado.",
+    "biggest_risk": "A volatilidade no setor de tecnologia em um regime NEUTRAL pode impactar negativamente.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável em um cenário de juros elevados.",
+    "common_mistake": "Investidores podem subestimar a importância de diversificação em um regime equilibrado."
   },
   "_meta": {
-    "generated_at": "2026-08-24T07:27:36.328035-03:00",
+    "generated_at": "2026-08-25T07:21:06.610313-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "energia",
-      "industrial",
-      "saude"
+      "fii_papel",
+      "tecnologia",
+      "materiais"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-14",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.2,
-      "r21d": 0.0269147388288641,
-      "r63d": -0.11243377558699198
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "35",
-        "price": "R$ 16,15",
-        "score": "0.85",
-        "reason": "Fleury ON apresenta um momentum positivo de +3.19% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido em um ambiente RISK_OFF. Este ativo se beneficia da estabilidade em meio a incertezas macroeconômicas.",
-        "potential": "Com um score de 0.85 e alinhamento ao regime atual, FLRY3 tem potencial de crescimento moderado, especialmente em um cenário de aversão ao risco.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "34",
-        "price": "R$ 41,35",
-        "score": "0.82",
-        "reason": "Transmissão Paulista é uma escolha defensiva sólida, com um desempenho de +2.68% nos últimos 5 dias, beneficiando-se de sua posição no setor de utilidades, que é tradicionalmente resiliente em períodos de alta de juros.",
-        "potential": "O ativo tem potencial de estabilidade e rendimentos consistentes, adequado para investidores buscando segurança em um ambiente de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "31",
-        "price": "R$ 18,77",
-        "score": "0.741",
-        "reason": "Bradesco PN tem mostrado recuperação com um aumento de +4.74% em 5 dias, sendo uma opção interessante no setor financeiro, apesar do ambiente de juros elevados.",
-        "potential": "O potencial de BBDC4 está em sua capacidade de adaptação ao ambiente macroeconômico, com um crescimento moderado esperado.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,12",
-      "ibov": "175.739"
-    }
-  },
-  {
     "date": "2026-07-15",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,16",
       "ibov": "170.449"
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.51,
+      "r21d": -0.012267153905379162,
+      "r63d": -0.0218328932993445
+    },
+    "opportunities": [
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "35",
+        "price": "R$ 44,97",
+        "score": "0.768",
+        "reason": "Suzano ON apresenta um forte momentum com um ganho de 7.00% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de materiais.",
+        "potential": "Com um score de 0.768, Suzano ON tem potencial de continuar sua trajetória positiva, especialmente em um ambiente de mercado equilibrado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 106,98",
+        "score": "0.716",
+        "reason": "KNCR11 se beneficia do ambiente de juros elevados, com uma performance estável de +1.65% em 5 dias, sendo uma escolha defensiva sólida.",
+        "potential": "Dado o regime atual e seu score de 0.716, KNCR11 oferece um potencial de retorno estável e seguro.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "32",
+        "price": "R$ 31,92",
+        "score": "0.71",
+        "reason": "TOTVS ON mostra um forte crescimento de 16.20% em 21 dias, destacando-se no setor de tecnologia, mesmo em um regime neutro.",
+        "potential": "Com um score de 0.71, TOTVS ON tem um potencial de crescimento significativo, aproveitando o momento positivo do setor.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,15",
+      "ibov": "171.907"
     }
   }
 ]
