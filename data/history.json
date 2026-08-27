@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-16",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.36,
-      "r21d": 0.037500957860052225,
-      "r63d": -0.10987771697903286
-    },
-    "opportunities": [
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "34",
-        "price": "R$ 18,67",
-        "score": "0.82",
-        "reason": "RADL3 apresenta um forte momentum com alta de 7.79% nos últimos 5 dias, beneficiando-se do regime BALANCED e da estabilidade no setor de saúde.",
-        "potential": "Com um score de 0.82, RADL3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "33",
-        "price": "R$ 3,93",
-        "score": "0.782",
-        "reason": "CSAN3 se destaca pelo seu crescimento de 20.18% em 21 dias, impulsionado por inovações no setor de energia e um alto índice de novidade.",
-        "potential": "O potencial de CSAN3 é promissor, especialmente com sua alta recente e score elevado.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "33",
-        "price": "R$ 20,55",
-        "score": "0.775",
-        "reason": "BBAS3 tem um bom desempenho de 5.93% nos últimos 21 dias, com um score sólido, apesar de desafios no setor financeiro.",
-        "potential": "Com um score de 0.775, BBAS3 oferece um potencial de valorização moderado, considerando o regime atual.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,07",
-      "ibov": "176.011"
-    }
-  },
-  {
     "date": "2026-07-17",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,15",
       "ibov": "174.577"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.45,
+      "r21d": 0.00851433778071714,
+      "r63d": 0.01839461332303511
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "35",
+        "price": "R$ 18,72",
+        "score": "0.771",
+        "reason": "Fleury ON mostra um forte momentum com um aumento de 3.25% nos últimos 5 dias, alinhado com o regime BALANCED que favorece o setor de saúde.",
+        "potential": "Com um score elevado e um bom ajuste ao regime atual, FLRY3 tem potencial de crescimento moderado.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "33",
+        "price": "R$ 34,78",
+        "score": "0.74",
+        "reason": "TOTVS ON se destaca com um crescimento expressivo de 11.15% nos últimos 5 dias, impulsionado pelo setor de tecnologia que tem mostrado resiliência.",
+        "potential": "O potencial de crescimento é alto, considerando o momentum positivo recente.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "32",
+        "price": "R$ 20,05",
+        "score": "0.698",
+        "reason": "Apesar da recente recuperação de 2.72% no dia, BBAS3 enfrenta desafios com a inadimplência no setor agro, mas ainda é uma escolha sólida devido ao seu perfil defensivo.",
+        "potential": "Potencial de recuperação moderado, com upside significativo se os desafios forem superados.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,16",
+      "ibov": "175.366"
     }
   }
 ]

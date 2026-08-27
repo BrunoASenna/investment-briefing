@@ -1,40 +1,40 @@
 {
-  "date": "26/08/2026",
+  "date": "27/08/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que o mercado está favorável para ativos de risco, aproveitando a estabilidade dos juros e um cenário de apetite por risco."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando um ambiente de mercado estável que favorece investimentos defensivos e FIIs de papel, devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 19,59",
-      "score": "0.781",
-      "reason": "RADL3 se destaca pelo forte momentum, com alta de 14.49% nos últimos 5 dias, beneficiando-se do perfil RISK_ON atual. O setor de saúde é visto como resiliente, oferecendo potencial de crescimento contínuo.",
-      "potential": "Com um score elevado e ajuste ao regime, RADL3 tem potencial de continuar sua trajetória de alta no curto prazo.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "35",
+      "price": "R$ 18,72",
+      "score": "0.771",
+      "reason": "Fleury ON mostra um forte momentum com um aumento de 3.25% nos últimos 5 dias, alinhado com o regime BALANCED que favorece o setor de saúde.",
+      "potential": "Com um score elevado e um bom ajuste ao regime atual, FLRY3 tem potencial de crescimento moderado.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "33",
+      "price": "R$ 34,78",
+      "score": "0.74",
+      "reason": "TOTVS ON se destaca com um crescimento expressivo de 11.15% nos últimos 5 dias, impulsionado pelo setor de tecnologia que tem mostrado resiliência.",
+      "potential": "O potencial de crescimento é alto, considerando o momentum positivo recente.",
       "risk": "Médio",
       "horizon": "Curto prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "34",
-      "price": "R$ 38,86",
-      "score": "0.76",
-      "reason": "TAEE11 apresenta estabilidade e um score robusto, sendo uma escolha sólida em utilidades, especialmente em um cenário de juros elevados que favorece receitas previsíveis.",
-      "potential": "Potencial de estabilidade e retorno consistente, mesmo em um ambiente de juros elevados.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
       "value": "32",
-      "price": "R$ 28,85",
-      "score": "0.719",
-      "reason": "EGIE3, com um score razoável, oferece uma combinação de estabilidade e potencial de recuperação, apesar de uma queda recente de 3.96% em 21 dias.",
-      "potential": "Potencial de recuperação moderada, apoiado por fundamentos sólidos no setor de utilidades.",
+      "price": "R$ 20,05",
+      "score": "0.698",
+      "reason": "Apesar da recente recuperação de 2.72% no dia, BBAS3 enfrenta desafios com a inadimplência no setor agro, mas ainda é uma escolha sólida devido ao seu perfil defensivo.",
+      "potential": "Potencial de recuperação moderado, com upside significativo se os desafios forem superados.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     }
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,15",
+      "value": "R$ 5,16",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "174.577",
-      "sub": "+1.55% hoje",
+      "value": "175.366",
+      "sub": "+0.45% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o mercado mantém juros elevados, mas controlados. O IPCA em 4,44% sugere inflação sob controle, favorecendo o apetite por risco. O IBOV subiu 1.55%, refletindo otimismo e potencial de valorização para quem investir R$100 hoje.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente é propício para investimentos defensivos. O IPCA em 4,44% sugere controle inflacionário, enquanto o IBOV subiu 0.45%, refletindo um otimismo cauteloso. Para quem vai investir R$100 hoje, a estabilidade da SELIC oferece segurança, mas o crescimento do IBOV sugere oportunidades em ações selecionadas.",
   "analysts": {
     "enter": [
-      "RADL3 — Forte momentum e alinhamento com o regime RISK_ON"
+      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "TAEE11 — Estabilidade e bom desempenho em utilidades"
+      "TOTS3 — devido ao excelente desempenho nos últimos 21 dias"
     ],
     "avoid": [
-      "EGIE3 — Queda recente de 3.96% em 21 dias"
+      "Setor de mineração — momentum negativo com índice de 0.71"
     ],
     "realize": [
-      "RADL3 — Após alta de 14.49% em 5 dias, pode estar sobrecomprado"
+      "TOTS3 — após alta de 18.14% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 19,57",
+      "value": "R$ 20,05",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+5.22%",
+      "value": "+2.72%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+33.0%",
+      "value": "+29.8%",
       "trend": "up"
     },
     {
@@ -113,18 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 19,57, com uma variação de +5.22% hoje. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até novas informações.",
+  "bbas3_summary": "Atualmente, BBAS3 está cotado a R$ 20,05, com uma variação positiva de 2.72% no dia. Após o primeiro trimestre de 2026, o banco enfrenta desafios com um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será a divulgação dos resultados do segundo trimestre em agosto, que poderá oferecer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em RADL3 com R$34, aproveitando o forte momentum e o perfil RISK_ON.",
-    "biggest_risk": "A volatilidade potencial em ativos de risco devido ao regime NEUTRAL.",
-    "best_opportunity": "RADL3, com alta recente e alinhamento ao regime, oferece uma assimetria risco-retorno atrativa.",
-    "common_mistake": "Subestimar a importância de diversificação em um ambiente de apetite por risco."
+    "smartest_move": "Investir em FLRY3 com alocação de R$35, aproveitando seu momentum positivo e ajuste ao regime.",
+    "biggest_risk": "A instabilidade econômica global pode impactar negativamente o mercado, mesmo em um regime NEUTRAL.",
+    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com bom momentum e baixo risco.",
+    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-08-26T07:23:40.686205-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-08-27T17:03:23.255855-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "utilidades",
+      "financeiro",
+      "tecnologia",
       "saude"
     ],
     "diversity_ok": true,
