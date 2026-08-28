@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-17",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.24,
-      "r21d": 0.03188407517779335,
-      "r63d": -0.11682815175364167
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "36",
-        "price": "R$ 35,47",
-        "score": "0.828",
-        "reason": "Telefônica Vivo ON se destaca pelo momentum positivo de +2.81% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de telecomunicações.",
-        "potential": "Com um score elevado de 0.828, o ativo pode continuar a apresentar resiliência em um cenário de aversão ao risco.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "32",
-        "price": "R$ 10,95",
-        "score": "0.742",
-        "reason": "Hapvida ON apresentou um aumento significativo de +8.74% nos últimos 5 dias, indicando um forte momentum no setor de saúde, que é tradicionalmente defensivo.",
-        "potential": "O score de 0.742 sugere potencial de crescimento adicional, especialmente em um ambiente de juros elevados.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "32",
-        "price": "R$ 18,52",
-        "score": "0.737",
-        "reason": "Raia Drogasil ON, com um crescimento de +5.77% nos últimos 21 dias, se beneficia do perfil defensivo do setor de saúde em um ambiente de incerteza econômica.",
-        "potential": "O score de 0.737 indica que o ativo pode continuar a atrair investidores buscando segurança.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,10",
-      "ibov": "173.825"
-    }
-  },
-  {
     "date": "2026-07-20",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,16",
       "ibov": "175.366"
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.3,
+      "r21d": -0.008435219209862328,
+      "r63d": 0.00841929872903248
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "35",
+        "price": "R$ 10,51",
+        "score": "0.755",
+        "reason": "Cemig PN apresenta um bom momentum de curto prazo com alta de 4.68% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades em um regime BALANCED.",
+        "potential": "Com um score de 0.755, Cemig PN tem um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 25,24",
+        "score": "0.732",
+        "reason": "Sabesp ON se destaca por sua resiliência em um ambiente de juros elevados, com um crescimento de 6.27% nos últimos 5 dias, o que sugere uma boa adaptação ao regime atual.",
+        "potential": "O potencial de Sabesp ON é reforçado por seu score de 0.732, indicando uma boa perspectiva de valorização em um cenário de estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "32",
+        "price": "R$ 19,36",
+        "score": "0.702",
+        "reason": "Raia Drogasil ON mostra um crescimento consistente de 5.05% nos últimos 5 dias, beneficiando-se de uma demanda estável no setor de saúde, alinhando-se bem ao regime BALANCED.",
+        "potential": "Com um score de 0.702, Raia Drogasil ON apresenta um potencial de crescimento moderado, especialmente em um ambiente econômico neutro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,20",
+      "ibov": "175.665"
     }
   }
 ]

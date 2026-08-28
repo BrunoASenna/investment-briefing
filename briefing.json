@@ -1,42 +1,42 @@
 {
-  "date": "27/08/2026",
+  "date": "28/08/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, indicando um ambiente de mercado estável que favorece investimentos defensivos e FIIs de papel, devido aos juros elevados."
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde tanto ativos defensivos quanto de crescimento podem encontrar suporte, mas com uma leve preferência por estratégias conservadoras devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
       "value": "35",
-      "price": "R$ 18,72",
-      "score": "0.771",
-      "reason": "Fleury ON mostra um forte momentum com um aumento de 3.25% nos últimos 5 dias, alinhado com o regime BALANCED que favorece o setor de saúde.",
-      "potential": "Com um score elevado e um bom ajuste ao regime atual, FLRY3 tem potencial de crescimento moderado.",
-      "risk": "Baixo",
+      "price": "R$ 10,51",
+      "score": "0.755",
+      "reason": "Cemig PN apresenta um bom momentum de curto prazo com alta de 4.68% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades em um regime BALANCED.",
+      "potential": "Com um score de 0.755, Cemig PN tem um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "33",
-      "price": "R$ 34,78",
-      "score": "0.74",
-      "reason": "TOTVS ON se destaca com um crescimento expressivo de 11.15% nos últimos 5 dias, impulsionado pelo setor de tecnologia que tem mostrado resiliência.",
-      "potential": "O potencial de crescimento é alto, considerando o momentum positivo recente.",
+      "price": "R$ 25,24",
+      "score": "0.732",
+      "reason": "Sabesp ON se destaca por sua resiliência em um ambiente de juros elevados, com um crescimento de 6.27% nos últimos 5 dias, o que sugere uma boa adaptação ao regime atual.",
+      "potential": "O potencial de Sabesp ON é reforçado por seu score de 0.732, indicando uma boa perspectiva de valorização em um cenário de estabilidade econômica.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
       "value": "32",
-      "price": "R$ 20,05",
-      "score": "0.698",
-      "reason": "Apesar da recente recuperação de 2.72% no dia, BBAS3 enfrenta desafios com a inadimplência no setor agro, mas ainda é uma escolha sólida devido ao seu perfil defensivo.",
-      "potential": "Potencial de recuperação moderado, com upside significativo se os desafios forem superados.",
+      "price": "R$ 19,36",
+      "score": "0.702",
+      "reason": "Raia Drogasil ON mostra um crescimento consistente de 5.05% nos últimos 5 dias, beneficiando-se de uma demanda estável no setor de saúde, alinhando-se bem ao regime BALANCED.",
+      "potential": "Com um score de 0.702, Raia Drogasil ON apresenta um potencial de crescimento moderado, especialmente em um ambiente econômico neutro.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,20",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "175.366",
-      "sub": "+0.45% hoje",
+      "value": "175.665",
+      "sub": "+0.30% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente é propício para investimentos defensivos. O IPCA em 4,44% sugere controle inflacionário, enquanto o IBOV subiu 0.45%, refletindo um otimismo cauteloso. Para quem vai investir R$100 hoje, a estabilidade da SELIC oferece segurança, mas o crescimento do IBOV sugere oportunidades em ações selecionadas.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente favorece investimentos conservadores. O IPCA de 4,44% indica inflação sob controle, enquanto o IBOV subiu 0.30%, refletindo otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário sugere cautela e preferência por ativos defensivos ou de renda fixa, aproveitando os juros elevados.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
+      "CMIG4 — devido ao bom momentum de curto prazo e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "TOTS3 — devido ao excelente desempenho nos últimos 21 dias"
+      "RADL3 — por seu crescimento consistente de 5.05% nos últimos 5 dias"
     ],
     "avoid": [
-      "Setor de mineração — momentum negativo com índice de 0.71"
+      "Setor de tecnologia — devido ao menor momentum de 0.76 nos últimos 5 dias"
     ],
     "realize": [
-      "TOTS3 — após alta de 18.14% em 21 dias, pode estar sobrecomprado"
+      "SBSP3 — após recente alta de 6.27% em 5 dias, pode estar próximo de um topo temporário"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,05",
+      "value": "R$ 20,17",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.72%",
+      "value": "+1.00%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+29.8%",
+      "value": "+29.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Atualmente, BBAS3 está cotado a R$ 20,05, com uma variação positiva de 2.72% no dia. Após o primeiro trimestre de 2026, o banco enfrenta desafios com um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será a divulgação dos resultados do segundo trimestre em agosto, que poderá oferecer novas perspectivas para o ativo.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação real R$ 20,17 com variação de +1.00%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões, dado o consenso neutro e o potencial de upside de 28.97%.",
   "executive_summary": {
-    "smartest_move": "Investir em FLRY3 com alocação de R$35, aproveitando seu momentum positivo e ajuste ao regime.",
-    "biggest_risk": "A instabilidade econômica global pode impactar negativamente o mercado, mesmo em um regime NEUTRAL.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com bom momentum e baixo risco.",
-    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento, levando a decisões precipitadas."
+    "smartest_move": "Alocar R$35 em CMIG4, aproveitando seu momentum positivo e alinhamento com o regime atual.",
+    "biggest_risk": "A volatilidade do mercado global, especialmente com a recente reafirmação do Fed sobre o combate à inflação, pode impactar ativos locais.",
+    "best_opportunity": "A Sabesp ON, com um crescimento de 6.27% nos últimos 5 dias, oferece uma boa assimetria risco-retorno em um cenário de estabilidade.",
+    "common_mistake": "Ignorar o impacto dos juros elevados ao optar por ativos de crescimento em detrimento de defensivos."
   },
   "_meta": {
-    "generated_at": "2026-08-27T17:03:23.255855-03:00",
+    "generated_at": "2026-08-28T18:01:55.633653-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "financeiro",
-      "tecnologia",
+      "utilidades",
       "saude"
     ],
     "diversity_ok": true,
