@@ -1,40 +1,40 @@
 {
-  "date": "28/08/2026",
+  "date": "31/08/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde tanto ativos defensivos quanto de crescimento podem encontrar suporte, mas com uma leve preferência por estratégias conservadoras devido aos juros elevados."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual NEUTRAL com perfil RISK_ON indica que, apesar de um cenário geral de incerteza, há uma tendência de busca por ativos de risco, beneficiando investimentos em ações de setores mais voláteis."
   },
   "opportunities": [
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "35",
-      "price": "R$ 10,51",
-      "score": "0.755",
-      "reason": "Cemig PN apresenta um bom momentum de curto prazo com alta de 4.68% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades em um regime BALANCED.",
-      "potential": "Com um score de 0.755, Cemig PN tem um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "36",
+      "price": "R$ 19,68",
+      "score": "0.769",
+      "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 5.35% nos últimos 5 dias, e pela resiliência do setor de saúde em um contexto de juros elevados, alinhando-se ao regime RISK_ON.",
+      "potential": "Com um score elevado e alta compatibilidade com o regime atual, a ação tem potencial de valorização adicional, especialmente se o apetite por risco dos investidores continuar.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "33",
-      "price": "R$ 25,24",
-      "score": "0.732",
-      "reason": "Sabesp ON se destaca por sua resiliência em um ambiente de juros elevados, com um crescimento de 6.27% nos últimos 5 dias, o que sugere uma boa adaptação ao regime atual.",
-      "potential": "O potencial de Sabesp ON é reforçado por seu score de 0.732, indicando uma boa perspectiva de valorização em um cenário de estabilidade econômica.",
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "32",
+      "price": "R$ 35,26",
+      "score": "0.697",
+      "reason": "TOTVS ON apresenta um crescimento significativo de 9.57% nos últimos 5 dias, impulsionado pela demanda por tecnologia em um ambiente favorável ao risco.",
+      "potential": "O momentum positivo e a busca por inovação tecnológica sugerem um bom potencial de crescimento, embora o score moderado indique cautela.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     },
     {
       "ticker": "RADL3",
       "name": "Raia Drogasil ON",
       "value": "32",
-      "price": "R$ 19,36",
-      "score": "0.702",
-      "reason": "Raia Drogasil ON mostra um crescimento consistente de 5.05% nos últimos 5 dias, beneficiando-se de uma demanda estável no setor de saúde, alinhando-se bem ao regime BALANCED.",
-      "potential": "Com um score de 0.702, Raia Drogasil ON apresenta um potencial de crescimento moderado, especialmente em um ambiente econômico neutro.",
+      "price": "R$ 19,85",
+      "score": "0.689",
+      "reason": "Raia Drogasil ON se beneficia do crescimento estável do setor de saúde, com um aumento de 7.70% nos últimos 5 dias, alinhando-se bem ao perfil RISK_ON.",
+      "potential": "A estabilidade do setor de saúde e a alta compatibilidade com o regime atual indicam potencial de valorização, embora o score sugira moderação.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,20",
+      "value": "R$ 5,18",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "175.665",
-      "sub": "+0.30% hoje",
+      "value": "177.707",
+      "sub": "+1.16% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente favorece investimentos conservadores. O IPCA de 4,44% indica inflação sob controle, enquanto o IBOV subiu 0.30%, refletindo otimismo moderado no mercado. Para quem vai aportar R$100 hoje, o cenário sugere cautela e preferência por ativos defensivos ou de renda fixa, aproveitando os juros elevados.",
+  "macro_summary": "A SELIC em 13,90% se mantém estável, indicando um custo de capital elevado, enquanto o IPCA em 4,44% sugere controle inflacionário, favorecendo ativos de risco. O IBOV subiu 1.16% hoje, refletindo o apetite por risco em um contexto RISK_ON. Investidores alocando R$100 podem esperar volatilidade, mas também potencial de ganhos em ações de setores resilientes.",
   "analysts": {
     "enter": [
-      "CMIG4 — devido ao bom momentum de curto prazo e alinhamento com o regime atual"
+      "FLRY3 — devido ao forte momentum e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "RADL3 — por seu crescimento consistente de 5.05% nos últimos 5 dias"
+      "TOTS3 — por seu crescimento significativo nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — devido ao menor momentum de 0.76 nos últimos 5 dias"
+      "Setores com rotação setorial negativa, como energia — devido ao baixo desempenho recente"
     ],
     "realize": [
-      "SBSP3 — após recente alta de 6.27% em 5 dias, pode estar próximo de um topo temporário"
+      "Ações que tiveram altas expressivas recentemente, como FLRY3, para evitar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,17",
+      "value": "R$ 20,97",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.00%",
+      "value": "+5.01%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+29.0%",
+      "value": "+24.1%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação real R$ 20,17 com variação de +1.00%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro atingiu 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar novos dados antes de tomar decisões, dado o consenso neutro e o potencial de upside de 28.97%.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 20,97, com variação de +5.01% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho relevante será o resultado do segundo trimestre, esperado para agosto. Dada a volatilidade recente, a estratégia sugerida é aguardar por mais clareza nos resultados futuros.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em CMIG4, aproveitando seu momentum positivo e alinhamento com o regime atual.",
-    "biggest_risk": "A volatilidade do mercado global, especialmente com a recente reafirmação do Fed sobre o combate à inflação, pode impactar ativos locais.",
-    "best_opportunity": "A Sabesp ON, com um crescimento de 6.27% nos últimos 5 dias, oferece uma boa assimetria risco-retorno em um cenário de estabilidade.",
-    "common_mistake": "Ignorar o impacto dos juros elevados ao optar por ativos de crescimento em detrimento de defensivos."
+    "smartest_move": "Considerar alocação em FLRY3, com valor de R$36, devido ao forte momentum e adaptação ao regime atual.",
+    "biggest_risk": "O maior risco é a persistência de juros elevados, que pode limitar o crescimento econômico e impactar negativamente ações mais sensíveis ao crédito.",
+    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno, com momentum positivo e setor defensivo em um ambiente RISK_ON.",
+    "common_mistake": "Um erro comum seria subestimar o impacto dos juros altos e superexpor-se em ativos de alto risco sem diversificação adequada."
   },
   "_meta": {
-    "generated_at": "2026-08-28T18:01:55.633653-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-08-31T14:17:30.029512-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "utilidades",
-      "saude"
+      "saude",
+      "tecnologia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
