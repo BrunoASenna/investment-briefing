@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-21",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.2,
-      "r21d": 0.028444143887623386,
-      "r63d": -0.11604939530520261
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "34",
-        "price": "R$ 35,67",
-        "score": "0.815",
-        "reason": "A Telefônica Vivo ON se destaca pelo bom momentum recente, com valorização de 2.71% nos últimos 5 dias, e está bem posicionada no setor de telecomunicações, que é resiliente em um regime BALANCED.",
-        "potential": "Com um alto score e alinhamento com o regime atual, a VIVT3 tem potencial de continuar performando bem em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 16,56",
-        "score": "0.808",
-        "reason": "A Fleury ON apresenta um crescimento consistente de 2.54% nos últimos 5 dias, beneficiando-se do setor de saúde, que é favorecido em ambientes de juros elevados.",
-        "potential": "Dado o seu desempenho recente e o ambiente macroeconômico, a FLRY3 tem potencial para continuar sua trajetória de valorização.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "33",
-        "price": "R$ 11,55",
-        "score": "0.789",
-        "reason": "Hapvida ON se beneficia de um forte momentum de 10.42% nos últimos 5 dias, refletindo a resiliência do setor de saúde em um cenário de juros altos.",
-        "potential": "Com base no seu desempenho recente e o contexto econômico, a HAPV3 pode continuar a apresentar bons resultados.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,09",
-      "ibov": "173.371"
-    }
-  },
-  {
     "date": "2026-07-22",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,18",
       "ibov": "177.707"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.75,
+      "r21d": 0.014178538222124844,
+      "r63d": 0.059835060118240364
+    },
+    "opportunities": [
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "35",
+        "price": "R$ 46,25",
+        "score": "0.782",
+        "reason": "Petrobras apresenta um forte momentum com alta de 11.85% nos últimos 5 dias, beneficiada pelo setor de energia em um ambiente RISK_ON. A produção recorde de petróleo do Brasil também reforça a atratividade do ativo.",
+        "potential": "Com um score elevado e um regime favorável, PETR4 tem potencial para continuar sua trajetória de alta.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 39,86",
+        "score": "0.734",
+        "reason": "TAEE11 possui um bom RegimeFit de 0.9, indicando alinhamento com o ambiente atual. Apesar de uma performance modesta nos últimos 21 dias, seu perfil defensivo pode oferecer estabilidade.",
+        "potential": "Potencial de valorização moderado, com foco em estabilidade e dividendos.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "32",
+        "price": "R$ 6,81",
+        "score": "0.721",
+        "reason": "Apesar de uma queda significativa de 42.82% em 21 dias, HAPV3 apresenta uma recuperação recente de 6.07% em 5 dias, sugerindo potencial de reversão.",
+        "potential": "O ativo pode oferecer uma oportunidade de recuperação, mas com riscos elevados devido à sua volatilidade recente.",
+        "risk": "Alto",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,18",
+      "ibov": "180.523"
     }
   }
 ]

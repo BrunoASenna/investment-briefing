@@ -1,42 +1,42 @@
 {
-  "date": "31/08/2026",
+  "date": "01/09/2026",
   "regime": {
     "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual NEUTRAL com perfil RISK_ON indica que, apesar de um cenário geral de incerteza, há uma tendência de busca por ativos de risco, beneficiando investimentos em ações de setores mais voláteis."
+    "summary": "O regime atual é NEUTRAL com um perfil de RISK_ON, indicando que os investidores estão mais propensos a buscar ativos de risco, favorecidos por um ambiente de juros elevados e um mercado acionário em alta."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "36",
-      "price": "R$ 19,68",
-      "score": "0.769",
-      "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 5.35% nos últimos 5 dias, e pela resiliência do setor de saúde em um contexto de juros elevados, alinhando-se ao regime RISK_ON.",
-      "potential": "Com um score elevado e alta compatibilidade com o regime atual, a ação tem potencial de valorização adicional, especialmente se o apetite por risco dos investidores continuar.",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "35",
+      "price": "R$ 46,25",
+      "score": "0.782",
+      "reason": "Petrobras apresenta um forte momentum com alta de 11.85% nos últimos 5 dias, beneficiada pelo setor de energia em um ambiente RISK_ON. A produção recorde de petróleo do Brasil também reforça a atratividade do ativo.",
+      "potential": "Com um score elevado e um regime favorável, PETR4 tem potencial para continuar sua trajetória de alta.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "33",
+      "price": "R$ 39,86",
+      "score": "0.734",
+      "reason": "TAEE11 possui um bom RegimeFit de 0.9, indicando alinhamento com o ambiente atual. Apesar de uma performance modesta nos últimos 21 dias, seu perfil defensivo pode oferecer estabilidade.",
+      "potential": "Potencial de valorização moderado, com foco em estabilidade e dividendos.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
+    },
+    {
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
       "value": "32",
-      "price": "R$ 35,26",
-      "score": "0.697",
-      "reason": "TOTVS ON apresenta um crescimento significativo de 9.57% nos últimos 5 dias, impulsionado pela demanda por tecnologia em um ambiente favorável ao risco.",
-      "potential": "O momentum positivo e a busca por inovação tecnológica sugerem um bom potencial de crescimento, embora o score moderado indique cautela.",
-      "risk": "Médio",
+      "price": "R$ 6,81",
+      "score": "0.721",
+      "reason": "Apesar de uma queda significativa de 42.82% em 21 dias, HAPV3 apresenta uma recuperação recente de 6.07% em 5 dias, sugerindo potencial de reversão.",
+      "potential": "O ativo pode oferecer uma oportunidade de recuperação, mas com riscos elevados devido à sua volatilidade recente.",
+      "risk": "Alto",
       "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "32",
-      "price": "R$ 19,85",
-      "score": "0.689",
-      "reason": "Raia Drogasil ON se beneficia do crescimento estável do setor de saúde, com um aumento de 7.70% nos últimos 5 dias, alinhando-se bem ao perfil RISK_ON.",
-      "potential": "A estabilidade do setor de saúde e a alta compatibilidade com o regime atual indicam potencial de valorização, embora o score sugira moderação.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "177.707",
-      "sub": "+1.16% hoje",
+      "value": "180.523",
+      "sub": "+1.75% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC em 13,90% se mantém estável, indicando um custo de capital elevado, enquanto o IPCA em 4,44% sugere controle inflacionário, favorecendo ativos de risco. O IBOV subiu 1.16% hoje, refletindo o apetite por risco em um contexto RISK_ON. Investidores alocando R$100 podem esperar volatilidade, mas também potencial de ganhos em ações de setores resilientes.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente de juros altos continua a pressionar o custo de financiamento. O IPCA acumulado de 4,44% sugere que a inflação está sob controle, enquanto o IBOV subiu 1.75%, refletindo um apetite por risco. Para quem vai investir R$100 hoje, o cenário favorece a busca por ativos de risco, mas com cautela devido aos juros elevados.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao forte momentum e alinhamento com o regime RISK_ON"
+      "PETR4 — devido ao forte momentum e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "TOTS3 — por seu crescimento significativo nos últimos 21 dias"
+      "HAPV3 — recuperação recente sugere potencial de reversão"
     ],
     "avoid": [
-      "Setores com rotação setorial negativa, como energia — devido ao baixo desempenho recente"
+      "Setor de saúde — HAPV3 com momentum negativo de 21d"
     ],
     "realize": [
-      "Ações que tiveram altas expressivas recentemente, como FLRY3, para evitar sobrecompra"
+      "PETR4 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 20,97",
+      "value": "R$ 21,37",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+5.01%",
+      "value": "+3.04%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+24.1%",
+      "value": "+21.8%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 20,97, com variação de +5.01% no dia. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho relevante será o resultado do segundo trimestre, esperado para agosto. Dada a volatilidade recente, a estratégia sugerida é aguardar por mais clareza nos resultados futuros.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 21,37, com uma variação positiva de 3.04% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar para avaliar o impacto dos resultados futuros.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em FLRY3, com valor de R$36, devido ao forte momentum e adaptação ao regime atual.",
-    "biggest_risk": "O maior risco é a persistência de juros elevados, que pode limitar o crescimento econômico e impactar negativamente ações mais sensíveis ao crédito.",
-    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno, com momentum positivo e setor defensivo em um ambiente RISK_ON.",
-    "common_mistake": "Um erro comum seria subestimar o impacto dos juros altos e superexpor-se em ativos de alto risco sem diversificação adequada."
+    "smartest_move": "Investir R$35 em PETR4, aproveitando o momentum positivo e o ambiente RISK_ON.",
+    "biggest_risk": "A volatilidade no setor de saúde, especialmente com HAPV3, que teve forte queda recente.",
+    "best_opportunity": "PETR4, com forte momentum e alinhamento com o regime, oferece uma boa assimetria risco-retorno.",
+    "common_mistake": "Ignorar o impacto dos juros elevados ao considerar investimentos de curto prazo."
   },
   "_meta": {
-    "generated_at": "2026-08-31T14:17:30.029512-03:00",
+    "generated_at": "2026-09-01T11:23:07.619065-03:00",
     "regime": "NEUTRAL / RISK_ON",
     "sectors": [
+      "utilidades",
       "saude",
-      "tecnologia"
+      "energia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
