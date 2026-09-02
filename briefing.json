@@ -1,42 +1,42 @@
 {
-  "date": "01/09/2026",
+  "date": "02/09/2026",
   "regime": {
     "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com um perfil de RISK_ON, indicando que os investidores estão mais propensos a buscar ativos de risco, favorecidos por um ambiente de juros elevados e um mercado acionário em alta."
+    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que, apesar de um ambiente macroeconômico estável, há uma tendência de investidores buscarem ativos de maior risco em busca de retornos superiores."
   },
   "opportunities": [
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "35",
-      "price": "R$ 46,25",
-      "score": "0.782",
-      "reason": "Petrobras apresenta um forte momentum com alta de 11.85% nos últimos 5 dias, beneficiada pelo setor de energia em um ambiente RISK_ON. A produção recorde de petróleo do Brasil também reforça a atratividade do ativo.",
-      "potential": "Com um score elevado e um regime favorável, PETR4 tem potencial para continuar sua trajetória de alta.",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
+      "value": "34",
+      "price": "R$ 21,77",
+      "score": "0.768",
+      "reason": "O Banco do Brasil ON apresenta um forte momentum de curto prazo, com valorização de 11.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor financeiro.",
+      "potential": "O potencial de valorização é reforçado pelo momentum positivo e pelo regime atual que favorece ativos de risco.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
+      "value": "33",
+      "price": "R$ 29,66",
+      "score": "0.749",
+      "reason": "Engie Brasil ON, com um score de 0.749, se destaca pelo seu desempenho estável e alinhamento com o regime RISK_ON, apesar de uma leve queda nos últimos 21 dias.",
+      "potential": "Potencial de recuperação e estabilidade em um ambiente de juros elevados.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
     },
     {
       "ticker": "TAEE11",
       "name": "Transmissão Paulista",
       "value": "33",
-      "price": "R$ 39,86",
-      "score": "0.734",
-      "reason": "TAEE11 possui um bom RegimeFit de 0.9, indicando alinhamento com o ambiente atual. Apesar de uma performance modesta nos últimos 21 dias, seu perfil defensivo pode oferecer estabilidade.",
-      "potential": "Potencial de valorização moderado, com foco em estabilidade e dividendos.",
+      "price": "R$ 40,81",
+      "score": "0.747",
+      "reason": "Transmissão Paulista mostra resiliência com um crescimento de 4.80% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e da demanda por utilidades.",
+      "potential": "Potencial de crescimento contínuo devido à estabilidade do setor de utilidades.",
       "risk": "Baixo",
       "horizon": "Médio a longo prazo"
-    },
-    {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "32",
-      "price": "R$ 6,81",
-      "score": "0.721",
-      "reason": "Apesar de uma queda significativa de 42.82% em 21 dias, HAPV3 apresenta uma recuperação recente de 6.07% em 5 dias, sugerindo potencial de reversão.",
-      "potential": "O ativo pode oferecer uma oportunidade de recuperação, mas com riscos elevados devido à sua volatilidade recente.",
-      "risk": "Alto",
-      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,18",
+      "value": "R$ 5,16",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "180.523",
-      "sub": "+1.75% hoje",
+      "value": "182.830",
+      "sub": "+1.73% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente de juros altos continua a pressionar o custo de financiamento. O IPCA acumulado de 4,44% sugere que a inflação está sob controle, enquanto o IBOV subiu 1.75%, refletindo um apetite por risco. Para quem vai investir R$100 hoje, o cenário favorece a busca por ativos de risco, mas com cautela devido aos juros elevados.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos persiste, enquanto o IPCA desacelera para 4,44%, indicando controle inflacionário. O IBOV subiu 1.73%, refletindo otimismo do mercado e favorecendo ativos de risco, ideal para quem planeja investir R$100 hoje em busca de retornos superiores no curto prazo.",
   "analysts": {
     "enter": [
-      "PETR4 — devido ao forte momentum e alinhamento com o regime RISK_ON"
+      "BBAS3 — Momentum positivo e alinhamento com regime RISK_ON"
     ],
     "reinforce": [
-      "HAPV3 — recuperação recente sugere potencial de reversão"
+      "TAEE11 — Crescimento consistente nos últimos 5 dias"
     ],
     "avoid": [
-      "Setor de saúde — HAPV3 com momentum negativo de 21d"
+      "Setor de mineração — Momentum negativo em comparação com outros setores"
     ],
     "realize": [
-      "PETR4 — após alta recente, pode estar sobrecomprado"
+      "AZZA3 — Alta de 10% hoje pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,37",
+      "value": "R$ 21,77",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+3.04%",
+      "value": "+2.64%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+21.8%",
+      "value": "+19.5%",
       "trend": "up"
     },
     {
@@ -112,21 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O BBAS3 está cotado a R$ 21,37, com uma variação positiva de 3.04% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar para avaliar o impacto dos resultados futuros.",
+  "bbas3_strategy": "Reforçar",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 21,77 com variação de +2.64%. Após o 1T26, o banco enfrentou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode influenciar a percepção do mercado sobre a recuperação do banco.",
   "executive_summary": {
-    "smartest_move": "Investir R$35 em PETR4, aproveitando o momentum positivo e o ambiente RISK_ON.",
-    "biggest_risk": "A volatilidade no setor de saúde, especialmente com HAPV3, que teve forte queda recente.",
-    "best_opportunity": "PETR4, com forte momentum e alinhamento com o regime, oferece uma boa assimetria risco-retorno.",
-    "common_mistake": "Ignorar o impacto dos juros elevados ao considerar investimentos de curto prazo."
+    "smartest_move": "Reforçar posição em BBAS3 com alocação de R$34, dado seu momentum positivo e alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A persistência de juros elevados pode pressionar setores sensíveis ao crédito, afetando o desempenho de algumas empresas.",
+    "best_opportunity": "BBAS3 oferece uma assimetria risco-retorno favorável com um upside de 19.52% e um ambiente macro que suporta ativos de risco.",
+    "common_mistake": "Subestimar o impacto de juros elevados em setores alavancados pode levar a decisões de investimento precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-09-01T11:23:07.619065-03:00",
+    "generated_at": "2026-09-02T10:57:02.975451-03:00",
     "regime": "NEUTRAL / RISK_ON",
     "sectors": [
       "utilidades",
-      "saude",
-      "energia"
+      "financeiro"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

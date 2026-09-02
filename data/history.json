@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-22",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.03,
-      "r21d": 0.017350472501027177,
-      "r63d": -0.1014210245270596
-    },
-    "opportunities": [
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "36",
-        "price": "R$ 20,88",
-        "score": "0.833",
-        "reason": "O Banco do Brasil ON apresenta um momentum positivo de +1.41% nos últimos 5 dias, beneficiando-se do ambiente BALANCED e do setor financeiro, que está em rotação setorial favorável.",
-        "potential": "Com um score de 0.833, o ativo tem potencial de valorização moderada, especialmente se o regime permanecer estável.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "32",
-        "price": "R$ 18,55",
-        "score": "0.757",
-        "reason": "Apesar de uma leve queda de -0.43% nos últimos 5 dias, o Bradesco PN continua sendo uma escolha sólida devido ao seu desempenho de +4.92% nos últimos 21 dias e à estabilidade do setor financeiro.",
-        "potential": "O ativo tem potencial de recuperação e valorização moderada, alinhado com o score de 0.757.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "32",
-        "price": "R$ 41,66",
-        "score": "0.752",
-        "reason": "Petrobras PN mostra um bom desempenho recente com +2.46% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente de mercado equilibrado.",
-        "potential": "Com um score de 0.752, o potencial de valorização é moderado, especialmente se as condições do mercado de energia permanecerem favoráveis.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,08",
-      "ibov": "173.326"
-    }
-  },
-  {
     "date": "2026-07-23",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,18",
       "ibov": "180.523"
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.73,
+      "r21d": 0.027739853565305377,
+      "r63d": 0.08395603963976783
+    },
+    "opportunities": [
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "34",
+        "price": "R$ 21,77",
+        "score": "0.768",
+        "reason": "O Banco do Brasil ON apresenta um forte momentum de curto prazo, com valorização de 11.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor financeiro.",
+        "potential": "O potencial de valorização é reforçado pelo momentum positivo e pelo regime atual que favorece ativos de risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "33",
+        "price": "R$ 29,66",
+        "score": "0.749",
+        "reason": "Engie Brasil ON, com um score de 0.749, se destaca pelo seu desempenho estável e alinhamento com o regime RISK_ON, apesar de uma leve queda nos últimos 21 dias.",
+        "potential": "Potencial de recuperação e estabilidade em um ambiente de juros elevados.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 40,81",
+        "score": "0.747",
+        "reason": "Transmissão Paulista mostra resiliência com um crescimento de 4.80% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e da demanda por utilidades.",
+        "potential": "Potencial de crescimento contínuo devido à estabilidade do setor de utilidades.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,16",
+      "ibov": "182.830"
     }
   }
 ]
