@@ -1,42 +1,42 @@
 {
-  "date": "02/09/2026",
+  "date": "03/09/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que, apesar de um ambiente macroeconômico estável, há uma tendência de investidores buscarem ativos de maior risco em busca de retornos superiores."
+    "label": "BULL / RISK_ON",
+    "summary": "O regime atual é BULL com perfil RISK_ON, indicando um ambiente favorável para investimentos em ativos de risco, com o mercado mostrando otimismo e tendência de alta."
   },
   "opportunities": [
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
       "value": "34",
-      "price": "R$ 21,77",
-      "score": "0.768",
-      "reason": "O Banco do Brasil ON apresenta um forte momentum de curto prazo, com valorização de 11.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor financeiro.",
-      "potential": "O potencial de valorização é reforçado pelo momentum positivo e pelo regime atual que favorece ativos de risco.",
+      "price": "R$ 11,26",
+      "score": "0.781",
+      "reason": "A Cemig PN apresenta um forte momentum de curto prazo, com alta de 8.27% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de utilidades.",
+      "potential": "Com um score elevado e ajuste ao regime, a Cemig PN tem potencial de valorização adicional no curto prazo.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
+    },
+    {
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "33",
+      "price": "R$ 20,02",
+      "score": "0.766",
+      "reason": "A Fleury ON se destaca com um crescimento de 14.47% em 21 dias, indicando forte demanda e interesse no setor de saúde, alinhado ao regime de mercado atual.",
+      "potential": "O contexto de crescimento sólido sugere potencial de valorização contínua.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
       "value": "33",
-      "price": "R$ 29,66",
-      "score": "0.749",
-      "reason": "Engie Brasil ON, com um score de 0.749, se destaca pelo seu desempenho estável e alinhamento com o regime RISK_ON, apesar de uma leve queda nos últimos 21 dias.",
-      "potential": "Potencial de recuperação e estabilidade em um ambiente de juros elevados.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 40,81",
-      "score": "0.747",
-      "reason": "Transmissão Paulista mostra resiliência com um crescimento de 4.80% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e da demanda por utilidades.",
-      "potential": "Potencial de crescimento contínuo devido à estabilidade do setor de utilidades.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "price": "R$ 22,86",
+      "score": "0.764",
+      "reason": "Banco do Brasil ON mostra resiliência com alta de 14.47% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor financeiro.",
+      "potential": "Considerando o score e o ajuste ao regime, há espaço para valorização, especialmente com a expectativa de resultados futuros.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,13",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "182.830",
-      "sub": "+1.73% hoje",
+      "value": "188.043",
+      "sub": "+1.53% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos persiste, enquanto o IPCA desacelera para 4,44%, indicando controle inflacionário. O IBOV subiu 1.73%, refletindo otimismo do mercado e favorecendo ativos de risco, ideal para quem planeja investir R$100 hoje em busca de retornos superiores no curto prazo.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente de juros elevados continua, enquanto o IPCA de 4,44% sugere uma inflação controlada. O IBOV subiu 1.53%, refletindo o otimismo do mercado em um regime RISK_ON. Para quem vai investir R$100 hoje, o cenário é favorável para ativos de risco, mas a cautela é necessária devido aos juros altos.",
   "analysts": {
     "enter": [
-      "BBAS3 — Momentum positivo e alinhamento com regime RISK_ON"
+      "CMIG4 — devido ao forte momentum e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "TAEE11 — Crescimento consistente nos últimos 5 dias"
+      "FLRY3 — bom momentum de 21 dias e demanda crescente no setor de saúde"
     ],
     "avoid": [
-      "Setor de mineração — Momentum negativo em comparação com outros setores"
+      "Setor de tecnologia — momentum inferior a outros setores, com 0.61"
     ],
     "realize": [
-      "AZZA3 — Alta de 10% hoje pode indicar sobrecompra"
+      "CSNA3 — após alta de 16%, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,77",
+      "value": "R$ 22,86",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.64%",
+      "value": "+2.70%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+19.5%",
+      "value": "+13.8%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 21,77 com variação de +2.64%. Após o 1T26, o banco enfrentou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode influenciar a percepção do mercado sobre a recuperação do banco.",
+  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 22,86, com uma variação positiva de 2.70% hoje. Apesar de um lucro reduzido em 53% no 1T26 e inadimplência agro de 6.22%, a expectativa para o 2T26 pode impulsionar o ativo. O consenso é neutro, mas o potencial de upside de 13.83% sugere uma oportunidade de reforço.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em BBAS3 com alocação de R$34, dado seu momentum positivo e alinhamento com o regime RISK_ON.",
-    "biggest_risk": "A persistência de juros elevados pode pressionar setores sensíveis ao crédito, afetando o desempenho de algumas empresas.",
-    "best_opportunity": "BBAS3 oferece uma assimetria risco-retorno favorável com um upside de 19.52% e um ambiente macro que suporta ativos de risco.",
-    "common_mistake": "Subestimar o impacto de juros elevados em setores alavancados pode levar a decisões de investimento precipitadas."
+    "smartest_move": "Investir em CMIG4 com alocação de R$34, aproveitando o momentum positivo e o alinhamento com o regime.",
+    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores alavancados.",
+    "best_opportunity": "FLRY3 oferece uma assimetria risco-retorno atraente, com forte crescimento recente e potencial de continuidade.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de renda variável, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-09-02T10:57:02.975451-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-09-03T10:59:11.739927-03:00",
+    "regime": "BULL / RISK_ON",
     "sectors": [
+      "financeiro",
       "utilidades",
-      "financeiro"
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
