@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-24",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.46,
-      "r21d": 0.036461846141214144,
-      "r63d": -0.07350651393221316
-    },
-    "opportunities": [
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "35",
-        "price": "R$ 11,19",
-        "score": "0.799",
-        "reason": "Cemig PN apresenta um momentum positivo de +0.90% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em um regime BALANCED.",
-        "potential": "Com um score de 0.799 e alta resiliência setorial, a ação tem potencial de estabilidade e crescimento moderado.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 16,58",
-        "score": "0.761",
-        "reason": "Fleury ON se destaca por um crescimento de +9.37% em 21 dias, refletindo forte desempenho no setor de saúde, que é defensivo e adequado ao regime atual.",
-        "potential": "O potencial é de crescimento contínuo, apoiado por um score robusto e boa adaptação ao regime.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "32",
-        "price": "R$ 42,95",
-        "score": "0.74",
-        "reason": "Petrobras PN teve um desempenho expressivo de +12.17% em 21 dias, impulsionado por fatores setoriais e expectativas de mercado, apesar de um RegimeFit baixo.",
-        "potential": "O potencial é de valorização adicional, mas com maior volatilidade devido ao baixo RegimeFit.",
-        "risk": "Alto",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,08",
-      "ibov": "176.724"
-    }
-  },
-  {
     "date": "2026-07-27",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,13",
       "ibov": "188.043"
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.72,
+      "r21d": 0.04732484647898556,
+      "r63d": 0.09034976781975934
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "36",
+        "price": "R$ 19,98",
+        "score": "0.78",
+        "reason": "Fleury ON apresenta um forte momentum de +5.88% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, considerado defensivo.",
+        "potential": "Com um score de 0.78, a ação tem potencial de crescimento moderado, alinhado ao regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "32",
+        "price": "R$ 11,13",
+        "score": "0.711",
+        "reason": "Cemig PN se destaca no setor de utilidades, que possui rotação setorial positiva, e é favorecida por juros elevados que beneficiam empresas com fluxo de caixa estável.",
+        "potential": "O score de 0.711 sugere um potencial de crescimento estável em um ambiente de juros altos.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "32",
+        "price": "R$ 30,22",
+        "score": "0.703",
+        "reason": "Engie Brasil ON tem um desempenho positivo em 21 dias e está bem posicionada no setor de utilidades, que é defensivo e resiliente em tempos de juros elevados.",
+        "potential": "Com um score de 0.703, a ação tem potencial de crescimento moderado, especialmente em um regime BULL.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,10",
+      "ibov": "183.854"
     }
   }
 ]
