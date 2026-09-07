@@ -1,42 +1,42 @@
 {
-  "date": "04/09/2026",
+  "date": "07/09/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com cautela, favorecendo investimentos em setores defensivos e FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas que ainda requer cautela na escolha de ativos, favorecendo investimentos em setores defensivos como utilidades e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "36",
-      "price": "R$ 19,98",
-      "score": "0.78",
-      "reason": "Fleury ON apresenta um forte momentum de +5.88% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, considerado defensivo.",
-      "potential": "Com um score de 0.78, a ação tem potencial de crescimento moderado, alinhado ao regime atual.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "34",
+      "price": "R$ 26,53",
+      "score": "0.758",
+      "reason": "A Sabesp ON, do setor de utilidades, apresenta um bom momentum com alta de 5.11% nos últimos 5 dias, alinhando-se bem ao regime BALANCED, que favorece setores defensivos.",
+      "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de crescimento moderado no curto prazo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "32",
-      "price": "R$ 11,13",
-      "score": "0.711",
-      "reason": "Cemig PN se destaca no setor de utilidades, que possui rotação setorial positiva, e é favorecida por juros elevados que beneficiam empresas com fluxo de caixa estável.",
-      "potential": "O score de 0.711 sugere um potencial de crescimento estável em um ambiente de juros altos.",
-      "risk": "Médio",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "34",
+      "price": "R$ 41,53",
+      "score": "0.752",
+      "reason": "Transmissão Paulista se destaca por sua performance sólida de 7.37% nos últimos 5 dias e por pertencer ao setor de utilidades, que é favorecido em regimes de juros elevados.",
+      "potential": "Potencial de crescimento estável, beneficiado pela demanda contínua por serviços essenciais.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
+      "ticker": "BBDC4",
+      "name": "Bradesco PN",
       "value": "32",
-      "price": "R$ 30,22",
-      "score": "0.703",
-      "reason": "Engie Brasil ON tem um desempenho positivo em 21 dias e está bem posicionada no setor de utilidades, que é defensivo e resiliente em tempos de juros elevados.",
-      "potential": "Com um score de 0.703, a ação tem potencial de crescimento moderado, especialmente em um regime BULL.",
+      "price": "R$ 17,90",
+      "score": "0.718",
+      "reason": "Apesar de um leve recuo de 0.83% nos últimos 21 dias, o Bradesco PN mostra recuperação com um ganho de 4.80% nos últimos 5 dias, tornando-se uma opção interessante no setor financeiro.",
+      "potential": "Potencial de recuperação moderada à medida que o setor financeiro se ajusta ao cenário de juros elevados.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,10",
+      "value": "R$ 5,13",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "183.854",
-      "sub": "-0.72% hoje",
+      "value": "185.147",
+      "sub": "-0.02% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o ambiente de juros altos continua pressionando o mercado, enquanto o IPCA de 4,44% sugere uma inflação controlada. O IBOV recuou 0.72% hoje, refletindo um ajuste após dados de emprego dos EUA. Para quem vai aportar R$100 hoje, o cenário favorece alocações em ativos defensivos e de renda fixa, aproveitando os juros elevados.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, os juros elevados continuam a pressionar o consumo e o crédito. O IPCA em 4,44% indica controle da inflação, mas o impacto no IBOV, que caiu 0.02% hoje, sugere um mercado cauteloso. Investidores com R$100 devem considerar ativos defensivos que ofereçam proteção em um cenário de juros altos.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao forte momentum e alinhamento com o regime BALANCED"
+      "SBSP3 — Forte momentum em 5 dias e alinhamento com regime BALANCED"
     ],
     "reinforce": [
-      "FLRY3 — com crescimento de 15.09% em 21 dias, mostrando resiliência"
+      "TAEE11 — Desempenho robusto em 21 dias e setor favorecido"
     ],
     "avoid": [
-      "Setor de industrial — com menor rotação setorial de 0.55"
+      "Materiais — Baixa rotação setorial comparada a outros setores"
     ],
     "realize": [
-      "IRBR3 — após alta de 4% com notícias positivas, pode estar sobrecomprado"
+      "TAEE11 — Após alta de 7.37% em 5 dias, pode estar próximo de um topo local"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,20",
+      "value": "R$ 22,52",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.11%",
+      "value": "+0.31%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+17.2%",
+      "value": "+15.5%",
       "trend": "up"
     },
     {
@@ -113,18 +113,18 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 22,20, com uma variação diária de -1.11%. Após o 1T26, que registrou um lucro 53% menor e inadimplência agro de 6.22%, o mercado aguarda o resultado do 2T26 em agosto como próximo gatilho. Com um upside de 17.21%, a recomendação é aguardar novas informações para uma decisão mais informada.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 22,52 com variação de +0.31%, refletindo um contexto desafiador após o 1T26, que mostrou uma queda no lucro de 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá redefinir expectativas.",
   "executive_summary": {
-    "smartest_move": "Alocar R$36 em FLRY3, aproveitando o momentum positivo e alinhamento com o regime atual.",
-    "biggest_risk": "A volatilidade do IBOV, que caiu 0.72% hoje, pode indicar ajustes futuros, especialmente com dados macroeconômicos externos.",
-    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno, com um crescimento de 15.09% em 21 dias e um score de 0.78.",
-    "common_mistake": "Ignorar a importância de diversificação em um regime BULL, focando excessivamente em ativos de alto risco."
+    "smartest_move": "Considerar a compra de SBSP3, alocando R$34, devido ao forte momentum e ajuste ao regime.",
+    "biggest_risk": "A volatilidade nos mercados globais, especialmente com incertezas geopolíticas, pode impactar negativamente ativos mais arriscados.",
+    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, dado seu desempenho recente e estabilidade do setor.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a escolhas inadequadas no portfólio."
   },
   "_meta": {
-    "generated_at": "2026-09-04T10:52:08.705786-03:00",
+    "generated_at": "2026-09-07T12:22:53.644965-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
-      "saude",
+      "financeiro",
       "utilidades"
     ],
     "diversity_ok": true,

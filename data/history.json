@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-27",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.46,
-      "r21d": 0.036461846141214144,
-      "r63d": -0.07350651393221316
-    },
-    "opportunities": [
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "40",
-        "price": "R$ 35,47",
-        "score": "0.904",
-        "reason": "A Telefônica Vivo ON se destaca pelo seu momentum positivo a longo prazo, com um aumento de 2.60% em 21 dias, e está bem posicionada no setor de telecomunicações, que apresenta uma rotação setorial favorável.",
-        "potential": "Com um score elevado de 0.904, VIVT3 possui um potencial de valorização consistente dentro do regime equilibrado.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "30",
-        "price": "R$ 42,10",
-        "score": "0.699",
-        "reason": "Itaú Unibanco PN apresenta um comportamento estável, com variação positiva de 0.96% em 21 dias, e é uma escolha defensiva em um cenário de juros elevados.",
-        "potential": "O potencial de crescimento é moderado, refletindo um score de 0.699 e a estabilidade proporcionada pelo regime atual.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "30",
-        "price": "R$ 45,99",
-        "score": "0.693",
-        "reason": "WEG ON se beneficia de um forte desempenho recente, com um crescimento de 5.41% em 5 dias, apesar de uma ligeira queda em 21 dias, refletindo resiliência no setor industrial.",
-        "potential": "Com um score de 0.693, WEGE3 tem potencial de valorização, especialmente com a recuperação do setor industrial.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,07",
-      "ibov": "176.724"
-    }
-  },
-  {
     "date": "2026-07-28",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,10",
       "ibov": "183.854"
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.02,
+      "r21d": 0.05469221742449273,
+      "r63d": 0.09801979610838636
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "34",
+        "price": "R$ 26,53",
+        "score": "0.758",
+        "reason": "A Sabesp ON, do setor de utilidades, apresenta um bom momentum com alta de 5.11% nos últimos 5 dias, alinhando-se bem ao regime BALANCED, que favorece setores defensivos.",
+        "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de crescimento moderado no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "34",
+        "price": "R$ 41,53",
+        "score": "0.752",
+        "reason": "Transmissão Paulista se destaca por sua performance sólida de 7.37% nos últimos 5 dias e por pertencer ao setor de utilidades, que é favorecido em regimes de juros elevados.",
+        "potential": "Potencial de crescimento estável, beneficiado pela demanda contínua por serviços essenciais.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "32",
+        "price": "R$ 17,90",
+        "score": "0.718",
+        "reason": "Apesar de um leve recuo de 0.83% nos últimos 21 dias, o Bradesco PN mostra recuperação com um ganho de 4.80% nos últimos 5 dias, tornando-se uma opção interessante no setor financeiro.",
+        "potential": "Potencial de recuperação moderada à medida que o setor financeiro se ajusta ao cenário de juros elevados.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,13",
+      "ibov": "185.147"
     }
   }
 ]
