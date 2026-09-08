@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-28",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.74,
-      "r21d": 0.011771834155630573,
-      "r63d": -0.07042768756063811
-    },
-    "opportunities": [
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "34",
-        "price": "R$ 3,95",
-        "score": "0.783",
-        "reason": "Cosan ON apresenta um momentum positivo de +3.40% nos últimos 5 dias, destacando-se no setor de energia, que está em rotação favorável. O regime BALANCED suporta a tese de investimento em ativos de setores estáveis como energia.",
-        "potential": "Com um score elevado, a Cosan ON pode continuar a apresentar bom desempenho, especialmente em um ambiente de juros elevados que favorece setores defensivos.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "33",
-        "price": "R$ 29,38",
-        "score": "0.748",
-        "reason": "TOTVS ON se beneficia do momentum positivo de +6.95% em 1 dia e +1.91% em 5 dias, com um bom desempenho no setor de tecnologia, que está em rotação favorável.",
-        "potential": "A TOTVS ON tem potencial de crescimento contínuo, apoiada por sua forte presença no setor de tecnologia, que está em alta.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "33",
-        "price": "R$ 36,11",
-        "score": "0.744",
-        "reason": "Telefônica Vivo ON demonstra estabilidade com um crescimento de +1.80% em 1 dia e +3.79% em 21 dias, beneficiando-se do regime BALANCED que favorece setores defensivos como telecom.",
-        "potential": "O potencial de crescimento é suportado pelo regime atual, que favorece empresas de telecomunicações devido à sua natureza defensiva.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,10",
-      "ibov": "175.335"
-    }
-  },
-  {
     "date": "2026-07-29",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,13",
       "ibov": "185.147"
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.71,
+      "r21d": 0.09162896419400277,
+      "r63d": 0.09809610372193099
+    },
+    "opportunities": [
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "35",
+        "price": "R$ 48,32",
+        "score": "0.788",
+        "reason": "A Petrobras PN se destaca por seu forte momentum, com valorização de 7.33% nos últimos 5 dias, beneficiada pelo regime RISK_ON e pela resiliência do setor de energia.",
+        "potential": "Com um score elevado e o ambiente favorável, a Petrobras tem potencial para continuar sua trajetória ascendente.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "33",
+        "price": "R$ 42,76",
+        "score": "0.761",
+        "reason": "O Itaú Unibanco PN apresenta um sólido desempenho recente, com alta de 8.20% em 5 dias, impulsionado pela estabilidade do setor financeiro e pela tendência RISK_ON.",
+        "potential": "O contexto macroeconômico e o regime atual sugerem um potencial de valorização adicional.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "32",
+        "price": "R$ 22,81",
+        "score": "0.742",
+        "reason": "O Banco do Brasil ON tem apresentado um forte momentum, com alta de 9.98% nos últimos 5 dias, refletindo a confiança dos investidores no setor financeiro.",
+        "potential": "Dada a sua performance recente e o regime atual, há espaço para valorização adicional.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,13",
+      "ibov": "188.320"
     }
   }
 ]

@@ -1,40 +1,40 @@
 {
-  "date": "07/09/2026",
+  "date": "08/09/2026",
   "regime": {
-    "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas que ainda requer cautela na escolha de ativos, favorecendo investimentos em setores defensivos como utilidades e FIIs de papel."
+    "label": "BULL / RISK_ON",
+    "summary": "O regime atual BULL/RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um mercado em alta e investidores mais dispostos a assumir riscos."
   },
   "opportunities": [
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "34",
-      "price": "R$ 26,53",
-      "score": "0.758",
-      "reason": "A Sabesp ON, do setor de utilidades, apresenta um bom momentum com alta de 5.11% nos últimos 5 dias, alinhando-se bem ao regime BALANCED, que favorece setores defensivos.",
-      "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de crescimento moderado no curto prazo.",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "35",
+      "price": "R$ 48,32",
+      "score": "0.788",
+      "reason": "A Petrobras PN se destaca por seu forte momentum, com valorização de 7.33% nos últimos 5 dias, beneficiada pelo regime RISK_ON e pela resiliência do setor de energia.",
+      "potential": "Com um score elevado e o ambiente favorável, a Petrobras tem potencial para continuar sua trajetória ascendente.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "34",
-      "price": "R$ 41,53",
-      "score": "0.752",
-      "reason": "Transmissão Paulista se destaca por sua performance sólida de 7.37% nos últimos 5 dias e por pertencer ao setor de utilidades, que é favorecido em regimes de juros elevados.",
-      "potential": "Potencial de crescimento estável, beneficiado pela demanda contínua por serviços essenciais.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "ticker": "ITUB4",
+      "name": "Itaú Unibanco PN",
+      "value": "33",
+      "price": "R$ 42,76",
+      "score": "0.761",
+      "reason": "O Itaú Unibanco PN apresenta um sólido desempenho recente, com alta de 8.20% em 5 dias, impulsionado pela estabilidade do setor financeiro e pela tendência RISK_ON.",
+      "potential": "O contexto macroeconômico e o regime atual sugerem um potencial de valorização adicional.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
       "value": "32",
-      "price": "R$ 17,90",
-      "score": "0.718",
-      "reason": "Apesar de um leve recuo de 0.83% nos últimos 21 dias, o Bradesco PN mostra recuperação com um ganho de 4.80% nos últimos 5 dias, tornando-se uma opção interessante no setor financeiro.",
-      "potential": "Potencial de recuperação moderada à medida que o setor financeiro se ajusta ao cenário de juros elevados.",
+      "price": "R$ 22,81",
+      "score": "0.742",
+      "reason": "O Banco do Brasil ON tem apresentado um forte momentum, com alta de 9.98% nos últimos 5 dias, refletindo a confiança dos investidores no setor financeiro.",
+      "potential": "Dada a sua performance recente e o regime atual, há espaço para valorização adicional.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "185.147",
-      "sub": "-0.02% hoje",
-      "trend": "down"
+      "value": "188.320",
+      "sub": "+1.71% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e tendência estável, os juros elevados continuam a pressionar o consumo e o crédito. O IPCA em 4,44% indica controle da inflação, mas o impacto no IBOV, que caiu 0.02% hoje, sugere um mercado cauteloso. Investidores com R$100 devem considerar ativos defensivos que ofereçam proteção em um cenário de juros altos.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o custo do dinheiro permanece elevado, mas o IPCA em 4,44% indica controle inflacionário. O IBOV subindo 1.71% reflete o otimismo do mercado, alinhado com o regime RISK_ON, sugerindo que investir R$100 hoje pode render ganhos em ativos de risco, apesar dos juros altos.",
   "analysts": {
     "enter": [
-      "SBSP3 — Forte momentum em 5 dias e alinhamento com regime BALANCED"
+      "PETR4 — devido ao forte momentum e ao ambiente RISK_ON"
     ],
     "reinforce": [
-      "TAEE11 — Desempenho robusto em 21 dias e setor favorecido"
+      "BBAS3 — devido ao bom desempenho nos últimos 21 dias"
     ],
     "avoid": [
-      "Materiais — Baixa rotação setorial comparada a outros setores"
+      "Setor de tecnologia — devido à falta de momentum positivo recente"
     ],
     "realize": [
-      "TAEE11 — Após alta de 7.37% em 5 dias, pode estar próximo de um topo local"
+      "EGIE3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,52",
+      "value": "R$ 22,81",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.31%",
+      "value": "+1.29%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+15.5%",
+      "value": "+14.1%",
       "trend": "up"
     },
     {
@@ -112,20 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 22,52 com variação de +0.31%, refletindo um contexto desafiador após o 1T26, que mostrou uma queda no lucro de 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá redefinir expectativas.",
+  "bbas3_strategy": "Reforçar",
+  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 22,81, com uma variação diária de +1.29%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. O consenso neutro sugere cautela, mas o upside potencial de 14.08% pode atrair reforços na posição.",
   "executive_summary": {
-    "smartest_move": "Considerar a compra de SBSP3, alocando R$34, devido ao forte momentum e ajuste ao regime.",
-    "biggest_risk": "A volatilidade nos mercados globais, especialmente com incertezas geopolíticas, pode impactar negativamente ativos mais arriscados.",
-    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, dado seu desempenho recente e estabilidade do setor.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a escolhas inadequadas no portfólio."
+    "smartest_move": "Reforçar posição em PETR4 com alocação de R$35, aproveitando o momentum positivo e o regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado pode aumentar devido ao ambiente de juros elevados, impactando negativamente ativos mais sensíveis.",
+    "best_opportunity": "A Petrobras PN oferece uma assimetria risco-retorno atraente, com forte momentum e suporte do regime atual.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e não diversificar adequadamente a carteira em um cenário de RISK_ON."
   },
   "_meta": {
-    "generated_at": "2026-09-07T12:22:53.644965-03:00",
-    "regime": "BULL / BALANCED",
+    "generated_at": "2026-09-08T10:58:42.271779-03:00",
+    "regime": "BULL / RISK_ON",
     "sectors": [
-      "financeiro",
-      "utilidades"
+      "energia",
+      "financeiro"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
