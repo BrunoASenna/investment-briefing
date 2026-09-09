@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-07-29",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.79,
-      "r21d": 0.019448805163090877,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 17,06",
-        "score": "0.792",
-        "reason": "Fleury ON se destaca pelo momentum positivo, com alta de 3.08% nos últimos 5 dias, e por pertencer ao setor de saúde, que é defensivo e favorecido pelo regime BALANCED.",
-        "potential": "Com um score de 0.792, há um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "33",
-        "price": "R$ 18,20",
-        "score": "0.775",
-        "reason": "Raia Drogasil ON apresenta uma estabilidade de crescimento com um aumento de 0.39% nos últimos 5 dias, beneficiando-se do setor de saúde e do regime atual.",
-        "potential": "O score de 0.775 sugere um potencial de crescimento consistente, alinhado ao perfil defensivo do setor.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "SUZB3",
-        "name": "Suzano ON",
-        "value": "33",
-        "price": "R$ 43,10",
-        "score": "0.774",
-        "reason": "Suzano ON, com um aumento de 3.53% nos últimos 5 dias, é impulsionada pelo setor de materiais, que tem mostrado resiliência apesar das condições macroeconômicas desafiadoras.",
-        "potential": "O score de 0.774 indica um potencial de valorização moderado, embora o RegimeFit de 0.2 sugira cautela.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,12",
-      "ibov": "175.335"
-    }
-  },
-  {
     "date": "2026-07-30",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,44%",
       "dolar": "R$ 5,13",
       "ibov": "188.320"
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.48,
+      "r21d": 0.08294671637240097,
+      "r63d": 0.0895722369443649
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 20,88",
+        "score": "0.767",
+        "reason": "A Fleury ON se destaca pelo forte momentum de +8.69% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, tradicionalmente defensivo.",
+        "potential": "Com um score elevado e alinhamento ao regime, há potencial de crescimento moderado.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "33",
+        "price": "R$ 31,08",
+        "score": "0.762",
+        "reason": "Engie Brasil ON é uma escolha sólida no setor de utilidades, que tem mostrado rotação positiva de 0.67 nos últimos 5 dias, alinhando-se bem ao regime atual.",
+        "potential": "Potencial de estabilidade e crescimento moderado devido ao alinhamento com o regime e setor.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "33",
+        "price": "R$ 47,66",
+        "score": "0.754",
+        "reason": "Suzano ON apresenta um forte momentum de +15.43% em 21 dias, mas seu RegimeFit de 0.2 indica que o alinhamento com o regime atual é limitado.",
+        "potential": "Potencial de alta volatilidade, com possibilidade de ganhos rápidos, mas com riscos elevados.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,44%",
+      "dolar": "R$ 5,09",
+      "ibov": "186.462"
     }
   }
 ]

@@ -1,42 +1,42 @@
 {
-  "date": "08/09/2026",
+  "date": "09/09/2026",
   "regime": {
-    "label": "BULL / RISK_ON",
-    "summary": "O regime atual BULL/RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um mercado em alta e investidores mais dispostos a assumir riscos."
+    "label": "BULL / BALANCED",
+    "summary": "O regime atual BULL/BALANCED indica um mercado em alta, mas com equilíbrio entre riscos e oportunidades, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "35",
-      "price": "R$ 48,32",
-      "score": "0.788",
-      "reason": "A Petrobras PN se destaca por seu forte momentum, com valorização de 7.33% nos últimos 5 dias, beneficiada pelo regime RISK_ON e pela resiliência do setor de energia.",
-      "potential": "Com um score elevado e o ambiente favorável, a Petrobras tem potencial para continuar sua trajetória ascendente.",
-      "risk": "Médio",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "34",
+      "price": "R$ 20,88",
+      "score": "0.767",
+      "reason": "A Fleury ON se destaca pelo forte momentum de +8.69% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, tradicionalmente defensivo.",
+      "potential": "Com um score elevado e alinhamento ao regime, há potencial de crescimento moderado.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
       "value": "33",
-      "price": "R$ 42,76",
-      "score": "0.761",
-      "reason": "O Itaú Unibanco PN apresenta um sólido desempenho recente, com alta de 8.20% em 5 dias, impulsionado pela estabilidade do setor financeiro e pela tendência RISK_ON.",
-      "potential": "O contexto macroeconômico e o regime atual sugerem um potencial de valorização adicional.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "price": "R$ 31,08",
+      "score": "0.762",
+      "reason": "Engie Brasil ON é uma escolha sólida no setor de utilidades, que tem mostrado rotação positiva de 0.67 nos últimos 5 dias, alinhando-se bem ao regime atual.",
+      "potential": "Potencial de estabilidade e crescimento moderado devido ao alinhamento com o regime e setor.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "32",
-      "price": "R$ 22,81",
-      "score": "0.742",
-      "reason": "O Banco do Brasil ON tem apresentado um forte momentum, com alta de 9.98% nos últimos 5 dias, refletindo a confiança dos investidores no setor financeiro.",
-      "potential": "Dada a sua performance recente e o regime atual, há espaço para valorização adicional.",
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "33",
+      "price": "R$ 47,66",
+      "score": "0.754",
+      "reason": "Suzano ON apresenta um forte momentum de +15.43% em 21 dias, mas seu RegimeFit de 0.2 indica que o alinhamento com o regime atual é limitado.",
+      "potential": "Potencial de alta volatilidade, com possibilidade de ganhos rápidos, mas com riscos elevados.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,13",
+      "value": "R$ 5,09",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "188.320",
-      "sub": "+1.71% hoje",
-      "trend": "up"
+      "value": "186.462",
+      "sub": "-0.48% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e estável, o custo do dinheiro permanece elevado, mas o IPCA em 4,44% indica controle inflacionário. O IBOV subindo 1.71% reflete o otimismo do mercado, alinhado com o regime RISK_ON, sugerindo que investir R$100 hoje pode render ganhos em ativos de risco, apesar dos juros altos.",
+  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente favorece investimentos em renda fixa e ativos defensivos. O IPCA em 4,44% indica controle inflacionário, enquanto o IBOV em queda de -0.48% reflete incertezas externas. Para quem vai aportar R$100 hoje, a estratégia deve considerar a proteção contra volatilidade e a busca por retornos consistentes em ativos defensivos.",
   "analysts": {
     "enter": [
-      "PETR4 — devido ao forte momentum e ao ambiente RISK_ON"
+      "FLRY3 — devido ao forte momentum e alinhamento com o regime"
     ],
     "reinforce": [
-      "BBAS3 — devido ao bom desempenho nos últimos 21 dias"
+      "EGIE3 — bom momentum em 21 dias e alinhamento com o regime"
     ],
     "avoid": [
-      "Setor de tecnologia — devido à falta de momentum positivo recente"
+      "Setor de tecnologia — devido à falta de alinhamento com o regime atual"
     ],
     "realize": [
-      "EGIE3 — após alta recente, pode estar sobrecomprado"
+      "SUZB3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,81",
+      "value": "R$ 22,37",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.29%",
+      "value": "-1.02%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+14.1%",
+      "value": "+16.3%",
       "trend": "up"
     },
     {
@@ -112,20 +112,21 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Reforçar",
-  "bbas3_summary": "O Banco do Brasil ON está cotado a R$ 22,81, com uma variação diária de +1.29%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. O consenso neutro sugere cautela, mas o upside potencial de 14.08% pode atrair reforços na posição.",
+  "bbas3_strategy": "Aguardar",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 22,37, com uma variação de -1.02%. Após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de recuperação, mas o mercado permanece cauteloso.",
   "executive_summary": {
-    "smartest_move": "Reforçar posição em PETR4 com alocação de R$35, aproveitando o momentum positivo e o regime RISK_ON.",
-    "biggest_risk": "A volatilidade do mercado pode aumentar devido ao ambiente de juros elevados, impactando negativamente ativos mais sensíveis.",
-    "best_opportunity": "A Petrobras PN oferece uma assimetria risco-retorno atraente, com forte momentum e suporte do regime atual.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e não diversificar adequadamente a carteira em um cenário de RISK_ON."
+    "smartest_move": "Investir em FLRY3 com R$34 devido ao seu forte momentum e alinhamento com o regime.",
+    "biggest_risk": "A volatilidade do mercado externo impactando o IBOV, que caiu -0.48% hoje.",
+    "best_opportunity": "A Engie Brasil ON (EGIE3) apresenta uma boa assimetria risco-retorno devido ao seu alinhamento com o regime e rotação setorial positiva.",
+    "common_mistake": "Ignorar o impacto dos juros elevados e não diversificar em ativos defensivos."
   },
   "_meta": {
-    "generated_at": "2026-09-08T10:58:42.271779-03:00",
-    "regime": "BULL / RISK_ON",
+    "generated_at": "2026-09-09T11:01:38.250392-03:00",
+    "regime": "BULL / BALANCED",
     "sectors": [
-      "energia",
-      "financeiro"
+      "materiais",
+      "saude",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
