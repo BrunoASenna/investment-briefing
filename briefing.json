@@ -1,42 +1,42 @@
 {
-  "date": "09/09/2026",
+  "date": "10/09/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL/BALANCED indica um mercado em alta, mas com equilíbrio entre riscos e oportunidades, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com cautela, favorecendo ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
+    {
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "35",
+      "price": "R$ 11,35",
+      "score": "0.835",
+      "reason": "A Cemig PN apresenta um bom momentum com alta de 3.46% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece setores de utilidades.",
+      "potential": "Com um score elevado e alinhamento ao regime, a Cemig tem potencial de crescimento moderado a longo prazo.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
+    },
     {
       "ticker": "FLRY3",
       "name": "Fleury ON",
       "value": "34",
-      "price": "R$ 20,88",
-      "score": "0.767",
-      "reason": "A Fleury ON se destaca pelo forte momentum de +8.69% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, tradicionalmente defensivo.",
-      "potential": "Com um score elevado e alinhamento ao regime, há potencial de crescimento moderado.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "33",
-      "price": "R$ 31,08",
-      "score": "0.762",
-      "reason": "Engie Brasil ON é uma escolha sólida no setor de utilidades, que tem mostrado rotação positiva de 0.67 nos últimos 5 dias, alinhando-se bem ao regime atual.",
-      "potential": "Potencial de estabilidade e crescimento moderado devido ao alinhamento com o regime e setor.",
-      "risk": "Baixo",
+      "price": "R$ 20,68",
+      "score": "0.785",
+      "reason": "Fleury ON destaca-se pelo crescimento de 5.13% em 5 dias, impulsionado pela estabilidade do setor de saúde em um ambiente de juros elevados.",
+      "potential": "O potencial de crescimento é moderado, sustentado por um setor defensivo e um score robusto.",
+      "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
       "ticker": "SUZB3",
       "name": "Suzano ON",
-      "value": "33",
-      "price": "R$ 47,66",
-      "score": "0.754",
-      "reason": "Suzano ON apresenta um forte momentum de +15.43% em 21 dias, mas seu RegimeFit de 0.2 indica que o alinhamento com o regime atual é limitado.",
-      "potential": "Potencial de alta volatilidade, com possibilidade de ganhos rápidos, mas com riscos elevados.",
+      "value": "31",
+      "price": "R$ 47,65",
+      "score": "0.713",
+      "reason": "Suzano ON teve um forte desempenho de 18.00% em 21 dias, mas o baixo RegimeFit sugere cautela apesar do bom momentum.",
+      "potential": "O potencial é limitado pelo baixo RegimeFit, apesar do bom desempenho recente.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,09",
+      "value": "R$ 5,10",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "186.462",
-      "sub": "-0.48% hoje",
+      "value": "185.240",
+      "sub": "-0.21% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e estável, o ambiente favorece investimentos em renda fixa e ativos defensivos. O IPCA em 4,44% indica controle inflacionário, enquanto o IBOV em queda de -0.48% reflete incertezas externas. Para quem vai aportar R$100 hoje, a estratégia deve considerar a proteção contra volatilidade e a busca por retornos consistentes em ativos defensivos.",
+  "macro_summary": "Com a SELIC em 13,90% e tendência estável, o mercado mantém juros elevados, o que favorece investimentos defensivos. O IPCA em 4,44% sugere controle da inflação, enquanto o IBOV recuou 0.21% hoje, refletindo um mercado cauteloso. Para quem vai aportar R$100, a escolha de ativos defensivos pode ser prudente.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao forte momentum e alinhamento com o regime"
+      "CMIG4 — devido ao bom score e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "EGIE3 — bom momentum em 21 dias e alinhamento com o regime"
+      "FLRY3 — pelo forte momentum de 21 dias e estabilidade do setor de saúde"
     ],
     "avoid": [
-      "Setor de tecnologia — devido à falta de alinhamento com o regime atual"
+      "Setor de energia — devido ao baixo momentum de 0.65 em 5 dias"
     ],
     "realize": [
-      "SUZB3 — após alta recente, pode estar sobrecomprado"
+      "SUZB3 — após alta de 18.00% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,37",
+      "value": "R$ 22,15",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.02%",
+      "value": "-0.14%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+16.3%",
+      "value": "+17.5%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 22,37, com uma variação de -1.02%. Após um primeiro trimestre desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de recuperação, mas o mercado permanece cauteloso.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 22,15 com variação de -0.14%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar a percepção do mercado.",
   "executive_summary": {
-    "smartest_move": "Investir em FLRY3 com R$34 devido ao seu forte momentum e alinhamento com o regime.",
-    "biggest_risk": "A volatilidade do mercado externo impactando o IBOV, que caiu -0.48% hoje.",
-    "best_opportunity": "A Engie Brasil ON (EGIE3) apresenta uma boa assimetria risco-retorno devido ao seu alinhamento com o regime e rotação setorial positiva.",
-    "common_mistake": "Ignorar o impacto dos juros elevados e não diversificar em ativos defensivos."
+    "smartest_move": "Investir em CMIG4 com alocação de R$35, aproveitando o bom score e momentum.",
+    "biggest_risk": "A volatilidade do mercado em um regime BULL pode levar a correções inesperadas.",
+    "best_opportunity": "A assimetria risco-retorno em CMIG4, com score de 0.835 e alinhamento ao regime.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados."
   },
   "_meta": {
-    "generated_at": "2026-09-09T11:01:38.250392-03:00",
+    "generated_at": "2026-09-10T10:56:33.856079-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
       "materiais",
-      "saude",
-      "utilidades"
+      "utilidades",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
