@@ -1,42 +1,42 @@
 {
-  "date": "11/09/2026",
+  "date": "14/09/2026",
   "regime": {
-    "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED indica um mercado em crescimento moderado, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
+    "label": "BULL / RISK_OFF",
+    "summary": "O regime atual é de alta nos mercados com aversão ao risco, o que sugere uma preferência por ativos defensivos e investimentos em renda fixa."
   },
   "opportunities": [
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "34",
-      "price": "R$ 11,51",
-      "score": "0.771",
-      "reason": "Com um aumento de 2.95% nos últimos 5 dias, a Cemig PN se destaca no setor de utilidades, que é favorecido pelo perfil BALANCED do regime atual.",
-      "potential": "A combinação de um score elevado e ajuste ao regime sugere um potencial de crescimento sólido.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "36",
+      "price": "R$ 26,82",
+      "score": "0.819",
+      "reason": "A Sabesp ON mostra um bom momentum com um aumento de 1.09% nos últimos 5 dias. No contexto atual de RISK_OFF, o setor de utilidades é favorecido devido à sua natureza defensiva.",
+      "potential": "Com um score de 0.819 e alinhamento com o regime RISK_OFF, o ativo tem potencial para continuar se destacando em um ambiente de aversão ao risco.",
       "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "34",
-      "price": "R$ 41,44",
-      "score": "0.766",
-      "reason": "Apesar de uma leve queda de 0.26% nos últimos 5 dias, a Transmissão Paulista é uma escolha defensiva sólida no setor de utilidades, beneficiando-se do regime BALANCED.",
-      "potential": "Potencial de estabilidade e crescimento moderado devido ao ajuste ao regime e score elevado.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "BBDC4",
-      "name": "Bradesco PN",
-      "value": "32",
-      "price": "R$ 18,39",
-      "score": "0.731",
-      "reason": "Bradesco PN apresenta um crescimento de 3.37% nos últimos 5 dias, destacando-se no setor financeiro, embora o ajuste ao regime seja moderado.",
-      "potential": "Potencial de crescimento moderado, mas com risco de volatilidade devido ao ajuste ao regime.",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "33",
+      "price": "R$ 49,04",
+      "score": "0.77",
+      "reason": "Petrobras PN tem apresentado um sólido desempenho com um ganho de 4.10% nos últimos 5 dias, impulsionado por fatores setoriais positivos no setor de energia.",
+      "potential": "Apesar do regime RISK_OFF, a Petrobras pode se beneficiar de sua resiliência setorial e da alta recente, mas o score de 0.77 indica um potencial moderado.",
       "risk": "Médio",
       "horizon": "Curto prazo"
+    },
+    {
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "31",
+      "price": "R$ 21,33",
+      "score": "0.718",
+      "reason": "Fleury ON se destaca com um crescimento de 5.75% nos últimos 5 dias, refletindo uma forte demanda por serviços de saúde e alinhamento com o regime RISK_OFF.",
+      "potential": "O ativo possui um bom potencial de crescimento, sustentado por um score de 0.718 e a natureza defensiva do setor de saúde.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,11",
+      "value": "R$ 5,09",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "187.223",
-      "sub": "-0.56% hoje",
+      "value": "185.462",
+      "sub": "-0.93% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% e estável, investidores enfrentam um ambiente de juros altos que favorece ativos defensivos. O IPCA em 4,22% sugere controle inflacionário, enquanto o IBOV recuou 0.56%, refletindo incertezas no mercado. Quem investir R$100 hoje deve considerar a estabilidade dos juros e a volatilidade do mercado de ações.",
+  "macro_summary": "A SELIC está estável em 13,90%, mantendo o custo do crédito elevado, o que pressiona o consumo e investimentos. O IPCA em 4,22% sugere um controle da inflação, enquanto o IBOV retraiu 0.93% hoje, refletindo um sentimento de aversão ao risco. Para quem vai aportar R$100, o cenário favorece ativos defensivos ou de renda fixa, dado o regime RISK_OFF.",
   "analysts": {
     "enter": [
-      "CMIG4 — devido ao forte momentum e ajuste ao regime BALANCED"
+      "SBSP3 — Alinhamento com o regime RISK_OFF e momentum positivo"
     ],
     "reinforce": [
-      "BBDC4 — bom momentum nos últimos 21 dias"
+      "FLRY3 — Forte momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de utilidades com momentum negativo — TAEE11 nos últimos 5 dias"
+      "Materiais — Baixo momentum setorial de 0.75"
     ],
     "realize": [
-      "Ativos que tiveram alta recente, como CMIG4, que subiu 11.42% em 21 dias"
+      "PETR4 — Alta recente pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,76",
+      "value": "R$ 21,93",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.18%",
+      "value": "-2.49%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+14.3%",
+      "value": "+18.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 22,76, com uma leve variação de -0.18%. Após o 1T26, o banco enfrentou um declínio de 53% no lucro e uma inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá influenciar significativamente o preço das ações.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 21,93, com uma variação de -2.49%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho é o resultado do 2T26 em agosto, o que sugere cautela antes de novas decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Investir em CMIG4 com alocação de R$34, aproveitando seu forte momentum e ajuste ao regime atual.",
-    "biggest_risk": "A volatilidade do IBOV, que caiu 0.56% hoje, representa um risco em um regime BULL com perfil BALANCED.",
-    "best_opportunity": "A Cemig PN oferece uma boa assimetria risco-retorno, com um crescimento de 11.42% em 21 dias e um score de 0.771.",
-    "common_mistake": "Subestimar o impacto dos juros elevados na escolha de ativos, favorecendo setores defensivos."
+    "smartest_move": "Investir em SBSP3 com R$36 devido ao seu alinhamento com o regime RISK_OFF.",
+    "biggest_risk": "A instabilidade política e a crise no STF podem impactar negativamente o mercado.",
+    "best_opportunity": "A Sabesp ON oferece uma boa relação risco-retorno com seu momentum positivo e score elevado.",
+    "common_mistake": "Ignorar o cenário macroeconômico de juros altos e investir agressivamente em ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-09-11T10:56:37.393793-03:00",
-    "regime": "BULL / BALANCED",
+    "generated_at": "2026-09-14T13:03:22.735852-03:00",
+    "regime": "BULL / RISK_OFF",
     "sectors": [
+      "saude",
       "utilidades",
-      "financeiro"
+      "energia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

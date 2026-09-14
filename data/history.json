@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-03",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.47,
-      "r21d": 0.030158344329467325,
-      "r63d": -0.046879852640371825
-    },
-    "opportunities": [
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "35",
-        "price": "R$ 11,28",
-        "score": "0.844",
-        "reason": "Hapvida ON tem apresentado um forte momentum, com alta de 13.71% nos últimos 5 dias, destacando-se no setor de saúde que está bem posicionado no regime BALANCED.",
-        "potential": "Com um score de 0.844, o ativo tem potencial para continuar se beneficiando do ambiente macroeconômico atual, especialmente com a estabilidade dos juros.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "34",
-        "price": "R$ 4,07",
-        "score": "0.793",
-        "reason": "Cosan ON se destaca no setor de energia, que está em rotação positiva, e apresenta um bom momentum de 7.11% nos últimos 5 dias.",
-        "potential": "A empresa pode se beneficiar do ambiente de juros elevados, embora o RegimeFit seja baixo, indicando uma necessidade de cautela.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "31",
-        "price": "R$ 11,34",
-        "score": "0.73",
-        "reason": "Cemig PN está bem alinhada com o regime atual, apresentando um RegimeFit de 0.9 e um crescimento estável de 3.28% nos últimos 5 dias.",
-        "potential": "O ativo tem potencial de estabilidade devido à sua posição no setor de utilidades, favorecido por um cenário de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,08",
-      "ibov": "177.999"
-    }
-  },
-  {
     "date": "2026-08-04",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,11",
       "ibov": "187.223"
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.93,
+      "r21d": 0.10988002764794945,
+      "r63d": 0.10096561969439728
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "36",
+        "price": "R$ 26,82",
+        "score": "0.819",
+        "reason": "A Sabesp ON mostra um bom momentum com um aumento de 1.09% nos últimos 5 dias. No contexto atual de RISK_OFF, o setor de utilidades é favorecido devido à sua natureza defensiva.",
+        "potential": "Com um score de 0.819 e alinhamento com o regime RISK_OFF, o ativo tem potencial para continuar se destacando em um ambiente de aversão ao risco.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "33",
+        "price": "R$ 49,04",
+        "score": "0.77",
+        "reason": "Petrobras PN tem apresentado um sólido desempenho com um ganho de 4.10% nos últimos 5 dias, impulsionado por fatores setoriais positivos no setor de energia.",
+        "potential": "Apesar do regime RISK_OFF, a Petrobras pode se beneficiar de sua resiliência setorial e da alta recente, mas o score de 0.77 indica um potencial moderado.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "31",
+        "price": "R$ 21,33",
+        "score": "0.718",
+        "reason": "Fleury ON se destaca com um crescimento de 5.75% nos últimos 5 dias, refletindo uma forte demanda por serviços de saúde e alinhamento com o regime RISK_OFF.",
+        "potential": "O ativo possui um bom potencial de crescimento, sustentado por um score de 0.718 e a natureza defensiva do setor de saúde.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,09",
+      "ibov": "185.462"
     }
   }
 ]
