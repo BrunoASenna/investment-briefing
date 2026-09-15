@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-04",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.47,
-      "r21d": 0.030158344329467325,
-      "r63d": -0.046879852640371825
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "36",
-        "price": "R$ 17,27",
-        "score": "0.817",
-        "reason": "Fleury ON apresenta um forte momentum de +6.21% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido pelo regime BALANCED atual.",
-        "potential": "Com um score de 0.817 e bom ajuste ao regime, há potencial para continuidade no crescimento, especialmente em um ambiente neutro.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "34",
-        "price": "R$ 11,91",
-        "score": "0.79",
-        "reason": "Hapvida ON teve um desempenho impressionante com alta de +20.06% em 5 dias, refletindo forte interesse no setor de saúde.",
-        "potential": "Dado o score de 0.79 e o momentum positivo, o ativo pode continuar a se beneficiar do interesse no setor.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "30",
-        "price": "R$ 21,27",
-        "score": "0.697",
-        "reason": "Banco do Brasil ON tem um score de 0.697, com um upside potencial baseado no consenso de mercado, apesar de um RegimeFit mais baixo.",
-        "potential": "O ativo possui um potencial de valorização moderado, especialmente se o cenário macroeconômico melhorar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,07",
-      "ibov": "177.999"
-    }
-  },
-  {
     "date": "2026-08-05",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,09",
       "ibov": "185.462"
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.12,
+      "r21d": 0.11260363377143062,
+      "r63d": 0.10371750912181034
+    },
+    "opportunities": [
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "35",
+        "price": "R$ 30,64",
+        "score": "0.784",
+        "reason": "Engie Brasil ON se destaca no setor de utilidades, que tem mostrado resiliência em um cenário de juros elevados. Apesar de uma leve queda de 0.81% nos últimos 5 dias, o ativo apresenta um bom momentum de 9.31% em 21 dias, alinhado ao regime BALANCED.",
+        "potential": "A combinação de um score elevado e um bom ajuste ao regime sugere potencial de valorização moderado a longo prazo.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "34",
+        "price": "R$ 27,16",
+        "score": "0.782",
+        "reason": "Sabesp ON tem se beneficiado do ambiente de juros altos, com um crescimento de 14.17% em 21 dias, refletindo a força do setor de utilidades em um mercado BULL.",
+        "potential": "O ativo mostra um potencial de crescimento contínuo, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "31",
+        "price": "R$ 22,05",
+        "score": "0.709",
+        "reason": "Banco do Brasil ON, apesar de uma recente queda de 2.43% em 5 dias, ainda apresenta um forte momentum de 19.97% em 21 dias, indicando resiliência no setor financeiro.",
+        "potential": "Com um score razoável e um ajuste moderado ao regime, o ativo tem potencial de recuperação, especialmente se o cenário macroeconômico se estabilizar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,17",
+      "ibov": "185.731"
     }
   }
 ]
