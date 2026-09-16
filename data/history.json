@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-05",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.06,
-      "r21d": 0.03158633327147894,
-      "r63d": -0.029052822320950997
-    },
-    "opportunities": [
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "35",
-        "price": "R$ 19,41",
-        "score": "0.838",
-        "reason": "Raia Drogasil apresenta um forte momentum com alta de 6.65% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
-        "potential": "Com um score elevado e ajuste ao regime, há potencial para continuidade do crescimento no curto prazo.",
-        "risk": "Baixo",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 17,49",
-        "score": "0.819",
-        "reason": "Fleury ON se destaca pelo crescimento de 11.76% em 21 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
-        "potential": "A performance recente sugere potencial de valorização adicional, sustentada pelo cenário macroeconômico.",
-        "risk": "Baixo",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "31",
-        "price": "R$ 49,17",
-        "score": "0.752",
-        "reason": "WEG ON tem mostrado um bom desempenho com alta de 6.29% em 21 dias, embora o RegimeFit seja baixo, indicando uma possível resistência a mudanças no regime.",
-        "potential": "Apesar do baixo RegimeFit, o momentum sugere potencial de ganhos no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,11",
-      "ibov": "177.895"
-    }
-  },
-  {
     "date": "2026-08-06",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,17",
       "ibov": "185.731"
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.79,
+      "r21d": 0.10944189040915196,
+      "r63d": 0.09764827881786256
+    },
+    "opportunities": [
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "35",
+        "price": "R$ 34,25",
+        "score": "0.778",
+        "reason": "TOTVS ON se destaca pelo forte momentum, com uma alta de 3.26% nos últimos 5 dias, e está bem posicionada no setor de tecnologia, que apresenta uma rotação setorial positiva. O regime BALANCED sugere uma abordagem cuidadosa, mas o momentum positivo favorece a alocação.",
+        "potential": "Com um score elevado, TOTS3 tem potencial de continuar performando bem no curto prazo, especialmente se o setor de tecnologia continuar em alta.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "33",
+        "price": "R$ 19,46",
+        "score": "0.737",
+        "reason": "Raia Drogasil ON apresenta um desempenho estável, com uma leve alta de 0.05% no dia, e se beneficia de um regime que favorece setores defensivos como saúde. O score elevado e a estabilidade do setor indicam um potencial de crescimento moderado.",
+        "potential": "O potencial de RADL3 está em sua resiliência, com um crescimento consistente em um setor defensivo, mesmo em um mercado volátil.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "32",
+        "price": "R$ 47,48",
+        "score": "0.718",
+        "reason": "Suzano ON tem mostrado um bom desempenho com um crescimento de 17.00% nos últimos 21 dias, beneficiando-se do setor de materiais que está em rotação positiva. Apesar do leve recuo diário, o score e o momentum indicam potencial de valorização.",
+        "potential": "O score sugere que SUZB3 pode continuar a oferecer boas oportunidades de retorno, especialmente se o setor de materiais mantiver sua tendência positiva.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,15",
+      "ibov": "185.037"
     }
   }
 ]
