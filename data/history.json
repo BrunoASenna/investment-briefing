@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-06",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.09,
-      "r21d": 0.03316455549031804,
-      "r63d": -0.034664436091859124
-    },
-    "opportunities": [
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "36",
-        "price": "R$ 20,55",
-        "score": "0.856",
-        "reason": "Raia Drogasil se destaca pelo forte momentum, com alta de 15.71% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
-        "potential": "Com um score de 0.856, RADL3 possui um potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "34",
-        "price": "R$ 32,51",
-        "score": "0.807",
-        "reason": "TOTVS apresenta um crescimento consistente, impulsionado pelo setor de tecnologia, com um aumento de 10.43% nos últimos 5 dias, apesar de um regime fit baixo.",
-        "potential": "O score de 0.807 indica um potencial de valorização, especialmente se o setor de tecnologia continuar a mostrar resiliência.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "30",
-        "price": "R$ 40,06",
-        "score": "0.708",
-        "reason": "Transmissão Paulista é uma escolha defensiva em utilidades, com um score razoável e um regime fit alto, apesar da leve queda de 0.84% em 21 dias.",
-        "potential": "Com um score de 0.708, TAEE11 oferece um potencial de estabilidade e dividendos em um ambiente de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "14,15%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,12",
-      "ibov": "177.726"
-    }
-  },
-  {
     "date": "2026-08-07",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,15",
       "ibov": "185.037"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.48,
+      "r21d": 0.11013795578200619,
+      "r63d": 0.08384572914832424
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "34",
+        "price": "R$ 41,15",
+        "score": "0.782",
+        "reason": "TAEE11 apresenta um bom momentum de 11.49% em 21 dias e está bem posicionada no setor de utilidades, que tende a ser defensivo em um regime BALANCED.",
+        "potential": "Com um score elevado e ajuste ao regime, TAEE11 tem potencial de valorização estável.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 20,20",
+        "score": "0.767",
+        "reason": "RADL3 se beneficia do crescimento de 18.06% em 21 dias, refletindo um forte desempenho no setor de saúde, que é resiliente em tempos de incerteza econômica.",
+        "potential": "Potencial de crescimento contínuo devido à sua estabilidade no setor de saúde.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 21,17",
+        "score": "0.727",
+        "reason": "FLRY3 demonstra um crescimento sólido de 17.29% em 21 dias, aproveitando a demanda contínua por serviços de saúde.",
+        "potential": "Com um bom ajuste ao regime, há potencial para ganhos consistentes.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,90%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,15",
+      "ibov": "184.655"
     }
   }
 ]

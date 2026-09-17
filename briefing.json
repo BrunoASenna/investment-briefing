@@ -1,42 +1,42 @@
 {
-  "date": "16/09/2026",
+  "date": "17/09/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual de mercado é BULL com um perfil BALANCED, indicando um ambiente favorável para investimentos, mas com uma necessidade de cautela devido aos juros elevados, favorecendo ativos defensivos e FIIs de papel."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado em crescimento moderado, onde investidores devem buscar equilíbrio entre ativos de crescimento e defensivos."
   },
   "opportunities": [
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "35",
-      "price": "R$ 34,25",
-      "score": "0.778",
-      "reason": "TOTVS ON se destaca pelo forte momentum, com uma alta de 3.26% nos últimos 5 dias, e está bem posicionada no setor de tecnologia, que apresenta uma rotação setorial positiva. O regime BALANCED sugere uma abordagem cuidadosa, mas o momentum positivo favorece a alocação.",
-      "potential": "Com um score elevado, TOTS3 tem potencial de continuar performando bem no curto prazo, especialmente se o setor de tecnologia continuar em alta.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "33",
-      "price": "R$ 19,46",
-      "score": "0.737",
-      "reason": "Raia Drogasil ON apresenta um desempenho estável, com uma leve alta de 0.05% no dia, e se beneficia de um regime que favorece setores defensivos como saúde. O score elevado e a estabilidade do setor indicam um potencial de crescimento moderado.",
-      "potential": "O potencial de RADL3 está em sua resiliência, com um crescimento consistente em um setor defensivo, mesmo em um mercado volátil.",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "34",
+      "price": "R$ 41,15",
+      "score": "0.782",
+      "reason": "TAEE11 apresenta um bom momentum de 11.49% em 21 dias e está bem posicionada no setor de utilidades, que tende a ser defensivo em um regime BALANCED.",
+      "potential": "Com um score elevado e ajuste ao regime, TAEE11 tem potencial de valorização estável.",
       "risk": "Baixo",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "32",
-      "price": "R$ 47,48",
-      "score": "0.718",
-      "reason": "Suzano ON tem mostrado um bom desempenho com um crescimento de 17.00% nos últimos 21 dias, beneficiando-se do setor de materiais que está em rotação positiva. Apesar do leve recuo diário, o score e o momentum indicam potencial de valorização.",
-      "potential": "O score sugere que SUZB3 pode continuar a oferecer boas oportunidades de retorno, especialmente se o setor de materiais mantiver sua tendência positiva.",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "34",
+      "price": "R$ 20,20",
+      "score": "0.767",
+      "reason": "RADL3 se beneficia do crescimento de 18.06% em 21 dias, refletindo um forte desempenho no setor de saúde, que é resiliente em tempos de incerteza econômica.",
+      "potential": "Potencial de crescimento contínuo devido à sua estabilidade no setor de saúde.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "32",
+      "price": "R$ 21,17",
+      "score": "0.727",
+      "reason": "FLRY3 demonstra um crescimento sólido de 17.29% em 21 dias, aproveitando a demanda contínua por serviços de saúde.",
+      "potential": "Com um bom ajuste ao regime, há potencial para ganhos consistentes.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "185.037",
-      "sub": "-0.79% hoje",
+      "value": "184.655",
+      "sub": "-0.48% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC em 13,90% permanece estável, indicando um ambiente de juros altos que pode limitar o crescimento econômico. O IPCA de 4,22% sugere uma inflação sob controle, mas ainda acima da meta, enquanto o IBOV recuou 0.79%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente, dado o regime BALANCED e os juros elevados.",
+  "macro_summary": "Com a SELIC em 13,90% estável e o IPCA em 4,22%, a inflação está controlada, mas os juros altos ainda pesam sobre o consumo. O IBOV recuou 0.48%, refletindo uma cautela no mercado. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente, dado o regime BALANCED.",
   "analysts": {
     "enter": [
-      "TOTS3 — devido ao forte momentum e posição no setor de tecnologia"
+      "TAEE11 — devido ao seu forte ajuste ao regime atual e momentum positivo"
     ],
     "reinforce": [
-      "SUZB3 — bom momentum de 21 dias, com crescimento de 17.00%"
+      "RADL3 — com crescimento de 18.06% em 21 dias, continua forte no setor de saúde"
     ],
     "avoid": [
-      "Setor de energia — rotação setorial de 0.60 indica menor desempenho"
+      "Setor de materiais — com rotação setorial de apenas 0.63, indica menor atratividade"
     ],
     "realize": [
-      "SUZB3 — após alta de 17.00% em 21 dias, pode estar sobrecomprado"
+      "FLRY3 — após alta de 17.29% em 21 dias, pode estar próximo de um ponto de realização"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,78",
+      "value": "R$ 22,47",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.18%",
+      "value": "-1.06%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+19.5%",
+      "value": "+15.8%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 21,78, com uma variação de -1.18%. Após o 1T26, que apresentou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside de 19.53%.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 22,47, com uma variação de -1.06%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro chegou a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de um upside de 15.80% sugere potencial de recuperação, mas o cenário ainda requer cautela.",
   "executive_summary": {
-    "smartest_move": "Alocar em TOTS3 com R$35, aproveitando o momentum positivo e a posição no setor de tecnologia.",
-    "biggest_risk": "O maior risco é a persistência dos juros elevados, que pode impactar negativamente setores mais sensíveis ao crédito.",
-    "best_opportunity": "TOTS3 apresenta uma assimetria risco-retorno favorável, com um score de 0.778 e momentum positivo.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de alto crescimento, levando a decisões precipitadas de investimento."
+    "smartest_move": "Investir em TAEE11 com alocação de R$34, aproveitando seu forte ajuste ao regime atual.",
+    "biggest_risk": "A persistência de juros elevados pode limitar o crescimento econômico, impactando setores mais sensíveis.",
+    "best_opportunity": "RADL3 oferece uma boa assimetria risco-retorno, com crescimento de 18.06% em 21 dias.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para incluir ativos defensivos."
   },
   "_meta": {
-    "generated_at": "2026-09-16T11:27:09.039864-03:00",
+    "generated_at": "2026-09-17T11:31:55.399285-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
-      "materiais",
       "saude",
-      "tecnologia"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
