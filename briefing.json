@@ -1,48 +1,48 @@
 {
-  "date": "17/09/2026",
+  "date": "18/09/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado em crescimento moderado, onde investidores devem buscar equilíbrio entre ativos de crescimento e defensivos."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com cautela em relação a ativos de maior risco, favorecendo investimentos em setores defensivos."
   },
   "opportunities": [
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "34",
-      "price": "R$ 41,15",
-      "score": "0.782",
-      "reason": "TAEE11 apresenta um bom momentum de 11.49% em 21 dias e está bem posicionada no setor de utilidades, que tende a ser defensivo em um regime BALANCED.",
-      "potential": "Com um score elevado e ajuste ao regime, TAEE11 tem potencial de valorização estável.",
+      "price": "R$ 27,31",
+      "score": "0.805",
+      "reason": "Sabesp ON se destaca pelo momentum positivo de +0.07% nos últimos 5 dias, alinhado com o regime BALANCED que favorece utilidades, um setor defensivo.",
+      "potential": "Com um score de 0.805, SBSP3 tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
       "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 20,20",
-      "score": "0.767",
-      "reason": "RADL3 se beneficia do crescimento de 18.06% em 21 dias, refletindo um forte desempenho no setor de saúde, que é resiliente em tempos de incerteza econômica.",
-      "potential": "Potencial de crescimento contínuo devido à sua estabilidade no setor de saúde.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "FLRY3",
       "name": "Fleury ON",
-      "value": "32",
-      "price": "R$ 21,17",
-      "score": "0.727",
-      "reason": "FLRY3 demonstra um crescimento sólido de 17.29% em 21 dias, aproveitando a demanda contínua por serviços de saúde.",
-      "potential": "Com um bom ajuste ao regime, há potencial para ganhos consistentes.",
+      "value": "33",
+      "price": "R$ 21,28",
+      "score": "0.784",
+      "reason": "Fleury ON tem mostrado resiliência com um crescimento de 17.89% em 21 dias, beneficiando-se do regime BULL com perfil BALANCED.",
+      "potential": "O score de 0.784 indica um bom potencial de valorização, especialmente em um mercado que valoriza estabilidade.",
       "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "33",
+      "price": "R$ 41,32",
+      "score": "0.766",
+      "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um crescimento de 11.95% em 21 dias, alinhando-se bem com o regime atual.",
+      "potential": "Com um score de 0.766, TAEE11 oferece um potencial estável de retorno, ideal para investidores buscando segurança.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "13,90%",
+      "value": "13,65%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "184.655",
-      "sub": "-0.48% hoje",
+      "value": "184.821",
+      "sub": "-0.63% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,90% estável e o IPCA em 4,22%, a inflação está controlada, mas os juros altos ainda pesam sobre o consumo. O IBOV recuou 0.48%, refletindo uma cautela no mercado. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente, dado o regime BALANCED.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA de 4,22% sugere uma inflação controlada. O IBOV caiu 0.63%, refletindo um ajuste de mercado. Para quem vai investir R$100 hoje, o regime BALANCED sugere cautela, favorecendo ativos defensivos e FIIs de papel devido aos juros elevados.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu forte ajuste ao regime atual e momentum positivo"
+      "SBSP3 — devido ao seu bom desempenho no setor de utilidades e alinhamento com o regime BALANCED"
     ],
     "reinforce": [
-      "RADL3 — com crescimento de 18.06% em 21 dias, continua forte no setor de saúde"
+      "FLRY3 — devido ao forte momentum de 21 dias, indicando potencial de continuidade na valorização"
     ],
     "avoid": [
-      "Setor de materiais — com rotação setorial de apenas 0.63, indica menor atratividade"
+      "Setor de tecnologia — devido ao momentum neutro e possível volatilidade em um regime BALANCED"
     ],
     "realize": [
-      "FLRY3 — após alta de 17.29% em 21 dias, pode estar próximo de um ponto de realização"
+      "Ativos que tiveram alta recente como FLRY3 — para capturar ganhos antes de uma possível correção"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,47",
+      "value": "R$ 22,62",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.06%",
+      "value": "-0.40%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+15.8%",
+      "value": "+15.0%",
       "trend": "up"
     },
     {
@@ -113,15 +113,15 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 22,47, com uma variação de -1.06%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no agro chegou a 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de um upside de 15.80% sugere potencial de recuperação, mas o cenário ainda requer cautela.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 22,62 com variação de -0.40%. Após o 1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em TAEE11 com alocação de R$34, aproveitando seu forte ajuste ao regime atual.",
-    "biggest_risk": "A persistência de juros elevados pode limitar o crescimento econômico, impactando setores mais sensíveis.",
-    "best_opportunity": "RADL3 oferece uma boa assimetria risco-retorno, com crescimento de 18.06% em 21 dias.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e não ajustar a carteira para incluir ativos defensivos."
+    "smartest_move": "Investir em SBSP3 com R$34, aproveitando seu alinhamento com o regime atual e bom desempenho no setor de utilidades.",
+    "biggest_risk": "A volatilidade no mercado de ações, especialmente em setores não defensivos, devido ao regime BULL com perfil BALANCED.",
+    "best_opportunity": "A assimetria risco-retorno em SBSP3, que combina um score alto com estabilidade do setor de utilidades.",
+    "common_mistake": "Subestimar a importância de diversificação em um regime BALANCED, focando excessivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-09-17T11:31:55.399285-03:00",
+    "generated_at": "2026-09-18T10:57:43.885752-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
       "saude",
