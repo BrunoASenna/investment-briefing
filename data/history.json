@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-10",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.73,
-      "r21d": -0.0013256764423243913,
-      "r63d": -0.0434119617171818
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 18,95",
-        "score": "0.789",
-        "reason": "Fleury ON apresenta forte momentum com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de saúde.",
-        "potential": "Com um score elevado e alinhado ao regime, há potencial de continuidade no desempenho positivo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "34",
-        "price": "R$ 20,22",
-        "score": "0.766",
-        "reason": "Raia Drogasil ON mantém um bom desempenho, com alta de 10.79% em 5 dias, aproveitando-se do regime que favorece o setor de saúde.",
-        "potential": "Potencial de crescimento sustentado pelo bom momentum e condições de mercado favoráveis.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 106,64",
-        "score": "0.726",
-        "reason": "KNCR11 é um FII de papel que se beneficia das altas taxas de juros, sendo uma escolha defensiva em um cenário RISK_OFF.",
-        "potential": "Potencial de estabilidade e rendimento consistente devido ao regime atual.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,09",
-      "ibov": "172.513"
-    }
-  },
-  {
     "date": "2026-08-11",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,15",
       "ibov": "184.821"
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.51,
+      "r21d": 0.10867603556902702,
+      "r63d": 0.0919002775545872
+    },
+    "opportunities": [
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "36",
+        "price": "R$ 37,61",
+        "score": "0.861",
+        "reason": "Localiza ON se destaca pelo forte momentum, apresentando alta de 5.68% nos últimos 5 dias, impulsionado pelo desempenho positivo do setor de consumo em um mercado BALANCED.",
+        "potential": "Dada a alta pontuação de 0.861 e o regime atual, o ativo possui potencial de valorização contínua, especialmente se o mercado permanecer otimista.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 27,70",
+        "score": "0.775",
+        "reason": "Sabesp ON apresenta um desempenho sólido com alta de 3.20% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
+        "potential": "Com um score de 0.775, o potencial de crescimento é moderado, mas consistente, devido à estabilidade do setor de utilidades em tempos de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "32",
+        "price": "R$ 22,91",
+        "score": "0.764",
+        "reason": "Banco do Brasil ON tem mostrado resiliência com um aumento de 27.00% nos últimos 21 dias, apesar da recente queda diária, sugerindo que ainda pode haver espaço para crescimento.",
+        "potential": "O potencial é alto, considerando o forte desempenho recente e a possibilidade de recuperação do setor financeiro.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,16",
+      "ibov": "186.177"
     }
   }
 ]
