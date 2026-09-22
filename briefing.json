@@ -1,48 +1,48 @@
 {
-  "date": "21/09/2026",
+  "date": "22/09/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime BULL com perfil BALANCED sugere um mercado otimista, mas com equilíbrio entre ativos de risco e defensivos, favorecendo estratégias diversificadas."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com uma distribuição equilibrada de riscos e oportunidades, favorecendo investimentos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "RENT3",
-      "name": "Localiza ON",
-      "value": "36",
-      "price": "R$ 37,61",
-      "score": "0.861",
-      "reason": "Localiza ON se destaca pelo forte momentum, apresentando alta de 5.68% nos últimos 5 dias, impulsionado pelo desempenho positivo do setor de consumo em um mercado BALANCED.",
-      "potential": "Dada a alta pontuação de 0.861 e o regime atual, o ativo possui potencial de valorização contínua, especialmente se o mercado permanecer otimista.",
-      "risk": "Médio",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "34",
+      "price": "R$ 11,20",
+      "score": "0.784",
+      "reason": "A Cemig PN se destaca pelo momentum positivo de +0.90% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um regime BALANCED.",
+      "potential": "Com um score de 0.784, a Cemig PN tem potencial de crescimento moderado, especialmente em um cenário de juros elevados que favorece setores defensivos.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "32",
-      "price": "R$ 27,70",
-      "score": "0.775",
-      "reason": "Sabesp ON apresenta um desempenho sólido com alta de 3.20% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
-      "potential": "Com um score de 0.775, o potencial de crescimento é moderado, mas consistente, devido à estabilidade do setor de utilidades em tempos de juros altos.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "34",
+      "price": "R$ 35,41",
+      "score": "0.771",
+      "reason": "TOTVS ON apresenta um forte desempenho recente com alta de +4.67% em 5 dias, refletindo um bom momentum no setor de tecnologia.",
+      "potential": "O potencial de TOTVS ON é promissor, dado seu score de 0.771, embora o RegimeFit de 0.2 indique alguma cautela.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
+      "ticker": "EGIE3",
+      "name": "Engie Brasil ON",
       "value": "32",
-      "price": "R$ 22,91",
-      "score": "0.764",
-      "reason": "Banco do Brasil ON tem mostrado resiliência com um aumento de 27.00% nos últimos 21 dias, apesar da recente queda diária, sugerindo que ainda pode haver espaço para crescimento.",
-      "potential": "O potencial é alto, considerando o forte desempenho recente e a possibilidade de recuperação do setor financeiro.",
-      "risk": "Médio",
+      "price": "R$ 30,25",
+      "score": "0.719",
+      "reason": "Engie Brasil ON, apesar de uma leve queda de -0.88% em 5 dias, está bem posicionada no setor de utilidades, favorecido pelo regime atual.",
+      "potential": "Com um score de 0.719, Engie Brasil ON tem potencial de estabilidade e crescimento moderado em um ambiente de juros altos.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "N/D",
+      "value": "13,65%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,16",
+      "value": "R$ 5,11",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "186.177",
-      "sub": "+0.51% hoje",
-      "trend": "up"
+      "value": "185.653",
+      "sub": "-0.51% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável e IPCA em 4,22%, o ambiente macroeconômico favorece a manutenção de estratégias balanceadas. O IBOV subiu 0,51%, refletindo otimismo moderado. Para quem vai investir R$100, o cenário é propício para diversificação entre ativos de risco e defensivos, aproveitando o momento de estabilidade econômica.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,22%, indicando um cenário de inflação controlada. O IBOV caiu 0.51% hoje, refletindo um ajuste em um mercado que ainda opera sob um regime BALANCED. Para quem vai aportar R$100 hoje, o foco deve ser em ativos defensivos que se beneficiam de juros altos, como FIIs de papel.",
   "analysts": {
     "enter": [
-      "RENT3 — Forte momentum e alta pontuação no ranking"
+      "CMIG4 — Momentum positivo no setor de utilidades"
     ],
     "reinforce": [
-      "SBSP3 — Beneficiado pelo ambiente de juros elevados"
+      "TOTVS ON — Forte momentum 21d"
     ],
     "avoid": [
-      "Tecnologia — Momentum negativo com 0.68 nos últimos 5 dias"
+      "Setor de consumo — Momentum negativo recente"
     ],
     "realize": [
-      "BBAS3 — Após recente alta de 27% em 21 dias, pode estar sobrecomprado"
+      "TOTS3 — Alta recente pode indicar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,91",
+      "value": "R$ 22,69",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.25%",
+      "value": "-1.30%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+13.6%",
+      "value": "+14.7%",
       "trend": "up"
     },
     {
@@ -112,21 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Realizar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 22,91 com variação de -1.25%. Após o 1T26, o banco reportou uma queda de 53% no lucro e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode afetar a percepção de risco e retorno do ativo.",
+  "bbas3_strategy": "Aguardar",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 22,69, com uma variação de -1.30%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro foi de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de que a ação mantenha-se estável até a divulgação dos novos resultados.",
   "executive_summary": {
-    "smartest_move": "Entrar em RENT3, alocando R$36, aproveitando o forte momentum e o cenário BALANCED.",
-    "biggest_risk": "A volatilidade no setor de tecnologia, que tem mostrado desempenho fraco nos últimos dias.",
-    "best_opportunity": "RENT3 oferece uma assimetria positiva de risco-retorno com um score elevado e momentum favorável.",
-    "common_mistake": "Subestimar a importância de diversificação em um mercado com regime BALANCED, focando excessivamente em ativos de risco."
+    "smartest_move": "Investir R$34 em CMIG4, aproveitando o momentum positivo e o favorecimento do setor de utilidades.",
+    "biggest_risk": "A exposição excessiva a ativos de consumo, que têm apresentado momentum negativo.",
+    "best_opportunity": "A Cemig PN oferece uma boa assimetria risco-retorno, com um score de 0.784 e potencial de crescimento em um regime BALANCED.",
+    "common_mistake": "Subestimar o impacto dos juros altos em setores mais sensíveis, como consumo, em um cenário de regime BULL."
   },
   "_meta": {
-    "generated_at": "2026-09-21T13:04:51.006417-03:00",
+    "generated_at": "2026-09-22T11:14:39.873949-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
-      "utilidades",
-      "financeiro",
-      "consumo"
+      "tecnologia",
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

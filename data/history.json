@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-11",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.19,
-      "r21d": -0.03196788593660396,
-      "r63d": -0.027769935290065387
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 18,95",
-        "score": "0.789",
-        "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 11.67% nos últimos 5 dias, beneficiando-se do ambiente neutro e balanceado que favorece o setor de saúde.",
-        "potential": "Com um score elevado e bom ajuste ao regime, há potencial para continuidade do desempenho positivo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "34",
-        "price": "R$ 20,22",
-        "score": "0.769",
-        "reason": "Raia Drogasil ON apresenta um crescimento consistente de 10.79% nos últimos 5 dias, alinhando-se bem ao regime atual que favorece o setor de saúde.",
-        "potential": "O ativo tem potencial de valorização contínua, respaldado por seu bom desempenho recente.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "32",
-        "price": "R$ 48,12",
-        "score": "0.735",
-        "reason": "Apesar de uma leve queda diária, WEG ON mantém um crescimento de 2.78% nos últimos 5 dias, mostrando resiliência no setor industrial.",
-        "potential": "O potencial de crescimento é moderado, considerando o score e o ajuste ao regime.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,64%",
-      "dolar": "R$ 5,10",
-      "ibov": "172.180"
-    }
-  },
-  {
     "date": "2026-08-12",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,16",
       "ibov": "186.177"
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.51,
+      "r21d": 0.08548619556574208,
+      "r63d": 0.0794399383685098
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "34",
+        "price": "R$ 11,20",
+        "score": "0.784",
+        "reason": "A Cemig PN se destaca pelo momentum positivo de +0.90% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um regime BALANCED.",
+        "potential": "Com um score de 0.784, a Cemig PN tem potencial de crescimento moderado, especialmente em um cenário de juros elevados que favorece setores defensivos.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "34",
+        "price": "R$ 35,41",
+        "score": "0.771",
+        "reason": "TOTVS ON apresenta um forte desempenho recente com alta de +4.67% em 5 dias, refletindo um bom momentum no setor de tecnologia.",
+        "potential": "O potencial de TOTVS ON é promissor, dado seu score de 0.771, embora o RegimeFit de 0.2 indique alguma cautela.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "32",
+        "price": "R$ 30,25",
+        "score": "0.719",
+        "reason": "Engie Brasil ON, apesar de uma leve queda de -0.88% em 5 dias, está bem posicionada no setor de utilidades, favorecido pelo regime atual.",
+        "potential": "Com um score de 0.719, Engie Brasil ON tem potencial de estabilidade e crescimento moderado em um ambiente de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,11",
+      "ibov": "185.653"
     }
   }
 ]
