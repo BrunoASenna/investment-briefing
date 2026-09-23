@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -2.5,
-      "r21d": -0.044748177695332285,
-      "r63d": -0.058817263379792116
-    },
-    "opportunities": [
-      {
-        "ticker": "BTLG11",
-        "name": "BTG Logística",
-        "value": "35",
-        "price": "R$ 100,38",
-        "score": "0.805",
-        "reason": "BTLG11 apresenta um score elevado de 0.805, com um momentum relativamente estável (-0.12% em 5 dias), o que é atrativo em um regime RISK_OFF, dado seu perfil de fii_tijolo que oferece maior segurança.",
-        "potential": "Considerando o score e o regime atual, o ativo tem potencial de manter estabilidade e proporcionar segurança ao portfólio.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "XPML11",
-        "name": "XP Malls",
-        "value": "34",
-        "price": "R$ 103,61",
-        "score": "0.787",
-        "reason": "XPML11, com um score de 0.787, é uma opção sólida em um regime de aversão ao risco, oferecendo exposição a ativos imobiliários de tijolo, que são tradicionalmente mais estáveis.",
-        "potential": "O potencial está em sua capacidade de manter valor em um cenário de incerteza econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "31",
-        "price": "R$ 105,60",
-        "score": "0.73",
-        "reason": "KNCR11 é destacado por sua adequação ao regime RISK_OFF, com um RegimeFit de 1.0, sendo um fii_papel que pode oferecer proteção contra a volatilidade de mercado.",
-        "potential": "O potencial está em sua capacidade de gerar renda estável em um ambiente de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,13",
-      "ibov": "167.875"
-    }
-  },
-  {
     "date": "2026-08-13",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,11",
       "ibov": "185.653"
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.79,
+      "r21d": 0.09963650808035923,
+      "r63d": 0.09351143235071807
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 6,85",
+        "score": "0.781",
+        "reason": "Hapvida ON apresenta um momentum positivo com alta de 5.55% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+        "potential": "Potencial de crescimento moderado, sustentado por um score elevado e alinhamento com o regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "34",
+        "price": "R$ 39,15",
+        "score": "0.778",
+        "reason": "Localiza ON se destaca pelo forte desempenho recente com alta de 16.17% em 21 dias, impulsionado por uma recuperação no setor de consumo.",
+        "potential": "Potencial de valorização contínua, dado o bom momentum e score competitivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 22,09",
+        "score": "0.76",
+        "reason": "Fleury ON mantém um crescimento robusto de 18.96% em 21 dias, alinhando-se bem com o regime BALANCED e o setor de saúde.",
+        "potential": "Potencial de crescimento estável, suportado por um score elevado e alinhamento setorial.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,12",
+      "ibov": "188.073"
     }
   }
 ]
