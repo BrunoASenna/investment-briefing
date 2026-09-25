@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.23,
-      "r21d": -0.051799978487440626,
-      "r63d": -0.05523905146544528
-    },
-    "opportunities": [
-      {
-        "ticker": "PVBI11",
-        "name": "VBI Prime Properties",
-        "value": "33",
-        "price": "R$ 66,31",
-        "score": "0.761",
-        "reason": "PVBI11, um fundo de tijolo, apresenta uma leve queda de -0.66% nos últimos 5 dias, mas se beneficia do perfil BALANCED do regime atual, oferecendo potencial de estabilidade em um mercado volátil.",
-        "potential": "Com um score de 0.761, PVBI11 pode oferecer uma proteção moderada contra a volatilidade do mercado atual.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SUZB3",
-        "name": "Suzano ON",
-        "value": "34",
-        "price": "R$ 41,45",
-        "score": "0.753",
-        "reason": "Suzano ON, apesar de uma queda de -3.24% nos últimos 5 dias, mostra resiliência com um ganho de +2.65% no último dia, indicando potencial de recuperação em um mercado de materiais desafiador.",
-        "potential": "O score de 0.753 sugere uma oportunidade de recuperação com riscos moderados em um cenário de mercado instável.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "33",
-        "price": "R$ 105,71",
-        "score": "0.729",
-        "reason": "KNCR11, um FII de papel, é favorecido pelo atual ambiente de juros elevados, apresentando um score de 0.729 e estabilidade relativa no mercado.",
-        "potential": "Com um RegimeFit de 1.0, KNCR11 oferece um potencial defensivo sólido em um mercado de juros altos.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,16",
-      "ibov": "167.491"
-    }
-  },
-  {
     "date": "2026-08-14",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,12",
       "ibov": "188.073"
+    }
+  },
+  {
+    "date": "2026-09-25",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.84,
+      "r21d": 0.044834995360452726,
+      "r63d": 0.06039600578988978
+    },
+    "opportunities": [
+      {
+        "ticker": "ITUB4",
+        "name": "Itaú Unibanco PN",
+        "value": "34",
+        "price": "R$ 42,07",
+        "score": "0.773",
+        "reason": "O Itaú Unibanco se destaca no setor financeiro, que tem mostrado resiliência mesmo com momentum negativo de -0.61% nos últimos 5 dias. Em um regime RISK_OFF, a solidez do banco pode atrair investidores buscando segurança.",
+        "potential": "Com um score de 0.773, o ativo tem potencial de valorização moderada, especialmente se o mercado continuar favorecendo ativos defensivos.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 21,93",
+        "score": "0.764",
+        "reason": "Fleury ON tem apresentado um desempenho robusto, com alta de 17.52% nos últimos 21 dias, beneficiando-se do interesse em saúde em um ambiente de juros elevados.",
+        "potential": "Com um score de 0.764, o ativo pode continuar a se valorizar, especialmente se o interesse por setores defensivos persistir.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 40,97",
+        "score": "0.744",
+        "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um score de 0.744, beneficiando-se de sua estabilidade em um ambiente de aversão ao risco.",
+        "potential": "O ativo pode oferecer retornos consistentes, aproveitando o cenário de juros elevados e a busca por segurança.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,18",
+      "ibov": "182.414"
     }
   }
 ]
