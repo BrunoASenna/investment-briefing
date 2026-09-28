@@ -1,42 +1,42 @@
 {
-  "date": "25/09/2026",
+  "date": "28/09/2026",
   "regime": {
-    "label": "BULL / RISK_OFF",
-    "summary": "O regime BULL com perfil RISK_OFF sugere um mercado em alta, mas com aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel."
+    "label": "BULL / BALANCED",
+    "summary": "O regime atual BULL com perfil BALANCED indica um mercado otimista com equilíbrio entre riscos e oportunidades, favorecendo estratégias que combinam ativos de crescimento e defesa."
   },
   "opportunities": [
     {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "34",
-      "price": "R$ 42,07",
-      "score": "0.773",
-      "reason": "O Itaú Unibanco se destaca no setor financeiro, que tem mostrado resiliência mesmo com momentum negativo de -0.61% nos últimos 5 dias. Em um regime RISK_OFF, a solidez do banco pode atrair investidores buscando segurança.",
-      "potential": "Com um score de 0.773, o ativo tem potencial de valorização moderada, especialmente se o mercado continuar favorecendo ativos defensivos.",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "36",
+      "price": "R$ 48,72",
+      "score": "0.807",
+      "reason": "Petrobras se destaca no setor de energia, beneficiando-se do momentum positivo de +1.50% nos últimos 5 dias. A estabilidade do setor e o perfil BALANCED do mercado reforçam seu potencial de crescimento.",
+      "potential": "Com um score elevado e momentum positivo, PETR4 pode continuar a se valorizar no curto a médio prazo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "33",
-      "price": "R$ 21,93",
-      "score": "0.764",
-      "reason": "Fleury ON tem apresentado um desempenho robusto, com alta de 17.52% nos últimos 21 dias, beneficiando-se do interesse em saúde em um ambiente de juros elevados.",
-      "potential": "Com um score de 0.764, o ativo pode continuar a se valorizar, especialmente se o interesse por setores defensivos persistir.",
-      "risk": "Baixo",
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "32",
+      "price": "R$ 3,85",
+      "score": "0.738",
+      "reason": "Cosan apresenta um desempenho sólido com um aumento de +2.67% nos últimos 5 dias, refletindo a força do setor de energia em um mercado BULL.",
+      "potential": "A tendência de alta recente sugere um potencial de valorização, especialmente em um cenário de estabilidade econômica.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 40,97",
-      "score": "0.744",
-      "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um score de 0.744, beneficiando-se de sua estabilidade em um ambiente de aversão ao risco.",
-      "potential": "O ativo pode oferecer retornos consistentes, aproveitando o cenário de juros elevados e a busca por segurança.",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "32",
+      "price": "R$ 106,25",
+      "score": "0.735",
+      "reason": "O fundo imobiliário Kinea se beneficia de um ambiente de juros elevados, oferecendo proteção contra inflação e volatilidade de mercado.",
+      "potential": "O regime atual favorece FIIs de papel, sugerindo um potencial de estabilidade e retorno consistente.",
       "risk": "Baixo",
-      "horizon": "Médio prazo"
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,18",
+      "value": "R$ 5,21",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "182.414",
-      "sub": "-0.84% hoje",
+      "value": "183.376",
+      "sub": "-0.06% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,22%, indicando uma desaceleração da inflação. O IBOV caiu 0.84% hoje, refletindo um mercado cauteloso, típico de um regime RISK_OFF. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o cenário de juros elevados e aversão ao risco.",
+  "macro_summary": "A SELIC em 13,65% permanece estável, proporcionando um ambiente de juros elevados que favorece investimentos defensivos. O IPCA em 4,22% indica uma inflação sob controle, enquanto o IBOV, com leve queda de -0.06%, reflete um mercado em equilíbrio. Com R$100, investidores devem considerar ativos que se beneficiam de juros altos e estabilidade econômica.",
   "analysts": {
     "enter": [
-      "ITUB4 — devido ao seu score alto e resiliência no setor financeiro"
+      "PETR4 — devido ao seu forte momentum e desempenho no setor de energia"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum de 21 dias e interesse em saúde"
+      "PETR4 — momentum positivo de +14.10% em 21 dias"
     ],
     "avoid": [
-      "Setor de tecnologia — momentum negativo recente"
+      "Ativos do setor de varejo — momentum negativo com rotação setorial de 0.66"
     ],
     "realize": [
-      "FLRY3 — após alta de 17.52% em 21 dias, pode estar sobrecomprado"
+      "PETR4 — após alta significativa de +14.10% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,35",
+      "value": "R$ 21,60",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.88%",
+      "value": "+0.05%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+21.9%",
+      "value": "+20.5%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 21,35 com variação de -0.88%. Após o 1T26, que registrou uma queda de 53% no lucro e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até mais clareza sobre os resultados futuros.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 21,60 com variação de +0.05%. Após resultados do 1T26 mostrando lucro em queda de -53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O mercado mantém uma visão neutra, com upside potencial de 20.46% até o alvo consenso de R$ 26,02.",
   "executive_summary": {
-    "smartest_move": "Investir em ITUB4 alocando R$34, aproveitando seu bom score e resiliência no setor financeiro.",
-    "biggest_risk": "A aversão ao risco no regime RISK_OFF pode levar a uma maior volatilidade em ativos de crescimento.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria risco-retorno favorável, com forte momentum e interesse em saúde.",
-    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento, levando a decisões precipitadas."
+    "smartest_move": "Considerar alocação em PETR4 com R$36, dado seu forte momentum no setor de energia.",
+    "biggest_risk": "O risco de uma correção no mercado BULL, especialmente em ativos recentemente sobrecomprados.",
+    "best_opportunity": "PETR4 apresenta uma assimetria risco-retorno favorável com momentum positivo e suporte do setor.",
+    "common_mistake": "Subestimar a importância da diversificação em um mercado BULL, focando excessivamente em ativos de alta volatilidade."
   },
   "_meta": {
-    "generated_at": "2026-09-25T11:50:56.282586-03:00",
-    "regime": "BULL / RISK_OFF",
+    "generated_at": "2026-09-28T14:52:10.456545-03:00",
+    "regime": "BULL / BALANCED",
     "sectors": [
-      "saude",
-      "financeiro",
-      "utilidades"
+      "fii_papel",
+      "energia"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.23,
-      "r21d": -0.06052309041638087,
-      "r63d": -0.05644897175575105
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "37",
-        "price": "R$ 18,32",
-        "score": "0.831",
-        "reason": "Fleury ON apresenta um forte momentum com alta de 6.08% nos últimos 5 dias, beneficiando-se do setor de saúde que é tradicionalmente defensivo em um regime BALANCED.",
-        "potential": "Com um score elevado e bom ajuste ao regime, o potencial é positivo, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 105,71",
-        "score": "0.734",
-        "reason": "KNCR11 é atraente devido à sua natureza de fundo imobiliário de papel, que se beneficia de juros elevados, ajustando-se bem ao regime atual.",
-        "potential": "O potencial é estável, com foco em geração de renda passiva, adequado para investidores buscando segurança.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "31",
-        "price": "R$ 18,30",
-        "score": "0.703",
-        "reason": "Apesar da queda recente, Raia Drogasil ON tem um score razoável e se beneficia do setor de saúde, que é defensivo em tempos de incerteza.",
-        "potential": "Potencial de recuperação moderado, com base na resiliência do setor de saúde.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,19",
-      "ibov": "167.101"
-    }
-  },
-  {
     "date": "2026-08-17",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,18",
       "ibov": "182.414"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.06,
+      "r21d": 0.047053879864104836,
+      "r63d": 0.06806948173732738
+    },
+    "opportunities": [
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "36",
+        "price": "R$ 48,72",
+        "score": "0.807",
+        "reason": "Petrobras se destaca no setor de energia, beneficiando-se do momentum positivo de +1.50% nos últimos 5 dias. A estabilidade do setor e o perfil BALANCED do mercado reforçam seu potencial de crescimento.",
+        "potential": "Com um score elevado e momentum positivo, PETR4 pode continuar a se valorizar no curto a médio prazo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "32",
+        "price": "R$ 3,85",
+        "score": "0.738",
+        "reason": "Cosan apresenta um desempenho sólido com um aumento de +2.67% nos últimos 5 dias, refletindo a força do setor de energia em um mercado BULL.",
+        "potential": "A tendência de alta recente sugere um potencial de valorização, especialmente em um cenário de estabilidade econômica.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "32",
+        "price": "R$ 106,25",
+        "score": "0.735",
+        "reason": "O fundo imobiliário Kinea se beneficia de um ambiente de juros elevados, oferecendo proteção contra inflação e volatilidade de mercado.",
+        "potential": "O regime atual favorece FIIs de papel, sugerindo um potencial de estabilidade e retorno consistente.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,21",
+      "ibov": "183.376"
     }
   }
 ]
