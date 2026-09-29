@@ -1,42 +1,42 @@
 {
-  "date": "28/09/2026",
+  "date": "29/09/2026",
   "regime": {
-    "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED indica um mercado otimista com equilíbrio entre riscos e oportunidades, favorecendo estratégias que combinam ativos de crescimento e defesa."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há tendências claras, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "36",
-      "price": "R$ 48,72",
-      "score": "0.807",
-      "reason": "Petrobras se destaca no setor de energia, beneficiando-se do momentum positivo de +1.50% nos últimos 5 dias. A estabilidade do setor e o perfil BALANCED do mercado reforçam seu potencial de crescimento.",
-      "potential": "Com um score elevado e momentum positivo, PETR4 pode continuar a se valorizar no curto a médio prazo.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "34",
+      "price": "R$ 26,73",
+      "score": "0.756",
+      "reason": "Sabesp ON é uma escolha sólida hoje devido ao seu setor de utilidades, que tende a ser mais resiliente em ambientes de juros elevados. Apesar de uma queda de 3.01% nos últimos 5 dias, o momentum positivo de 5.90% em 21 dias sugere potencial de recuperação.",
+      "potential": "Com um score de 0.756 e um bom ajuste ao regime atual, a Sabesp ON tem potencial de valorização moderada no curto prazo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
-      "value": "32",
-      "price": "R$ 3,85",
-      "score": "0.738",
-      "reason": "Cosan apresenta um desempenho sólido com um aumento de +2.67% nos últimos 5 dias, refletindo a força do setor de energia em um mercado BULL.",
-      "potential": "A tendência de alta recente sugere um potencial de valorização, especialmente em um cenário de estabilidade econômica.",
+      "ticker": "BBAS3",
+      "name": "Banco do Brasil ON",
+      "value": "33",
+      "price": "R$ 21,97",
+      "score": "0.745",
+      "reason": "Banco do Brasil ON apresenta um desempenho positivo recente com alta de 2.23% no dia, apesar de uma leve queda nos últimos 5 dias. O banco se beneficia de um ambiente de juros elevados, que pode aumentar a margem financeira.",
+      "potential": "Considerando o score de 0.745 e o contexto de juros altos, há um potencial de valorização moderada.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "32",
-      "price": "R$ 106,25",
-      "score": "0.735",
-      "reason": "O fundo imobiliário Kinea se beneficia de um ambiente de juros elevados, oferecendo proteção contra inflação e volatilidade de mercado.",
-      "potential": "O regime atual favorece FIIs de papel, sugerindo um potencial de estabilidade e retorno consistente.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "33",
+      "price": "R$ 11,20",
+      "score": "0.743",
+      "reason": "Lojas Renner ON, apesar de uma queda de 2.69% nos últimos 5 dias, mostra resiliência com um ganho de 4.67% em 21 dias, sugerindo potencial de recuperação no setor de varejo.",
+      "potential": "Com um score de 0.743, Lojas Renner ON tem potencial de valorização moderada, especialmente se o consumo interno se fortalecer.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,21",
+      "value": "R$ 5,22",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "183.376",
-      "sub": "-0.06% hoje",
+      "value": "182.376",
+      "sub": "-0.34% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC em 13,65% permanece estável, proporcionando um ambiente de juros elevados que favorece investimentos defensivos. O IPCA em 4,22% indica uma inflação sob controle, enquanto o IBOV, com leve queda de -0.06%, reflete um mercado em equilíbrio. Com R$100, investidores devem considerar ativos que se beneficiam de juros altos e estabilidade econômica.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente favorece investimentos em renda fixa e ativos defensivos. O IPCA de 4,22% sugere uma inflação controlada, enquanto o IBOV recuou 0.34%, refletindo a cautela do mercado. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o regime BALANCED.",
   "analysts": {
     "enter": [
-      "PETR4 — devido ao seu forte momentum e desempenho no setor de energia"
+      "SBSP3 — devido ao seu bom ajuste ao regime atual e potencial de recuperação."
     ],
     "reinforce": [
-      "PETR4 — momentum positivo de +14.10% em 21 dias"
+      "BBAS3 — com bom momentum de 21 dias e potencial de valorização em um ambiente de juros altos."
     ],
     "avoid": [
-      "Ativos do setor de varejo — momentum negativo com rotação setorial de 0.66"
+      "Setor de varejo — devido ao momentum negativo de curto prazo, como visto em LREN3."
     ],
     "realize": [
-      "PETR4 — após alta significativa de +14.10% em 21 dias, pode estar sobrecomprado"
+      "Ativos que tiveram alta recente, como BBAS3, que subiu 2.23% no dia."
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,60",
+      "value": "R$ 21,97",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.05%",
+      "value": "+2.23%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+20.5%",
+      "value": "+18.4%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 21,60 com variação de +0.05%. Após resultados do 1T26 mostrando lucro em queda de -53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O mercado mantém uma visão neutra, com upside potencial de 20.46% até o alvo consenso de R$ 26,02.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 21,97, com uma variação positiva de 2.23% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de recuperação gradual, mas o cenário permanece desafiador.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em PETR4 com R$36, dado seu forte momentum no setor de energia.",
-    "biggest_risk": "O risco de uma correção no mercado BULL, especialmente em ativos recentemente sobrecomprados.",
-    "best_opportunity": "PETR4 apresenta uma assimetria risco-retorno favorável com momentum positivo e suporte do setor.",
-    "common_mistake": "Subestimar a importância da diversificação em um mercado BULL, focando excessivamente em ativos de alta volatilidade."
+    "smartest_move": "Considerar alocar R$34 em SBSP3, dado seu ajuste ao regime atual e potencial de recuperação.",
+    "biggest_risk": "A volatilidade do mercado em um regime NEUTRAL pode impactar negativamente ativos cíclicos.",
+    "best_opportunity": "A Sabesp ON apresenta uma assimetria risco-retorno favorável, com um score de 0.756 e potencial de recuperação.",
+    "common_mistake": "Subestimar a importância de diversificação em um ambiente de mercado NEUTRAL e BALANCED."
   },
   "_meta": {
-    "generated_at": "2026-09-28T14:52:10.456545-03:00",
-    "regime": "BULL / BALANCED",
+    "generated_at": "2026-09-29T13:12:52.510289-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "fii_papel",
-      "energia"
+      "utilidades",
+      "financeiro",
+      "varejo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

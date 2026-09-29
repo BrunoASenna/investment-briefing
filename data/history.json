@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.1,
-      "r21d": -0.05010270913115472,
-      "r63d": -0.064092932509559
-    },
-    "opportunities": [
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "35",
-        "price": "R$ 47,50",
-        "score": "0.76",
-        "reason": "WEG ON apresenta um desempenho positivo de 7.47% em 21 dias, indicando força relativa no setor industrial, que é favorecido pelo perfil BALANCED do dia.",
-        "potential": "A alta pontuação sugere um potencial de valorização moderado, alinhado ao regime atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "33",
-        "price": "R$ 42,09",
-        "score": "0.72",
-        "reason": "Petrobras apresenta crescimento consistente de 3.52% em 21 dias, beneficiando-se da resiliência do setor de energia e da estabilidade no cenário macroeconômico.",
-        "potential": "Potencial de valorização moderado, impulsionado pela estabilidade dos preços de commodities.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "VIVT3",
-        "name": "Telefônica Vivo ON",
-        "value": "32",
-        "price": "R$ 29,74",
-        "score": "0.706",
-        "reason": "Apesar da queda de 16.27% em 21 dias, a Telefônica Vivo pode se beneficiar de uma recuperação no setor de telecomunicações, dada sua alta RegimeFit.",
-        "potential": "Potencial de recuperação, especialmente se o setor de telecomunicações apresentar sinais de melhora.",
-        "risk": "Alto",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "N/D",
-      "dolar": "R$ 5,22",
-      "ibov": "166.934"
-    }
-  },
-  {
     "date": "2026-08-18",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,21",
       "ibov": "183.376"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.34,
+      "r21d": 0.03820446588677312,
+      "r63d": 0.055491049725675395
+    },
+    "opportunities": [
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "34",
+        "price": "R$ 26,73",
+        "score": "0.756",
+        "reason": "Sabesp ON é uma escolha sólida hoje devido ao seu setor de utilidades, que tende a ser mais resiliente em ambientes de juros elevados. Apesar de uma queda de 3.01% nos últimos 5 dias, o momentum positivo de 5.90% em 21 dias sugere potencial de recuperação.",
+        "potential": "Com um score de 0.756 e um bom ajuste ao regime atual, a Sabesp ON tem potencial de valorização moderada no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "BBAS3",
+        "name": "Banco do Brasil ON",
+        "value": "33",
+        "price": "R$ 21,97",
+        "score": "0.745",
+        "reason": "Banco do Brasil ON apresenta um desempenho positivo recente com alta de 2.23% no dia, apesar de uma leve queda nos últimos 5 dias. O banco se beneficia de um ambiente de juros elevados, que pode aumentar a margem financeira.",
+        "potential": "Considerando o score de 0.745 e o contexto de juros altos, há um potencial de valorização moderada.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "33",
+        "price": "R$ 11,20",
+        "score": "0.743",
+        "reason": "Lojas Renner ON, apesar de uma queda de 2.69% nos últimos 5 dias, mostra resiliência com um ganho de 4.67% em 21 dias, sugerindo potencial de recuperação no setor de varejo.",
+        "potential": "Com um score de 0.743, Lojas Renner ON tem potencial de valorização moderada, especialmente se o consumo interno se fortalecer.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,22",
+      "ibov": "182.376"
     }
   }
 ]
