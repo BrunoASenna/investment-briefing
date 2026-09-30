@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-18",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.1,
-      "r21d": -0.05010270913115472,
-      "r63d": null
-    },
-    "opportunities": [
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "34",
-        "price": "R$ 47,99",
-        "score": "0.729",
-        "reason": "WEG apresenta um momentum positivo de +0.76% nos últimos 5 dias, beneficiando-se do setor industrial que está em rotação positiva. O perfil BALANCED do regime atual favorece a estabilidade deste ativo.",
-        "potential": "Dado o score elevado e o regime atual, WEGE3 tem potencial de crescimento moderado, especialmente se o mercado se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 28,05",
-        "score": "0.712",
-        "reason": "Apesar da queda recente de -4.10% em 5 dias, EGIE3 é atrativa devido ao seu alto RegimeFit de 0.9, sugerindo alinhamento com o ambiente de juros elevados.",
-        "potential": "Potencial de recuperação à medida que o mercado busca estabilidade em utilidades, um setor tradicionalmente defensivo.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "33",
-        "price": "R$ 105,24",
-        "score": "0.705",
-        "reason": "KNCR11, um FII de papel, é favorecido pelo regime atual de juros elevados, oferecendo uma proteção natural contra a inflação.",
-        "potential": "Boa perspectiva de rendimento estável, dado o alinhamento com o regime e a natureza defensiva do ativo.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,20",
-      "ibov": "166.934"
-    }
-  },
-  {
     "date": "2026-08-19",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,22",
       "ibov": "182.376"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.04,
+      "r21d": 0.046888298322051186,
+      "r63d": 0.06582967991461329
+    },
+    "opportunities": [
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "37",
+        "price": "R$ 39,79",
+        "score": "0.866",
+        "reason": "Localiza ON se destaca pelo forte momentum, com alta de 4.30% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e do setor de consumo em crescimento.",
+        "potential": "Com um score elevado, a ação tem potencial de continuar sua trajetória ascendente, especialmente em um regime de mercado otimista.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 22,63",
+        "score": "0.765",
+        "reason": "Fleury ON apresenta um crescimento consistente de 14.99% em 21 dias, beneficiando-se de um regime favorável e um setor de saúde resiliente.",
+        "potential": "O score e o regime indicam potencial de valorização contínua, especialmente com a estabilidade econômica atual.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "31",
+        "price": "R$ 18,25",
+        "score": "0.75",
+        "reason": "Bradesco PN, com um crescimento de 6.17% em 21 dias, se beneficia do ambiente RISK_ON, embora o setor financeiro esteja menos aquecido.",
+        "potential": "O potencial de crescimento é moderado, mas a estabilidade do banco e o regime atual oferecem oportunidades de valorização.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,22",
+      "ibov": "185.738"
     }
   }
 ]

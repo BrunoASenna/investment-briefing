@@ -1,40 +1,40 @@
 {
-  "date": "29/09/2026",
+  "date": "30/09/2026",
   "regime": {
-    "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde não há tendências claras, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
+    "label": "BULL / RISK_ON",
+    "summary": "O regime atual BULL com perfil RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um mercado otimista e investidores dispostos a assumir mais riscos."
   },
   "opportunities": [
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "34",
-      "price": "R$ 26,73",
-      "score": "0.756",
-      "reason": "Sabesp ON é uma escolha sólida hoje devido ao seu setor de utilidades, que tende a ser mais resiliente em ambientes de juros elevados. Apesar de uma queda de 3.01% nos últimos 5 dias, o momentum positivo de 5.90% em 21 dias sugere potencial de recuperação.",
-      "potential": "Com um score de 0.756 e um bom ajuste ao regime atual, a Sabesp ON tem potencial de valorização moderada no curto prazo.",
+      "ticker": "RENT3",
+      "name": "Localiza ON",
+      "value": "37",
+      "price": "R$ 39,79",
+      "score": "0.866",
+      "reason": "Localiza ON se destaca pelo forte momentum, com alta de 4.30% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e do setor de consumo em crescimento.",
+      "potential": "Com um score elevado, a ação tem potencial de continuar sua trajetória ascendente, especialmente em um regime de mercado otimista.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "BBAS3",
-      "name": "Banco do Brasil ON",
-      "value": "33",
-      "price": "R$ 21,97",
-      "score": "0.745",
-      "reason": "Banco do Brasil ON apresenta um desempenho positivo recente com alta de 2.23% no dia, apesar de uma leve queda nos últimos 5 dias. O banco se beneficia de um ambiente de juros elevados, que pode aumentar a margem financeira.",
-      "potential": "Considerando o score de 0.745 e o contexto de juros altos, há um potencial de valorização moderada.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "32",
+      "price": "R$ 22,63",
+      "score": "0.765",
+      "reason": "Fleury ON apresenta um crescimento consistente de 14.99% em 21 dias, beneficiando-se de um regime favorável e um setor de saúde resiliente.",
+      "potential": "O score e o regime indicam potencial de valorização contínua, especialmente com a estabilidade econômica atual.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "33",
-      "price": "R$ 11,20",
-      "score": "0.743",
-      "reason": "Lojas Renner ON, apesar de uma queda de 2.69% nos últimos 5 dias, mostra resiliência com um ganho de 4.67% em 21 dias, sugerindo potencial de recuperação no setor de varejo.",
-      "potential": "Com um score de 0.743, Lojas Renner ON tem potencial de valorização moderada, especialmente se o consumo interno se fortalecer.",
+      "ticker": "BBDC4",
+      "name": "Bradesco PN",
+      "value": "31",
+      "price": "R$ 18,25",
+      "score": "0.75",
+      "reason": "Bradesco PN, com um crescimento de 6.17% em 21 dias, se beneficia do ambiente RISK_ON, embora o setor financeiro esteja menos aquecido.",
+      "potential": "O potencial de crescimento é moderado, mas a estabilidade do banco e o regime atual oferecem oportunidades de valorização.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "182.376",
-      "sub": "-0.34% hoje",
-      "trend": "down"
+      "value": "185.738",
+      "sub": "+1.04% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente favorece investimentos em renda fixa e ativos defensivos. O IPCA de 4,22% sugere uma inflação controlada, enquanto o IBOV recuou 0.34%, refletindo a cautela do mercado. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o regime BALANCED.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,22%, indicando controle inflacionário. O IBOV subiu 1.04% hoje, refletindo o otimismo do regime RISK_ON. Para quem vai aportar R$100 hoje, o ambiente é favorável para investimentos em ativos de risco, com potencial de retorno acima da média.",
   "analysts": {
     "enter": [
-      "SBSP3 — devido ao seu bom ajuste ao regime atual e potencial de recuperação."
+      "RENT3 — devido ao forte momentum e regime favorável"
     ],
     "reinforce": [
-      "BBAS3 — com bom momentum de 21 dias e potencial de valorização em um ambiente de juros altos."
+      "FLRY3 — devido ao crescimento consistente em 21 dias"
     ],
     "avoid": [
-      "Setor de varejo — devido ao momentum negativo de curto prazo, como visto em LREN3."
+      "Setor de varejo — momentum negativo de 0.73"
     ],
     "realize": [
-      "Ativos que tiveram alta recente, como BBAS3, que subiu 2.23% no dia."
+      "VALE3 — devido à recente alta e possível sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 21,97",
+      "value": "R$ 22,50",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.23%",
+      "value": "+2.09%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+18.4%",
+      "value": "+15.6%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O BBAS3 está cotado a R$ 21,97, com uma variação positiva de 2.23% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de recuperação gradual, mas o cenário permanece desafiador.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 22,50 com variação de +2.09%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer mais clareza sobre a recuperação do banco.",
   "executive_summary": {
-    "smartest_move": "Considerar alocar R$34 em SBSP3, dado seu ajuste ao regime atual e potencial de recuperação.",
-    "biggest_risk": "A volatilidade do mercado em um regime NEUTRAL pode impactar negativamente ativos cíclicos.",
-    "best_opportunity": "A Sabesp ON apresenta uma assimetria risco-retorno favorável, com um score de 0.756 e potencial de recuperação.",
-    "common_mistake": "Subestimar a importância de diversificação em um ambiente de mercado NEUTRAL e BALANCED."
+    "smartest_move": "Investir em RENT3 com R$37, aproveitando o momentum positivo e o regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado em um regime BULL pode levar a correções rápidas.",
+    "best_opportunity": "Localiza ON apresenta uma assimetria risco-retorno favorável com um score de 0.866.",
+    "common_mistake": "Subestimar a volatilidade potencial em um regime BULL e não diversificar adequadamente."
   },
   "_meta": {
-    "generated_at": "2026-09-29T13:12:52.510289-03:00",
-    "regime": "NEUTRAL / BALANCED",
+    "generated_at": "2026-09-30T13:09:10.618664-03:00",
+    "regime": "BULL / RISK_ON",
     "sectors": [
-      "utilidades",
+      "consumo",
       "financeiro",
-      "varejo"
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
