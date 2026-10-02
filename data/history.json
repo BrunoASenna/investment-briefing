@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-20",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 0.9,
-      "r21d": -0.03170903384373954,
-      "r63d": -0.04755689234436184
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "36",
-        "price": "R$ 18,28",
-        "score": "0.819",
-        "reason": "Fleury ON apresenta um momentum positivo de +0.16% nos últimos 5 dias, beneficiando-se do regime RISK_ON. O setor de saúde pode oferecer resiliência em meio à volatilidade.",
-        "potential": "Com um score elevado e alinhamento com o regime, há potencial para valorização moderada.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "32",
-        "price": "R$ 17,72",
-        "score": "0.735",
-        "reason": "Apesar da queda de -1.56% em 5 dias, Raia Drogasil ON pode se beneficiar do ambiente RISK_ON e da estabilidade no setor de saúde.",
-        "potential": "Potencial de recuperação devido ao regime favorável, mas com cautela devido ao desempenho recente.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 106,57",
-        "score": "0.731",
-        "reason": "KNCR11, um fundo imobiliário de papel, oferece estabilidade em um cenário de juros elevados, com leve alta de +0.81% em 5 dias.",
-        "potential": "Potencial de retorno estável, adequado para diversificação em renda fixa.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,17",
-      "ibov": "167.830"
-    }
-  },
-  {
     "date": "2026-08-21",
     "regime": {
       "regime": "BEAR",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,21",
       "ibov": "186.786"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.18,
+      "r21d": 0.008951651548284334,
+      "r63d": 0.08627952764488056
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "36",
+        "price": "R$ 7,51",
+        "score": "0.837",
+        "reason": "Hapvida ON se destaca por seu forte momentum, com um crescimento de 19.97% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+        "potential": "Com um score elevado de 0.837, a ação tem potencial de continuar performando bem no curto prazo, especialmente em um ambiente de mercado equilibrado.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "32",
+        "price": "R$ 40,71",
+        "score": "0.762",
+        "reason": "Localiza ON apresenta um crescimento consistente de 6.15% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece o setor de consumo.",
+        "potential": "Com um score de 0.762, a ação tem potencial de crescimento moderado, especialmente se o consumo continuar a se beneficiar do cenário macroeconômico.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "32",
+        "price": "R$ 42,04",
+        "score": "0.759",
+        "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um crescimento estável de 3.06% em 5 dias e um score de 0.759, beneficiando-se do regime BALANCED.",
+        "potential": "A ação tem potencial de estabilidade e crescimento moderado, especialmente em um ambiente de juros elevados que favorece utilidades.",
+        "risk": "Baixo",
+        "horizon": "Longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,21",
+      "ibov": "186.863"
     }
   }
 ]

@@ -1,42 +1,42 @@
 {
-  "date": "01/10/2026",
+  "date": "02/10/2026",
   "regime": {
     "label": "NEUTRAL / BALANCED",
-    "summary": "O regime atual é NEUTRAL com perfil BALANCED, indicando um ambiente de mercado onde a volatilidade é moderada, favorecendo estratégias de investimento defensivas e diversificadas."
+    "summary": "O regime atual é NEUTRAL com um perfil BALANCED, sugerindo que o mercado está em um estado de equilíbrio, favorecendo investimentos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
       "ticker": "HAPV3",
       "name": "Hapvida ON",
-      "value": "35",
-      "price": "R$ 6,85",
-      "score": "0.848",
-      "reason": "Hapvida ON se destaca pelo forte momentum de +6.04% em 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de saúde, considerado defensivo no regime BALANCED.",
-      "potential": "Com um score de 0.848 e alinhamento com o regime, HAPV3 tem potencial de continuar sua trajetória de valorização no curto a médio prazo.",
+      "value": "36",
+      "price": "R$ 7,51",
+      "score": "0.837",
+      "reason": "Hapvida ON se destaca por seu forte momentum, com um crescimento de 19.97% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
+      "potential": "Com um score elevado de 0.837, a ação tem potencial de continuar performando bem no curto prazo, especialmente em um ambiente de mercado equilibrado.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 23,82",
-      "score": "0.847",
-      "reason": "Fleury ON apresenta um desempenho robusto com um aumento de 8.27% nos últimos 5 dias, impulsionado por sua forte presença no setor de saúde, que se beneficia do regime atual.",
-      "potential": "Dado seu score elevado e momentum positivo, FLRY3 tem potencial de crescimento contínuo, especialmente com a estabilidade dos juros.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "ITUB4",
-      "name": "Itaú Unibanco PN",
-      "value": "31",
-      "price": "R$ 44,02",
-      "score": "0.768",
-      "reason": "Apesar da leve queda de 0.59% em 1 dia, ITUB4 mantém um bom momentum de 5.13% em 5 dias, refletindo resiliência no setor financeiro em um ambiente de juros elevados.",
-      "potential": "Com um score de 0.768, ITUB4 pode oferecer um retorno estável, mas com menor potencial de alta comparado aos ativos do setor de saúde.",
+      "ticker": "RENT3",
+      "name": "Localiza ON",
+      "value": "32",
+      "price": "R$ 40,71",
+      "score": "0.762",
+      "reason": "Localiza ON apresenta um crescimento consistente de 6.15% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece o setor de consumo.",
+      "potential": "Com um score de 0.762, a ação tem potencial de crescimento moderado, especialmente se o consumo continuar a se beneficiar do cenário macroeconômico.",
       "risk": "Médio",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "32",
+      "price": "R$ 42,04",
+      "score": "0.759",
+      "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um crescimento estável de 3.06% em 5 dias e um score de 0.759, beneficiando-se do regime BALANCED.",
+      "potential": "A ação tem potencial de estabilidade e crescimento moderado, especialmente em um ambiente de juros elevados que favorece utilidades.",
+      "risk": "Baixo",
+      "horizon": "Longo prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "186.786",
-      "sub": "+0.24% hoje",
-      "trend": "up"
+      "value": "186.863",
+      "sub": "-0.18% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 13,65% e o IPCA em 4,22%, o ambiente econômico favorece investimentos em ativos defensivos. O IBOV subiu 0.24%, refletindo um mercado levemente otimista. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode oferecer estabilidade e proteção contra a inflação moderada.",
+  "macro_summary": "Com a SELIC em 13,65% e tendência estável, o ambiente de juros elevados continua a pressionar o consumo, enquanto o IPCA de 4,22% sugere um controle da inflação. O IBOV caiu 0.18%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, é um cenário que favorece a cautela e a busca por ativos defensivos.",
   "analysts": {
     "enter": [
-      "HAPV3 — Momentum positivo e alinhamento com o regime"
+      "HAPV3 — devido ao forte momentum e alinhamento com o regime BALANCED"
     ],
     "reinforce": [
-      "FLRY3 — Forte momentum de 21 dias e setor defensivo"
+      "RENT3 — bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de consumo — Baixo momentum de 0.81 em 5 dias"
+      "Varejo — momentum negativo com rotação setorial de 0.65"
     ],
     "realize": [
-      "FLRY3 — Alta recente de 24% em 21 dias pode indicar sobrecompra"
+      "HAPV3 — após alta recente, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 22,91",
+      "value": "R$ 23,08",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.69%",
+      "value": "+0.00%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+13.6%",
+      "value": "+12.7%",
       "trend": "up"
     },
     {
@@ -113,18 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 22,91, com uma variação de -0.69% no dia. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A estratégia é aguardar por sinais mais claros de recuperação antes de tomar novas posições.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 23,08 com variação de +0.00%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, o que pode trazer volatilidade ao ativo.",
   "executive_summary": {
-    "smartest_move": "Investir R$35 em HAPV3, aproveitando seu momentum positivo e alinhamento com o regime.",
-    "biggest_risk": "A volatilidade do mercado financeiro, especialmente em setores não defensivos, pode impactar negativamente investimentos.",
-    "best_opportunity": "HAPV3 oferece uma boa assimetria risco-retorno, com momentum positivo e um score elevado de 0.848.",
-    "common_mistake": "Subestimar a importância de diversificação em um regime NEUTRAL, levando a exposição excessiva a setores voláteis."
+    "smartest_move": "Investir em HAPV3 com R$36, aproveitando seu forte momentum e alinhamento com o regime atual.",
+    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores sensíveis ao crédito.",
+    "best_opportunity": "HAPV3 oferece uma assimetria risco-retorno favorável com um score de 0.837.",
+    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado neutro e equilibrado."
   },
   "_meta": {
-    "generated_at": "2026-10-01T13:46:44.631510-03:00",
+    "generated_at": "2026-10-02T13:01:06.911098-03:00",
     "regime": "NEUTRAL / BALANCED",
     "sectors": [
-      "financeiro",
+      "consumo",
+      "utilidades",
       "saude"
     ],
     "diversity_ok": true,
