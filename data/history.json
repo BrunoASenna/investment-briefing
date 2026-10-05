@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-21",
-    "regime": {
-      "regime": "BEAR",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.06,
-      "r21d": -0.05418816320093721,
-      "r63d": -0.053180272780067546
-    },
-    "opportunities": [
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "34",
-        "price": "R$ 44,32",
-        "score": "0.764",
-        "reason": "Petrobras PN se destaca devido ao seu forte momentum de +5.78% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de energia.",
-        "potential": "Com um score elevado e alinhamento parcial ao regime, há potencial de valorização, mas com cautela devido ao ambiente de mercado BEAR.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "VALE3",
-        "name": "Vale ON",
-        "value": "34",
-        "price": "R$ 74,02",
-        "score": "0.744",
-        "reason": "Vale ON apresenta um desempenho positivo recente de +2.95% em 5 dias, sendo uma escolha interessante apesar da leve queda de -1.44% em 21 dias.",
-        "potential": "Potencial de recuperação moderado, especialmente se o setor de mineração ganhar força no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "32",
-        "price": "R$ 18,13",
-        "score": "0.704",
-        "reason": "Fleury ON se destaca por um crescimento expressivo de +8.89% em 21 dias, mostrando resiliência no setor de saúde.",
-        "potential": "Bom potencial de continuidade de crescimento, especialmente em um cenário de mercado equilibrado.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,19",
-      "ibov": "167.927"
-    }
-  },
-  {
     "date": "2026-08-24",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,21",
       "ibov": "186.863"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 8.7,
+      "r21d": 0.12765979707108452,
+      "r63d": 0.2236986094671089
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "35",
+        "price": "R$ 14,09",
+        "score": "0.824",
+        "reason": "Lojas Renner apresenta um forte momentum com valorização de 26.25% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece o setor de varejo. A empresa está bem posicionada para capturar o otimismo do mercado.",
+        "potential": "O score elevado e o regime atual sugerem potencial de valorização contínua no curto prazo.",
+        "risk": "Médio",
+        "horizon": "curto prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 31,81",
+        "score": "0.805",
+        "reason": "Sabesp se destaca pela sua estabilidade em um ambiente de juros elevados, com um regime fit de 0.9, indicando alinhamento com o cenário atual. A utilidade pública oferece segurança em tempos de incerteza.",
+        "potential": "Dada a estabilidade do setor e o regime atual, há potencial para ganhos moderados.",
+        "risk": "Baixo",
+        "horizon": "médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "32",
+        "price": "R$ 5,10",
+        "score": "0.784",
+        "reason": "Cosan tem mostrado um desempenho impressionante com uma alta de 36.36% nos últimos 5 dias, impulsionado pelo setor de energia em um cenário de RISK_ON.",
+        "potential": "O momentum recente sugere potencial de valorização, embora o regime fit baixo indique riscos.",
+        "risk": "Alto",
+        "horizon": "curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 4,99",
+      "ibov": "208.829"
     }
   }
 ]
