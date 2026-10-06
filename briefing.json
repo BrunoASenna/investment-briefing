@@ -1,42 +1,42 @@
 {
-  "date": "05/10/2026",
+  "date": "06/10/2026",
   "regime": {
-    "label": "BULL / RISK_ON",
-    "summary": "O regime BULL com perfil RISK_ON indica um ambiente favorável para ativos de risco, refletindo otimismo dos investidores e potencial de valorização no curto prazo."
+    "label": "BULL / BALANCED",
+    "summary": "O regime atual BULL com perfil BALANCED indica um mercado otimista, mas com volatilidade controlada, favorecendo investimentos em ativos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "35",
-      "price": "R$ 14,09",
-      "score": "0.824",
-      "reason": "Lojas Renner apresenta um forte momentum com valorização de 26.25% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece o setor de varejo. A empresa está bem posicionada para capturar o otimismo do mercado.",
-      "potential": "O score elevado e o regime atual sugerem potencial de valorização contínua no curto prazo.",
+      "ticker": "BBDC4",
+      "name": "Bradesco PN",
+      "value": "34",
+      "price": "R$ 22,56",
+      "score": "0.826",
+      "reason": "BBDC4 apresenta forte momentum com alta de 26.88% nos últimos 5 dias, beneficiando-se do ambiente financeiro estável e do regime BALANCED que favorece bancos.",
+      "potential": "O score elevado e o momentum positivo sugerem potencial de valorização contínua, especialmente em um cenário de juros elevados.",
       "risk": "Médio",
-      "horizon": "curto prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "33",
-      "price": "R$ 31,81",
-      "score": "0.805",
-      "reason": "Sabesp se destaca pela sua estabilidade em um ambiente de juros elevados, com um regime fit de 0.9, indicando alinhamento com o cenário atual. A utilidade pública oferece segurança em tempos de incerteza.",
-      "potential": "Dada a estabilidade do setor e o regime atual, há potencial para ganhos moderados.",
-      "risk": "Baixo",
-      "horizon": "médio prazo"
+      "price": "R$ 25,19",
+      "score": "0.803",
+      "reason": "FLRY3 se destaca pelo crescimento de 14.34% em 5 dias, apoiado por um regime que favorece o setor de saúde, com um RegimeFit de 0.9.",
+      "potential": "A combinação de um score robusto e um setor em alta sugere um bom potencial de retorno.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
-      "value": "32",
-      "price": "R$ 5,10",
-      "score": "0.784",
-      "reason": "Cosan tem mostrado um desempenho impressionante com uma alta de 36.36% nos últimos 5 dias, impulsionado pelo setor de energia em um cenário de RISK_ON.",
-      "potential": "O momentum recente sugere potencial de valorização, embora o regime fit baixo indique riscos.",
-      "risk": "Alto",
-      "horizon": "curto prazo"
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "33",
+      "price": "R$ 21,43",
+      "score": "0.798",
+      "reason": "RADL3, com um crescimento de 18.14% em 5 dias, é impulsionada pelo regime atual que favorece o setor de saúde.",
+      "potential": "O momentum positivo e o alto RegimeFit indicam potencial de valorização, embora o crescimento recente possa moderar.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 4,99",
+      "value": "R$ 4,97",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "208.829",
-      "sub": "+8.70% hoje",
-      "trend": "up"
+      "value": "205.720",
+      "sub": "-0.58% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente de juros altos persiste, mas o IPCA em 4,22% sugere controle inflacionário. O IBOV subiu 8,70%, refletindo otimismo no mercado. Para quem vai investir R$100, o cenário RISK_ON favorece ativos de risco, mas é preciso cautela com a volatilidade.",
+  "macro_summary": "A SELIC em 13,65% com tendência estável e o IPCA em 4,22% sugerem um ambiente de controle inflacionário, mas com juros altos. O IBOV caiu 0.58%, refletindo ajustes de curto prazo. Para um investidor aportando R$100 hoje, a estratégia defensiva é indicada, buscando ativos que se beneficiem de juros elevados.",
   "analysts": {
     "enter": [
-      "LREN3 — forte momentum e alinhamento com o regime RISK_ON"
+      "BBDC4 — devido ao forte momentum e ao setor financeiro estável"
     ],
     "reinforce": [
-      "CSAN3 — desempenho robusto nos últimos 21 dias"
+      "FLRY3 — por seu bom desempenho em 21 dias e contexto favorável no setor de saúde"
     ],
     "avoid": [
-      "Varejo — apesar do bom momento, riscos de correção no curto prazo"
+      "Varejo — devido ao momentum negativo de 0.77 em 5 dias"
     ],
     "realize": [
-      "LREN3 — após alta significativa, pode estar sobrecomprado"
+      "Construtoras — após rali eleitoral, podem estar sobrecompradas"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 26,71",
+      "value": "R$ 24,67",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+12.61%",
+      "value": "-6.30%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+-2.6%",
+      "value": "+5.5%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 26,71 com uma variação diária de +12.61%. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação atual é aguardar, dado o consenso neutro e o pequeno upside restante.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 24,67, com uma variação de -6.30% hoje. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o cenário ainda requer cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em LREN3 com alocação de R$35, aproveitando o momentum positivo e o regime RISK_ON.",
-    "biggest_risk": "A volatilidade associada ao regime BULL, que pode levar a correções bruscas em ativos de risco.",
-    "best_opportunity": "A LREN3 oferece uma assimetria risco-retorno favorável, com forte momentum e alinhamento ao regime.",
-    "common_mistake": "Subestimar a volatilidade do mercado em um cenário BULL, levando a decisões precipitadas de compra."
+    "smartest_move": "Investir em BBDC4 com alocação de R$34, aproveitando o momentum positivo e o ambiente favorável.",
+    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores sensíveis ao crédito.",
+    "best_opportunity": "FLRY3, com bom desempenho recente e potencial de crescimento no setor de saúde.",
+    "common_mistake": "Subestimar o impacto dos juros altos em investimentos de longo prazo, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-10-05T15:57:18.538230-03:00",
-    "regime": "BULL / RISK_ON",
+    "generated_at": "2026-10-06T13:22:09.263879-03:00",
+    "regime": "BULL / BALANCED",
     "sectors": [
-      "varejo",
-      "energia",
-      "utilidades"
+      "saude",
+      "financeiro"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

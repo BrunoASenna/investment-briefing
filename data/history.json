@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-24",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.34,
-      "r21d": -0.020645160363590397,
-      "r63d": -0.030129762609249818
-    },
-    "opportunities": [
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "34",
-        "price": "R$ 18,43",
-        "score": "0.742",
-        "reason": "Raia Drogasil se destaca pelo momentum positivo (+5.13% em 5 dias) e está bem posicionada no setor de saúde, que é menos volátil em um regime BALANCED.",
-        "potential": "Alto potencial de crescimento devido ao score elevado e bom fit com o regime atual.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "33",
-        "price": "R$ 3,64",
-        "score": "0.708",
-        "reason": "Cosan apresenta uma recuperação notável nos últimos 5 dias (+9.97%), apesar da queda em 21 dias, sugerindo uma oportunidade de compra tática.",
-        "potential": "Potencial moderado, considerando a volatilidade recente e o score sólido.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "WEGE3",
-        "name": "WEG ON",
-        "value": "33",
-        "price": "R$ 49,27",
-        "score": "0.701",
-        "reason": "WEG mostra um crescimento consistente de 7.88% em 21 dias, alinhando-se bem com o regime NEUTRAL, especialmente no setor industrial.",
-        "potential": "Bom potencial de valorização, sustentado por um score robusto.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,16",
-      "ibov": "170.449"
-    }
-  },
-  {
     "date": "2026-08-25",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 4,99",
       "ibov": "208.829"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.58,
+      "r21d": 0.1111166903865577,
+      "r63d": 0.19090853339083722
+    },
+    "opportunities": [
+      {
+        "ticker": "BBDC4",
+        "name": "Bradesco PN",
+        "value": "34",
+        "price": "R$ 22,56",
+        "score": "0.826",
+        "reason": "BBDC4 apresenta forte momentum com alta de 26.88% nos últimos 5 dias, beneficiando-se do ambiente financeiro estável e do regime BALANCED que favorece bancos.",
+        "potential": "O score elevado e o momentum positivo sugerem potencial de valorização contínua, especialmente em um cenário de juros elevados.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 25,19",
+        "score": "0.803",
+        "reason": "FLRY3 se destaca pelo crescimento de 14.34% em 5 dias, apoiado por um regime que favorece o setor de saúde, com um RegimeFit de 0.9.",
+        "potential": "A combinação de um score robusto e um setor em alta sugere um bom potencial de retorno.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "33",
+        "price": "R$ 21,43",
+        "score": "0.798",
+        "reason": "RADL3, com um crescimento de 18.14% em 5 dias, é impulsionada pelo regime atual que favorece o setor de saúde.",
+        "potential": "O momentum positivo e o alto RegimeFit indicam potencial de valorização, embora o crescimento recente possa moderar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 4,97",
+      "ibov": "205.720"
     }
   }
 ]
