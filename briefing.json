@@ -1,42 +1,42 @@
 {
-  "date": "07/10/2026",
+  "date": "08/10/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com cautela, favorecendo ativos defensivos e FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado otimista, mas com uma abordagem equilibrada, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "35",
-      "price": "R$ 9,22",
-      "score": "0.839",
-      "reason": "Hapvida ON apresenta um forte momentum com alta de 38.23% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido pelo regime BALANCED.",
-      "potential": "Com um score de 0.839, o ativo tem potencial de continuar se beneficiando do cenário atual, especialmente se o regime BULL persistir.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "33",
-      "price": "R$ 25,76",
-      "score": "0.778",
-      "reason": "Fleury ON se beneficia do ambiente de juros elevados favorecendo o setor de saúde, com um crescimento de 13.03% nos últimos 5 dias.",
-      "potential": "A continuidade do regime BALANCED pode proporcionar um crescimento estável para Fleury ON, refletido no score de 0.778.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
       "ticker": "RENT3",
       "name": "Localiza ON",
-      "value": "32",
-      "price": "R$ 50,64",
-      "score": "0.775",
-      "reason": "Localiza ON mostra um forte desempenho no setor de consumo com um aumento de 25.04% nos últimos 5 dias, embora o regime atual favoreça mais setores defensivos.",
-      "potential": "O momentum positivo sugere potencial de ganhos adicionais, mas o risco é moderado devido ao ajuste do regime.",
+      "value": "34",
+      "price": "R$ 52,79",
+      "score": "0.8",
+      "reason": "Localiza ON apresenta um forte momentum de +31.19% nos últimos 5 dias, destacando-se no setor de consumo que está em rotação positiva. O perfil BALANCED do regime atual favorece ativos que combinam crescimento com estabilidade.",
+      "potential": "Com um score de 0.8, RENT3 tem potencial de continuar sua trajetória ascendente, especialmente em um mercado BULL.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "33",
+      "price": "R$ 8,74",
+      "score": "0.782",
+      "reason": "Hapvida ON se beneficia de um forte RegimeFit de 0.9, indicando alinhamento com o atual regime de mercado. O crescimento de +25.94% nos últimos 5 dias reforça seu potencial de valorização.",
+      "potential": "O alinhamento com o regime e o crescimento recente sugerem um potencial positivo, especialmente no curto prazo.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "33",
+      "price": "R$ 33,14",
+      "score": "0.764",
+      "reason": "Sabesp ON mostra um crescimento consistente, com +20.16% nos últimos 5 dias, e um RegimeFit de 0.9, indicando boa adaptação ao regime atual.",
+      "potential": "Com um score de 0.764, há potencial para ganhos adicionais, especialmente em um mercado BULL.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 4,99",
+      "value": "R$ 5,01",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "204.752",
-      "sub": "-0.53% hoje",
-      "trend": "down"
+      "value": "205.771",
+      "sub": "+0.72% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,22%, indicando uma inflação controlada. O IBOV caiu 0.53% hoje, refletindo um ajuste no mercado. Para quem vai aportar R$100 hoje, o cenário sugere cautela, priorizando ativos defensivos devido aos juros elevados e ao regime BALANCED.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,22%, indicando uma inflação controlada. O IBOV subiu 0.72% hoje, refletindo um mercado otimista. Para quem vai aportar R$100 hoje, o cenário sugere cautela com foco em ativos defensivos, dado o regime BALANCED e os juros elevados.",
   "analysts": {
     "enter": [
-      "HAPV3 — devido ao forte momentum e score elevado no setor de saúde"
+      "RENT3 — devido ao forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "FLRY3 — bom momentum em 21 dias e favorecido pelo regime atual"
+      "HAPV3 — bom momentum de 21 dias e alinhamento com o regime"
     ],
     "avoid": [
-      "Setor de energia — baixo momentum recente, com índice de 0.71"
+      "Setor de tecnologia — momentum de 0.78 sugere desempenho inferior"
     ],
     "realize": [
-      "HAPV3 — após alta significativa de 38.23% em 5 dias, pode estar sobrecomprado"
+      "SBSP3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,29",
+      "value": "R$ 24,33",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.42%",
+      "value": "+0.62%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+7.1%",
+      "value": "+6.9%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotado a R$ 24,29, com uma variação de -1.42% no dia. Após o 1T26, que mostrou um lucro reduzido em 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A estratégia atual é aguardar, considerando o consenso neutro entre analistas.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 24,33 com variação de +0.62%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho é o resultado do 2T26 em agosto, o que sugere cautela até novos dados.",
   "executive_summary": {
-    "smartest_move": "Investir em HAPV3 com alocação de R$35, aproveitando o forte momentum e score elevado.",
-    "biggest_risk": "A persistência de juros elevados pode impactar negativamente setores mais alavancados.",
-    "best_opportunity": "HAPV3 apresenta uma assimetria risco-retorno favorável, com crescimento recente de 38.23% em 5 dias.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em setores cíclicos, levando a decisões de investimento precipitadas."
+    "smartest_move": "Investir em RENT3 com alocação de R$34 devido ao forte momentum e alinhamento com o regime atual.",
+    "biggest_risk": "A volatilidade do mercado em um regime BULL pode levar a correções inesperadas.",
+    "best_opportunity": "A assimetria risco-retorno em RENT3, com forte momentum e alinhamento com o regime.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em investimentos de maior risco."
   },
   "_meta": {
-    "generated_at": "2026-10-07T14:04:40.686195-03:00",
+    "generated_at": "2026-10-08T14:04:28.447831-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
-      "saude",
-      "consumo"
+      "consumo",
+      "utilidades",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

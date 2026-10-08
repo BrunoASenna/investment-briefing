@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-26",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.55,
-      "r21d": -0.004323152821741238,
-      "r63d": -0.002776143445502476
-    },
-    "opportunities": [
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "34",
-        "price": "R$ 19,59",
-        "score": "0.781",
-        "reason": "RADL3 se destaca pelo forte momentum, com alta de 14.49% nos últimos 5 dias, beneficiando-se do perfil RISK_ON atual. O setor de saúde é visto como resiliente, oferecendo potencial de crescimento contínuo.",
-        "potential": "Com um score elevado e ajuste ao regime, RADL3 tem potencial de continuar sua trajetória de alta no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "34",
-        "price": "R$ 38,86",
-        "score": "0.76",
-        "reason": "TAEE11 apresenta estabilidade e um score robusto, sendo uma escolha sólida em utilidades, especialmente em um cenário de juros elevados que favorece receitas previsíveis.",
-        "potential": "Potencial de estabilidade e retorno consistente, mesmo em um ambiente de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "32",
-        "price": "R$ 28,85",
-        "score": "0.719",
-        "reason": "EGIE3, com um score razoável, oferece uma combinação de estabilidade e potencial de recuperação, apesar de uma queda recente de 3.96% em 21 dias.",
-        "potential": "Potencial de recuperação moderada, apoiado por fundamentos sólidos no setor de utilidades.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,15",
-      "ibov": "174.577"
-    }
-  },
-  {
     "date": "2026-08-27",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 4,99",
       "ibov": "204.752"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.72,
+      "r21d": 0.10850860452838727,
+      "r63d": 0.1708917414461218
+    },
+    "opportunities": [
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "34",
+        "price": "R$ 52,79",
+        "score": "0.8",
+        "reason": "Localiza ON apresenta um forte momentum de +31.19% nos últimos 5 dias, destacando-se no setor de consumo que está em rotação positiva. O perfil BALANCED do regime atual favorece ativos que combinam crescimento com estabilidade.",
+        "potential": "Com um score de 0.8, RENT3 tem potencial de continuar sua trajetória ascendente, especialmente em um mercado BULL.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 8,74",
+        "score": "0.782",
+        "reason": "Hapvida ON se beneficia de um forte RegimeFit de 0.9, indicando alinhamento com o atual regime de mercado. O crescimento de +25.94% nos últimos 5 dias reforça seu potencial de valorização.",
+        "potential": "O alinhamento com o regime e o crescimento recente sugerem um potencial positivo, especialmente no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 33,14",
+        "score": "0.764",
+        "reason": "Sabesp ON mostra um crescimento consistente, com +20.16% nos últimos 5 dias, e um RegimeFit de 0.9, indicando boa adaptação ao regime atual.",
+        "potential": "Com um score de 0.764, há potencial para ganhos adicionais, especialmente em um mercado BULL.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,22%",
+      "dolar": "R$ 5,01",
+      "ibov": "205.771"
     }
   }
 ]
