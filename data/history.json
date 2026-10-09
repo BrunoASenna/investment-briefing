@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-27",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.45,
-      "r21d": 0.00851433778071714,
-      "r63d": 0.01839461332303511
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "35",
-        "price": "R$ 18,72",
-        "score": "0.771",
-        "reason": "Fleury ON mostra um forte momentum com um aumento de 3.25% nos últimos 5 dias, alinhado com o regime BALANCED que favorece o setor de saúde.",
-        "potential": "Com um score elevado e um bom ajuste ao regime atual, FLRY3 tem potencial de crescimento moderado.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "33",
-        "price": "R$ 34,78",
-        "score": "0.74",
-        "reason": "TOTVS ON se destaca com um crescimento expressivo de 11.15% nos últimos 5 dias, impulsionado pelo setor de tecnologia que tem mostrado resiliência.",
-        "potential": "O potencial de crescimento é alto, considerando o momentum positivo recente.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "32",
-        "price": "R$ 20,05",
-        "score": "0.698",
-        "reason": "Apesar da recente recuperação de 2.72% no dia, BBAS3 enfrenta desafios com a inadimplência no setor agro, mas ainda é uma escolha sólida devido ao seu perfil defensivo.",
-        "potential": "Potencial de recuperação moderado, com upside significativo se os desafios forem superados.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,16",
-      "ibov": "175.366"
-    }
-  },
-  {
     "date": "2026-08-28",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,22%",
       "dolar": "R$ 5,01",
       "ibov": "205.771"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.14,
+      "r21d": 0.10782543860115049,
+      "r63d": 0.18075184979704598
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "35",
+        "price": "R$ 14,45",
+        "score": "0.832",
+        "reason": "Lojas Renner ON destaca-se pelo forte momentum, com alta de 22.87% nos últimos 5 dias, impulsionada pelo ambiente RISK_ON que favorece o setor de varejo.",
+        "potential": "O score elevado e o ambiente de mercado positivo sugerem um potencial de crescimento contínuo, especialmente em um regime BULL.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "33",
+        "price": "R$ 5,40",
+        "score": "0.769",
+        "reason": "Cosan ON apresenta um desempenho robusto com um crescimento de 31.07% em 5 dias, beneficiando-se do regime RISK_ON e do interesse por ativos de energia.",
+        "potential": "Com um score sólido e o suporte do regime atual, há potencial para continuidade de ganhos no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "32",
+        "price": "R$ 42,29",
+        "score": "0.757",
+        "reason": "TOTVS ON tem se beneficiado do ambiente RISK_ON, com um aumento de 19.63% nos últimos 5 dias, refletindo o interesse crescente em tecnologia.",
+        "potential": "O ambiente de mercado favorável sugere que a TOTVS pode continuar a apresentar ganhos, apoiada por seu score competitivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 4,99",
+      "ibov": "208.569"
     }
   }
 ]
