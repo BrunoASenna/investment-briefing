@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.3,
-      "r21d": -0.008435219209862328,
-      "r63d": 0.00841929872903248
-    },
-    "opportunities": [
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "35",
-        "price": "R$ 10,51",
-        "score": "0.755",
-        "reason": "Cemig PN apresenta um bom momentum de curto prazo com alta de 4.68% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de utilidades em um regime BALANCED.",
-        "potential": "Com um score de 0.755, Cemig PN tem um potencial de valorização moderado, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "33",
-        "price": "R$ 25,24",
-        "score": "0.732",
-        "reason": "Sabesp ON se destaca por sua resiliência em um ambiente de juros elevados, com um crescimento de 6.27% nos últimos 5 dias, o que sugere uma boa adaptação ao regime atual.",
-        "potential": "O potencial de Sabesp ON é reforçado por seu score de 0.732, indicando uma boa perspectiva de valorização em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "32",
-        "price": "R$ 19,36",
-        "score": "0.702",
-        "reason": "Raia Drogasil ON mostra um crescimento consistente de 5.05% nos últimos 5 dias, beneficiando-se de uma demanda estável no setor de saúde, alinhando-se bem ao regime BALANCED.",
-        "potential": "Com um score de 0.702, Raia Drogasil ON apresenta um potencial de crescimento moderado, especialmente em um ambiente econômico neutro.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,20",
-      "ibov": "175.665"
-    }
-  },
-  {
     "date": "2026-08-31",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 4,99",
       "ibov": "208.569"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.38,
+      "r21d": 0.11046959403831752,
+      "r63d": 0.18357006583975408
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 27,73",
+        "score": "0.788",
+        "reason": "Fleury ON apresenta um forte momentum com alta de 18.00% nos últimos 5 dias, beneficiando-se do regime RISK_ON e da estabilidade no setor de saúde.",
+        "potential": "Com um score de 0.788 e alinhamento ao regime atual, há potencial de crescimento contínuo, especialmente em um cenário otimista.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "33",
+        "price": "R$ 15,06",
+        "score": "0.754",
+        "reason": "Lojas Renner se destaca com uma valorização de 28.06% nos últimos 5 dias, aproveitando-se do ambiente RISK_ON e da recuperação no setor de varejo.",
+        "potential": "A recuperação no varejo pode continuar a impulsionar o preço das ações, dado o contexto macroeconômico atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "33",
+        "price": "R$ 21,46",
+        "score": "0.752",
+        "reason": "Raia Drogasil mostra resiliência com um aumento de 10.05% em 5 dias, se beneficiando da estabilidade no setor de saúde e do regime RISK_ON.",
+        "potential": "Com um score de 0.752 e forte alinhamento ao regime, há espaço para crescimento adicional.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 4,99",
+      "ibov": "209.067"
     }
   }
 ]

@@ -1,40 +1,40 @@
 {
-  "date": "09/10/2026",
+  "date": "12/10/2026",
   "regime": {
     "label": "BULL / RISK_ON",
-    "summary": "O regime atual BULL/RISK_ON indica um ambiente favorável para investimentos em ativos de risco, com o mercado mostrando otimismo e tendência de alta, como evidenciado pelo desempenho positivo do IBOV."
+    "summary": "O regime atual BULL com perfil RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um otimismo no mercado e uma alta no IBOV de 1.38% hoje."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "35",
-      "price": "R$ 14,45",
-      "score": "0.832",
-      "reason": "Lojas Renner ON destaca-se pelo forte momentum, com alta de 22.87% nos últimos 5 dias, impulsionada pelo ambiente RISK_ON que favorece o setor de varejo.",
-      "potential": "O score elevado e o ambiente de mercado positivo sugerem um potencial de crescimento contínuo, especialmente em um regime BULL.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "34",
+      "price": "R$ 27,73",
+      "score": "0.788",
+      "reason": "Fleury ON apresenta um forte momentum com alta de 18.00% nos últimos 5 dias, beneficiando-se do regime RISK_ON e da estabilidade no setor de saúde.",
+      "potential": "Com um score de 0.788 e alinhamento ao regime atual, há potencial de crescimento contínuo, especialmente em um cenário otimista.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
       "value": "33",
-      "price": "R$ 5,40",
-      "score": "0.769",
-      "reason": "Cosan ON apresenta um desempenho robusto com um crescimento de 31.07% em 5 dias, beneficiando-se do regime RISK_ON e do interesse por ativos de energia.",
-      "potential": "Com um score sólido e o suporte do regime atual, há potencial para continuidade de ganhos no curto prazo.",
+      "price": "R$ 15,06",
+      "score": "0.754",
+      "reason": "Lojas Renner se destaca com uma valorização de 28.06% nos últimos 5 dias, aproveitando-se do ambiente RISK_ON e da recuperação no setor de varejo.",
+      "potential": "A recuperação no varejo pode continuar a impulsionar o preço das ações, dado o contexto macroeconômico atual.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "32",
-      "price": "R$ 42,29",
-      "score": "0.757",
-      "reason": "TOTVS ON tem se beneficiado do ambiente RISK_ON, com um aumento de 19.63% nos últimos 5 dias, refletindo o interesse crescente em tecnologia.",
-      "potential": "O ambiente de mercado favorável sugere que a TOTVS pode continuar a apresentar ganhos, apoiada por seu score competitivo.",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "33",
+      "price": "R$ 21,46",
+      "score": "0.752",
+      "reason": "Raia Drogasil mostra resiliência com um aumento de 10.05% em 5 dias, se beneficiando da estabilidade no setor de saúde e do regime RISK_ON.",
+      "potential": "Com um score de 0.752 e forte alinhamento ao regime, há espaço para crescimento adicional.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "208.569",
-      "sub": "+1.14% hoje",
+      "value": "209.067",
+      "sub": "+1.38% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando uma inflação sob controle. O IBOV subiu 1.14% hoje, reforçando o regime RISK_ON e o apetite por risco. Para quem vai aportar R$100 hoje, o cenário é promissor para ativos de risco, mas é importante considerar a alta dos juros ao planejar investimentos de longo prazo.",
+  "macro_summary": "A SELIC em 13,65% com tendência estável, combinada com um IPCA de 4,58%, sugere um controle da inflação, o que é favorável para investimentos de risco. O IBOV subiu 1.38%, refletindo o otimismo do mercado em um ambiente de juros elevados. Para quem vai aportar R$100 hoje, o cenário é promissor para ativos de renda variável, aproveitando o regime RISK_ON.",
   "analysts": {
     "enter": [
-      "LREN3 — devido ao forte momentum e ambiente RISK_ON"
+      "FLRY3 — devido ao forte momentum e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "CSAN3 — por seu desempenho robusto nos últimos 21 dias"
+      "LREN3 — bom momentum de 21 dias, especialmente no setor de varejo"
     ],
     "avoid": [
-      "Setor de consumo — devido ao momentum negativo de 0.91"
+      "tecnologia — baixo índice de rotação setorial com 0.81"
     ],
     "realize": [
-      "LREN3 — após alta significativa, pode estar sobrecomprado"
+      "RADL3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,63",
+      "value": "R$ 24,64",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.53%",
+      "value": "+1.57%",
       "trend": "neutral"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, a cotação da BBAS3 está em R$ 24,63, com uma variação positiva de 1.53%. Após o primeiro trimestre de 2026, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do segundo trimestre de 2026, esperado para agosto, que poderá trazer novas perspectivas sobre a recuperação financeira da empresa.",
+  "bbas3_summary": "Status BBAS3 hoje: com cotação a R$ 24,64 e variação de +1.57%, o ativo enfrenta desafios pós-1T26, como a queda de 53% no lucro e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas para o ativo.",
   "executive_summary": {
-    "smartest_move": "Investir em LREN3 com R$35, aproveitando o forte momentum e o ambiente RISK_ON.",
-    "biggest_risk": "A volatilidade do mercado em um regime BULL pode levar a correções rápidas, especialmente em setores supervalorizados.",
-    "best_opportunity": "A alta do IBOV e o ambiente RISK_ON oferecem uma assimetria positiva para ativos de risco, como LREN3 e CSAN3.",
-    "common_mistake": "Subestimar o impacto dos juros elevados ao planejar investimentos de longo prazo."
+    "smartest_move": "Considerar alocar R$34 em FLRY3, aproveitando o forte momentum e alinhamento com o regime atual.",
+    "biggest_risk": "A volatilidade no mercado de ações em um regime BULL pode aumentar o risco de correções bruscas.",
+    "best_opportunity": "FLRY3 apresenta uma assimetria positiva de risco-retorno, com forte momentum e alinhamento ao regime RISK_ON.",
+    "common_mistake": "Subestimar a volatilidade em um mercado BULL, levando a decisões impulsivas de compra ou venda."
   },
   "_meta": {
-    "generated_at": "2026-10-09T13:42:09.647609-03:00",
+    "generated_at": "2026-10-12T16:29:50.206263-03:00",
     "regime": "BULL / RISK_ON",
     "sectors": [
-      "energia",
-      "varejo",
-      "tecnologia"
+      "saude",
+      "varejo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
