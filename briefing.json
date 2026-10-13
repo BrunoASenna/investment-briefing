@@ -1,42 +1,42 @@
 {
-  "date": "12/10/2026",
+  "date": "13/10/2026",
   "regime": {
-    "label": "BULL / RISK_ON",
-    "summary": "O regime atual BULL com perfil RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um otimismo no mercado e uma alta no IBOV de 1.38% hoje."
+    "label": "BULL / RISK_OFF",
+    "summary": "O regime atual é BULL com perfil RISK_OFF, o que indica um mercado em alta, mas com aversão ao risco, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
+    {
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "35",
+      "price": "R$ 46,07",
+      "score": "0.772",
+      "reason": "Transmissão Paulista se destaca por seu momentum positivo de +4.97% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um ambiente RISK_OFF.",
+      "potential": "Dado o score elevado e o ajuste ao regime, espera-se um desempenho estável com potencial de valorização moderada.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
+    },
     {
       "ticker": "FLRY3",
       "name": "Fleury ON",
       "value": "34",
-      "price": "R$ 27,73",
-      "score": "0.788",
-      "reason": "Fleury ON apresenta um forte momentum com alta de 18.00% nos últimos 5 dias, beneficiando-se do regime RISK_ON e da estabilidade no setor de saúde.",
-      "potential": "Com um score de 0.788 e alinhamento ao regime atual, há potencial de crescimento contínuo, especialmente em um cenário otimista.",
+      "price": "R$ 27,40",
+      "score": "0.766",
+      "reason": "Fleury ON apresenta um forte desempenho recente com alta de +12.85% em 5 dias, beneficiando-se do interesse em ativos de saúde durante períodos de incerteza.",
+      "potential": "O contexto sugere potencial de crescimento contínuo, especialmente se a aversão ao risco persistir.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "33",
-      "price": "R$ 15,06",
-      "score": "0.754",
-      "reason": "Lojas Renner se destaca com uma valorização de 28.06% nos últimos 5 dias, aproveitando-se do ambiente RISK_ON e da recuperação no setor de varejo.",
-      "potential": "A recuperação no varejo pode continuar a impulsionar o preço das ações, dado o contexto macroeconômico atual.",
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "31",
+      "price": "R$ 41,88",
+      "score": "0.693",
+      "reason": "TOTVS ON mostra um bom momentum de +13.74% em 5 dias, mas o baixo ajuste ao regime atual sugere cautela.",
+      "potential": "Apesar do bom desempenho recente, o potencial é limitado pela baixa adequação ao regime RISK_OFF.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "33",
-      "price": "R$ 21,46",
-      "score": "0.752",
-      "reason": "Raia Drogasil mostra resiliência com um aumento de 10.05% em 5 dias, se beneficiando da estabilidade no setor de saúde e do regime RISK_ON.",
-      "potential": "Com um score de 0.752 e forte alinhamento ao regime, há espaço para crescimento adicional.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 4,99",
+      "value": "R$ 5,01",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "209.067",
-      "sub": "+1.38% hoje",
-      "trend": "up"
+      "value": "206.946",
+      "sub": "-1.01% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC em 13,65% com tendência estável, combinada com um IPCA de 4,58%, sugere um controle da inflação, o que é favorável para investimentos de risco. O IBOV subiu 1.38%, refletindo o otimismo do mercado em um ambiente de juros elevados. Para quem vai aportar R$100 hoje, o cenário é promissor para ativos de renda variável, aproveitando o regime RISK_ON.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando uma inflação controlada. O IBOV caiu 1,01% hoje, refletindo um mercado volátil. Em um regime RISK_OFF, investidores devem priorizar segurança ao alocar R$100, favorecendo ativos defensivos.",
   "analysts": {
     "enter": [
-      "FLRY3 — devido ao forte momentum e alinhamento com o regime RISK_ON"
+      "TAEE11 — devido ao seu forte momentum e ajuste ao regime RISK_OFF"
     ],
     "reinforce": [
-      "LREN3 — bom momentum de 21 dias, especialmente no setor de varejo"
+      "FLRY3 — por seu excelente desempenho de 21 dias e resiliência em saúde"
     ],
     "avoid": [
-      "tecnologia — baixo índice de rotação setorial com 0.81"
+      "Setor de consumo — devido ao baixo momentum de 0.63"
     ],
     "realize": [
-      "RADL3 — após alta recente, pode estar sobrecomprado"
+      "FLRY3 — após alta de +30.10% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,64",
+      "value": "R$ 24,28",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.57%",
+      "value": "-1.46%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+5.6%",
+      "value": "+7.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: com cotação a R$ 24,64 e variação de +1.57%, o ativo enfrenta desafios pós-1T26, como a queda de 53% no lucro e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer novas perspectivas para o ativo.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 24,28, com uma variação de -1.46%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside de 7.17%.",
   "executive_summary": {
-    "smartest_move": "Considerar alocar R$34 em FLRY3, aproveitando o forte momentum e alinhamento com o regime atual.",
-    "biggest_risk": "A volatilidade no mercado de ações em um regime BULL pode aumentar o risco de correções bruscas.",
-    "best_opportunity": "FLRY3 apresenta uma assimetria positiva de risco-retorno, com forte momentum e alinhamento ao regime RISK_ON.",
-    "common_mistake": "Subestimar a volatilidade em um mercado BULL, levando a decisões impulsivas de compra ou venda."
+    "smartest_move": "Alocar R$35 em TAEE11, aproveitando seu momentum positivo e ajuste ao regime atual.",
+    "biggest_risk": "A volatilidade do IBOV, que caiu 1.01% hoje, pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, com um score elevado de 0.772 e forte momentum.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um regime RISK_OFF, priorizando ações de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-10-12T16:29:50.206263-03:00",
-    "regime": "BULL / RISK_ON",
+    "generated_at": "2026-10-13T14:13:40.908380-03:00",
+    "regime": "BULL / RISK_OFF",
     "sectors": [
+      "tecnologia",
       "saude",
-      "varejo"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

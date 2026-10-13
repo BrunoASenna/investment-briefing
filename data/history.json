@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-08-31",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.16,
-      "r21d": -0.0016401075286939814,
-      "r63d": 0.04330428694717932
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "36",
-        "price": "R$ 19,68",
-        "score": "0.769",
-        "reason": "Fleury ON se destaca pelo forte momentum recente, com alta de 5.35% nos últimos 5 dias, e pela resiliência do setor de saúde em um contexto de juros elevados, alinhando-se ao regime RISK_ON.",
-        "potential": "Com um score elevado e alta compatibilidade com o regime atual, a ação tem potencial de valorização adicional, especialmente se o apetite por risco dos investidores continuar.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "32",
-        "price": "R$ 35,26",
-        "score": "0.697",
-        "reason": "TOTVS ON apresenta um crescimento significativo de 9.57% nos últimos 5 dias, impulsionado pela demanda por tecnologia em um ambiente favorável ao risco.",
-        "potential": "O momentum positivo e a busca por inovação tecnológica sugerem um bom potencial de crescimento, embora o score moderado indique cautela.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "32",
-        "price": "R$ 19,85",
-        "score": "0.689",
-        "reason": "Raia Drogasil ON se beneficia do crescimento estável do setor de saúde, com um aumento de 7.70% nos últimos 5 dias, alinhando-se bem ao perfil RISK_ON.",
-        "potential": "A estabilidade do setor de saúde e a alta compatibilidade com o regime atual indicam potencial de valorização, embora o score sugira moderação.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,18",
-      "ibov": "177.707"
-    }
-  },
-  {
     "date": "2026-09-01",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 4,99",
       "ibov": "209.067"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.01,
+      "r21d": 0.10544085223843125,
+      "r63d": 0.17575756983938504
+    },
+    "opportunities": [
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "35",
+        "price": "R$ 46,07",
+        "score": "0.772",
+        "reason": "Transmissão Paulista se destaca por seu momentum positivo de +4.97% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um ambiente RISK_OFF.",
+        "potential": "Dado o score elevado e o ajuste ao regime, espera-se um desempenho estável com potencial de valorização moderada.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "34",
+        "price": "R$ 27,40",
+        "score": "0.766",
+        "reason": "Fleury ON apresenta um forte desempenho recente com alta de +12.85% em 5 dias, beneficiando-se do interesse em ativos de saúde durante períodos de incerteza.",
+        "potential": "O contexto sugere potencial de crescimento contínuo, especialmente se a aversão ao risco persistir.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "31",
+        "price": "R$ 41,88",
+        "score": "0.693",
+        "reason": "TOTVS ON mostra um bom momentum de +13.74% em 5 dias, mas o baixo ajuste ao regime atual sugere cautela.",
+        "potential": "Apesar do bom desempenho recente, o potencial é limitado pela baixa adequação ao regime RISK_OFF.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,01",
+      "ibov": "206.946"
     }
   }
 ]
