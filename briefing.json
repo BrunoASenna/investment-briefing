@@ -1,42 +1,42 @@
 {
-  "date": "13/10/2026",
+  "date": "14/10/2026",
   "regime": {
     "label": "BULL / RISK_OFF",
-    "summary": "O regime atual é BULL com perfil RISK_OFF, o que indica um mercado em alta, mas com aversão ao risco, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel."
+    "summary": "O regime atual BULL com perfil RISK_OFF sugere um mercado em alta, mas com aversão ao risco, favorecendo ativos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "35",
-      "price": "R$ 46,07",
-      "score": "0.772",
-      "reason": "Transmissão Paulista se destaca por seu momentum positivo de +4.97% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um ambiente RISK_OFF.",
-      "potential": "Dado o score elevado e o ajuste ao regime, espera-se um desempenho estável com potencial de valorização moderada.",
-      "risk": "Baixo",
+      "ticker": "PETR4",
+      "name": "Petrobras PN",
+      "value": "34",
+      "price": "R$ 57,61",
+      "score": "0.778",
+      "reason": "A Petrobras PN apresenta forte momentum com alta de 7.04% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente RISK_OFF.",
+      "potential": "Com um score elevado e o regime atual, a Petrobras pode continuar a ter um bom desempenho, especialmente se o cenário macroeconômico permanecer estável.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "34",
-      "price": "R$ 27,40",
-      "score": "0.766",
-      "reason": "Fleury ON apresenta um forte desempenho recente com alta de +12.85% em 5 dias, beneficiando-se do interesse em ativos de saúde durante períodos de incerteza.",
-      "potential": "O contexto sugere potencial de crescimento contínuo, especialmente se a aversão ao risco persistir.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "ticker": "PVBI11",
+      "name": "VBI Prime Properties",
+      "value": "33",
+      "price": "R$ 72,57",
+      "score": "0.755",
+      "reason": "O fundo imobiliário PVBI11 se destaca em um cenário de juros elevados, com um bom desempenho recente de 5.17% nos últimos 5 dias.",
+      "potential": "Dado seu alinhamento com o regime atual e sua performance recente, PVBI11 pode continuar a atrair investidores em busca de estabilidade.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "31",
-      "price": "R$ 41,88",
-      "score": "0.693",
-      "reason": "TOTVS ON mostra um bom momentum de +13.74% em 5 dias, mas o baixo ajuste ao regime atual sugere cautela.",
-      "potential": "Apesar do bom desempenho recente, o potencial é limitado pela baixa adequação ao regime RISK_OFF.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
+      "ticker": "HGRU11",
+      "name": "CSHG Renda Urbana",
+      "value": "33",
+      "price": "R$ 124,93",
+      "score": "0.753",
+      "reason": "HGRU11 tem mostrado resiliência com um aumento de 4.47% nos últimos 5 dias, sendo uma escolha sólida em um ambiente de juros altos.",
+      "potential": "Com um score competitivo e o atual regime, HGRU11 pode oferecer uma boa relação risco-retorno.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "206.946",
-      "sub": "-1.01% hoje",
+      "value": "204.298",
+      "sub": "-1.25% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando uma inflação controlada. O IBOV caiu 1,01% hoje, refletindo um mercado volátil. Em um regime RISK_OFF, investidores devem priorizar segurança ao alocar R$100, favorecendo ativos defensivos.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando um controle da inflação. O IBOV caiu 1.25% hoje, refletindo um dia de aversão ao risco. Para quem vai aportar R$100 hoje, o cenário sugere cautela, favorecendo ativos defensivos devido à alta dos juros.",
   "analysts": {
     "enter": [
-      "TAEE11 — devido ao seu forte momentum e ajuste ao regime RISK_OFF"
+      "PETR4 — devido ao forte momentum e alinhamento com o regime atual"
     ],
     "reinforce": [
-      "FLRY3 — por seu excelente desempenho de 21 dias e resiliência em saúde"
+      "PETR4 — com bom momentum em 21 dias, subindo 17.76%"
     ],
     "avoid": [
-      "Setor de consumo — devido ao baixo momentum de 0.63"
+      "Consumo — devido ao menor momentum na rotação setorial de 5 dias"
     ],
     "realize": [
-      "FLRY3 — após alta de +30.10% em 21 dias, pode estar sobrecomprado"
+      "IBOV — após quedas recentes, pode haver oportunidades de realização"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,28",
+      "value": "R$ 23,78",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.46%",
+      "value": "-1.94%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+7.2%",
+      "value": "+9.4%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 24,28, com uma variação de -1.46%. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar, dado o consenso neutro e o potencial de upside de 7.17%.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 23,78 com uma variação de -1.94%. Após o 1T26, que apresentou um lucro 53% menor e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 9.41%, o consenso é neutro, sugerindo cautela.",
   "executive_summary": {
-    "smartest_move": "Alocar R$35 em TAEE11, aproveitando seu momentum positivo e ajuste ao regime atual.",
-    "biggest_risk": "A volatilidade do IBOV, que caiu 1.01% hoje, pode impactar negativamente ativos de maior risco.",
-    "best_opportunity": "TAEE11 oferece uma assimetria risco-retorno favorável, com um score elevado de 0.772 e forte momentum.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um regime RISK_OFF, priorizando ações de alto risco."
+    "smartest_move": "Alocar R$34 em PETR4, aproveitando seu momentum positivo e alinhamento com o regime.",
+    "biggest_risk": "A volatilidade do IBOV em um dia de RISK_OFF pode impactar negativamente ativos mais arriscados.",
+    "best_opportunity": "PETR4 oferece uma boa assimetria risco-retorno com seu forte desempenho recente.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-10-13T14:13:40.908380-03:00",
+    "generated_at": "2026-10-14T11:46:22.357846-03:00",
     "regime": "BULL / RISK_OFF",
     "sectors": [
-      "tecnologia",
-      "saude",
-      "utilidades"
+      "energia",
+      "fii_tijolo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

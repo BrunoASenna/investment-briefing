@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-01",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.75,
-      "r21d": 0.014178538222124844,
-      "r63d": 0.059835060118240364
-    },
-    "opportunities": [
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "35",
-        "price": "R$ 46,25",
-        "score": "0.782",
-        "reason": "Petrobras apresenta um forte momentum com alta de 11.85% nos últimos 5 dias, beneficiada pelo setor de energia em um ambiente RISK_ON. A produção recorde de petróleo do Brasil também reforça a atratividade do ativo.",
-        "potential": "Com um score elevado e um regime favorável, PETR4 tem potencial para continuar sua trajetória de alta.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 39,86",
-        "score": "0.734",
-        "reason": "TAEE11 possui um bom RegimeFit de 0.9, indicando alinhamento com o ambiente atual. Apesar de uma performance modesta nos últimos 21 dias, seu perfil defensivo pode oferecer estabilidade.",
-        "potential": "Potencial de valorização moderado, com foco em estabilidade e dividendos.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "32",
-        "price": "R$ 6,81",
-        "score": "0.721",
-        "reason": "Apesar de uma queda significativa de 42.82% em 21 dias, HAPV3 apresenta uma recuperação recente de 6.07% em 5 dias, sugerindo potencial de reversão.",
-        "potential": "O ativo pode oferecer uma oportunidade de recuperação, mas com riscos elevados devido à sua volatilidade recente.",
-        "risk": "Alto",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,18",
-      "ibov": "180.523"
-    }
-  },
-  {
     "date": "2026-09-02",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,01",
       "ibov": "206.946"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.25,
+      "r21d": 0.10132938973374807,
+      "r63d": 0.1753067920322163
+    },
+    "opportunities": [
+      {
+        "ticker": "PETR4",
+        "name": "Petrobras PN",
+        "value": "34",
+        "price": "R$ 57,61",
+        "score": "0.778",
+        "reason": "A Petrobras PN apresenta forte momentum com alta de 7.04% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente RISK_OFF.",
+        "potential": "Com um score elevado e o regime atual, a Petrobras pode continuar a ter um bom desempenho, especialmente se o cenário macroeconômico permanecer estável.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "PVBI11",
+        "name": "VBI Prime Properties",
+        "value": "33",
+        "price": "R$ 72,57",
+        "score": "0.755",
+        "reason": "O fundo imobiliário PVBI11 se destaca em um cenário de juros elevados, com um bom desempenho recente de 5.17% nos últimos 5 dias.",
+        "potential": "Dado seu alinhamento com o regime atual e sua performance recente, PVBI11 pode continuar a atrair investidores em busca de estabilidade.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "HGRU11",
+        "name": "CSHG Renda Urbana",
+        "value": "33",
+        "price": "R$ 124,93",
+        "score": "0.753",
+        "reason": "HGRU11 tem mostrado resiliência com um aumento de 4.47% nos últimos 5 dias, sendo uma escolha sólida em um ambiente de juros altos.",
+        "potential": "Com um score competitivo e o atual regime, HGRU11 pode oferecer uma boa relação risco-retorno.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,01",
+      "ibov": "204.298"
     }
   }
 ]
