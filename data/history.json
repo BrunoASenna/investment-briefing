@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.73,
-      "r21d": 0.027739853565305377,
-      "r63d": 0.08395603963976783
-    },
-    "opportunities": [
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "34",
-        "price": "R$ 21,77",
-        "score": "0.768",
-        "reason": "O Banco do Brasil ON apresenta um forte momentum de curto prazo, com valorização de 11.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor financeiro.",
-        "potential": "O potencial de valorização é reforçado pelo momentum positivo e pelo regime atual que favorece ativos de risco.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 29,66",
-        "score": "0.749",
-        "reason": "Engie Brasil ON, com um score de 0.749, se destaca pelo seu desempenho estável e alinhamento com o regime RISK_ON, apesar de uma leve queda nos últimos 21 dias.",
-        "potential": "Potencial de recuperação e estabilidade em um ambiente de juros elevados.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 40,81",
-        "score": "0.747",
-        "reason": "Transmissão Paulista mostra resiliência com um crescimento de 4.80% nos últimos 5 dias, beneficiando-se do perfil RISK_ON e da demanda por utilidades.",
-        "potential": "Potencial de crescimento contínuo devido à estabilidade do setor de utilidades.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,16",
-      "ibov": "182.830"
-    }
-  },
-  {
     "date": "2026-09-03",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,01",
       "ibov": "204.298"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.67,
+      "r21d": 0.09982706377377308,
+      "r63d": 0.1807974422038523
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "38",
+        "price": "R$ 8,69",
+        "score": "0.912",
+        "reason": "Hapvida ON se destaca pelo forte momentum, com alta de 2.00% nos últimos 5 dias e um expressivo ganho de 31.07% em 21 dias. O setor de saúde é favorecido no atual regime BALANCED, oferecendo estabilidade em meio a juros elevados.",
+        "potential": "Com um score de 0.912, HAPV3 tem potencial de continuar sua trajetória de alta, especialmente em um mercado que valoriza ativos defensivos.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "33",
+        "price": "R$ 50,47",
+        "score": "0.794",
+        "reason": "Localiza ON apresenta um desempenho robusto, com um ganho significativo de 41.45% em 21 dias, apesar de uma leve correção de -0.38% nos últimos 5 dias. O setor de consumo pode se beneficiar do regime BULL, embora o impacto dos juros elevados deva ser monitorado.",
+        "potential": "Dado o score de 0.794, RENT3 possui um potencial interessante, mas com atenção ao impacto dos juros sobre o consumo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "29",
+        "price": "R$ 26,98",
+        "score": "0.706",
+        "reason": "Fleury ON, com uma alta de 4.74% nos últimos 5 dias e 26.79% em 21 dias, é um ativo defensivo no setor de saúde, que se beneficia do regime BALANCED e dos juros elevados.",
+        "potential": "Com um score de 0.706, FLRY3 tem potencial de crescimento moderado, alinhado ao perfil defensivo do setor.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,04",
+      "ibov": "205.121"
     }
   }
 ]

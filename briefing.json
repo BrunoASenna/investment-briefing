@@ -1,42 +1,42 @@
 {
-  "date": "14/10/2026",
+  "date": "15/10/2026",
   "regime": {
-    "label": "BULL / RISK_OFF",
-    "summary": "O regime atual BULL com perfil RISK_OFF sugere um mercado em alta, mas com aversão ao risco, favorecendo ativos defensivos e FIIs de papel."
+    "label": "BULL / BALANCED",
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado em alta, mas com uma distribuição equilibrada de riscos e oportunidades, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "PETR4",
-      "name": "Petrobras PN",
-      "value": "34",
-      "price": "R$ 57,61",
-      "score": "0.778",
-      "reason": "A Petrobras PN apresenta forte momentum com alta de 7.04% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente RISK_OFF.",
-      "potential": "Com um score elevado e o regime atual, a Petrobras pode continuar a ter um bom desempenho, especialmente se o cenário macroeconômico permanecer estável.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "38",
+      "price": "R$ 8,69",
+      "score": "0.912",
+      "reason": "Hapvida ON se destaca pelo forte momentum, com alta de 2.00% nos últimos 5 dias e um expressivo ganho de 31.07% em 21 dias. O setor de saúde é favorecido no atual regime BALANCED, oferecendo estabilidade em meio a juros elevados.",
+      "potential": "Com um score de 0.912, HAPV3 tem potencial de continuar sua trajetória de alta, especialmente em um mercado que valoriza ativos defensivos.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "PVBI11",
-      "name": "VBI Prime Properties",
+      "ticker": "RENT3",
+      "name": "Localiza ON",
       "value": "33",
-      "price": "R$ 72,57",
-      "score": "0.755",
-      "reason": "O fundo imobiliário PVBI11 se destaca em um cenário de juros elevados, com um bom desempenho recente de 5.17% nos últimos 5 dias.",
-      "potential": "Dado seu alinhamento com o regime atual e sua performance recente, PVBI11 pode continuar a atrair investidores em busca de estabilidade.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "price": "R$ 50,47",
+      "score": "0.794",
+      "reason": "Localiza ON apresenta um desempenho robusto, com um ganho significativo de 41.45% em 21 dias, apesar de uma leve correção de -0.38% nos últimos 5 dias. O setor de consumo pode se beneficiar do regime BULL, embora o impacto dos juros elevados deva ser monitorado.",
+      "potential": "Dado o score de 0.794, RENT3 possui um potencial interessante, mas com atenção ao impacto dos juros sobre o consumo.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "HGRU11",
-      "name": "CSHG Renda Urbana",
-      "value": "33",
-      "price": "R$ 124,93",
-      "score": "0.753",
-      "reason": "HGRU11 tem mostrado resiliência com um aumento de 4.47% nos últimos 5 dias, sendo uma escolha sólida em um ambiente de juros altos.",
-      "potential": "Com um score competitivo e o atual regime, HGRU11 pode oferecer uma boa relação risco-retorno.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "29",
+      "price": "R$ 26,98",
+      "score": "0.706",
+      "reason": "Fleury ON, com uma alta de 4.74% nos últimos 5 dias e 26.79% em 21 dias, é um ativo defensivo no setor de saúde, que se beneficia do regime BALANCED e dos juros elevados.",
+      "potential": "Com um score de 0.706, FLRY3 tem potencial de crescimento moderado, alinhado ao perfil defensivo do setor.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,01",
+      "value": "R$ 5,04",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "204.298",
-      "sub": "-1.25% hoje",
+      "value": "205.121",
+      "sub": "-0.67% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando um controle da inflação. O IBOV caiu 1.25% hoje, refletindo um dia de aversão ao risco. Para quem vai aportar R$100 hoje, o cenário sugere cautela, favorecendo ativos defensivos devido à alta dos juros.",
+  "macro_summary": "Com a SELIC em 13,65% e tendência estável, os juros altos continuam a pressionar o mercado, enquanto o IPCA de 4,58% sugere uma inflação controlada. O IBOV, com queda de 0.67%, reflete a cautela dos investidores em um cenário de juros elevados, favorecendo ativos defensivos. Para quem vai aportar R$100 hoje, é crucial considerar setores menos impactados por juros altos, como saúde e FIIs de papel.",
   "analysts": {
     "enter": [
-      "PETR4 — devido ao forte momentum e alinhamento com o regime atual"
+      "HAPV3 — devido ao forte momentum e alta pontuação no ranking"
     ],
     "reinforce": [
-      "PETR4 — com bom momentum em 21 dias, subindo 17.76%"
+      "RENT3 — por seu desempenho positivo de 41.45% em 21 dias"
     ],
     "avoid": [
-      "Consumo — devido ao menor momentum na rotação setorial de 5 dias"
+      "Varejo — momentum negativo com rotação setorial de 0.69"
     ],
     "realize": [
-      "IBOV — após quedas recentes, pode haver oportunidades de realização"
+      "FLRY3 — após alta de 26.79% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 23,78",
+      "value": "R$ 23,88",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.94%",
+      "value": "-1.28%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+9.4%",
+      "value": "+9.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 23,78 com uma variação de -1.94%. Após o 1T26, que apresentou um lucro 53% menor e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 9.41%, o consenso é neutro, sugerindo cautela.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 23,88, com uma variação de -1.28%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no setor agro de 6.22%, o mercado aguarda o resultado do segundo trimestre em agosto. A expectativa de um upside de 8.96% sugere potencial, mas o cenário ainda é de cautela.",
   "executive_summary": {
-    "smartest_move": "Alocar R$34 em PETR4, aproveitando seu momentum positivo e alinhamento com o regime.",
-    "biggest_risk": "A volatilidade do IBOV em um dia de RISK_OFF pode impactar negativamente ativos mais arriscados.",
-    "best_opportunity": "PETR4 oferece uma boa assimetria risco-retorno com seu forte desempenho recente.",
-    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de juros elevados e aversão ao risco."
+    "smartest_move": "Investir em HAPV3 com alocação de R$38, aproveitando o forte momentum e a alta pontuação no ranking.",
+    "biggest_risk": "A persistência de juros elevados que podem impactar negativamente setores mais sensíveis, como o varejo.",
+    "best_opportunity": "HAPV3 oferece uma assimetria risco-retorno favorável, dado seu desempenho recente e o suporte do regime atual.",
+    "common_mistake": "Ignorar o impacto dos juros elevados ao investir em setores de consumo e varejo, que podem sofrer mais pressão."
   },
   "_meta": {
-    "generated_at": "2026-10-14T11:46:22.357846-03:00",
-    "regime": "BULL / RISK_OFF",
+    "generated_at": "2026-10-15T11:31:44.700319-03:00",
+    "regime": "BULL / BALANCED",
     "sectors": [
-      "energia",
-      "fii_tijolo"
+      "consumo",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
