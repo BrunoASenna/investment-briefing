@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-03",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.53,
-      "r21d": 0.05804844957969008,
-      "r63d": 0.10735172660514801
-    },
-    "opportunities": [
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "34",
-        "price": "R$ 11,26",
-        "score": "0.781",
-        "reason": "A Cemig PN apresenta um forte momentum de curto prazo, com alta de 8.27% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON que favorece o setor de utilidades.",
-        "potential": "Com um score elevado e ajuste ao regime, a Cemig PN tem potencial de valorização adicional no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 20,02",
-        "score": "0.766",
-        "reason": "A Fleury ON se destaca com um crescimento de 14.47% em 21 dias, indicando forte demanda e interesse no setor de saúde, alinhado ao regime de mercado atual.",
-        "potential": "O contexto de crescimento sólido sugere potencial de valorização contínua.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "33",
-        "price": "R$ 22,86",
-        "score": "0.764",
-        "reason": "Banco do Brasil ON mostra resiliência com alta de 14.47% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor financeiro.",
-        "potential": "Considerando o score e o ajuste ao regime, há espaço para valorização, especialmente com a expectativa de resultados futuros.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,13",
-      "ibov": "188.043"
-    }
-  },
-  {
     "date": "2026-09-04",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,04",
       "ibov": "205.121"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.0,
+      "r21d": 0.10119357592105546,
+      "r63d": 0.1785377348287776
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "36",
+        "price": "R$ 13,61",
+        "score": "0.753",
+        "reason": "Lojas Renner se beneficia do momentum positivo no curto prazo, com alta de 0.81% em 5 dias, e do ambiente BALANCED que favorece o setor de varejo.",
+        "potential": "Com um score de 0.753, LREN3 apresenta potencial de crescimento moderado dentro do regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "32",
+        "price": "R$ 20,59",
+        "score": "0.663",
+        "reason": "Raia Drogasil, com um score de 0.663, está bem posicionada no setor de saúde, que tem mostrado resiliência, apesar da leve queda de 1.10% nos últimos 5 dias.",
+        "potential": "Potencial de recuperação e crescimento, especialmente com o suporte do regime BALANCED.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 27,25",
+        "score": "0.661",
+        "reason": "Fleury se destaca com um crescimento robusto de 27.63% em 21 dias, refletindo um forte momentum no setor de saúde.",
+        "potential": "Alto potencial de continuidade no crescimento, sustentado pelo regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,05",
+      "ibov": "204.324"
     }
   }
 ]
