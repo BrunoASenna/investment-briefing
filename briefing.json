@@ -1,41 +1,41 @@
 {
-  "date": "16/10/2026",
+  "date": "19/10/2026",
   "regime": {
     "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED indica um mercado otimista, mas com cautela, favorecendo investimentos em ativos defensivos e FIIs de papel devido aos juros elevados."
+    "summary": "O regime atual BULL/BALANCED indica um mercado otimista com equilíbrio entre risco e retorno, favorecendo investimentos em ativos defensivos e FIIs de papel, devido à estabilidade dos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
       "value": "36",
-      "price": "R$ 13,61",
-      "score": "0.753",
-      "reason": "Lojas Renner se beneficia do momentum positivo no curto prazo, com alta de 0.81% em 5 dias, e do ambiente BALANCED que favorece o setor de varejo.",
-      "potential": "Com um score de 0.753, LREN3 apresenta potencial de crescimento moderado dentro do regime atual.",
+      "price": "R$ 8,85",
+      "score": "0.851",
+      "reason": "Hapvida ON apresenta uma forte recuperação no curto prazo, com um aumento significativo de 38.50% em 21 dias, destacando-se no setor de saúde que está em rotação positiva, ideal para o regime BALANCED.",
+      "potential": "Com um score elevado e ajuste ao regime, a ação pode continuar a se beneficiar do momentum positivo do setor de saúde.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Médio prazo"
     },
     {
       "ticker": "RADL3",
       "name": "Raia Drogasil ON",
       "value": "32",
-      "price": "R$ 20,59",
-      "score": "0.663",
-      "reason": "Raia Drogasil, com um score de 0.663, está bem posicionada no setor de saúde, que tem mostrado resiliência, apesar da leve queda de 1.10% nos últimos 5 dias.",
-      "potential": "Potencial de recuperação e crescimento, especialmente com o suporte do regime BALANCED.",
+      "price": "R$ 21,36",
+      "score": "0.741",
+      "reason": "Raia Drogasil ON, apesar de um leve declínio de 0.47% nos últimos 5 dias, mantém um crescimento estável de 5.01% em 21 dias, sendo uma opção sólida no setor de saúde em um regime BALANCED.",
+      "potential": "A estabilidade do setor de saúde e o regime atual sugerem uma perspectiva de crescimento moderada.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
       "value": "32",
-      "price": "R$ 27,25",
-      "score": "0.661",
-      "reason": "Fleury se destaca com um crescimento robusto de 27.63% em 21 dias, refletindo um forte momentum no setor de saúde.",
-      "potential": "Alto potencial de continuidade no crescimento, sustentado pelo regime atual.",
-      "risk": "Médio",
+      "price": "R$ 31,81",
+      "score": "0.738",
+      "reason": "Telefônica Vivo ON beneficia-se de um crescimento consistente de 4.81% em 5 dias, alinhando-se bem com o regime BALANCED e apresentando uma alta novelty de 1.0.",
+      "potential": "A continuidade do crescimento no setor de telecomunicações pode oferecer retornos estáveis.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     }
   ],
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,58%",
+      "value": "N/D",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,05",
+      "value": "R$ 5,06",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "204.324",
-      "sub": "+0.00% hoje",
-      "trend": "up"
+      "value": "204.611",
+      "sub": "-0.40% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e tendência estável, o ambiente favorece ativos defensivos. O IPCA de 4,58% sugere controle inflacionário, enquanto o IBOV está estável em 204.324 pontos, refletindo um mercado equilibrado. Investir R$100 hoje pode ser mais seguro em ativos de menor risco, aproveitando o regime BALANCED.",
+  "macro_summary": "Com a SELIC em 13,65% e tendência estável, investidores encontram um ambiente de juros altos que favorece ativos defensivos. A ausência de dados do IPCA 12m indica incerteza inflacionária, enquanto o IBOV recuou 0.40%, refletindo um mercado cauteloso. Para um aporte de R$100, a estratégia deve considerar a estabilidade dos juros e a volatilidade do mercado de ações atual.",
   "analysts": {
     "enter": [
-      "LREN3 — devido ao bom momentum e score elevado"
+      "HAPV3 — devido ao forte momentum de 21d e score elevado"
     ],
     "reinforce": [
-      "FLRY3 — forte momentum de 27.63% em 21 dias"
+      "VIVT3 — crescimento consistente de 5d e alta novelty"
     ],
     "avoid": [
-      "RADL3 — queda de 1.10% em 5 dias pode indicar fraqueza"
+      "Setor de energia — devido ao momentum negativo de 0.65 em 5d"
     ],
     "realize": [
-      "FLRY3 — após alta significativa, pode estar sobrecomprado"
+      "MDIA3 — após alta recente devido à aquisição positiva"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 23,76",
+      "value": "R$ 23,85",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.00%",
+      "value": "+0.93%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+9.5%",
+      "value": "+9.1%",
       "trend": "up"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 23,76, sem variação diária, em um contexto pós-1T26 com lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto. A estratégia é aguardar mais clareza sobre a recuperação financeira.",
+  "bbas3_summary": "A BBAS3 está cotada a R$ 23,85, com uma variação diária de +0.93%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o mercado aguarda o próximo resultado trimestral em agosto para novas direções. A recomendação é de cautela até mais clareza sobre o desempenho futuro.",
   "executive_summary": {
-    "smartest_move": "Investir R$36 em LREN3, aproveitando seu momentum positivo e score elevado.",
-    "biggest_risk": "A volatilidade do mercado devido aos juros elevados, que pode impactar negativamente setores mais alavancados.",
-    "best_opportunity": "FLRY3, com um forte momentum de 27.63% em 21 dias, oferece uma assimetria risco-retorno atraente.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de alto crescimento, levando a decisões precipitadas."
+    "smartest_move": "Investir R$36 em HAPV3, aproveitando seu forte momentum recente e a favorabilidade do regime atual.",
+    "biggest_risk": "A volatilidade do IBOV em um regime BULL pode levar a movimentos bruscos, especialmente em setores não defensivos.",
+    "best_opportunity": "HAPV3 oferece uma assimetria risco-retorno atrativa, com um score de 0.851 e forte ajuste ao regime BALANCED.",
+    "common_mistake": "Ignorar a importância de diversificação em um cenário de juros elevados e instabilidade do IBOV."
   },
   "_meta": {
-    "generated_at": "2026-10-16T11:23:36.427799-03:00",
+    "generated_at": "2026-10-19T13:42:22.219538-03:00",
     "regime": "BULL / BALANCED",
     "sectors": [
-      "varejo",
-      "saude"
+      "saude",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
