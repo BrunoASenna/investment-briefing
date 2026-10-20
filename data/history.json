@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-07",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.02,
-      "r21d": 0.05469221742449273,
-      "r63d": 0.09801979610838636
-    },
-    "opportunities": [
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "34",
-        "price": "R$ 26,53",
-        "score": "0.758",
-        "reason": "A Sabesp ON, do setor de utilidades, apresenta um bom momentum com alta de 5.11% nos últimos 5 dias, alinhando-se bem ao regime BALANCED, que favorece setores defensivos.",
-        "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de crescimento moderado no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "34",
-        "price": "R$ 41,53",
-        "score": "0.752",
-        "reason": "Transmissão Paulista se destaca por sua performance sólida de 7.37% nos últimos 5 dias e por pertencer ao setor de utilidades, que é favorecido em regimes de juros elevados.",
-        "potential": "Potencial de crescimento estável, beneficiado pela demanda contínua por serviços essenciais.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "32",
-        "price": "R$ 17,90",
-        "score": "0.718",
-        "reason": "Apesar de um leve recuo de 0.83% nos últimos 21 dias, o Bradesco PN mostra recuperação com um ganho de 4.80% nos últimos 5 dias, tornando-se uma opção interessante no setor financeiro.",
-        "potential": "Potencial de recuperação moderada à medida que o setor financeiro se ajusta ao cenário de juros elevados.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,13",
-      "ibov": "185.147"
-    }
-  },
-  {
     "date": "2026-09-08",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "N/D",
       "dolar": "R$ 5,06",
       "ibov": "204.611"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.28,
+      "r21d": 0.12128728155418428,
+      "r63d": 0.16979589674341586
+    },
+    "opportunities": [
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "35",
+        "price": "R$ 14,85",
+        "score": "0.778",
+        "reason": "Lojas Renner se destaca no setor de varejo com um momentum positivo de +7.22% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece ativos de risco.",
+        "potential": "Com um score de 0.778, a ação tem potencial de continuar sua trajetória de alta no curto prazo, especialmente em um ambiente de mercado otimista.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "CSAN3",
+        "name": "Cosan ON",
+        "value": "33",
+        "price": "R$ 5,25",
+        "score": "0.735",
+        "reason": "Cosan ON apresenta um forte desempenho de +43.84% em 21 dias, impulsionado por sua alta novelty score de 1.0, indicando inovação ou mudanças significativas.",
+        "potential": "O potencial de crescimento é significativo, dado o forte momentum recente e a capacidade da empresa de se adaptar rapidamente às condições de mercado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "32",
+        "price": "R$ 52,46",
+        "score": "0.727",
+        "reason": "Localiza ON tem se beneficiado do regime RISK_ON com um crescimento de +44.92% em 21 dias, refletindo uma forte demanda por seus serviços no setor de consumo.",
+        "potential": "Com um score de 0.727, a ação tem potencial para continuar atraindo investidores, especialmente em um mercado otimista.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,06",
+      "ibov": "207.695"
     }
   }
 ]

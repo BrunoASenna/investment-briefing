@@ -1,42 +1,42 @@
 {
-  "date": "19/10/2026",
+  "date": "20/10/2026",
   "regime": {
-    "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL/BALANCED indica um mercado otimista com equilíbrio entre risco e retorno, favorecendo investimentos em ativos defensivos e FIIs de papel, devido à estabilidade dos juros elevados."
+    "label": "BULL / RISK_ON",
+    "summary": "O regime atual BULL/RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um mercado otimista e condições macroeconômicas que encorajam investimentos em ações."
   },
   "opportunities": [
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "36",
-      "price": "R$ 8,85",
-      "score": "0.851",
-      "reason": "Hapvida ON apresenta uma forte recuperação no curto prazo, com um aumento significativo de 38.50% em 21 dias, destacando-se no setor de saúde que está em rotação positiva, ideal para o regime BALANCED.",
-      "potential": "Com um score elevado e ajuste ao regime, a ação pode continuar a se beneficiar do momentum positivo do setor de saúde.",
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "35",
+      "price": "R$ 14,85",
+      "score": "0.778",
+      "reason": "Lojas Renner se destaca no setor de varejo com um momentum positivo de +7.22% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece ativos de risco.",
+      "potential": "Com um score de 0.778, a ação tem potencial de continuar sua trajetória de alta no curto prazo, especialmente em um ambiente de mercado otimista.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "32",
-      "price": "R$ 21,36",
-      "score": "0.741",
-      "reason": "Raia Drogasil ON, apesar de um leve declínio de 0.47% nos últimos 5 dias, mantém um crescimento estável de 5.01% em 21 dias, sendo uma opção sólida no setor de saúde em um regime BALANCED.",
-      "potential": "A estabilidade do setor de saúde e o regime atual sugerem uma perspectiva de crescimento moderada.",
+      "ticker": "CSAN3",
+      "name": "Cosan ON",
+      "value": "33",
+      "price": "R$ 5,25",
+      "score": "0.735",
+      "reason": "Cosan ON apresenta um forte desempenho de +43.84% em 21 dias, impulsionado por sua alta novelty score de 1.0, indicando inovação ou mudanças significativas.",
+      "potential": "O potencial de crescimento é significativo, dado o forte momentum recente e a capacidade da empresa de se adaptar rapidamente às condições de mercado.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "32",
-      "price": "R$ 31,81",
-      "score": "0.738",
-      "reason": "Telefônica Vivo ON beneficia-se de um crescimento consistente de 4.81% em 5 dias, alinhando-se bem com o regime BALANCED e apresentando uma alta novelty de 1.0.",
-      "potential": "A continuidade do crescimento no setor de telecomunicações pode oferecer retornos estáveis.",
-      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "RENT3",
+      "name": "Localiza ON",
+      "value": "32",
+      "price": "R$ 52,46",
+      "score": "0.727",
+      "reason": "Localiza ON tem se beneficiado do regime RISK_ON com um crescimento de +44.92% em 21 dias, refletindo uma forte demanda por seus serviços no setor de consumo.",
+      "potential": "Com um score de 0.727, a ação tem potencial para continuar atraindo investidores, especialmente em um mercado otimista.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -48,7 +48,7 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "N/D",
+      "value": "4,58%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "204.611",
-      "sub": "-0.40% hoje",
-      "trend": "down"
+      "value": "207.695",
+      "sub": "+1.28% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e tendência estável, investidores encontram um ambiente de juros altos que favorece ativos defensivos. A ausência de dados do IPCA 12m indica incerteza inflacionária, enquanto o IBOV recuou 0.40%, refletindo um mercado cauteloso. Para um aporte de R$100, a estratégia deve considerar a estabilidade dos juros e a volatilidade do mercado de ações atual.",
+  "macro_summary": "A taxa SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando uma inflação sob controle. O IBOV subiu 1.28% hoje, reforçando o regime RISK_ON. Para quem vai aportar R$100 hoje, o ambiente é favorável para ativos de risco, aproveitando o otimismo do mercado e a inflação controlada.",
   "analysts": {
     "enter": [
-      "HAPV3 — devido ao forte momentum de 21d e score elevado"
+      "LREN3 — devido ao forte momentum e condições de mercado favoráveis"
     ],
     "reinforce": [
-      "VIVT3 — crescimento consistente de 5d e alta novelty"
+      "RENT3 — por seu desempenho robusto em 21 dias e ambiente otimista"
     ],
     "avoid": [
-      "Setor de energia — devido ao momentum negativo de 0.65 em 5d"
+      "Setor de saúde — momentum negativo com rotação setorial de 0.76"
     ],
     "realize": [
-      "MDIA3 — após alta recente devido à aquisição positiva"
+      "CSAN3 — após alta de 43.84% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 23,85",
+      "value": "R$ 24,16",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.93%",
+      "value": "+0.88%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+9.1%",
+      "value": "+7.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "A BBAS3 está cotada a R$ 23,85, com uma variação diária de +0.93%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o mercado aguarda o próximo resultado trimestral em agosto para novas direções. A recomendação é de cautela até mais clareza sobre o desempenho futuro.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 24,16, com uma variação de +0.88% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A estratégia atual é aguardar, dado o consenso neutro entre analistas e o potencial de upside de 7.68%.",
   "executive_summary": {
-    "smartest_move": "Investir R$36 em HAPV3, aproveitando seu forte momentum recente e a favorabilidade do regime atual.",
-    "biggest_risk": "A volatilidade do IBOV em um regime BULL pode levar a movimentos bruscos, especialmente em setores não defensivos.",
-    "best_opportunity": "HAPV3 oferece uma assimetria risco-retorno atrativa, com um score de 0.851 e forte ajuste ao regime BALANCED.",
-    "common_mistake": "Ignorar a importância de diversificação em um cenário de juros elevados e instabilidade do IBOV."
+    "smartest_move": "Investir em LREN3 hoje, alocando R$35, aproveitando o momentum positivo e o regime RISK_ON.",
+    "biggest_risk": "O maior risco é a volatilidade inerente ao regime BULL, que pode reverter rapidamente em resposta a eventos macroeconômicos.",
+    "best_opportunity": "A melhor oportunidade é a assimetria risco-retorno em LREN3, com um score de 0.778 e momentum positivo.",
+    "common_mistake": "Um erro comum seria subestimar a volatilidade do mercado em um regime BULL e não realizar lucros em ativos sobrecomprados."
   },
   "_meta": {
-    "generated_at": "2026-10-19T13:42:22.219538-03:00",
-    "regime": "BULL / BALANCED",
+    "generated_at": "2026-10-20T11:33:34.074444-03:00",
+    "regime": "BULL / RISK_ON",
     "sectors": [
-      "saude",
-      "telecom"
+      "varejo",
+      "energia",
+      "consumo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
