@@ -1,42 +1,42 @@
 {
-  "date": "20/10/2026",
+  "date": "21/10/2026",
   "regime": {
-    "label": "BULL / RISK_ON",
-    "summary": "O regime atual BULL/RISK_ON indica um ambiente favorável para ativos de risco, impulsionado por um mercado otimista e condições macroeconômicas que encorajam investimentos em ações."
+    "label": "BULL / BALANCED",
+    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado em alta, mas com uma distribuição equilibrada de riscos e oportunidades, favorecendo uma abordagem cuidadosa e diversificada para os investidores."
   },
   "opportunities": [
     {
-      "ticker": "LREN3",
-      "name": "Lojas Renner ON",
-      "value": "35",
-      "price": "R$ 14,85",
-      "score": "0.778",
-      "reason": "Lojas Renner se destaca no setor de varejo com um momentum positivo de +7.22% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece ativos de risco.",
-      "potential": "Com um score de 0.778, a ação tem potencial de continuar sua trajetória de alta no curto prazo, especialmente em um ambiente de mercado otimista.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "CSAN3",
-      "name": "Cosan ON",
+      "ticker": "RENT3",
+      "name": "Localiza ON",
       "value": "33",
-      "price": "R$ 5,25",
-      "score": "0.735",
-      "reason": "Cosan ON apresenta um forte desempenho de +43.84% em 21 dias, impulsionado por sua alta novelty score de 1.0, indicando inovação ou mudanças significativas.",
-      "potential": "O potencial de crescimento é significativo, dado o forte momentum recente e a capacidade da empresa de se adaptar rapidamente às condições de mercado.",
+      "price": "R$ 53,04",
+      "score": "0.773",
+      "reason": "Localiza ON apresenta um forte momentum com alta de 5.47% nos últimos 5 dias, beneficiando-se do ambiente de consumo estável e do regime BALANCED que favorece ativos defensivos.",
+      "potential": "Dado o score elevado e o regime atual, há potencial para ganhos moderados no curto prazo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "RENT3",
-      "name": "Localiza ON",
-      "value": "32",
-      "price": "R$ 52,46",
-      "score": "0.727",
-      "reason": "Localiza ON tem se beneficiado do regime RISK_ON com um crescimento de +44.92% em 21 dias, refletindo uma forte demanda por seus serviços no setor de consumo.",
-      "potential": "Com um score de 0.727, a ação tem potencial para continuar atraindo investidores, especialmente em um mercado otimista.",
+      "ticker": "TOTS3",
+      "name": "TOTVS ON",
+      "value": "34",
+      "price": "R$ 42,99",
+      "score": "0.773",
+      "reason": "TOTVS ON se destaca com um crescimento de 6.28% em 5 dias, impulsionado por sua alta novidade e resiliência no setor de tecnologia, mesmo com um RegimeFit mais baixo.",
+      "potential": "O potencial é moderado, considerando o score e a volatilidade do setor de tecnologia.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "33",
+      "price": "R$ 9,16",
+      "score": "0.747",
+      "reason": "Hapvida ON, apesar da queda de 4.08% no dia, mantém um crescimento robusto de 7.01% em 5 dias, refletindo um forte ajuste ao regime atual e potencial de recuperação.",
+      "potential": "Potencial significativo de recuperação e crescimento no médio prazo, dada a alta RegimeFit.",
+      "risk": "Alto",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,06",
+      "value": "R$ 5,01",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "207.695",
-      "sub": "+1.28% hoje",
-      "trend": "up"
+      "value": "207.920",
+      "sub": "-0.18% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A taxa SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,58%, indicando uma inflação sob controle. O IBOV subiu 1.28% hoje, reforçando o regime RISK_ON. Para quem vai aportar R$100 hoje, o ambiente é favorável para ativos de risco, aproveitando o otimismo do mercado e a inflação controlada.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses caiu para 4,58%, indicando um cenário de inflação sob controle. O IBOV registrou uma leve queda de 0.18%, refletindo um mercado cauteloso. Para quem vai investir R$100 hoje, o cenário sugere cautela e foco em ativos defensivos e de baixo risco, devido ao regime BALANCED.",
   "analysts": {
     "enter": [
-      "LREN3 — devido ao forte momentum e condições de mercado favoráveis"
+      "HAPV3 — devido ao forte ajuste ao regime atual e potencial de recuperação"
     ],
     "reinforce": [
-      "RENT3 — por seu desempenho robusto em 21 dias e ambiente otimista"
+      "RENT3 — devido ao bom momentum de 41.67% em 21 dias"
     ],
     "avoid": [
-      "Setor de saúde — momentum negativo com rotação setorial de 0.76"
+      "Varejo — momentum negativo com índice de 0.68"
     ],
     "realize": [
-      "CSAN3 — após alta de 43.84% em 21 dias, pode estar sobrecomprado"
+      "TOTS3 — após alta recente de 23.04% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,16",
+      "value": "R$ 24,24",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.88%",
+      "value": "+0.17%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+7.7%",
+      "value": "+7.3%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 24,16, com uma variação de +0.88% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A estratégia atual é aguardar, dado o consenso neutro entre analistas e o potencial de upside de 7.68%.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 24,24 com uma variação de +0.17%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho é o resultado do 2T26 em agosto, o que sugere cautela e aguardar novas informações antes de tomar decisões significativas.",
   "executive_summary": {
-    "smartest_move": "Investir em LREN3 hoje, alocando R$35, aproveitando o momentum positivo e o regime RISK_ON.",
-    "biggest_risk": "O maior risco é a volatilidade inerente ao regime BULL, que pode reverter rapidamente em resposta a eventos macroeconômicos.",
-    "best_opportunity": "A melhor oportunidade é a assimetria risco-retorno em LREN3, com um score de 0.778 e momentum positivo.",
-    "common_mistake": "Um erro comum seria subestimar a volatilidade do mercado em um regime BULL e não realizar lucros em ativos sobrecomprados."
+    "smartest_move": "Investir em RENT3 com alocação de R$33, aproveitando o forte momentum e o ambiente de consumo favorável.",
+    "biggest_risk": "A volatilidade no setor de saúde, especialmente para HAPV3, devido ao regime BULL e dados do dia.",
+    "best_opportunity": "A assimetria risco-retorno em RENT3, com base no momentum positivo e score elevado.",
+    "common_mistake": "Subestimar a importância de diversificação em um regime BALANCED, focando excessivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-10-20T11:33:34.074444-03:00",
-    "regime": "BULL / RISK_ON",
+    "generated_at": "2026-10-21T11:44:56.283373-03:00",
+    "regime": "BULL / BALANCED",
     "sectors": [
-      "varejo",
-      "energia",
-      "consumo"
+      "consumo",
+      "tecnologia",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
