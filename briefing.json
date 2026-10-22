@@ -1,42 +1,42 @@
 {
-  "date": "21/10/2026",
+  "date": "22/10/2026",
   "regime": {
-    "label": "BULL / BALANCED",
-    "summary": "O regime atual BULL com perfil BALANCED sugere um mercado em alta, mas com uma distribuição equilibrada de riscos e oportunidades, favorecendo uma abordagem cuidadosa e diversificada para os investidores."
+    "label": "BULL / RISK_OFF",
+    "summary": "O regime atual é BULL com perfil RISK_OFF, indicando um mercado em alta, mas com preferência por ativos defensivos devido ao ambiente de aversão ao risco."
   },
   "opportunities": [
     {
-      "ticker": "RENT3",
-      "name": "Localiza ON",
-      "value": "33",
-      "price": "R$ 53,04",
-      "score": "0.773",
-      "reason": "Localiza ON apresenta um forte momentum com alta de 5.47% nos últimos 5 dias, beneficiando-se do ambiente de consumo estável e do regime BALANCED que favorece ativos defensivos.",
-      "potential": "Dado o score elevado e o regime atual, há potencial para ganhos moderados no curto prazo.",
-      "risk": "Médio",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "37",
+      "price": "R$ 27,94",
+      "score": "0.847",
+      "reason": "Fleury ON apresenta um forte momentum de +2.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de saúde, tradicionalmente defensivo.",
+      "potential": "Dado o score elevado e o ajuste ao regime, a ação tem potencial de valorização moderada a alta.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "TOTS3",
-      "name": "TOTVS ON",
-      "value": "34",
-      "price": "R$ 42,99",
-      "score": "0.773",
-      "reason": "TOTVS ON se destaca com um crescimento de 6.28% em 5 dias, impulsionado por sua alta novidade e resiliência no setor de tecnologia, mesmo com um RegimeFit mais baixo.",
-      "potential": "O potencial é moderado, considerando o score e a volatilidade do setor de tecnologia.",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "32",
+      "price": "R$ 32,90",
+      "score": "0.745",
+      "reason": "Telefônica Vivo ON se destaca com um crescimento de 5.38% nos últimos 5 dias, sendo uma escolha sólida em telecomunicações, um setor resiliente em tempos de incerteza.",
+      "potential": "Potencial de crescimento estável, alinhado com o regime BULL/RISK_OFF.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     },
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "33",
-      "price": "R$ 9,16",
-      "score": "0.747",
-      "reason": "Hapvida ON, apesar da queda de 4.08% no dia, mantém um crescimento robusto de 7.01% em 5 dias, refletindo um forte ajuste ao regime atual e potencial de recuperação.",
-      "potential": "Potencial significativo de recuperação e crescimento no médio prazo, dada a alta RegimeFit.",
-      "risk": "Alto",
-      "horizon": "Médio prazo"
+      "ticker": "PVBI11",
+      "name": "VBI Prime Properties",
+      "value": "31",
+      "price": "R$ 75,26",
+      "score": "0.729",
+      "reason": "O fundo imobiliário PVBI11 tem mostrado um bom desempenho com 14.06% de alta em 21 dias, beneficiando-se de juros elevados que favorecem FIIs de tijolo.",
+      "potential": "Moderado, com potencial de valorização em um cenário de juros altos.",
+      "risk": "Médio",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,01",
+      "value": "R$ 5,03",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "207.920",
-      "sub": "-0.18% hoje",
+      "value": "203.967",
+      "sub": "-1.22% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses caiu para 4,58%, indicando um cenário de inflação sob controle. O IBOV registrou uma leve queda de 0.18%, refletindo um mercado cauteloso. Para quem vai investir R$100 hoje, o cenário sugere cautela e foco em ativos defensivos e de baixo risco, devido ao regime BALANCED.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente de juros altos continua a pressionar o consumo e o investimento. O IPCA de 4,58% em 12 meses sugere uma inflação controlada, mas o IBOV caiu 1.22% hoje, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser prudente, dado o regime RISK_OFF.",
   "analysts": {
     "enter": [
-      "HAPV3 — devido ao forte ajuste ao regime atual e potencial de recuperação"
+      "FLRY3 — devido ao seu forte momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "RENT3 — devido ao bom momentum de 41.67% em 21 dias"
+      "VIVT3 — bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Varejo — momentum negativo com índice de 0.68"
+      "Setor de varejo — momentum negativo com 0.69 nos últimos 5 dias"
     ],
     "realize": [
-      "TOTS3 — após alta recente de 23.04% em 21 dias, pode estar sobrecomprado"
+      "MGLU3 — após alta significativa, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 24,24",
+      "value": "R$ 23,89",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.17%",
+      "value": "-0.87%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+7.3%",
+      "value": "+8.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 24,24 com uma variação de +0.17%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho é o resultado do 2T26 em agosto, o que sugere cautela e aguardar novas informações antes de tomar decisões significativas.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 23,89, com uma variação de -0.87% hoje. Após o 1T26, que mostrou uma queda de 53% no lucro e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um consenso neutro e um upside de 8.91%, a estratégia é aguardar por mais clareza nos resultados futuros.",
   "executive_summary": {
-    "smartest_move": "Investir em RENT3 com alocação de R$33, aproveitando o forte momentum e o ambiente de consumo favorável.",
-    "biggest_risk": "A volatilidade no setor de saúde, especialmente para HAPV3, devido ao regime BULL e dados do dia.",
-    "best_opportunity": "A assimetria risco-retorno em RENT3, com base no momentum positivo e score elevado.",
-    "common_mistake": "Subestimar a importância de diversificação em um regime BALANCED, focando excessivamente em ativos de alto risco."
+    "smartest_move": "Investir em FLRY3 com alocação de R$37, aproveitando o momentum positivo e o ajuste ao regime.",
+    "biggest_risk": "A volatilidade do IBOV em um regime BULL/RISK_OFF pode afetar negativamente ativos de maior risco.",
+    "best_opportunity": "FLRY3 oferece uma boa assimetria risco-retorno, dado seu score elevado e alinhamento com o regime.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um cenário de aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-10-21T11:44:56.283373-03:00",
-    "regime": "BULL / BALANCED",
+    "generated_at": "2026-10-22T11:44:59.335823-03:00",
+    "regime": "BULL / RISK_OFF",
     "sectors": [
-      "consumo",
-      "tecnologia",
-      "saude"
+      "telecom",
+      "saude",
+      "fii_tijolo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

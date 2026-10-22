@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-09",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.48,
-      "r21d": 0.08294671637240097,
-      "r63d": 0.0895722369443649
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 20,88",
-        "score": "0.767",
-        "reason": "A Fleury ON se destaca pelo forte momentum de +8.69% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde, tradicionalmente defensivo.",
-        "potential": "Com um score elevado e alinhamento ao regime, há potencial de crescimento moderado.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "33",
-        "price": "R$ 31,08",
-        "score": "0.762",
-        "reason": "Engie Brasil ON é uma escolha sólida no setor de utilidades, que tem mostrado rotação positiva de 0.67 nos últimos 5 dias, alinhando-se bem ao regime atual.",
-        "potential": "Potencial de estabilidade e crescimento moderado devido ao alinhamento com o regime e setor.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SUZB3",
-        "name": "Suzano ON",
-        "value": "33",
-        "price": "R$ 47,66",
-        "score": "0.754",
-        "reason": "Suzano ON apresenta um forte momentum de +15.43% em 21 dias, mas seu RegimeFit de 0.2 indica que o alinhamento com o regime atual é limitado.",
-        "potential": "Potencial de alta volatilidade, com possibilidade de ganhos rápidos, mas com riscos elevados.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,09",
-      "ibov": "186.462"
-    }
-  },
-  {
     "date": "2026-09-10",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,01",
       "ibov": "207.920"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.22,
+      "r21d": 0.08827074985460696,
+      "r63d": 0.17194107600464256
+    },
+    "opportunities": [
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "37",
+        "price": "R$ 27,94",
+        "score": "0.847",
+        "reason": "Fleury ON apresenta um forte momentum de +2.53% nos últimos 5 dias, beneficiando-se do ambiente RISK_OFF que favorece o setor de saúde, tradicionalmente defensivo.",
+        "potential": "Dado o score elevado e o ajuste ao regime, a ação tem potencial de valorização moderada a alta.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "32",
+        "price": "R$ 32,90",
+        "score": "0.745",
+        "reason": "Telefônica Vivo ON se destaca com um crescimento de 5.38% nos últimos 5 dias, sendo uma escolha sólida em telecomunicações, um setor resiliente em tempos de incerteza.",
+        "potential": "Potencial de crescimento estável, alinhado com o regime BULL/RISK_OFF.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "PVBI11",
+        "name": "VBI Prime Properties",
+        "value": "31",
+        "price": "R$ 75,26",
+        "score": "0.729",
+        "reason": "O fundo imobiliário PVBI11 tem mostrado um bom desempenho com 14.06% de alta em 21 dias, beneficiando-se de juros elevados que favorecem FIIs de tijolo.",
+        "potential": "Moderado, com potencial de valorização em um cenário de juros altos.",
+        "risk": "Médio",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,03",
+      "ibov": "203.967"
     }
   }
 ]
