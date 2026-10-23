@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-10",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.21,
-      "r21d": 0.10344266567386448,
-      "r63d": 0.08699608309127718
-    },
-    "opportunities": [
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "35",
-        "price": "R$ 11,35",
-        "score": "0.835",
-        "reason": "A Cemig PN apresenta um bom momentum com alta de 3.46% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece setores de utilidades.",
-        "potential": "Com um score elevado e alinhamento ao regime, a Cemig tem potencial de crescimento moderado a longo prazo.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 20,68",
-        "score": "0.785",
-        "reason": "Fleury ON destaca-se pelo crescimento de 5.13% em 5 dias, impulsionado pela estabilidade do setor de saúde em um ambiente de juros elevados.",
-        "potential": "O potencial de crescimento é moderado, sustentado por um setor defensivo e um score robusto.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SUZB3",
-        "name": "Suzano ON",
-        "value": "31",
-        "price": "R$ 47,65",
-        "score": "0.713",
-        "reason": "Suzano ON teve um forte desempenho de 18.00% em 21 dias, mas o baixo RegimeFit sugere cautela apesar do bom momentum.",
-        "potential": "O potencial é limitado pelo baixo RegimeFit, apesar do bom desempenho recente.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,44%",
-      "dolar": "R$ 5,10",
-      "ibov": "185.240"
-    }
-  },
-  {
     "date": "2026-09-11",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,03",
       "ibov": "203.967"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "regime": {
+      "regime": "BULL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.1,
+      "r21d": 0.09744203208584928,
+      "r63d": 0.1630313043602247
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "34",
+        "price": "R$ 8,47",
+        "score": "0.707",
+        "reason": "Hapvida se destaca pelo forte momentum de +2.17% nos últimos 5 dias e uma valorização expressiva de +27.37% em 21 dias, indicando resiliência no setor de saúde em um regime BALANCED.",
+        "potential": "Com um score de 0.707 e um regime favorável, há potencial para continuidade na valorização, especialmente se o mercado mantiver o otimismo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "33",
+        "price": "R$ 14,23",
+        "score": "0.701",
+        "reason": "Lojas Renner apresenta um crescimento de +5.41% em 5 dias e +27.39% em 21 dias, refletindo um desempenho robusto no setor de varejo, mesmo em um ambiente de juros elevados.",
+        "potential": "O score de 0.701 sugere que a ação ainda possui espaço para crescimento, especialmente se o consumo interno se fortalecer.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TOTS3",
+        "name": "TOTVS ON",
+        "value": "33",
+        "price": "R$ 44,35",
+        "score": "0.699",
+        "reason": "TOTVS tem se beneficiado de um aumento de +10.08% em 5 dias e +24.75% em 21 dias, impulsionado pela demanda por soluções tecnológicas em um mercado que valoriza inovação.",
+        "potential": "Apesar do score de 0.699, a menor adaptação ao regime BALANCED sugere que o potencial de crescimento pode ser mais limitado comparado a outros setores.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,04",
+      "ibov": "203.920"
     }
   }
 ]
