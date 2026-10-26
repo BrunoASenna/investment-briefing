@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-11",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.56,
-      "r21d": 0.11781024801332608,
-      "r63d": 0.10359127522119199
-    },
-    "opportunities": [
-      {
-        "ticker": "CMIG4",
-        "name": "Cemig PN",
-        "value": "34",
-        "price": "R$ 11,51",
-        "score": "0.771",
-        "reason": "Com um aumento de 2.95% nos últimos 5 dias, a Cemig PN se destaca no setor de utilidades, que é favorecido pelo perfil BALANCED do regime atual.",
-        "potential": "A combinação de um score elevado e ajuste ao regime sugere um potencial de crescimento sólido.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "34",
-        "price": "R$ 41,44",
-        "score": "0.766",
-        "reason": "Apesar de uma leve queda de 0.26% nos últimos 5 dias, a Transmissão Paulista é uma escolha defensiva sólida no setor de utilidades, beneficiando-se do regime BALANCED.",
-        "potential": "Potencial de estabilidade e crescimento moderado devido ao ajuste ao regime e score elevado.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "32",
-        "price": "R$ 18,39",
-        "score": "0.731",
-        "reason": "Bradesco PN apresenta um crescimento de 3.37% nos últimos 5 dias, destacando-se no setor financeiro, embora o ajuste ao regime seja moderado.",
-        "potential": "Potencial de crescimento moderado, mas com risco de volatilidade devido ao ajuste ao regime.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,11",
-      "ibov": "187.223"
-    }
-  },
-  {
     "date": "2026-09-14",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,04",
       "ibov": "203.920"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -15.23,
+      "r21d": -0.054966933427916025,
+      "r63d": -0.01535438436269929
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "37",
+        "price": "R$ 104,93",
+        "score": "0.886",
+        "reason": "KNCR11, como um fundo imobiliário de papel, se beneficia do ambiente de juros elevados e do perfil RISK_OFF, apesar do momentum negativo de -1.40% nos últimos 5 dias.",
+        "potential": "Potencial de estabilidade com baixa volatilidade, adequado para preservação de capital.",
+        "risk": "Baixo",
+        "horizon": "curto a médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "32",
+        "price": "R$ 46,62",
+        "score": "0.793",
+        "reason": "SUZB3 apresentou um forte desempenho recente com alta de 8.82% em 5 dias, indicando resiliência no setor de materiais, mesmo em um mercado desafiador.",
+        "potential": "Potencial de crescimento contínuo, impulsionado por fundamentos sólidos do setor.",
+        "risk": "Médio",
+        "horizon": "médio prazo"
+      },
+      {
+        "ticker": "BTLG11",
+        "name": "BTG Logística",
+        "value": "31",
+        "price": "R$ 99,31",
+        "score": "0.768",
+        "reason": "BTLG11, como um fundo de tijolo, oferece exposição ao setor logístico, que pode se beneficiar da demanda estável por espaços de armazenamento, apesar de uma recente queda de -3.58% em 5 dias.",
+        "potential": "Potencial de recuperação com base na resiliência do setor logístico.",
+        "risk": "Médio",
+        "horizon": "médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,50",
+      "ibov": "173.854"
     }
   }
 ]
