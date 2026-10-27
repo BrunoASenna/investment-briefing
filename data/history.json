@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-14",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -0.93,
-      "r21d": 0.10988002764794945,
-      "r63d": 0.10096561969439728
-    },
-    "opportunities": [
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "36",
-        "price": "R$ 26,82",
-        "score": "0.819",
-        "reason": "A Sabesp ON mostra um bom momentum com um aumento de 1.09% nos últimos 5 dias. No contexto atual de RISK_OFF, o setor de utilidades é favorecido devido à sua natureza defensiva.",
-        "potential": "Com um score de 0.819 e alinhamento com o regime RISK_OFF, o ativo tem potencial para continuar se destacando em um ambiente de aversão ao risco.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "33",
-        "price": "R$ 49,04",
-        "score": "0.77",
-        "reason": "Petrobras PN tem apresentado um sólido desempenho com um ganho de 4.10% nos últimos 5 dias, impulsionado por fatores setoriais positivos no setor de energia.",
-        "potential": "Apesar do regime RISK_OFF, a Petrobras pode se beneficiar de sua resiliência setorial e da alta recente, mas o score de 0.77 indica um potencial moderado.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "31",
-        "price": "R$ 21,33",
-        "score": "0.718",
-        "reason": "Fleury ON se destaca com um crescimento de 5.75% nos últimos 5 dias, refletindo uma forte demanda por serviços de saúde e alinhamento com o regime RISK_OFF.",
-        "potential": "O ativo possui um bom potencial de crescimento, sustentado por um score de 0.718 e a natureza defensiva do setor de saúde.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,09",
-      "ibov": "185.462"
-    }
-  },
-  {
     "date": "2026-09-15",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,50",
       "ibov": "173.854"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.44,
+      "r21d": -0.041700560560724236,
+      "r63d": 0.011162010811743393
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 30,87",
+        "score": "0.786",
+        "reason": "A Telefônica Vivo ON apresenta um score elevado e está bem alinhada com o regime BALANCED, apesar do desempenho negativo de -4.10% nos últimos 5 dias. O setor de telecomunicações oferece resiliência em tempos de incerteza econômica.",
+        "potential": "Com um score de 0.786 e um bom ajuste ao regime, há potencial de recuperação à medida que o mercado se estabiliza.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 105,03",
+        "score": "0.777",
+        "reason": "O fundo imobiliário Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-se uma escolha defensiva sólida.",
+        "potential": "Potencial de estabilidade e geração de renda em um cenário de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "32",
+        "price": "R$ 40,54",
+        "score": "0.741",
+        "reason": "Apesar da queda de -11.62% nos últimos 5 dias, a Transmissão Paulista continua sendo uma opção atrativa devido à sua estabilidade no setor de utilidades, com um regime fit de 0.9.",
+        "potential": "Potencial de recuperação com base em fundamentos sólidos e regime fit elevado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,50",
+      "ibov": "175.826"
     }
   }
 ]

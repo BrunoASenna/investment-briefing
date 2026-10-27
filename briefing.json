@@ -1,42 +1,42 @@
 {
-  "date": "26/10/2026",
+  "date": "27/10/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo ativos defensivos e fundos imobiliários de papel, enquanto o mercado de ações enfrenta pressões significativas."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil equilibrado, sugerindo que investidores devem focar em ativos defensivos e fundos imobiliários de papel, que tendem a performar melhor em ambientes de juros elevados."
   },
   "opportunities": [
     {
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "34",
+      "price": "R$ 30,87",
+      "score": "0.786",
+      "reason": "A Telefônica Vivo ON apresenta um score elevado e está bem alinhada com o regime BALANCED, apesar do desempenho negativo de -4.10% nos últimos 5 dias. O setor de telecomunicações oferece resiliência em tempos de incerteza econômica.",
+      "potential": "Com um score de 0.786 e um bom ajuste ao regime, há potencial de recuperação à medida que o mercado se estabiliza.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
-      "value": "37",
-      "price": "R$ 104,93",
-      "score": "0.886",
-      "reason": "KNCR11, como um fundo imobiliário de papel, se beneficia do ambiente de juros elevados e do perfil RISK_OFF, apesar do momentum negativo de -1.40% nos últimos 5 dias.",
-      "potential": "Potencial de estabilidade com baixa volatilidade, adequado para preservação de capital.",
+      "value": "34",
+      "price": "R$ 105,03",
+      "score": "0.777",
+      "reason": "O fundo imobiliário Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-se uma escolha defensiva sólida.",
+      "potential": "Potencial de estabilidade e geração de renda em um cenário de juros altos.",
       "risk": "Baixo",
-      "horizon": "curto a médio prazo"
+      "horizon": "Médio a longo prazo"
     },
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
       "value": "32",
-      "price": "R$ 46,62",
-      "score": "0.793",
-      "reason": "SUZB3 apresentou um forte desempenho recente com alta de 8.82% em 5 dias, indicando resiliência no setor de materiais, mesmo em um mercado desafiador.",
-      "potential": "Potencial de crescimento contínuo, impulsionado por fundamentos sólidos do setor.",
+      "price": "R$ 40,54",
+      "score": "0.741",
+      "reason": "Apesar da queda de -11.62% nos últimos 5 dias, a Transmissão Paulista continua sendo uma opção atrativa devido à sua estabilidade no setor de utilidades, com um regime fit de 0.9.",
+      "potential": "Potencial de recuperação com base em fundamentos sólidos e regime fit elevado.",
       "risk": "Médio",
-      "horizon": "médio prazo"
-    },
-    {
-      "ticker": "BTLG11",
-      "name": "BTG Logística",
-      "value": "31",
-      "price": "R$ 99,31",
-      "score": "0.768",
-      "reason": "BTLG11, como um fundo de tijolo, oferece exposição ao setor logístico, que pode se beneficiar da demanda estável por espaços de armazenamento, apesar de uma recente queda de -3.58% em 5 dias.",
-      "potential": "Potencial de recuperação com base na resiliência do setor logístico.",
-      "risk": "Médio",
-      "horizon": "médio a longo prazo"
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "173.854",
-      "sub": "-15.23% hoje",
+      "value": "175.826",
+      "sub": "-0.44% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA de 4,58% sugere desaceleração da inflação. O IBOV caiu 15.23% devido a incertezas políticas, reforçando o regime RISK_OFF. Para um aporte de R$100 hoje, a estratégia defensiva é preferida para mitigar riscos de mercado.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente continua desafiador para ativos de risco, enquanto o IPCA de 4,58% sugere uma pressão inflacionária controlada. O IBOV caiu 0.44% hoje, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a preferência por ativos defensivos é prudente, dada a estabilidade dos juros e a volatilidade do mercado.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido à alta pontuação e alinhamento com o regime RISK_OFF"
+      "VIVT3 — Score elevado e alinhamento com regime BALANCED"
     ],
     "reinforce": [
-      "SUZB3 — com bom momentum de 8.82% em 5 dias"
+      "KNCR11 — Beneficiado por juros elevados e regime fit perfeito"
     ],
     "avoid": [
-      "Setores cíclicos — devido ao momentum negativo e incertezas do mercado"
+      "VALE3 — Queda devido a minério de ferro e corte de expectativas"
     ],
     "realize": [
-      "Ativos que tiveram alta significativa recente, como SUZB3, para evitar sobrecompra"
+      "Nenhum ativo específico identificado como sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 17,60",
+      "value": "R$ 17,74",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-28.80%",
+      "value": "+1.55%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+47.8%",
+      "value": "+46.7%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 17,60, com variação de -28.80%, refletindo o impacto do 1T26 que mostrou uma queda de 53% no lucro e inadimplência agro a 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que pode trazer mais clareza sobre a recuperação do banco.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 17,74, com uma variação de +1.55%. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 46.71%, o ativo é interessante, mas o contexto macroeconômico sugere cautela.",
   "executive_summary": {
-    "smartest_move": "Alocar R$37 em KNCR11, aproveitando sua estabilidade em um regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado acionário em um regime BEAR, especialmente após a mudança política.",
-    "best_opportunity": "A alocação em ativos defensivos como KNCR11, que oferecem proteção contra a volatilidade.",
-    "common_mistake": "Subestimar a importância de diversificação em um cenário de alta volatilidade e aversão ao risco."
+    "smartest_move": "Investir em KNCR11 com alocação de R$34, dado seu regime fit perfeito e ambiente de juros altos.",
+    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos de risco.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável devido à sua estabilidade em um cenário de juros elevados.",
+    "common_mistake": "Subestimar a importância de ativos defensivos em um ambiente de alta volatilidade e juros elevados."
   },
   "_meta": {
-    "generated_at": "2026-10-26T13:21:45.443949-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-10-27T12:36:07.144684-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "materiais",
       "fii_papel",
-      "fii_tijolo"
+      "utilidades",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
