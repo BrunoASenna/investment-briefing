@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-15",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.12,
-      "r21d": 0.11260363377143062,
-      "r63d": 0.10371750912181034
-    },
-    "opportunities": [
-      {
-        "ticker": "EGIE3",
-        "name": "Engie Brasil ON",
-        "value": "35",
-        "price": "R$ 30,64",
-        "score": "0.784",
-        "reason": "Engie Brasil ON se destaca no setor de utilidades, que tem mostrado resiliência em um cenário de juros elevados. Apesar de uma leve queda de 0.81% nos últimos 5 dias, o ativo apresenta um bom momentum de 9.31% em 21 dias, alinhado ao regime BALANCED.",
-        "potential": "A combinação de um score elevado e um bom ajuste ao regime sugere potencial de valorização moderado a longo prazo.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "34",
-        "price": "R$ 27,16",
-        "score": "0.782",
-        "reason": "Sabesp ON tem se beneficiado do ambiente de juros altos, com um crescimento de 14.17% em 21 dias, refletindo a força do setor de utilidades em um mercado BULL.",
-        "potential": "O ativo mostra um potencial de crescimento contínuo, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "31",
-        "price": "R$ 22,05",
-        "score": "0.709",
-        "reason": "Banco do Brasil ON, apesar de uma recente queda de 2.43% em 5 dias, ainda apresenta um forte momentum de 19.97% em 21 dias, indicando resiliência no setor financeiro.",
-        "potential": "Com um score razoável e um ajuste moderado ao regime, o ativo tem potencial de recuperação, especialmente se o cenário macroeconômico se estabilizar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,17",
-      "ibov": "185.731"
-    }
-  },
-  {
     "date": "2026-09-16",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,50",
       "ibov": "175.826"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -2.75,
+      "r21d": -0.06622832543677011,
+      "r63d": -0.03548895342601843
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "36",
+        "price": "R$ 30,96",
+        "score": "0.816",
+        "reason": "Apesar da queda de 5.15% nos últimos 5 dias, a Telefônica Vivo se beneficia do regime RISK_OFF devido à sua natureza defensiva no setor de telecomunicações.",
+        "potential": "Com um score elevado de 0.816, o ativo tem potencial de recuperação à medida que investidores buscam segurança.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "XPML11",
+        "name": "XP Malls",
+        "value": "32",
+        "price": "R$ 98,13",
+        "score": "0.74",
+        "reason": "O XP Malls, apesar da queda recente, oferece uma oportunidade de investimento em ativos reais, que podem se beneficiar de um cenário de juros elevados.",
+        "potential": "O potencial de recuperação está condicionado à estabilização do cenário macroeconômico.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "HGRU11",
+        "name": "CSHG Renda Urbana",
+        "value": "32",
+        "price": "R$ 113,81",
+        "score": "0.739",
+        "reason": "O CSHG Renda Urbana, com uma queda de 9.89% nos últimos 5 dias, pode ser uma opção para diversificação em FIIs de tijolo, que tendem a ser menos voláteis.",
+        "potential": "A recuperação depende do controle da inflação e da estabilidade dos juros.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,34",
+      "ibov": "170.872"
     }
   }
 ]
