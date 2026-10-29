@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-16",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.79,
-      "r21d": 0.10944189040915196,
-      "r63d": 0.09764827881786256
-    },
-    "opportunities": [
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "35",
-        "price": "R$ 34,25",
-        "score": "0.778",
-        "reason": "TOTVS ON se destaca pelo forte momentum, com uma alta de 3.26% nos últimos 5 dias, e está bem posicionada no setor de tecnologia, que apresenta uma rotação setorial positiva. O regime BALANCED sugere uma abordagem cuidadosa, mas o momentum positivo favorece a alocação.",
-        "potential": "Com um score elevado, TOTS3 tem potencial de continuar performando bem no curto prazo, especialmente se o setor de tecnologia continuar em alta.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "33",
-        "price": "R$ 19,46",
-        "score": "0.737",
-        "reason": "Raia Drogasil ON apresenta um desempenho estável, com uma leve alta de 0.05% no dia, e se beneficia de um regime que favorece setores defensivos como saúde. O score elevado e a estabilidade do setor indicam um potencial de crescimento moderado.",
-        "potential": "O potencial de RADL3 está em sua resiliência, com um crescimento consistente em um setor defensivo, mesmo em um mercado volátil.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "SUZB3",
-        "name": "Suzano ON",
-        "value": "32",
-        "price": "R$ 47,48",
-        "score": "0.718",
-        "reason": "Suzano ON tem mostrado um bom desempenho com um crescimento de 17.00% nos últimos 21 dias, beneficiando-se do setor de materiais que está em rotação positiva. Apesar do leve recuo diário, o score e o momentum indicam potencial de valorização.",
-        "potential": "O score sugere que SUZB3 pode continuar a oferecer boas oportunidades de retorno, especialmente se o setor de materiais mantiver sua tendência positiva.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,90%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,15",
-      "ibov": "185.037"
-    }
-  },
-  {
     "date": "2026-09-17",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,34",
       "ibov": "170.872"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.97,
+      "r21d": -0.07873639013099201,
+      "r63d": -0.048567425238344036
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 104,66",
+        "score": "0.759",
+        "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade em um cenário de aversão ao risco, apesar do leve declínio de -0.98% nos últimos 5 dias.",
+        "potential": "Com um score elevado e adequação ao regime RISK_OFF, o ativo tem potencial de oferecer retornos estáveis.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "33",
+        "price": "R$ 49,49",
+        "score": "0.74",
+        "reason": "SUZB3 se beneficia do dólar forte, impulsionando suas exportações, refletido em um aumento de 15.15% nos últimos 5 dias.",
+        "potential": "A valorização recente sugere potencial de crescimento, especialmente com o dólar em alta.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "33",
+        "price": "R$ 48,41",
+        "score": "0.725",
+        "reason": "WEGE3 apresenta forte inovação e recuperação recente, com alta de 10.02% nos últimos 5 dias, mas ainda sob pressão do regime BEAR.",
+        "potential": "A inovação contínua pode sustentar o crescimento, apesar das condições de mercado desafiadoras.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,37",
+      "ibov": "169.354"
     }
   }
 ]

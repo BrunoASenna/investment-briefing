@@ -1,42 +1,42 @@
 {
-  "date": "28/10/2026",
+  "date": "29/10/2026",
   "regime": {
     "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual BEAR com perfil RISK_OFF indica um ambiente de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel."
+    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, devido à alta dos juros e incertezas no mercado."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "36",
-      "price": "R$ 30,96",
-      "score": "0.816",
-      "reason": "Apesar da queda de 5.15% nos últimos 5 dias, a Telefônica Vivo se beneficia do regime RISK_OFF devido à sua natureza defensiva no setor de telecomunicações.",
-      "potential": "Com um score elevado de 0.816, o ativo tem potencial de recuperação à medida que investidores buscam segurança.",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "34",
+      "price": "R$ 104,66",
+      "score": "0.759",
+      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade em um cenário de aversão ao risco, apesar do leve declínio de -0.98% nos últimos 5 dias.",
+      "potential": "Com um score elevado e adequação ao regime RISK_OFF, o ativo tem potencial de oferecer retornos estáveis.",
+      "risk": "Baixo",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "33",
+      "price": "R$ 49,49",
+      "score": "0.74",
+      "reason": "SUZB3 se beneficia do dólar forte, impulsionando suas exportações, refletido em um aumento de 15.15% nos últimos 5 dias.",
+      "potential": "A valorização recente sugere potencial de crescimento, especialmente com o dólar em alta.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "XPML11",
-      "name": "XP Malls",
-      "value": "32",
-      "price": "R$ 98,13",
-      "score": "0.74",
-      "reason": "O XP Malls, apesar da queda recente, oferece uma oportunidade de investimento em ativos reais, que podem se beneficiar de um cenário de juros elevados.",
-      "potential": "O potencial de recuperação está condicionado à estabilização do cenário macroeconômico.",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "33",
+      "price": "R$ 48,41",
+      "score": "0.725",
+      "reason": "WEGE3 apresenta forte inovação e recuperação recente, com alta de 10.02% nos últimos 5 dias, mas ainda sob pressão do regime BEAR.",
+      "potential": "A inovação contínua pode sustentar o crescimento, apesar das condições de mercado desafiadoras.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "HGRU11",
-      "name": "CSHG Renda Urbana",
-      "value": "32",
-      "price": "R$ 113,81",
-      "score": "0.739",
-      "reason": "O CSHG Renda Urbana, com uma queda de 9.89% nos últimos 5 dias, pode ser uma opção para diversificação em FIIs de tijolo, que tendem a ser menos voláteis.",
-      "potential": "A recuperação depende do controle da inflação e da estabilidade dos juros.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,34",
+      "value": "R$ 5,37",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "170.872",
-      "sub": "-2.75% hoje",
+      "value": "169.354",
+      "sub": "-0.97% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e o IPCA acumulando 4,58% em 12 meses, o ambiente de juros elevados persiste, pressionando o IBOV que caiu 2.75% hoje. O regime RISK_OFF sugere cautela, favorecendo ativos defensivos para investidores que buscam aplicar R$100 hoje.",
+  "macro_summary": "Com a SELIC em 13,65% e o IPCA em 4,58%, o cenário é de controle inflacionário, mas com impacto negativo na bolsa, refletido na queda de 0.97% do IBOV. O regime RISK_OFF sugere cautela para novos aportes, priorizando ativos defensivos para quem investir R$100 hoje.",
   "analysts": {
     "enter": [
-      "VIVT3 — Score elevado e ajuste ao regime RISK_OFF"
+      "KNCR11 — devido ao seu ajuste perfeito ao regime RISK_OFF"
     ],
     "reinforce": [
-      "VIVT3 — Bom momentum em 21 dias de +4.91%"
+      "SUZB3 — pelo forte momentum de 21 dias com alta de 11.54%"
     ],
     "avoid": [
-      "Klabin (KLBN11) — Queda de 6% apesar de lucro acima do esperado"
+      "Setor industrial — devido ao momentum negativo de WEG ON nos últimos 21 dias"
     ],
     "realize": [
-      "Nenhum ativo específico identificado como sobrecomprado"
+      "SUZB3 — após a alta significativa de 15.15% em 5 dias"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 16,87",
+      "value": "R$ 16,61",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-2.93%",
+      "value": "-1.07%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+54.2%",
+      "value": "+56.7%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 16,87, com uma variação de -2.93% no dia. Após o 1T26, que mostrou um lucro reduzido em 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A estratégia é aguardar, dado o contexto desafiador e a expectativa de resultados futuros.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 16,61 com variação de -1.07%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, sugerindo cautela antes de novas decisões de investimento.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com alocação de R$36, aproveitando seu score elevado e adequação ao regime RISK_OFF.",
-    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando ativos de risco, aumentando a volatilidade.",
-    "best_opportunity": "VIVT3 apresenta uma assimetria favorável risco-retorno, com um score de 0.816 e potencial de recuperação.",
-    "common_mistake": "Ignorar o impacto dos juros elevados e investir impulsivamente em ativos de alto risco."
+    "smartest_move": "Investir R$34 em KNCR11, que está bem ajustado ao regime RISK_OFF.",
+    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos cíclicos.",
+    "best_opportunity": "A valorização do dólar favorece exportadoras como SUZB3, oferecendo uma boa assimetria risco-retorno.",
+    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-10-28T13:20:03.847455-03:00",
+    "generated_at": "2026-10-29T13:30:02.954167-03:00",
     "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "telecom",
-      "fii_tijolo"
+      "materiais",
+      "industrial",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
