@@ -1,42 +1,42 @@
 {
-  "date": "29/10/2026",
+  "date": "30/10/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo investimentos em ativos defensivos e FIIs de papel, devido à alta dos juros e incertezas no mercado."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio no dia, sugerindo cautela e favorecendo investimentos defensivos e em fundos imobiliários de papel."
   },
   "opportunities": [
-    {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "34",
-      "price": "R$ 104,66",
-      "score": "0.759",
-      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo estabilidade em um cenário de aversão ao risco, apesar do leve declínio de -0.98% nos últimos 5 dias.",
-      "potential": "Com um score elevado e adequação ao regime RISK_OFF, o ativo tem potencial de oferecer retornos estáveis.",
-      "risk": "Baixo",
-      "horizon": "Médio prazo"
-    },
     {
       "ticker": "SUZB3",
       "name": "Suzano ON",
       "value": "33",
-      "price": "R$ 49,49",
-      "score": "0.74",
-      "reason": "SUZB3 se beneficia do dólar forte, impulsionando suas exportações, refletido em um aumento de 15.15% nos últimos 5 dias.",
-      "potential": "A valorização recente sugere potencial de crescimento, especialmente com o dólar em alta.",
+      "price": "R$ 50,09",
+      "score": "0.73",
+      "reason": "Suzano ON se destaca pelo forte momentum, com alta de 16.33% nos últimos 5 dias, beneficiando-se do setor de materiais que tem mostrado resiliência. No regime atual BALANCED, a empresa pode oferecer estabilidade e potencial de crescimento.",
+      "potential": "Com um score de 0.73, Suzano ON tem potencial de continuar atraindo investidores em busca de ativos resilientes em um mercado volátil.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "33",
-      "price": "R$ 48,41",
-      "score": "0.725",
-      "reason": "WEGE3 apresenta forte inovação e recuperação recente, com alta de 10.02% nos últimos 5 dias, mas ainda sob pressão do regime BEAR.",
-      "potential": "A inovação contínua pode sustentar o crescimento, apesar das condições de mercado desafiadoras.",
+      "ticker": "BTLG11",
+      "name": "BTG Logística",
+      "value": "34",
+      "price": "R$ 97,27",
+      "score": "0.729",
+      "reason": "BTG Logística, apesar da recente queda de 7.19% em 5 dias, mantém um score elevado e alta novelty, indicando potencial de recuperação e atratividade em um cenário de juros elevados.",
+      "potential": "A estabilidade do setor de logística, aliada ao score de 0.729, sugere potencial de recuperação e resiliência em um ambiente de mercado desafiador.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "33",
+      "price": "R$ 104,67",
+      "score": "0.714",
+      "reason": "Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-se uma escolha defensiva sólida.",
+      "potential": "Com um score de 0.714 e regime fit de 1.0, o fundo tem potencial de oferecer retornos consistentes em um cenário de alta de juros.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,30 +54,30 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,37",
+      "value": "R$ 5,42",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "169.354",
-      "sub": "-0.97% hoje",
+      "value": "168.059",
+      "sub": "-0.67% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e o IPCA em 4,58%, o cenário é de controle inflacionário, mas com impacto negativo na bolsa, refletido na queda de 0.97% do IBOV. O regime RISK_OFF sugere cautela para novos aportes, priorizando ativos defensivos para quem investir R$100 hoje.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente de juros altos continua a pressionar o consumo e o investimento. O IPCA acumulado de 4,58% sugere uma inflação controlada, mas ainda acima do centro da meta. O IBOV, com queda de 0.67% hoje, reflete preocupações fiscais e externas. Para quem vai aportar R$100, o cenário favorece ativos defensivos e de renda fixa, que podem oferecer maior segurança e retorno ajustado ao risco.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao seu ajuste perfeito ao regime RISK_OFF"
+      "SUZB3 — devido ao forte momentum e resiliência no setor de materiais"
     ],
     "reinforce": [
-      "SUZB3 — pelo forte momentum de 21 dias com alta de 11.54%"
+      "SUZB3 — com momentum positivo de 13.33% em 21 dias"
     ],
     "avoid": [
-      "Setor industrial — devido ao momentum negativo de WEG ON nos últimos 21 dias"
+      "Telecom — com momentum negativo de 0.80 em 5 dias"
     ],
     "realize": [
-      "SUZB3 — após a alta significativa de 15.15% em 5 dias"
+      "SUZB3 — após alta recente de 16.33% em 5 dias, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
@@ -88,7 +88,7 @@
     },
     {
       "label": "Var. dia",
-      "value": "-1.07%",
+      "value": "+0.91%",
       "trend": "neutral"
     },
     {
@@ -113,19 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 16,61 com variação de -1.07%. No contexto pós-1T26, o lucro caiu 53% e a inadimplência no setor agro está em 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, sugerindo cautela antes de novas decisões de investimento.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 16,61 com variação de +0.91%. O contexto pós-1T26, com lucro caindo 53% e inadimplência no agro em 6.22%, sugere cautela. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer novas perspectivas sobre a recuperação do banco.",
   "executive_summary": {
-    "smartest_move": "Investir R$34 em KNCR11, que está bem ajustado ao regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos cíclicos.",
-    "best_opportunity": "A valorização do dólar favorece exportadoras como SUZB3, oferecendo uma boa assimetria risco-retorno.",
-    "common_mistake": "Subestimar o impacto dos juros elevados em ativos de crescimento, levando a decisões precipitadas."
+    "smartest_move": "Investir em KNCR11, alocando R$33, aproveitando o ambiente de juros elevados.",
+    "biggest_risk": "A volatilidade do mercado devido ao regime BEAR pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "A assimetria risco-retorno em SUZB3, com momentum positivo e resiliência no setor de materiais.",
+    "common_mistake": "Subestimar o impacto dos juros elevados e investir excessivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-10-29T13:30:02.954167-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-10-30T13:21:56.124347-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
       "materiais",
-      "industrial",
+      "fii_tijolo",
       "fii_papel"
     ],
     "diversity_ok": true,
