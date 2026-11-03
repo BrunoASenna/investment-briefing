@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-21",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.51,
-      "r21d": 0.10867603556902702,
-      "r63d": 0.0919002775545872
-    },
-    "opportunities": [
-      {
-        "ticker": "RENT3",
-        "name": "Localiza ON",
-        "value": "36",
-        "price": "R$ 37,61",
-        "score": "0.861",
-        "reason": "Localiza ON se destaca pelo forte momentum, apresentando alta de 5.68% nos últimos 5 dias, impulsionado pelo desempenho positivo do setor de consumo em um mercado BALANCED.",
-        "potential": "Dada a alta pontuação de 0.861 e o regime atual, o ativo possui potencial de valorização contínua, especialmente se o mercado permanecer otimista.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "32",
-        "price": "R$ 27,70",
-        "score": "0.775",
-        "reason": "Sabesp ON apresenta um desempenho sólido com alta de 3.20% nos últimos 5 dias, beneficiando-se do ambiente de juros elevados que favorece empresas de utilidades.",
-        "potential": "Com um score de 0.775, o potencial de crescimento é moderado, mas consistente, devido à estabilidade do setor de utilidades em tempos de juros altos.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "BBAS3",
-        "name": "Banco do Brasil ON",
-        "value": "32",
-        "price": "R$ 22,91",
-        "score": "0.764",
-        "reason": "Banco do Brasil ON tem mostrado resiliência com um aumento de 27.00% nos últimos 21 dias, apesar da recente queda diária, sugerindo que ainda pode haver espaço para crescimento.",
-        "potential": "O potencial é alto, considerando o forte desempenho recente e a possibilidade de recuperação do setor financeiro.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "N/D",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,16",
-      "ibov": "186.177"
-    }
-  },
-  {
     "date": "2026-09-22",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,42",
       "ibov": "167.922"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.58,
+      "r21d": -0.11710378182459215,
+      "r63d": -0.07093281851654065
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "36",
+        "price": "R$ 30,46",
+        "score": "0.817",
+        "reason": "A Telefônica Vivo ON se destaca no setor de telecomunicações, que é considerado defensivo em períodos de aversão ao risco. Apesar do ligeiro declínio de 0.75% nos últimos 5 dias, o ativo apresenta um bom ajuste ao regime atual.",
+        "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de estabilidade em um cenário de risco.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "33",
+        "price": "R$ 26,29",
+        "score": "0.761",
+        "reason": "Engie Brasil, do setor de utilidades, é uma escolha defensiva adequada para o regime atual, apesar da queda de 4.40% nos últimos 5 dias, devido à sua estabilidade intrínseca.",
+        "potential": "O ativo pode oferecer resiliência em um mercado volátil, dado seu perfil defensivo.",
+        "risk": "Médio",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "31",
+        "price": "R$ 24,23",
+        "score": "0.715",
+        "reason": "Sabesp ON, também do setor de utilidades, enfrenta desafios com uma queda de 4.12% em 5 dias, mas mantém potencial defensivo em um contexto de aversão ao risco.",
+        "potential": "Apesar do desempenho recente negativo, o ativo pode se beneficiar de uma recuperação em um cenário de estabilidade macroeconômica.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,49",
+      "ibov": "165.276"
     }
   }
 ]
