@@ -1,42 +1,42 @@
 {
-  "date": "03/11/2026",
+  "date": "04/11/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é de aversão ao risco, favorecendo ativos defensivos e fundos imobiliários de papel, devido à instabilidade do mercado."
+    "label": "BEAR / RISK_ON",
+    "summary": "O regime atual é BEAR com perfil RISK_ON, sugerindo que, apesar do mercado em baixa, há uma busca por ativos de maior risco, favorecendo investimentos em ações mais voláteis."
   },
   "opportunities": [
     {
       "ticker": "VIVT3",
       "name": "Telefônica Vivo ON",
-      "value": "36",
-      "price": "R$ 30,46",
-      "score": "0.817",
-      "reason": "A Telefônica Vivo ON se destaca no setor de telecomunicações, que é considerado defensivo em períodos de aversão ao risco. Apesar do ligeiro declínio de 0.75% nos últimos 5 dias, o ativo apresenta um bom ajuste ao regime atual.",
-      "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de estabilidade em um cenário de risco.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "value": "34",
+      "price": "R$ 31,08",
+      "score": "0.754",
+      "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu desempenho positivo de +3.32% no dia, alinhado ao perfil RISK_ON do mercado e ao bom posicionamento do setor de telecomunicações.",
+      "potential": "Com um score de 0.754 e RegimeFit de 0.9, há potencial de valorização moderada no curto prazo, especialmente se o regime RISK_ON persistir.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "EGIE3",
-      "name": "Engie Brasil ON",
-      "value": "33",
-      "price": "R$ 26,29",
-      "score": "0.761",
-      "reason": "Engie Brasil, do setor de utilidades, é uma escolha defensiva adequada para o regime atual, apesar da queda de 4.40% nos últimos 5 dias, devido à sua estabilidade intrínseca.",
-      "potential": "O ativo pode oferecer resiliência em um mercado volátil, dado seu perfil defensivo.",
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "34",
+      "price": "R$ 50,32",
+      "score": "0.727",
+      "reason": "WEG ON apresenta um bom desempenho recente com alta de 9.01% nos últimos 5 dias, beneficiando-se do perfil RISK_ON, apesar de um RegimeFit baixo.",
+      "potential": "A valorização recente sugere um potencial de continuidade no curto prazo, mas a volatilidade pode aumentar o risco.",
       "risk": "Médio",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto prazo"
     },
     {
       "ticker": "SBSP3",
       "name": "Sabesp ON",
-      "value": "31",
-      "price": "R$ 24,23",
-      "score": "0.715",
-      "reason": "Sabesp ON, também do setor de utilidades, enfrenta desafios com uma queda de 4.12% em 5 dias, mas mantém potencial defensivo em um contexto de aversão ao risco.",
-      "potential": "Apesar do desempenho recente negativo, o ativo pode se beneficiar de uma recuperação em um cenário de estabilidade macroeconômica.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "value": "32",
+      "price": "R$ 25,22",
+      "score": "0.689",
+      "reason": "Apesar da recente queda de -10.66% em 21 dias, Sabesp ON pode se beneficiar de uma recuperação no contexto RISK_ON, com um RegimeFit de 0.9.",
+      "potential": "O potencial de recuperação é moderado, mas o risco de volatilidade permanece alto.",
+      "risk": "Alto",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,49",
+      "value": "R$ 5,48",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "165.276",
-      "sub": "-1.58% hoje",
-      "trend": "down"
+      "value": "167.706",
+      "sub": "+1.31% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "A SELIC em 13,65% com tendência estável sugere um ambiente de juros altos, enquanto o IPCA de 4,58% indica uma inflação controlada. O IBOV caiu 1.58% hoje, refletindo o regime RISK_OFF. Para quem vai aportar R$100 hoje, a cautela é essencial, priorizando ativos defensivos que possam resistir à volatilidade do mercado.",
+  "macro_summary": "Com a SELIC estável em 13,65% e o IPCA em 4,58%, o cenário macroeconômico sugere controle inflacionário, mas com juros altos. O IBOV subindo 1.31% reflete um dia positivo para ativos de risco, alinhado ao perfil RISK_ON. Investir R$100 hoje pode ser interessante em ações, mas com atenção ao risco elevado do regime BEAR.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao bom ajuste ao regime RISK_OFF e score elevado"
+      "VIVT3 — devido ao seu bom desempenho diário e alinhamento com o perfil RISK_ON"
     ],
     "reinforce": [
-      "VIVT3 — por apresentar momentum positivo de 2.87% em 21 dias"
+      "WEGE3 — por seu forte momentum de 9.01% nos últimos 5 dias"
     ],
     "avoid": [
-      "Setor industrial — momentum negativo com índice de 0.86"
+      "SBSP3 — devido ao seu desempenho negativo de -10.66% em 21 dias"
     ],
     "realize": [
-      "OceanPact — após salto nas ações devido à venda de embarcações"
+      "WEGE3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 16,16",
+      "value": "R$ 16,51",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-1.88%",
+      "value": "+1.98%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+61.0%",
+      "value": "+57.6%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 16,16 com variação de -1.88%. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela antes de novas movimentações.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 16,51 com variação de +1.98%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro está em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à volatilidade e incertezas atuais.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em VIVT3 com R$36, dado seu ajuste ao regime atual.",
-    "biggest_risk": "A instabilidade do mercado em um regime BEAR pode prejudicar ativos cíclicos.",
-    "best_opportunity": "VIVT3 apresenta uma assimetria risco-retorno favorável devido ao seu score elevado e ajuste ao regime.",
-    "common_mistake": "Ignorar a necessidade de diversificação em um cenário de aversão ao risco pode levar a perdas significativas."
+    "smartest_move": "Investir em VIVT3 com alocação de R$34, aproveitando o bom desempenho diário e o perfil RISK_ON.",
+    "biggest_risk": "A volatilidade associada ao regime BEAR pode impactar negativamente ativos de risco.",
+    "best_opportunity": "A assimetria risco-retorno em VIVT3, com score de 0.754 e RegimeFit de 0.9, sugere potencial de valorização.",
+    "common_mistake": "Subestimar o impacto dos juros elevados na avaliação de ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-11-03T14:25:14.558209-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-11-04T14:38:43.182729-03:00",
+    "regime": "BEAR / RISK_ON",
     "sectors": [
       "telecom",
-      "utilidades"
+      "utilidades",
+      "industrial"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
