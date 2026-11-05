@@ -1,42 +1,42 @@
 {
-  "date": "04/11/2026",
+  "date": "05/11/2026",
   "regime": {
-    "label": "BEAR / RISK_ON",
-    "summary": "O regime atual é BEAR com perfil RISK_ON, sugerindo que, apesar do mercado em baixa, há uma busca por ativos de maior risco, favorecendo investimentos em ações mais voláteis."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil diário equilibrado, sugerindo que investidores devem ser cautelosos e priorizar ativos defensivos."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "34",
-      "price": "R$ 31,08",
-      "score": "0.754",
-      "reason": "A Telefônica Vivo ON se destaca hoje devido ao seu desempenho positivo de +3.32% no dia, alinhado ao perfil RISK_ON do mercado e ao bom posicionamento do setor de telecomunicações.",
-      "potential": "Com um score de 0.754 e RegimeFit de 0.9, há potencial de valorização moderada no curto prazo, especialmente se o regime RISK_ON persistir.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "35",
+      "price": "R$ 102,16",
+      "score": "0.82",
+      "reason": "KNCR11 é um fundo de papel que se beneficia do ambiente de juros elevados e do perfil BALANCED do dia, apesar do momentum negativo de -2.33% nos últimos 5 dias.",
+      "potential": "O ativo tem potencial de estabilidade devido ao seu alto score e alinhamento com o regime atual.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "34",
-      "price": "R$ 50,32",
-      "score": "0.727",
-      "reason": "WEG ON apresenta um bom desempenho recente com alta de 9.01% nos últimos 5 dias, beneficiando-se do perfil RISK_ON, apesar de um RegimeFit baixo.",
-      "potential": "A valorização recente sugere um potencial de continuidade no curto prazo, mas a volatilidade pode aumentar o risco.",
+      "ticker": "BTLG11",
+      "name": "BTG Logística",
+      "value": "33",
+      "price": "R$ 97,70",
+      "score": "0.777",
+      "reason": "BTLG11 apresentou uma leve recuperação com +1.12% no último dia, sendo uma opção interessante em um mercado de logística com potencial de crescimento.",
+      "potential": "Potencial de valorização moderada, especialmente se o setor de logística continuar a se expandir.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
       "value": "32",
-      "price": "R$ 25,22",
-      "score": "0.689",
-      "reason": "Apesar da recente queda de -10.66% em 21 dias, Sabesp ON pode se beneficiar de uma recuperação no contexto RISK_ON, com um RegimeFit de 0.9.",
-      "potential": "O potencial de recuperação é moderado, mas o risco de volatilidade permanece alto.",
-      "risk": "Alto",
-      "horizon": "Curto prazo"
+      "price": "R$ 51,82",
+      "score": "0.761",
+      "reason": "Suzano ON tem mostrado forte momentum com um aumento de +23.50% em 21 dias, indicando um desempenho robusto no setor de materiais.",
+      "potential": "Alto potencial de valorização, mas com risco de correção após recente alta expressiva.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,48",
+      "value": "R$ 5,46",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "167.706",
-      "sub": "+1.31% hoje",
-      "trend": "up"
+      "value": "166.427",
+      "sub": "-0.68% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 13,65% e o IPCA em 4,58%, o cenário macroeconômico sugere controle inflacionário, mas com juros altos. O IBOV subindo 1.31% reflete um dia positivo para ativos de risco, alinhado ao perfil RISK_ON. Investir R$100 hoje pode ser interessante em ações, mas com atenção ao risco elevado do regime BEAR.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA de 4,58% sugere controle inflacionário. O IBOV caiu 0.68% hoje, refletindo um mercado cauteloso. Para quem vai investir R$100 hoje, a estabilidade da SELIC oferece segurança em ativos de renda fixa, enquanto a queda do IBOV pode indicar oportunidades de compra em ações subvalorizadas.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao seu bom desempenho diário e alinhamento com o perfil RISK_ON"
+      "KNCR11 — devido ao seu alinhamento com o regime atual e score elevado"
     ],
     "reinforce": [
-      "WEGE3 — por seu forte momentum de 9.01% nos últimos 5 dias"
+      "SUZB3 — por seu forte momentum de 21 dias"
     ],
     "avoid": [
-      "SBSP3 — devido ao seu desempenho negativo de -10.66% em 21 dias"
+      "Telecom — devido ao baixo momentum recente"
     ],
     "realize": [
-      "WEGE3 — após alta recente, pode estar sobrecomprado"
+      "SUZB3 — após alta recente, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 16,51",
+      "value": "R$ 16,38",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.98%",
+      "value": "-0.67%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+57.6%",
+      "value": "+58.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação atual de R$ 16,51 com variação de +1.98%. No contexto pós-1T26, onde o lucro caiu 53% e a inadimplência no setor agro está em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à volatilidade e incertezas atuais.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 16,38, com uma variação de -0.67%. Após o 1T26, que apresentou uma queda de lucro de 53% e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. O consenso é neutro, sugerindo cautela até novas informações financeiras serem divulgadas.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com alocação de R$34, aproveitando o bom desempenho diário e o perfil RISK_ON.",
-    "biggest_risk": "A volatilidade associada ao regime BEAR pode impactar negativamente ativos de risco.",
-    "best_opportunity": "A assimetria risco-retorno em VIVT3, com score de 0.754 e RegimeFit de 0.9, sugere potencial de valorização.",
-    "common_mistake": "Subestimar o impacto dos juros elevados na avaliação de ativos de risco."
+    "smartest_move": "Alocar R$35 em KNCR11, aproveitando o alinhamento com o regime atual.",
+    "biggest_risk": "A persistência do regime BEAR pode afetar negativamente ativos de risco.",
+    "best_opportunity": "A alocação em FIIs de papel, como KNCR11, oferece uma boa assimetria risco-retorno em um ambiente de juros elevados.",
+    "common_mistake": "Subestimar a importância de diversificação em um mercado volátil."
   },
   "_meta": {
-    "generated_at": "2026-11-04T14:38:43.182729-03:00",
-    "regime": "BEAR / RISK_ON",
+    "generated_at": "2026-11-05T14:44:43.842559-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "telecom",
-      "utilidades",
-      "industrial"
+      "fii_tijolo",
+      "fii_papel",
+      "materiais"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
