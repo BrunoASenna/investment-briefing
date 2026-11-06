@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -0.84,
-      "r21d": 0.044834995360452726,
-      "r63d": 0.06039600578988978
-    },
-    "opportunities": [
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "34",
-        "price": "R$ 42,07",
-        "score": "0.773",
-        "reason": "O Itaú Unibanco se destaca no setor financeiro, que tem mostrado resiliência mesmo com momentum negativo de -0.61% nos últimos 5 dias. Em um regime RISK_OFF, a solidez do banco pode atrair investidores buscando segurança.",
-        "potential": "Com um score de 0.773, o ativo tem potencial de valorização moderada, especialmente se o mercado continuar favorecendo ativos defensivos.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 21,93",
-        "score": "0.764",
-        "reason": "Fleury ON tem apresentado um desempenho robusto, com alta de 17.52% nos últimos 21 dias, beneficiando-se do interesse em saúde em um ambiente de juros elevados.",
-        "potential": "Com um score de 0.764, o ativo pode continuar a se valorizar, especialmente se o interesse por setores defensivos persistir.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "33",
-        "price": "R$ 40,97",
-        "score": "0.744",
-        "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um score de 0.744, beneficiando-se de sua estabilidade em um ambiente de aversão ao risco.",
-        "potential": "O ativo pode oferecer retornos consistentes, aproveitando o cenário de juros elevados e a busca por segurança.",
-        "risk": "Baixo",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,18",
-      "ibov": "182.414"
-    }
-  },
-  {
     "date": "2026-09-28",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,46",
       "ibov": "166.427"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.54,
+      "r21d": -0.18017230123642725,
+      "r63d": -0.02181728695808432
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "34",
+        "price": "R$ 10,39",
+        "score": "0.735",
+        "reason": "CMIG4 apresenta um momentum positivo de +3.18% nos últimos 5 dias, destacando-se no setor de utilidades, que pode se beneficiar do perfil RISK_ON do mercado.",
+        "potential": "Com um score de 0.735, CMIG4 tem potencial para se valorizar no curto prazo, especialmente em um ambiente de mercado que favorece ativos de risco.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "HGRU11",
+        "name": "CSHG Renda Urbana",
+        "value": "33",
+        "price": "R$ 116,12",
+        "score": "0.724",
+        "reason": "HGRU11, com um ganho de +2.94% nos últimos 5 dias, é uma opção sólida em fundos imobiliários de tijolo, beneficiando-se do ambiente de taxas de juros elevadas.",
+        "potential": "O score de 0.724 sugere um potencial de valorização moderado, alinhado ao perfil de risco atual do mercado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "PVBI11",
+        "name": "VBI Prime Properties",
+        "value": "33",
+        "price": "R$ 62,41",
+        "score": "0.721",
+        "reason": "PVBI11 mostra recuperação com +4.02% nos últimos 5 dias, sendo uma escolha interessante em fundos imobiliários de tijolo, especialmente em um cenário de RISK_ON.",
+        "potential": "Com um score de 0.721, PVBI11 oferece um potencial de crescimento moderado, adequado para investidores buscando exposição ao mercado imobiliário.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,58%",
+      "dolar": "R$ 5,50",
+      "ibov": "168.749"
     }
   }
 ]
