@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-09-28",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.06,
-      "r21d": 0.047053879864104836,
-      "r63d": 0.06806948173732738
-    },
-    "opportunities": [
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "36",
-        "price": "R$ 48,72",
-        "score": "0.807",
-        "reason": "Petrobras se destaca no setor de energia, beneficiando-se do momentum positivo de +1.50% nos últimos 5 dias. A estabilidade do setor e o perfil BALANCED do mercado reforçam seu potencial de crescimento.",
-        "potential": "Com um score elevado e momentum positivo, PETR4 pode continuar a se valorizar no curto a médio prazo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "32",
-        "price": "R$ 3,85",
-        "score": "0.738",
-        "reason": "Cosan apresenta um desempenho sólido com um aumento de +2.67% nos últimos 5 dias, refletindo a força do setor de energia em um mercado BULL.",
-        "potential": "A tendência de alta recente sugere um potencial de valorização, especialmente em um cenário de estabilidade econômica.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "KNCR11",
-        "name": "Kinea Rendimentos CRI",
-        "value": "32",
-        "price": "R$ 106,25",
-        "score": "0.735",
-        "reason": "O fundo imobiliário Kinea se beneficia de um ambiente de juros elevados, oferecendo proteção contra inflação e volatilidade de mercado.",
-        "potential": "O regime atual favorece FIIs de papel, sugerindo um potencial de estabilidade e retorno consistente.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,21",
-      "ibov": "183.376"
-    }
-  },
-  {
     "date": "2026-09-29",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,50",
       "ibov": "168.749"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.88,
+      "r21d": -0.1597483443627571,
+      "r63d": -0.002990511383435939
+    },
+    "opportunities": [
+      {
+        "ticker": "EGIE3",
+        "name": "Engie Brasil ON",
+        "value": "34",
+        "price": "R$ 27,67",
+        "score": "0.745",
+        "reason": "Engie Brasil ON apresenta um momentum positivo de +5.37% nos últimos 5 dias, destacando-se no setor de utilidades, que é favorecido em um cenário RISK_ON.",
+        "potential": "Dado seu score elevado e alinhamento com o regime RISK_ON, pode oferecer um bom retorno ajustado ao risco.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 41,06",
+        "score": "0.742",
+        "reason": "Transmissão Paulista se beneficia do ambiente de juros elevados, com um aumento de +3.71% em 5 dias, sendo uma escolha defensiva em utilidades.",
+        "potential": "Potencial de valorização moderado, sustentado por estabilidade regulatória e demanda constante.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "VALE3",
+        "name": "Vale ON",
+        "value": "33",
+        "price": "R$ 66,18",
+        "score": "0.734",
+        "reason": "Vale ON se destaca pelo crescimento de +6.71% nos últimos 5 dias, aproveitando a rotação setorial favorável para mineração.",
+        "potential": "Potencial significativo, mas com maior volatilidade devido ao menor RegimeFit.",
+        "risk": "Alto",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "N/D",
+      "dolar": "R$ 5,51",
+      "ibov": "171.665"
     }
   }
 ]
