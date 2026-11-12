@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-01",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.24,
-      "r21d": 0.0393017136092765,
-      "r63d": 0.08314635063903321
-    },
-    "opportunities": [
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "35",
-        "price": "R$ 6,85",
-        "score": "0.848",
-        "reason": "Hapvida ON se destaca pelo forte momentum de +6.04% em 5 dias, beneficiando-se do ambiente de juros elevados que favorece o setor de saúde, considerado defensivo no regime BALANCED.",
-        "potential": "Com um score de 0.848 e alinhamento com o regime, HAPV3 tem potencial de continuar sua trajetória de valorização no curto a médio prazo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 23,82",
-        "score": "0.847",
-        "reason": "Fleury ON apresenta um desempenho robusto com um aumento de 8.27% nos últimos 5 dias, impulsionado por sua forte presença no setor de saúde, que se beneficia do regime atual.",
-        "potential": "Dado seu score elevado e momentum positivo, FLRY3 tem potencial de crescimento contínuo, especialmente com a estabilidade dos juros.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "ITUB4",
-        "name": "Itaú Unibanco PN",
-        "value": "31",
-        "price": "R$ 44,02",
-        "score": "0.768",
-        "reason": "Apesar da leve queda de 0.59% em 1 dia, ITUB4 mantém um bom momentum de 5.13% em 5 dias, refletindo resiliência no setor financeiro em um ambiente de juros elevados.",
-        "potential": "Com um score de 0.768, ITUB4 pode oferecer um retorno estável, mas com menor potencial de alta comparado aos ativos do setor de saúde.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,21",
-      "ibov": "186.786"
-    }
-  },
-  {
     "date": "2026-10-02",
     "regime": {
       "regime": "NEUTRAL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,58%",
       "dolar": "R$ 5,56",
       "ibov": "172.534"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.59,
+      "r21d": -0.17324628845075596,
+      "r63d": 0.023605016576800857
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "34",
+        "price": "R$ 10,65",
+        "score": "0.778",
+        "reason": "CMIG4 apresenta um bom momentum de curto prazo com alta de 4.82% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em mercados balanceados.",
+        "potential": "O ativo tem potencial de estabilidade e crescimento moderado, alinhado ao score elevado e ao regime atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 103,35",
+        "score": "0.747",
+        "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo proteção e rendimento estável através de investimentos em CRIs.",
+        "potential": "Potencial de retorno estável com risco controlado, ideal para investidores que buscam segurança em renda fixa.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 41,58",
+        "score": "0.735",
+        "reason": "TAEE11 se destaca por sua resiliência no setor de utilidades, com um crescimento de 5.00% nos últimos 5 dias, alinhando-se bem ao perfil de mercado atual.",
+        "potential": "O ativo pode oferecer crescimento estável e dividendos consistentes, aproveitando o ambiente de mercado atual.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,61",
+      "ibov": "171.045"
     }
   }
 ]

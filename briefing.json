@@ -1,42 +1,42 @@
 {
-  "date": "11/11/2026",
+  "date": "12/11/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil diário equilibrado, sugerindo que investidores devem buscar ativos defensivos e fundos imobiliários de papel para proteção e rendimento."
+    "summary": "O regime atual é de mercado BEAR com perfil BALANCED, indicando um ambiente de incerteza onde investidores devem buscar ativos defensivos e FIIs de papel para proteção."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "37",
-      "price": "R$ 34,56",
-      "score": "0.854",
-      "reason": "A Telefônica Vivo ON apresenta um forte momentum com alta de 11.48% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece setores defensivos como telecomunicações.",
-      "potential": "Com um score elevado e bom ajuste ao regime, o ativo tem potencial de crescimento moderado, especialmente em um cenário de estabilidade econômica.",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "34",
+      "price": "R$ 10,65",
+      "score": "0.778",
+      "reason": "CMIG4 apresenta um bom momentum de curto prazo com alta de 4.82% nos últimos 5 dias, beneficiando-se do setor de utilidades que tende a ser mais resiliente em mercados balanceados.",
+      "potential": "O ativo tem potencial de estabilidade e crescimento moderado, alinhado ao score elevado e ao regime atual.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
-      "value": "32",
-      "price": "R$ 103,53",
-      "score": "0.742",
-      "reason": "Este fundo imobiliário de papel é favorecido pelo ambiente de juros elevados, oferecendo estabilidade e rendimento em um mercado volátil.",
-      "potential": "Potencial de retorno estável, alinhado ao perfil defensivo do regime atual.",
+      "value": "33",
+      "price": "R$ 103,35",
+      "score": "0.747",
+      "reason": "KNCR11 é favorecido pelo ambiente de juros elevados, oferecendo proteção e rendimento estável através de investimentos em CRIs.",
+      "potential": "Potencial de retorno estável com risco controlado, ideal para investidores que buscam segurança em renda fixa.",
       "risk": "Baixo",
       "horizon": "Médio a longo prazo"
     },
     {
-      "ticker": "WEGE3",
-      "name": "WEG ON",
-      "value": "31",
-      "price": "R$ 51,96",
-      "score": "0.707",
-      "reason": "WEG ON mostra recuperação com alta de 3.82% nos últimos 5 dias, mas seu ajuste ao regime é limitado, o que sugere cautela.",
-      "potential": "Potencial de crescimento moderado, mas com riscos associados ao ajuste baixo ao regime.",
+      "ticker": "TAEE11",
+      "name": "Transmissão Paulista",
+      "value": "33",
+      "price": "R$ 41,58",
+      "score": "0.735",
+      "reason": "TAEE11 se destaca por sua resiliência no setor de utilidades, com um crescimento de 5.00% nos últimos 5 dias, alinhando-se bem ao perfil de mercado atual.",
+      "potential": "O ativo pode oferecer crescimento estável e dividendos consistentes, aproveitando o ambiente de mercado atual.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -48,47 +48,47 @@
     },
     {
       "label": "IPCA 12m",
-      "value": "4,58%",
+      "value": "4,63%",
       "sub": "acumulado 12 meses",
       "trend": "down"
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,56",
+      "value": "R$ 5,61",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.534",
-      "sub": "+0.70% hoje",
-      "trend": "up"
+      "value": "171.045",
+      "sub": "-0.59% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC em 13,65% mantém-se estável, enquanto o IPCA de 4,58% sugere uma inflação sob controle. O IBOV subiu 0.70%, indicando um leve otimismo no mercado. Para quem vai aportar R$100 hoje, o cenário favorece investimentos defensivos com potencial de proteção contra volatilidade e inflação moderada.",
+  "macro_summary": "Com a SELIC em 13,65% e IPCA acumulado de 4,63%, o cenário macroeconômico é de juros altos e inflação controlada, favorecendo aplicações conservadoras. O IBOV recuou 0.59%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente, dado o regime BEAR/BALANCED.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao forte momentum e ajuste ao regime BALANCED"
+      "CMIG4 — devido ao seu momentum positivo e resiliência no setor de utilidades."
     ],
     "reinforce": [
-      "VIVT3 — momentum positivo de 21 dias"
+      "TAEE11 — bom momentum de 5 dias e alinhamento com o regime atual."
     ],
     "avoid": [
-      "Setor de materiais — momentum negativo de 0.65 em rotação setorial"
+      "Magalu (MGLU3) — queda de 5% hoje, refletindo visões diversas após resultados do 3T."
     ],
     "realize": [
-      "VIVT3 — após alta significativa recente"
+      "Nenhum ativo específico identificado como sobrecomprado no momento atual."
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 17,14",
+      "value": "R$ 15,59",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.23%",
+      "value": "-7.70%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+51.8%",
+      "value": "+66.9%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 17,14 com variação de +0.23%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa é de estabilização antes de qualquer movimento significativo.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 15,59, com uma variação negativa de 7.70%. Após o 1T26, onde o lucro caiu 53% e a inadimplência no setor agro atingiu 6.22%, o mercado aguarda o próximo gatilho, que será o resultado do 2T26 em agosto. O consenso é neutro, com um upside potencial significativo, mas o cenário ainda requer cautela.",
   "executive_summary": {
-    "smartest_move": "Investir R$37 em VIVT3, que está bem posicionado no ranking com momentum positivo.",
-    "biggest_risk": "A persistência do regime BEAR pode afetar negativamente ativos de maior risco.",
-    "best_opportunity": "VIVT3 oferece uma boa assimetria risco-retorno, com forte momentum e ajuste ao regime.",
-    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR, concentrando-se em ativos de alto risco."
+    "smartest_move": "Investir em CMIG4 com alocação de R$34, aproveitando seu momentum positivo e resiliência no setor de utilidades.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco mais elevado, exigindo cautela na alocação de capital.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável, com proteção em um ambiente de juros elevados.",
+    "common_mistake": "Subestimar o impacto de juros elevados em ativos de crescimento pode levar a decisões de investimento imprudentes."
   },
   "_meta": {
-    "generated_at": "2026-11-11T14:32:42.333704-03:00",
+    "generated_at": "2026-11-12T14:47:40.905593-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "fii_papel",
-      "industrial",
-      "telecom"
+      "utilidades",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
