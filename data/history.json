@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-02",
-    "regime": {
-      "regime": "NEUTRAL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.18,
-      "r21d": 0.008951651548284334,
-      "r63d": 0.08627952764488056
-    },
-    "opportunities": [
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "36",
-        "price": "R$ 7,51",
-        "score": "0.837",
-        "reason": "Hapvida ON se destaca por seu forte momentum, com um crescimento de 19.97% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de saúde.",
-        "potential": "Com um score elevado de 0.837, a ação tem potencial de continuar performando bem no curto prazo, especialmente em um ambiente de mercado equilibrado.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "RENT3",
-        "name": "Localiza ON",
-        "value": "32",
-        "price": "R$ 40,71",
-        "score": "0.762",
-        "reason": "Localiza ON apresenta um crescimento consistente de 6.15% nos últimos 5 dias, alinhando-se bem com o regime atual que favorece o setor de consumo.",
-        "potential": "Com um score de 0.762, a ação tem potencial de crescimento moderado, especialmente se o consumo continuar a se beneficiar do cenário macroeconômico.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "32",
-        "price": "R$ 42,04",
-        "score": "0.759",
-        "reason": "Transmissão Paulista é uma escolha sólida em utilidades, com um crescimento estável de 3.06% em 5 dias e um score de 0.759, beneficiando-se do regime BALANCED.",
-        "potential": "A ação tem potencial de estabilidade e crescimento moderado, especialmente em um ambiente de juros elevados que favorece utilidades.",
-        "risk": "Baixo",
-        "horizon": "Longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,21",
-      "ibov": "186.863"
-    }
-  },
-  {
     "date": "2026-10-05",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,61",
       "ibov": "171.045"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.63,
+      "r21d": -0.16518186820237668,
+      "r63d": 0.032713246702289527
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 34,03",
+        "score": "0.754",
+        "reason": "A Telefônica Vivo ON se destaca pelo forte momentum, com valorização de 7.76% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de telecomunicações.",
+        "potential": "Dada a alta pontuação de 0.754 e o ajuste ao regime, o ativo tem potencial de continuar performando bem a curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "33",
+        "price": "R$ 10,97",
+        "score": "0.724",
+        "reason": "Cemig PN apresenta uma recuperação recente com alta de 5.58% em 5 dias, apesar de uma queda de 7.82% em 21 dias, sugerindo uma possível reversão de tendência.",
+        "potential": "Com um score de 0.724, há potencial de recuperação adicional, especialmente se o cenário macroeconômico se estabilizar.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "TAEE11",
+        "name": "Transmissão Paulista",
+        "value": "33",
+        "price": "R$ 42,30",
+        "score": "0.713",
+        "reason": "Transmissão Paulista mostra resiliência com um aumento de 5.20% em 5 dias, apesar de uma queda de 7.42% em 21 dias, o que pode atrair investidores em busca de estabilidade.",
+        "potential": "O score de 0.713 sugere um bom ajuste ao regime atual, com potencial de estabilidade e crescimento moderado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,65",
+      "ibov": "172.395"
     }
   }
 ]
