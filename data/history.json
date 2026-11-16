@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-05",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 8.7,
-      "r21d": 0.12765979707108452,
-      "r63d": 0.2236986094671089
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "35",
-        "price": "R$ 14,09",
-        "score": "0.824",
-        "reason": "Lojas Renner apresenta um forte momentum com valorização de 26.25% nos últimos 5 dias, beneficiando-se do regime RISK_ON que favorece o setor de varejo. A empresa está bem posicionada para capturar o otimismo do mercado.",
-        "potential": "O score elevado e o regime atual sugerem potencial de valorização contínua no curto prazo.",
-        "risk": "Médio",
-        "horizon": "curto prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "33",
-        "price": "R$ 31,81",
-        "score": "0.805",
-        "reason": "Sabesp se destaca pela sua estabilidade em um ambiente de juros elevados, com um regime fit de 0.9, indicando alinhamento com o cenário atual. A utilidade pública oferece segurança em tempos de incerteza.",
-        "potential": "Dada a estabilidade do setor e o regime atual, há potencial para ganhos moderados.",
-        "risk": "Baixo",
-        "horizon": "médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "32",
-        "price": "R$ 5,10",
-        "score": "0.784",
-        "reason": "Cosan tem mostrado um desempenho impressionante com uma alta de 36.36% nos últimos 5 dias, impulsionado pelo setor de energia em um cenário de RISK_ON.",
-        "potential": "O momentum recente sugere potencial de valorização, embora o regime fit baixo indique riscos.",
-        "risk": "Alto",
-        "horizon": "curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 4,99",
-      "ibov": "208.829"
-    }
-  },
-  {
     "date": "2026-10-06",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,65",
       "ibov": "172.395"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -2.08,
+      "r21d": -0.17349841734206456,
+      "r63d": 0.01253183383897736
+    },
+    "opportunities": [
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "35",
+        "price": "R$ 55,50",
+        "score": "0.8",
+        "reason": "Suzano ON se destaca pelo forte momentum, com um ganho de 30,90% nos últimos 21 dias, favorecido pelo setor de materiais em um ambiente de RISK_OFF.",
+        "potential": "A valorização recente sugere potencial de continuidade, mas o regime atual pode limitar ganhos rápidos.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "33",
+        "price": "R$ 34,34",
+        "score": "0.774",
+        "reason": "Telefônica Vivo ON apresenta um desempenho sólido, com alta de 6,81% nos últimos 5 dias, beneficiando-se do perfil defensivo em telecomunicações.",
+        "potential": "O desempenho recente sugere estabilidade, com potencial de ganhos moderados devido ao regime RISK_OFF.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 27,12",
+        "score": "0.746",
+        "reason": "Apesar das perdas recentes, Sabesp ON pode se beneficiar de um ambiente de juros elevados, com potencial de recuperação em utilidades.",
+        "potential": "A recuperação pode ser lenta, mas o regime favorece resiliência em utilidades.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,73",
+      "ibov": "168.874"
     }
   }
 ]

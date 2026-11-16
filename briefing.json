@@ -1,40 +1,40 @@
 {
-  "date": "13/11/2026",
+  "date": "16/11/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é BEAR com perfil BALANCED, indicando um ambiente de mercado desafiador, mas com oportunidades equilibradas, favorecendo ativos defensivos e FIIs de papel."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual é caracterizado por aversão ao risco, com investidores preferindo ativos defensivos e de menor volatilidade."
   },
   "opportunities": [
     {
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "35",
+      "price": "R$ 55,50",
+      "score": "0.8",
+      "reason": "Suzano ON se destaca pelo forte momentum, com um ganho de 30,90% nos últimos 21 dias, favorecido pelo setor de materiais em um ambiente de RISK_OFF.",
+      "potential": "A valorização recente sugere potencial de continuidade, mas o regime atual pode limitar ganhos rápidos.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
+    },
+    {
       "ticker": "VIVT3",
       "name": "Telefônica Vivo ON",
-      "value": "34",
-      "price": "R$ 34,03",
-      "score": "0.754",
-      "reason": "A Telefônica Vivo ON se destaca pelo forte momentum, com valorização de 7.76% nos últimos 5 dias, beneficiando-se do regime BALANCED que favorece o setor de telecomunicações.",
-      "potential": "Dada a alta pontuação de 0.754 e o ajuste ao regime, o ativo tem potencial de continuar performando bem a curto prazo.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
+      "value": "33",
+      "price": "R$ 34,34",
+      "score": "0.774",
+      "reason": "Telefônica Vivo ON apresenta um desempenho sólido, com alta de 6,81% nos últimos 5 dias, beneficiando-se do perfil defensivo em telecomunicações.",
+      "potential": "O desempenho recente sugere estabilidade, com potencial de ganhos moderados devido ao regime RISK_OFF.",
+      "risk": "Baixo",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "33",
-      "price": "R$ 10,97",
-      "score": "0.724",
-      "reason": "Cemig PN apresenta uma recuperação recente com alta de 5.58% em 5 dias, apesar de uma queda de 7.82% em 21 dias, sugerindo uma possível reversão de tendência.",
-      "potential": "Com um score de 0.724, há potencial de recuperação adicional, especialmente se o cenário macroeconômico se estabilizar.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
-    },
-    {
-      "ticker": "TAEE11",
-      "name": "Transmissão Paulista",
-      "value": "33",
-      "price": "R$ 42,30",
-      "score": "0.713",
-      "reason": "Transmissão Paulista mostra resiliência com um aumento de 5.20% em 5 dias, apesar de uma queda de 7.42% em 21 dias, o que pode atrair investidores em busca de estabilidade.",
-      "potential": "O score de 0.713 sugere um bom ajuste ao regime atual, com potencial de estabilidade e crescimento moderado.",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "32",
+      "price": "R$ 27,12",
+      "score": "0.746",
+      "reason": "Apesar das perdas recentes, Sabesp ON pode se beneficiar de um ambiente de juros elevados, com potencial de recuperação em utilidades.",
+      "potential": "A recuperação pode ser lenta, mas o regime favorece resiliência em utilidades.",
       "risk": "Médio",
       "horizon": "Médio prazo"
     }
@@ -42,7 +42,7 @@
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "N/D",
+      "value": "13,65%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,65",
+      "value": "R$ 5,73",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "172.395",
-      "sub": "+0.63% hoje",
-      "trend": "up"
+      "value": "168.874",
+      "sub": "-2.08% hoje",
+      "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável e o IPCA em 4,63%, o cenário macroeconômico sugere um controle da inflação, enquanto o IBOV subiu 0.63%, refletindo um otimismo moderado. Investidores aplicando R$100 hoje devem considerar ativos defensivos, dado o regime BEAR/BALANCED, para mitigar riscos e aproveitar potenciais ganhos no IBOV.",
+  "macro_summary": "Com a SELIC em 13,65% e o IPCA em 4,63%, o ambiente macroeconômico permanece desafiador, pressionando o IBOV que caiu 2,08% hoje. O regime RISK_OFF sugere cautela, com investidores buscando ativos defensivos. Para quem vai aportar R$100, a escolha de ativos de baixo risco é crucial.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao forte momentum e ajuste ao regime BALANCED"
+      "SUZB3 — devido ao forte momentum e performance positiva recente"
     ],
     "reinforce": [
-      "TAEE11 — bom momentum de 5.20% em 5 dias"
+      "VIVT3 — pelo bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor industrial — momentum negativo de 0.71 em 5 dias"
+      "Setor de materiais — apesar do bom desempenho de SUZB3, o setor pode enfrentar volatilidade"
     ],
     "realize": [
-      "CMIG4 — após recuperação de 5.58% em 5 dias, pode estar sobrecomprado"
+      "SUZB3 — após alta de 30,90% em 21 dias, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 15,05",
+      "value": "R$ 14,72",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-2.78%",
+      "value": "-2.52%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+72.9%",
+      "value": "+76.8%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 15,05, com uma variação negativa de 2.78% hoje. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência no agro a 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar, considerando o contexto atual e o potencial de upside de 72.94%.",
+  "bbas3_summary": "O BBAS3 está cotado a R$ 14,72, com uma variação de -2,52% no dia. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6,22%, o mercado aguarda o resultado do 2T26 em agosto. A expectativa de recuperação sugere cautela, mas o potencial de upside é significativo.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com R$34, aproveitando o forte momentum e ajuste ao regime.",
-    "biggest_risk": "A volatilidade do mercado em um regime BEAR pode impactar negativamente ativos de maior risco.",
-    "best_opportunity": "VIVT3 oferece uma assimetria risco-retorno favorável, com um score de 0.754 e momentum positivo.",
-    "common_mistake": "Subestimar o impacto dos juros elevados e do regime BEAR ao alocar em ativos de alto risco."
+    "smartest_move": "Investir em SUZB3 com alocação de R$35, aproveitando o momentum positivo.",
+    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando o mercado e ativos de risco.",
+    "best_opportunity": "A alta de VIVT3 em um regime RISK_OFF oferece uma assimetria risco-retorno favorável.",
+    "common_mistake": "Subestimar a resiliência de ativos defensivos durante períodos de aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-11-13T14:25:37.538012-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-11-16T16:55:38.894309-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "telecom",
-      "utilidades"
+      "materiais",
+      "utilidades",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
