@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.58,
-      "r21d": 0.1111166903865577,
-      "r63d": 0.19090853339083722
-    },
-    "opportunities": [
-      {
-        "ticker": "BBDC4",
-        "name": "Bradesco PN",
-        "value": "34",
-        "price": "R$ 22,56",
-        "score": "0.826",
-        "reason": "BBDC4 apresenta forte momentum com alta de 26.88% nos últimos 5 dias, beneficiando-se do ambiente financeiro estável e do regime BALANCED que favorece bancos.",
-        "potential": "O score elevado e o momentum positivo sugerem potencial de valorização contínua, especialmente em um cenário de juros elevados.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 25,19",
-        "score": "0.803",
-        "reason": "FLRY3 se destaca pelo crescimento de 14.34% em 5 dias, apoiado por um regime que favorece o setor de saúde, com um RegimeFit de 0.9.",
-        "potential": "A combinação de um score robusto e um setor em alta sugere um bom potencial de retorno.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "33",
-        "price": "R$ 21,43",
-        "score": "0.798",
-        "reason": "RADL3, com um crescimento de 18.14% em 5 dias, é impulsionada pelo regime atual que favorece o setor de saúde.",
-        "potential": "O momentum positivo e o alto RegimeFit indicam potencial de valorização, embora o crescimento recente possa moderar.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 4,97",
-      "ibov": "205.720"
-    }
-  },
-  {
     "date": "2026-10-07",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,73",
       "ibov": "168.874"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.44,
+      "r21d": -0.17224556418244658,
+      "r63d": 0.022307955331108905
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "34",
+        "price": "R$ 35,97",
+        "score": "0.774",
+        "reason": "A Telefônica Vivo ON apresenta um forte momentum, com valorização de 10.68% nos últimos 5 dias, beneficiando-se do perfil BALANCED do dia e do ambiente de juros elevados que favorece o setor de telecomunicações.",
+        "potential": "Com um score de 0.774 e um regime fit de 0.9, o ativo tem potencial para continuar se destacando no curto prazo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 103,34",
+        "score": "0.759",
+        "reason": "O fundo Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-o uma escolha defensiva sólida.",
+        "potential": "O ativo tem potencial de estabilidade e rendimento consistente em um cenário de alta de juros.",
+        "risk": "Baixo",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "WEGE3",
+        "name": "WEG ON",
+        "value": "33",
+        "price": "R$ 51,41",
+        "score": "0.741",
+        "reason": "WEG ON se destaca pelo crescimento de 7.13% nos últimos 21 dias, refletindo um bom desempenho no setor industrial, embora o regime fit seja baixo.",
+        "potential": "Apesar do regime fit de 0.2, o momentum positivo sugere potencial de valorização moderada.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,79",
+      "ibov": "170.046"
     }
   }
 ]

@@ -1,42 +1,42 @@
 {
-  "date": "16/11/2026",
+  "date": "17/11/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é caracterizado por aversão ao risco, com investidores preferindo ativos defensivos e de menor volatilidade."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de dia equilibrado, sugerindo que investidores devem focar em ativos defensivos e fundos imobiliários de papel."
   },
   "opportunities": [
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "35",
-      "price": "R$ 55,50",
-      "score": "0.8",
-      "reason": "Suzano ON se destaca pelo forte momentum, com um ganho de 30,90% nos últimos 21 dias, favorecido pelo setor de materiais em um ambiente de RISK_OFF.",
-      "potential": "A valorização recente sugere potencial de continuidade, mas o regime atual pode limitar ganhos rápidos.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
-    {
       "ticker": "VIVT3",
       "name": "Telefônica Vivo ON",
-      "value": "33",
-      "price": "R$ 34,34",
+      "value": "34",
+      "price": "R$ 35,97",
       "score": "0.774",
-      "reason": "Telefônica Vivo ON apresenta um desempenho sólido, com alta de 6,81% nos últimos 5 dias, beneficiando-se do perfil defensivo em telecomunicações.",
-      "potential": "O desempenho recente sugere estabilidade, com potencial de ganhos moderados devido ao regime RISK_OFF.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "reason": "A Telefônica Vivo ON apresenta um forte momentum, com valorização de 10.68% nos últimos 5 dias, beneficiando-se do perfil BALANCED do dia e do ambiente de juros elevados que favorece o setor de telecomunicações.",
+      "potential": "Com um score de 0.774 e um regime fit de 0.9, o ativo tem potencial para continuar se destacando no curto prazo.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "32",
-      "price": "R$ 27,12",
-      "score": "0.746",
-      "reason": "Apesar das perdas recentes, Sabesp ON pode se beneficiar de um ambiente de juros elevados, com potencial de recuperação em utilidades.",
-      "potential": "A recuperação pode ser lenta, mas o regime favorece resiliência em utilidades.",
-      "risk": "Médio",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "33",
+      "price": "R$ 103,34",
+      "score": "0.759",
+      "reason": "O fundo Kinea Rendimentos CRI é favorecido pelo ambiente de juros elevados, com um regime fit perfeito de 1.0, tornando-o uma escolha defensiva sólida.",
+      "potential": "O ativo tem potencial de estabilidade e rendimento consistente em um cenário de alta de juros.",
+      "risk": "Baixo",
       "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "WEGE3",
+      "name": "WEG ON",
+      "value": "33",
+      "price": "R$ 51,41",
+      "score": "0.741",
+      "reason": "WEG ON se destaca pelo crescimento de 7.13% nos últimos 21 dias, refletindo um bom desempenho no setor industrial, embora o regime fit seja baixo.",
+      "potential": "Apesar do regime fit de 0.2, o momentum positivo sugere potencial de valorização moderada.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,73",
+      "value": "R$ 5,79",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "168.874",
-      "sub": "-2.08% hoje",
-      "trend": "down"
+      "value": "170.046",
+      "sub": "+0.44% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e o IPCA em 4,63%, o ambiente macroeconômico permanece desafiador, pressionando o IBOV que caiu 2,08% hoje. O regime RISK_OFF sugere cautela, com investidores buscando ativos defensivos. Para quem vai aportar R$100, a escolha de ativos de baixo risco é crucial.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente favorece investimentos em renda fixa e FIIs de papel. O IPCA em 4,63% sugere uma inflação controlada, enquanto o IBOV subiu 0.44%, indicando um leve otimismo no mercado. Para quem vai aportar R$100 hoje, a escolha de ativos defensivos pode ser prudente, dada a estabilidade dos juros e a inflação sob controle.",
   "analysts": {
     "enter": [
-      "SUZB3 — devido ao forte momentum e performance positiva recente"
+      "VIVT3 — devido ao forte momentum e regime fit"
     ],
     "reinforce": [
-      "VIVT3 — pelo bom momentum nos últimos 21 dias"
+      "WEGE3 — bom momentum nos últimos 21 dias"
     ],
     "avoid": [
-      "Setor de materiais — apesar do bom desempenho de SUZB3, o setor pode enfrentar volatilidade"
+      "Setor de materiais — momentum negativo de 0.85"
     ],
     "realize": [
-      "SUZB3 — após alta de 30,90% em 21 dias, pode estar sobrecomprado"
+      "VIVT3 — após alta recente de 13.18% em 21 dias"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,72",
+      "value": "R$ 14,98",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-2.52%",
+      "value": "+0.20%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+76.8%",
+      "value": "+73.7%",
       "trend": "up"
     },
     {
@@ -113,20 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "O BBAS3 está cotado a R$ 14,72, com uma variação de -2,52% no dia. Após um 1T26 desafiador, com lucro caindo 53% e inadimplência agro em 6,22%, o mercado aguarda o resultado do 2T26 em agosto. A expectativa de recuperação sugere cautela, mas o potencial de upside é significativo.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 14,98 com variação de +0.20%. Após o 1T26, que registrou uma queda de 53% no lucro e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. Com um upside de 73.67%, o consenso é neutro, sugerindo cautela antes de novas movimentações.",
   "executive_summary": {
-    "smartest_move": "Investir em SUZB3 com alocação de R$35, aproveitando o momentum positivo.",
-    "biggest_risk": "A persistência do regime BEAR pode continuar pressionando o mercado e ativos de risco.",
-    "best_opportunity": "A alta de VIVT3 em um regime RISK_OFF oferece uma assimetria risco-retorno favorável.",
-    "common_mistake": "Subestimar a resiliência de ativos defensivos durante períodos de aversão ao risco."
+    "smartest_move": "Alocar R$34 em VIVT3, aproveitando o forte momentum e o regime BALANCED.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos cíclicos.",
+    "best_opportunity": "KNCR11 oferece uma assimetria risco-retorno favorável em um cenário de juros altos.",
+    "common_mistake": "Subestimar a importância de diversificação em um regime BEAR pode aumentar riscos."
   },
   "_meta": {
-    "generated_at": "2026-11-16T16:55:38.894309-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-11-17T15:51:36.131709-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "materiais",
-      "utilidades",
-      "telecom"
+      "telecom",
+      "industrial",
+      "fii_papel"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
