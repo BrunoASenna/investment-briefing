@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-07",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.53,
-      "r21d": 0.09278815106181985,
-      "r63d": 0.15116119719339277
-    },
-    "opportunities": [
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "35",
-        "price": "R$ 9,22",
-        "score": "0.839",
-        "reason": "Hapvida ON apresenta um forte momentum com alta de 38.23% nos últimos 5 dias, destacando-se no setor de saúde, que é favorecido pelo regime BALANCED.",
-        "potential": "Com um score de 0.839, o ativo tem potencial de continuar se beneficiando do cenário atual, especialmente se o regime BULL persistir.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "33",
-        "price": "R$ 25,76",
-        "score": "0.778",
-        "reason": "Fleury ON se beneficia do ambiente de juros elevados favorecendo o setor de saúde, com um crescimento de 13.03% nos últimos 5 dias.",
-        "potential": "A continuidade do regime BALANCED pode proporcionar um crescimento estável para Fleury ON, refletido no score de 0.778.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RENT3",
-        "name": "Localiza ON",
-        "value": "32",
-        "price": "R$ 50,64",
-        "score": "0.775",
-        "reason": "Localiza ON mostra um forte desempenho no setor de consumo com um aumento de 25.04% nos últimos 5 dias, embora o regime atual favoreça mais setores defensivos.",
-        "potential": "O momentum positivo sugere potencial de ganhos adicionais, mas o risco é moderado devido ao ajuste do regime.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 4,99",
-      "ibov": "204.752"
-    }
-  },
-  {
     "date": "2026-10-08",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,79",
       "ibov": "170.046"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -1.01,
+      "r21d": -0.18032083063112264,
+      "r63d": 0.0016027192694988977
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 102,82",
+        "score": "0.729",
+        "reason": "KNCR11 é uma escolha defensiva apropriada para o regime RISK_OFF, com um momentum negativo de -0.74% nos últimos 5 dias, mas bem alinhado ao ambiente de juros elevados, favorecendo FIIs de papel.",
+        "potential": "Potencial de estabilidade em um ambiente de aversão ao risco, com um score elevado de 0.729.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "33",
+        "price": "R$ 6,26",
+        "score": "0.727",
+        "reason": "HAPV3 apresentou uma recuperação significativa de 35.21% nos últimos 5 dias, apesar de uma queda de 29.50% em 21 dias, indicando um potencial de reversão de tendência no setor de saúde.",
+        "potential": "Potencial de recuperação no curto prazo, dado o recente impulso positivo.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "33",
+        "price": "R$ 10,96",
+        "score": "0.722",
+        "reason": "CMIG4 é uma opção estável no setor de utilidades, com um leve ganho de 2.24% em 5 dias, oferecendo resiliência em um mercado volátil.",
+        "potential": "Potencial de estabilidade e dividendos em um mercado volátil.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,81",
+      "ibov": "168.099"
     }
   }
 ]
