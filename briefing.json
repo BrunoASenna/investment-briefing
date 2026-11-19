@@ -1,42 +1,42 @@
 {
-  "date": "18/11/2026",
+  "date": "19/11/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual é caracterizado por um mercado em queda e aversão ao risco, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é BEAR com perfil BALANCED, indicando um mercado em baixa, mas com oportunidades equilibradas para investidores que buscam ativos defensivos e FIIs de papel."
   },
   "opportunities": [
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
       "value": "34",
-      "price": "R$ 102,82",
-      "score": "0.729",
-      "reason": "KNCR11 é uma escolha defensiva apropriada para o regime RISK_OFF, com um momentum negativo de -0.74% nos últimos 5 dias, mas bem alinhado ao ambiente de juros elevados, favorecendo FIIs de papel.",
-      "potential": "Potencial de estabilidade em um ambiente de aversão ao risco, com um score elevado de 0.729.",
-      "risk": "Baixo",
+      "price": "R$ 10,85",
+      "score": "0.759",
+      "reason": "Cemig PN apresenta um momentum positivo de +2.17% nos últimos 5 dias, destacando-se no setor de utilidades que é favorecido em um regime BALANCED.",
+      "potential": "Com um score de 0.759, há potencial de valorização moderada, especialmente em um regime que favorece ativos defensivos.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
       "value": "33",
-      "price": "R$ 6,26",
-      "score": "0.727",
-      "reason": "HAPV3 apresentou uma recuperação significativa de 35.21% nos últimos 5 dias, apesar de uma queda de 29.50% em 21 dias, indicando um potencial de reversão de tendência no setor de saúde.",
-      "potential": "Potencial de recuperação no curto prazo, dado o recente impulso positivo.",
+      "price": "R$ 27,49",
+      "score": "0.736",
+      "reason": "Sabesp ON tem um desempenho de +2.08% nos últimos 5 dias, e seu setor de utilidades é beneficiado em cenários de juros elevados.",
+      "potential": "O score de 0.736 sugere um potencial de crescimento estável, alinhado com a estabilidade do setor de utilidades.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
       "value": "33",
-      "price": "R$ 10,96",
-      "score": "0.722",
-      "reason": "CMIG4 é uma opção estável no setor de utilidades, com um leve ganho de 2.24% em 5 dias, oferecendo resiliência em um mercado volátil.",
-      "potential": "Potencial de estabilidade e dividendos em um mercado volátil.",
+      "price": "R$ 102,43",
+      "score": "0.734",
+      "reason": "KNCR11, um FII de papel, é favorecido pelo ambiente de juros elevados, com um RegimeFit perfeito de 1.0.",
+      "potential": "O score de 0.734 indica potencial de retorno consistente, especialmente em um cenário de juros altos.",
       "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,81",
+      "value": "R$ 5,89",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "168.099",
-      "sub": "-1.01% hoje",
+      "value": "166.221",
+      "sub": "-0.79% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "Com a SELIC estável e o IPCA em 4,63%, o ambiente macroeconômico é de controle inflacionário, mas com pressão cambial, visto que o dólar está em R$ 5,81. O IBOV caiu 1.01%, refletindo o regime RISK_OFF, o que sugere cautela para novos aportes, especialmente em ativos mais voláteis.",
+  "macro_summary": "A SELIC está estável, enquanto o IPCA em 4,63% sugere uma inflação controlada. O IBOV caiu 0.79%, refletindo o regime BEAR. Para quem vai aportar R$100 hoje, o cenário favorece ativos defensivos, especialmente em setores menos voláteis como utilidades e FIIs de papel.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao seu alinhamento com o regime RISK_OFF"
+      "CMIG4 — Score alto e momentum positivo em 5 dias"
     ],
     "reinforce": [
-      "HAPV3 — por sua recuperação significativa nos últimos 5 dias"
+      "KNCR11 — Benefício do ambiente de juros elevados"
     ],
     "avoid": [
-      "Setor de materiais — devido ao momentum negativo de 0.90"
+      "Setor industrial — Momentum negativo em 21 dias"
     ],
     "realize": [
-      "HAPV3 — após alta recente de 35.21% em 5 dias"
+      "Ativos com alta recente significativa — Avaliar sobrecompra"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,18",
+      "value": "R$ 14,13",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-3.01%",
+      "value": "+0.07%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+83.5%",
+      "value": "+84.1%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 14,18, com uma variação negativa de 3.01% hoje. Após um primeiro trimestre desafiador com queda de 53% no lucro e inadimplência agro de 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de upside é alta, mas o consenso é neutro, sugerindo cautela.",
+  "bbas3_summary": "BBAS3 está cotada a R$ 14,13, com variação de +0.07% hoje. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à incerteza no setor e ao consenso neutro dos analistas.",
   "executive_summary": {
-    "smartest_move": "Investir R$34 em KNCR11, que está alinhado com o regime RISK_OFF.",
-    "biggest_risk": "A volatilidade do mercado em um regime BEAR, especialmente em ativos mais arriscados.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno com um score de 0.729.",
-    "common_mistake": "Subestimar o impacto de um regime RISK_OFF e investir em ativos de alto risco."
+    "smartest_move": "Investir em CMIG4 com alocação de R$34, aproveitando o momentum positivo e o regime favorável.",
+    "biggest_risk": "A persistência do regime BEAR pode afetar negativamente ativos mais voláteis.",
+    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno com um RegimeFit perfeito e ambiente de juros elevados.",
+    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR."
   },
   "_meta": {
-    "generated_at": "2026-11-18T15:29:54.392765-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-11-19T15:43:48.042945-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
       "fii_papel",
-      "utilidades",
-      "saude"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"

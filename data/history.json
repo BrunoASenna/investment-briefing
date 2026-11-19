@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-08",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.72,
-      "r21d": 0.10850860452838727,
-      "r63d": 0.1708917414461218
-    },
-    "opportunities": [
-      {
-        "ticker": "RENT3",
-        "name": "Localiza ON",
-        "value": "34",
-        "price": "R$ 52,79",
-        "score": "0.8",
-        "reason": "Localiza ON apresenta um forte momentum de +31.19% nos últimos 5 dias, destacando-se no setor de consumo que está em rotação positiva. O perfil BALANCED do regime atual favorece ativos que combinam crescimento com estabilidade.",
-        "potential": "Com um score de 0.8, RENT3 tem potencial de continuar sua trajetória ascendente, especialmente em um mercado BULL.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "33",
-        "price": "R$ 8,74",
-        "score": "0.782",
-        "reason": "Hapvida ON se beneficia de um forte RegimeFit de 0.9, indicando alinhamento com o atual regime de mercado. O crescimento de +25.94% nos últimos 5 dias reforça seu potencial de valorização.",
-        "potential": "O alinhamento com o regime e o crescimento recente sugerem um potencial positivo, especialmente no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "SBSP3",
-        "name": "Sabesp ON",
-        "value": "33",
-        "price": "R$ 33,14",
-        "score": "0.764",
-        "reason": "Sabesp ON mostra um crescimento consistente, com +20.16% nos últimos 5 dias, e um RegimeFit de 0.9, indicando boa adaptação ao regime atual.",
-        "potential": "Com um score de 0.764, há potencial para ganhos adicionais, especialmente em um mercado BULL.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,22%",
-      "dolar": "R$ 5,01",
-      "ibov": "205.771"
-    }
-  },
-  {
     "date": "2026-10-09",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,81",
       "ibov": "168.099"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.79,
+      "r21d": -0.20199619771863117,
+      "r63d": -0.010159176308753208
+    },
+    "opportunities": [
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "34",
+        "price": "R$ 10,85",
+        "score": "0.759",
+        "reason": "Cemig PN apresenta um momentum positivo de +2.17% nos últimos 5 dias, destacando-se no setor de utilidades que é favorecido em um regime BALANCED.",
+        "potential": "Com um score de 0.759, há potencial de valorização moderada, especialmente em um regime que favorece ativos defensivos.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "33",
+        "price": "R$ 27,49",
+        "score": "0.736",
+        "reason": "Sabesp ON tem um desempenho de +2.08% nos últimos 5 dias, e seu setor de utilidades é beneficiado em cenários de juros elevados.",
+        "potential": "O score de 0.736 sugere um potencial de crescimento estável, alinhado com a estabilidade do setor de utilidades.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "33",
+        "price": "R$ 102,43",
+        "score": "0.734",
+        "reason": "KNCR11, um FII de papel, é favorecido pelo ambiente de juros elevados, com um RegimeFit perfeito de 1.0.",
+        "potential": "O score de 0.734 indica potencial de retorno consistente, especialmente em um cenário de juros altos.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,89",
+      "ibov": "166.221"
     }
   }
 ]
