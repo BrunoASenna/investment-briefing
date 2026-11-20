@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-09",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.14,
-      "r21d": 0.10782543860115049,
-      "r63d": 0.18075184979704598
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "35",
-        "price": "R$ 14,45",
-        "score": "0.832",
-        "reason": "Lojas Renner ON destaca-se pelo forte momentum, com alta de 22.87% nos últimos 5 dias, impulsionada pelo ambiente RISK_ON que favorece o setor de varejo.",
-        "potential": "O score elevado e o ambiente de mercado positivo sugerem um potencial de crescimento contínuo, especialmente em um regime BULL.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "CSAN3",
-        "name": "Cosan ON",
-        "value": "33",
-        "price": "R$ 5,40",
-        "score": "0.769",
-        "reason": "Cosan ON apresenta um desempenho robusto com um crescimento de 31.07% em 5 dias, beneficiando-se do regime RISK_ON e do interesse por ativos de energia.",
-        "potential": "Com um score sólido e o suporte do regime atual, há potencial para continuidade de ganhos no curto prazo.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "32",
-        "price": "R$ 42,29",
-        "score": "0.757",
-        "reason": "TOTVS ON tem se beneficiado do ambiente RISK_ON, com um aumento de 19.63% nos últimos 5 dias, refletindo o interesse crescente em tecnologia.",
-        "potential": "O ambiente de mercado favorável sugere que a TOTVS pode continuar a apresentar ganhos, apoiada por seu score competitivo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 4,99",
-      "ibov": "208.569"
-    }
-  },
-  {
     "date": "2026-10-12",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,89",
       "ibov": "166.221"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": -0.69,
+      "r21d": -0.2012520643699351,
+      "r63d": -0.009236156186914552
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "36",
+        "price": "R$ 35,22",
+        "score": "0.828",
+        "reason": "A Telefônica Vivo ON se destaca pelo forte momentum recente, com uma valorização de 4.76% nos últimos 5 dias, e está bem posicionada no setor de telecomunicações, que é favorecido no atual regime BALANCED.",
+        "potential": "Com um score elevado de 0.828 e bom ajuste ao regime, a expectativa é de continuidade no desempenho positivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 21,51",
+        "score": "0.739",
+        "reason": "Apesar da queda de 23.72% nos últimos 21 dias, a Fleury ON apresenta recuperação recente e um score de 0.739, indicando potencial de valorização no setor de saúde.",
+        "potential": "A recuperação recente sugere potencial de valorização, especialmente se o setor de saúde se beneficiar de um cenário mais estável.",
+        "risk": "Alto",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SUZB3",
+        "name": "Suzano ON",
+        "value": "32",
+        "price": "R$ 55,32",
+        "score": "0.733",
+        "reason": "Suzano ON teve um desempenho expressivo com alta de 30.47% nos últimos 21 dias, mas o baixo RegimeFit de 0.2 indica que pode estar sobrecomprada.",
+        "potential": "O potencial de valorização continua, mas com cautela devido ao possível sobrecomprado.",
+        "risk": "Alto",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,89",
+      "ibov": "166.376"
     }
   }
 ]

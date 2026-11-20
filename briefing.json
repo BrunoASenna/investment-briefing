@@ -1,48 +1,48 @@
 {
-  "date": "19/11/2026",
+  "date": "20/11/2026",
   "regime": {
     "label": "BEAR / BALANCED",
-    "summary": "O regime atual é BEAR com perfil BALANCED, indicando um mercado em baixa, mas com oportunidades equilibradas para investidores que buscam ativos defensivos e FIIs de papel."
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio, o que sugere que investidores devem buscar ativos defensivos ou com potencial de crescimento em setores específicos."
   },
   "opportunities": [
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
-      "value": "34",
-      "price": "R$ 10,85",
-      "score": "0.759",
-      "reason": "Cemig PN apresenta um momentum positivo de +2.17% nos últimos 5 dias, destacando-se no setor de utilidades que é favorecido em um regime BALANCED.",
-      "potential": "Com um score de 0.759, há potencial de valorização moderada, especialmente em um regime que favorece ativos defensivos.",
+      "ticker": "VIVT3",
+      "name": "Telefônica Vivo ON",
+      "value": "36",
+      "price": "R$ 35,22",
+      "score": "0.828",
+      "reason": "A Telefônica Vivo ON se destaca pelo forte momentum recente, com uma valorização de 4.76% nos últimos 5 dias, e está bem posicionada no setor de telecomunicações, que é favorecido no atual regime BALANCED.",
+      "potential": "Com um score elevado de 0.828 e bom ajuste ao regime, a expectativa é de continuidade no desempenho positivo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "33",
-      "price": "R$ 27,49",
-      "score": "0.736",
-      "reason": "Sabesp ON tem um desempenho de +2.08% nos últimos 5 dias, e seu setor de utilidades é beneficiado em cenários de juros elevados.",
-      "potential": "O score de 0.736 sugere um potencial de crescimento estável, alinhado com a estabilidade do setor de utilidades.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "32",
+      "price": "R$ 21,51",
+      "score": "0.739",
+      "reason": "Apesar da queda de 23.72% nos últimos 21 dias, a Fleury ON apresenta recuperação recente e um score de 0.739, indicando potencial de valorização no setor de saúde.",
+      "potential": "A recuperação recente sugere potencial de valorização, especialmente se o setor de saúde se beneficiar de um cenário mais estável.",
+      "risk": "Alto",
+      "horizon": "Médio prazo"
     },
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
-      "value": "33",
-      "price": "R$ 102,43",
-      "score": "0.734",
-      "reason": "KNCR11, um FII de papel, é favorecido pelo ambiente de juros elevados, com um RegimeFit perfeito de 1.0.",
-      "potential": "O score de 0.734 indica potencial de retorno consistente, especialmente em um cenário de juros altos.",
-      "risk": "Baixo",
-      "horizon": "Curto a médio prazo"
+      "ticker": "SUZB3",
+      "name": "Suzano ON",
+      "value": "32",
+      "price": "R$ 55,32",
+      "score": "0.733",
+      "reason": "Suzano ON teve um desempenho expressivo com alta de 30.47% nos últimos 21 dias, mas o baixo RegimeFit de 0.2 indica que pode estar sobrecomprada.",
+      "potential": "O potencial de valorização continua, mas com cautela devido ao possível sobrecomprado.",
+      "risk": "Alto",
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "N/D",
+      "value": "13,65%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -60,35 +60,35 @@
     },
     {
       "label": "IBOV",
-      "value": "166.221",
-      "sub": "-0.79% hoje",
+      "value": "166.376",
+      "sub": "-0.69% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está estável, enquanto o IPCA em 4,63% sugere uma inflação controlada. O IBOV caiu 0.79%, refletindo o regime BEAR. Para quem vai aportar R$100 hoje, o cenário favorece ativos defensivos, especialmente em setores menos voláteis como utilidades e FIIs de papel.",
+  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,63%, indicando controle inflacionário. O IBOV caiu 0.69% hoje, refletindo o regime BEAR. Para quem vai aportar R$100 hoje, o cenário sugere cautela e foco em ativos defensivos ou com potencial de recuperação em setores específicos.",
   "analysts": {
     "enter": [
-      "CMIG4 — Score alto e momentum positivo em 5 dias"
+      "VIVT3 — devido ao forte momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "KNCR11 — Benefício do ambiente de juros elevados"
+      "SUZB3 — pela alta de 30.47% em 21 dias, apesar do risco de sobrecompra"
     ],
     "avoid": [
-      "Setor industrial — Momentum negativo em 21 dias"
+      "Setor industrial — momentum negativo de 0.77 em 5 dias"
     ],
     "realize": [
-      "Ativos com alta recente significativa — Avaliar sobrecompra"
+      "SUZB3 — após alta expressiva, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,13",
+      "value": "R$ 14,30",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+0.07%",
+      "value": "+1.27%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+84.1%",
+      "value": "+82.0%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "BBAS3 está cotada a R$ 14,13, com variação de +0.07% hoje. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A recomendação é aguardar devido à incerteza no setor e ao consenso neutro dos analistas.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 14,30 com variação de +1.27%. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de upside é alta, mas o cenário atual sugere cautela.",
   "executive_summary": {
-    "smartest_move": "Investir em CMIG4 com alocação de R$34, aproveitando o momentum positivo e o regime favorável.",
-    "biggest_risk": "A persistência do regime BEAR pode afetar negativamente ativos mais voláteis.",
-    "best_opportunity": "KNCR11 oferece uma boa assimetria risco-retorno com um RegimeFit perfeito e ambiente de juros elevados.",
-    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR."
+    "smartest_move": "Investir em VIVT3 com alocação de R$36, devido ao forte momentum e ajuste ao regime.",
+    "biggest_risk": "A volatilidade do mercado em regime BEAR, que pode impactar negativamente ativos de alto risco.",
+    "best_opportunity": "A assimetria risco-retorno em VIVT3, com bom score e momentum positivo.",
+    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR e focar excessivamente em ativos de alto risco."
   },
   "_meta": {
-    "generated_at": "2026-11-19T15:43:48.042945-03:00",
+    "generated_at": "2026-11-20T15:06:23.779828-03:00",
     "regime": "BEAR / BALANCED",
     "sectors": [
-      "fii_papel",
-      "utilidades"
+      "materiais",
+      "saude",
+      "telecom"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
