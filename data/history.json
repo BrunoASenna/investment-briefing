@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-12",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_ON",
-      "high_rates": true,
-      "ibov_today": 1.38,
-      "r21d": 0.11046959403831752,
-      "r63d": 0.18357006583975408
-    },
-    "opportunities": [
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 27,73",
-        "score": "0.788",
-        "reason": "Fleury ON apresenta um forte momentum com alta de 18.00% nos últimos 5 dias, beneficiando-se do regime RISK_ON e da estabilidade no setor de saúde.",
-        "potential": "Com um score de 0.788 e alinhamento ao regime atual, há potencial de crescimento contínuo, especialmente em um cenário otimista.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "33",
-        "price": "R$ 15,06",
-        "score": "0.754",
-        "reason": "Lojas Renner se destaca com uma valorização de 28.06% nos últimos 5 dias, aproveitando-se do ambiente RISK_ON e da recuperação no setor de varejo.",
-        "potential": "A recuperação no varejo pode continuar a impulsionar o preço das ações, dado o contexto macroeconômico atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "33",
-        "price": "R$ 21,46",
-        "score": "0.752",
-        "reason": "Raia Drogasil mostra resiliência com um aumento de 10.05% em 5 dias, se beneficiando da estabilidade no setor de saúde e do regime RISK_ON.",
-        "potential": "Com um score de 0.752 e forte alinhamento ao regime, há espaço para crescimento adicional.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 4,99",
-      "ibov": "209.067"
-    }
-  },
-  {
     "date": "2026-10-13",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,89",
       "ibov": "166.376"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_OFF",
+      "high_rates": true,
+      "ibov_today": -0.95,
+      "r21d": -0.20193686590474347,
+      "r63d": null
+    },
+    "opportunities": [
+      {
+        "ticker": "VIVT3",
+        "name": "Telefônica Vivo ON",
+        "value": "36",
+        "price": "R$ 34,97",
+        "score": "0.819",
+        "reason": "O ativo VIVT3 apresenta um bom momentum, com alta de 2.73% nos últimos 5 dias, beneficiando-se do ambiente defensivo do setor de telecomunicações em um regime RISK_OFF.",
+        "potential": "Com um score elevado e ajuste ao regime, VIVT3 pode oferecer estabilidade em um mercado volátil.",
+        "risk": "Baixo",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "33",
+        "price": "R$ 14,69",
+        "score": "0.761",
+        "reason": "RADL3 se destaca por uma recuperação diária de 7.07%, apesar da queda significativa de 30.45% em 21 dias, sugerindo potencial de reversão.",
+        "potential": "Pode oferecer um bom retorno se a recuperação recente se mantiver.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "31",
+        "price": "R$ 27,70",
+        "score": "0.701",
+        "reason": "SBSP3 apresenta um leve ganho de 1.28% no dia, sendo uma opção defensiva em utilidades, adequada ao regime atual.",
+        "potential": "Estável, com possibilidade de ganhos modestos em um ambiente de risco elevado.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,97",
+      "ibov": "164.796"
     }
   }
 ]

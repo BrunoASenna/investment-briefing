@@ -1,42 +1,42 @@
 {
-  "date": "20/11/2026",
+  "date": "23/11/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com um perfil de equilíbrio, o que sugere que investidores devem buscar ativos defensivos ou com potencial de crescimento em setores específicos."
+    "label": "BEAR / RISK_OFF",
+    "summary": "O regime atual de BEAR / RISK_OFF indica um ambiente de aversão ao risco, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel, dado o cenário de juros elevados."
   },
   "opportunities": [
     {
       "ticker": "VIVT3",
       "name": "Telefônica Vivo ON",
       "value": "36",
-      "price": "R$ 35,22",
-      "score": "0.828",
-      "reason": "A Telefônica Vivo ON se destaca pelo forte momentum recente, com uma valorização de 4.76% nos últimos 5 dias, e está bem posicionada no setor de telecomunicações, que é favorecido no atual regime BALANCED.",
-      "potential": "Com um score elevado de 0.828 e bom ajuste ao regime, a expectativa é de continuidade no desempenho positivo.",
-      "risk": "Médio",
+      "price": "R$ 34,97",
+      "score": "0.819",
+      "reason": "O ativo VIVT3 apresenta um bom momentum, com alta de 2.73% nos últimos 5 dias, beneficiando-se do ambiente defensivo do setor de telecomunicações em um regime RISK_OFF.",
+      "potential": "Com um score elevado e ajuste ao regime, VIVT3 pode oferecer estabilidade em um mercado volátil.",
+      "risk": "Baixo",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "32",
-      "price": "R$ 21,51",
-      "score": "0.739",
-      "reason": "Apesar da queda de 23.72% nos últimos 21 dias, a Fleury ON apresenta recuperação recente e um score de 0.739, indicando potencial de valorização no setor de saúde.",
-      "potential": "A recuperação recente sugere potencial de valorização, especialmente se o setor de saúde se beneficiar de um cenário mais estável.",
-      "risk": "Alto",
-      "horizon": "Médio prazo"
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
+      "value": "33",
+      "price": "R$ 14,69",
+      "score": "0.761",
+      "reason": "RADL3 se destaca por uma recuperação diária de 7.07%, apesar da queda significativa de 30.45% em 21 dias, sugerindo potencial de reversão.",
+      "potential": "Pode oferecer um bom retorno se a recuperação recente se mantiver.",
+      "risk": "Médio",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "SUZB3",
-      "name": "Suzano ON",
-      "value": "32",
-      "price": "R$ 55,32",
-      "score": "0.733",
-      "reason": "Suzano ON teve um desempenho expressivo com alta de 30.47% nos últimos 21 dias, mas o baixo RegimeFit de 0.2 indica que pode estar sobrecomprada.",
-      "potential": "O potencial de valorização continua, mas com cautela devido ao possível sobrecomprado.",
-      "risk": "Alto",
-      "horizon": "Curto prazo"
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "31",
+      "price": "R$ 27,70",
+      "score": "0.701",
+      "reason": "SBSP3 apresenta um leve ganho de 1.28% no dia, sendo uma opção defensiva em utilidades, adequada ao regime atual.",
+      "potential": "Estável, com possibilidade de ganhos modestos em um ambiente de risco elevado.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,89",
+      "value": "R$ 5,97",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "166.376",
-      "sub": "-0.69% hoje",
+      "value": "164.796",
+      "sub": "-0.95% hoje",
       "trend": "down"
     }
   ],
-  "macro_summary": "A SELIC está em 13,65% com tendência estável, enquanto o IPCA acumulado em 12 meses é de 4,63%, indicando controle inflacionário. O IBOV caiu 0.69% hoje, refletindo o regime BEAR. Para quem vai aportar R$100 hoje, o cenário sugere cautela e foco em ativos defensivos ou com potencial de recuperação em setores específicos.",
+  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente de juros altos continua pressionando o mercado. O IPCA de 4,63% sugere uma inflação controlada, mas o IBOV recuando 0.95% reflete a aversão ao risco no regime RISK_OFF. Para quem vai investir R$100 hoje, a escolha por ativos defensivos pode mitigar riscos neste cenário desafiador.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao forte momentum e ajuste ao regime atual"
+      "VIVT3 — devido ao bom momentum e ajuste ao regime atual"
     ],
     "reinforce": [
-      "SUZB3 — pela alta de 30.47% em 21 dias, apesar do risco de sobrecompra"
+      "VIVT3 — por seu desempenho positivo de 21 dias e alinhamento com o regime RISK_OFF"
     ],
     "avoid": [
-      "Setor industrial — momentum negativo de 0.77 em 5 dias"
+      "Setor de materiais — momentum de apenas 0.80 em 5 dias, sugerindo fragilidade"
     ],
     "realize": [
-      "SUZB3 — após alta expressiva, pode estar sobrecomprada"
+      "Braskem — após salto de 12%, pode estar sobrecomprada"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,30",
+      "value": "R$ 14,20",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+1.27%",
+      "value": "-0.70%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+82.0%",
+      "value": "+83.2%",
       "trend": "up"
     },
     {
@@ -112,20 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 14,30 com variação de +1.27%. Após o 1T26, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa de upside é alta, mas o cenário atual sugere cautela.",
+  "bbas3_strategy": "Comprar",
+  "bbas3_summary": "Hoje, a BBAS3 está cotada a R$ 14,20, com uma variação de -0.70%. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa de um upside significativo pode justificar uma estratégia de compra.",
   "executive_summary": {
-    "smartest_move": "Investir em VIVT3 com alocação de R$36, devido ao forte momentum e ajuste ao regime.",
-    "biggest_risk": "A volatilidade do mercado em regime BEAR, que pode impactar negativamente ativos de alto risco.",
-    "best_opportunity": "A assimetria risco-retorno em VIVT3, com bom score e momentum positivo.",
-    "common_mistake": "Ignorar a importância de diversificação em um cenário de mercado BEAR e focar excessivamente em ativos de alto risco."
+    "smartest_move": "Considerar alocação em VIVT3 com R$36, dado seu bom desempenho e ajuste ao regime atual.",
+    "biggest_risk": "A continuação do regime BEAR pode impactar negativamente ativos de maior risco.",
+    "best_opportunity": "VIVT3 oferece uma assimetria risco-retorno favorável, com momentum positivo e estabilidade no setor.",
+    "common_mistake": "Subestimar a importância de um portfólio defensivo em um ambiente de aversão ao risco."
   },
   "_meta": {
-    "generated_at": "2026-11-20T15:06:23.779828-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-11-23T18:48:26.679771-03:00",
+    "regime": "BEAR / RISK_OFF",
     "sectors": [
-      "materiais",
       "saude",
+      "utilidades",
       "telecom"
     ],
     "diversity_ok": true,
