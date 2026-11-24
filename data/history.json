@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-13",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.01,
-      "r21d": 0.10544085223843125,
-      "r63d": 0.17575756983938504
-    },
-    "opportunities": [
-      {
-        "ticker": "TAEE11",
-        "name": "Transmissão Paulista",
-        "value": "35",
-        "price": "R$ 46,07",
-        "score": "0.772",
-        "reason": "Transmissão Paulista se destaca por seu momentum positivo de +4.97% nos últimos 5 dias e sua atuação no setor de utilidades, que é favorecido em um ambiente RISK_OFF.",
-        "potential": "Dado o score elevado e o ajuste ao regime, espera-se um desempenho estável com potencial de valorização moderada.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "34",
-        "price": "R$ 27,40",
-        "score": "0.766",
-        "reason": "Fleury ON apresenta um forte desempenho recente com alta de +12.85% em 5 dias, beneficiando-se do interesse em ativos de saúde durante períodos de incerteza.",
-        "potential": "O contexto sugere potencial de crescimento contínuo, especialmente se a aversão ao risco persistir.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "TOTS3",
-        "name": "TOTVS ON",
-        "value": "31",
-        "price": "R$ 41,88",
-        "score": "0.693",
-        "reason": "TOTVS ON mostra um bom momentum de +13.74% em 5 dias, mas o baixo ajuste ao regime atual sugere cautela.",
-        "potential": "Apesar do bom desempenho recente, o potencial é limitado pela baixa adequação ao regime RISK_OFF.",
-        "risk": "Médio",
-        "horizon": "Curto prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 5,01",
-      "ibov": "206.946"
-    }
-  },
-  {
     "date": "2026-10-14",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,97",
       "ibov": "164.796"
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.01,
+      "r21d": -0.19260407480893593,
+      "r63d": -0.04130921806558197
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "34",
+        "price": "R$ 6,12",
+        "score": "0.803",
+        "reason": "HAPV3 apresenta um forte momentum de curto prazo com alta de 12.50% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em um regime BALANCED.",
+        "potential": "Com um score elevado e bom ajuste ao regime, HAPV3 pode oferecer retornos atrativos, especialmente se o mercado continuar favorecendo setores defensivos.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 102,84",
+        "score": "0.789",
+        "reason": "KNCR11 é um FII de papel que se beneficia do ambiente de juros elevados, proporcionando uma alternativa defensiva com ajuste perfeito ao regime atual.",
+        "potential": "A estabilidade dos rendimentos em um cenário de juros altos pode oferecer um fluxo de caixa consistente, atraindo investidores em busca de segurança.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "32",
+        "price": "R$ 22,46",
+        "score": "0.752",
+        "reason": "FLRY3, com um aumento de 8.19% nos últimos 5 dias, está bem posicionado no setor de saúde, que tende a ser menos volátil em períodos de incerteza econômica.",
+        "potential": "O potencial de crescimento é moderado, mas a estabilidade do setor de saúde pode oferecer proteção contra volatilidade excessiva.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,86",
+      "ibov": "164.806"
     }
   }
 ]

@@ -1,48 +1,48 @@
 {
-  "date": "23/11/2026",
+  "date": "24/11/2026",
   "regime": {
-    "label": "BEAR / RISK_OFF",
-    "summary": "O regime atual de BEAR / RISK_OFF indica um ambiente de aversão ao risco, favorecendo investimentos em ativos defensivos e fundos imobiliários de papel, dado o cenário de juros elevados."
+    "label": "BEAR / BALANCED",
+    "summary": "O regime atual é de mercado BEAR com perfil BALANCED, indicando um ambiente de incerteza onde ativos defensivos e FIIs de papel são favorecidos, enquanto investidores devem ser cautelosos com ativos de maior risco."
   },
   "opportunities": [
     {
-      "ticker": "VIVT3",
-      "name": "Telefônica Vivo ON",
-      "value": "36",
-      "price": "R$ 34,97",
-      "score": "0.819",
-      "reason": "O ativo VIVT3 apresenta um bom momentum, com alta de 2.73% nos últimos 5 dias, beneficiando-se do ambiente defensivo do setor de telecomunicações em um regime RISK_OFF.",
-      "potential": "Com um score elevado e ajuste ao regime, VIVT3 pode oferecer estabilidade em um mercado volátil.",
-      "risk": "Baixo",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "34",
+      "price": "R$ 6,12",
+      "score": "0.803",
+      "reason": "HAPV3 apresenta um forte momentum de curto prazo com alta de 12.50% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em um regime BALANCED.",
+      "potential": "Com um score elevado e bom ajuste ao regime, HAPV3 pode oferecer retornos atrativos, especialmente se o mercado continuar favorecendo setores defensivos.",
+      "risk": "Médio",
       "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "33",
-      "price": "R$ 14,69",
-      "score": "0.761",
-      "reason": "RADL3 se destaca por uma recuperação diária de 7.07%, apesar da queda significativa de 30.45% em 21 dias, sugerindo potencial de reversão.",
-      "potential": "Pode oferecer um bom retorno se a recuperação recente se mantiver.",
-      "risk": "Médio",
-      "horizon": "Curto prazo"
+      "ticker": "KNCR11",
+      "name": "Kinea Rendimentos CRI",
+      "value": "34",
+      "price": "R$ 102,84",
+      "score": "0.789",
+      "reason": "KNCR11 é um FII de papel que se beneficia do ambiente de juros elevados, proporcionando uma alternativa defensiva com ajuste perfeito ao regime atual.",
+      "potential": "A estabilidade dos rendimentos em um cenário de juros altos pode oferecer um fluxo de caixa consistente, atraindo investidores em busca de segurança.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     },
     {
-      "ticker": "SBSP3",
-      "name": "Sabesp ON",
-      "value": "31",
-      "price": "R$ 27,70",
-      "score": "0.701",
-      "reason": "SBSP3 apresenta um leve ganho de 1.28% no dia, sendo uma opção defensiva em utilidades, adequada ao regime atual.",
-      "potential": "Estável, com possibilidade de ganhos modestos em um ambiente de risco elevado.",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
+      "value": "32",
+      "price": "R$ 22,46",
+      "score": "0.752",
+      "reason": "FLRY3, com um aumento de 8.19% nos últimos 5 dias, está bem posicionado no setor de saúde, que tende a ser menos volátil em períodos de incerteza econômica.",
+      "potential": "O potencial de crescimento é moderado, mas a estabilidade do setor de saúde pode oferecer proteção contra volatilidade excessiva.",
       "risk": "Médio",
-      "horizon": "Médio prazo"
+      "horizon": "Curto a médio prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "13,65%",
+      "value": "N/D",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,97",
+      "value": "R$ 5,86",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "164.796",
-      "sub": "-0.95% hoje",
-      "trend": "down"
+      "value": "164.806",
+      "sub": "+0.01% hoje",
+      "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e estável, o ambiente de juros altos continua pressionando o mercado. O IPCA de 4,63% sugere uma inflação controlada, mas o IBOV recuando 0.95% reflete a aversão ao risco no regime RISK_OFF. Para quem vai investir R$100 hoje, a escolha por ativos defensivos pode mitigar riscos neste cenário desafiador.",
+  "macro_summary": "Com a SELIC estável e o IPCA em 4,63%, o cenário macroeconômico sugere um controle gradual da inflação. O IBOV apresentou uma leve alta de 0.01%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o ambiente favorece investimentos defensivos, especialmente em FIIs de papel, devido aos juros elevados.",
   "analysts": {
     "enter": [
-      "VIVT3 — devido ao bom momentum e ajuste ao regime atual"
+      "HAPV3 — devido ao forte momentum de curto prazo e resiliência do setor de saúde"
     ],
     "reinforce": [
-      "VIVT3 — por seu desempenho positivo de 21 dias e alinhamento com o regime RISK_OFF"
+      "KNCR11 — por sua estabilidade em um cenário de juros elevados"
     ],
     "avoid": [
-      "Setor de materiais — momentum de apenas 0.80 em 5 dias, sugerindo fragilidade"
+      "Materiais — devido ao momentum negativo recente"
     ],
     "realize": [
-      "Braskem — após salto de 12%, pode estar sobrecomprada"
+      "HAPV3 — após a alta recente de 12.50% em 5 dias"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,20",
+      "value": "R$ 14,54",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "-0.70%",
+      "value": "+2.39%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+83.2%",
+      "value": "+79.0%",
       "trend": "up"
     },
     {
@@ -112,21 +112,20 @@
       "trend": "neutral"
     }
   ],
-  "bbas3_strategy": "Comprar",
-  "bbas3_summary": "Hoje, a BBAS3 está cotada a R$ 14,20, com uma variação de -0.70%. Após um primeiro trimestre desafiador com lucro caindo 53% e inadimplência no setor agro de 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A expectativa de um upside significativo pode justificar uma estratégia de compra.",
+  "bbas3_strategy": "Aguardar",
+  "bbas3_summary": "Status BBAS3 hoje: cotação de R$ 14,54 com variação de +2.39%. Após o 1T26, que registrou uma queda de 53% no lucro e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o cenário ainda é desafiador.",
   "executive_summary": {
-    "smartest_move": "Considerar alocação em VIVT3 com R$36, dado seu bom desempenho e ajuste ao regime atual.",
-    "biggest_risk": "A continuação do regime BEAR pode impactar negativamente ativos de maior risco.",
-    "best_opportunity": "VIVT3 oferece uma assimetria risco-retorno favorável, com momentum positivo e estabilidade no setor.",
-    "common_mistake": "Subestimar a importância de um portfólio defensivo em um ambiente de aversão ao risco."
+    "smartest_move": "Investir em KNCR11 com alocação de R$34, aproveitando o ambiente de juros elevados.",
+    "biggest_risk": "A volatilidade no mercado de ações devido ao regime BEAR pode impactar negativamente ativos de risco.",
+    "best_opportunity": "A assimetria risco-retorno em FIIs de papel, como KNCR11, que se beneficia de juros altos.",
+    "common_mistake": "Subestimar a resiliência de setores defensivos em um mercado BEAR, levando a decisões precipitadas."
   },
   "_meta": {
-    "generated_at": "2026-11-23T18:48:26.679771-03:00",
-    "regime": "BEAR / RISK_OFF",
+    "generated_at": "2026-11-24T17:25:40.667450-03:00",
+    "regime": "BEAR / BALANCED",
     "sectors": [
-      "saude",
-      "utilidades",
-      "telecom"
+      "fii_papel",
+      "saude"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
