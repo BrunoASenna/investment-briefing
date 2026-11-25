@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-14",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "RISK_OFF",
-      "high_rates": true,
-      "ibov_today": -1.25,
-      "r21d": 0.10132938973374807,
-      "r63d": 0.1753067920322163
-    },
-    "opportunities": [
-      {
-        "ticker": "PETR4",
-        "name": "Petrobras PN",
-        "value": "34",
-        "price": "R$ 57,61",
-        "score": "0.778",
-        "reason": "A Petrobras PN apresenta forte momentum com alta de 7.04% nos últimos 5 dias, beneficiando-se do setor de energia em um ambiente RISK_OFF.",
-        "potential": "Com um score elevado e o regime atual, a Petrobras pode continuar a ter um bom desempenho, especialmente se o cenário macroeconômico permanecer estável.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "PVBI11",
-        "name": "VBI Prime Properties",
-        "value": "33",
-        "price": "R$ 72,57",
-        "score": "0.755",
-        "reason": "O fundo imobiliário PVBI11 se destaca em um cenário de juros elevados, com um bom desempenho recente de 5.17% nos últimos 5 dias.",
-        "potential": "Dado seu alinhamento com o regime atual e sua performance recente, PVBI11 pode continuar a atrair investidores em busca de estabilidade.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      },
-      {
-        "ticker": "HGRU11",
-        "name": "CSHG Renda Urbana",
-        "value": "33",
-        "price": "R$ 124,93",
-        "score": "0.753",
-        "reason": "HGRU11 tem mostrado resiliência com um aumento de 4.47% nos últimos 5 dias, sendo uma escolha sólida em um ambiente de juros altos.",
-        "potential": "Com um score competitivo e o atual regime, HGRU11 pode oferecer uma boa relação risco-retorno.",
-        "risk": "Baixo",
-        "horizon": "Médio a longo prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 5,01",
-      "ibov": "204.298"
-    }
-  },
-  {
     "date": "2026-10-15",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,86",
       "ibov": "164.806"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "regime": {
+      "regime": "BEAR",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 1.55,
+      "r21d": -0.18749718101939214,
+      "r63d": -0.045518506876621775
+    },
+    "opportunities": [
+      {
+        "ticker": "KNCR11",
+        "name": "Kinea Rendimentos CRI",
+        "value": "34",
+        "price": "R$ 102,88",
+        "score": "0.758",
+        "reason": "KNCR11, um fundo de papel, apresenta um score elevado e está bem alinhado com o regime RISK_ON, apesar de um momentum negativo de -0.62% nos últimos 5 dias. Isso sugere potencial de recuperação em um ambiente de juros elevados.",
+        "potential": "Com um score de 0.758, o ativo tem potencial de valorização moderada, especialmente em um cenário de busca por rendimentos estáveis.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "CMIG4",
+        "name": "Cemig PN",
+        "value": "33",
+        "price": "R$ 10,77",
+        "score": "0.723",
+        "reason": "CMIG4, apesar de uma queda recente de -1.37% em 5 dias, é atrativa devido ao seu score e alinhamento com o regime atual, oferecendo potencial de recuperação em utilidades.",
+        "potential": "Potencial de recuperação moderada, com suporte em fundamentos sólidos e alinhamento com o regime.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "HGRU11",
+        "name": "CSHG Renda Urbana",
+        "value": "33",
+        "price": "R$ 114,55",
+        "score": "0.717",
+        "reason": "HGRU11 mostra resiliência com um ganho de +1.26% no dia, apesar de um desempenho negativo em 21 dias, beneficiando-se do ambiente RISK_ON.",
+        "potential": "Potencial de valorização limitado, mas estável, devido ao seu score e perfil defensivo.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,88",
+      "ibov": "166.631"
     }
   }
 ]

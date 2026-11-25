@@ -1,40 +1,40 @@
 {
-  "date": "24/11/2026",
+  "date": "25/11/2026",
   "regime": {
-    "label": "BEAR / BALANCED",
-    "summary": "O regime atual é de mercado BEAR com perfil BALANCED, indicando um ambiente de incerteza onde ativos defensivos e FIIs de papel são favorecidos, enquanto investidores devem ser cautelosos com ativos de maior risco."
+    "label": "BEAR / RISK_ON",
+    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com disposição para ativos de risco, o que pode oferecer oportunidades para investidores que buscam retornos em setores específicos."
   },
   "opportunities": [
-    {
-      "ticker": "HAPV3",
-      "name": "Hapvida ON",
-      "value": "34",
-      "price": "R$ 6,12",
-      "score": "0.803",
-      "reason": "HAPV3 apresenta um forte momentum de curto prazo com alta de 12.50% nos últimos 5 dias, destacando-se no setor de saúde que tende a ser resiliente em um regime BALANCED.",
-      "potential": "Com um score elevado e bom ajuste ao regime, HAPV3 pode oferecer retornos atrativos, especialmente se o mercado continuar favorecendo setores defensivos.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
-    },
     {
       "ticker": "KNCR11",
       "name": "Kinea Rendimentos CRI",
       "value": "34",
-      "price": "R$ 102,84",
-      "score": "0.789",
-      "reason": "KNCR11 é um FII de papel que se beneficia do ambiente de juros elevados, proporcionando uma alternativa defensiva com ajuste perfeito ao regime atual.",
-      "potential": "A estabilidade dos rendimentos em um cenário de juros altos pode oferecer um fluxo de caixa consistente, atraindo investidores em busca de segurança.",
-      "risk": "Baixo",
-      "horizon": "Médio a longo prazo"
+      "price": "R$ 102,88",
+      "score": "0.758",
+      "reason": "KNCR11, um fundo de papel, apresenta um score elevado e está bem alinhado com o regime RISK_ON, apesar de um momentum negativo de -0.62% nos últimos 5 dias. Isso sugere potencial de recuperação em um ambiente de juros elevados.",
+      "potential": "Com um score de 0.758, o ativo tem potencial de valorização moderada, especialmente em um cenário de busca por rendimentos estáveis.",
+      "risk": "Médio",
+      "horizon": "Curto a médio prazo"
     },
     {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "32",
-      "price": "R$ 22,46",
-      "score": "0.752",
-      "reason": "FLRY3, com um aumento de 8.19% nos últimos 5 dias, está bem posicionado no setor de saúde, que tende a ser menos volátil em períodos de incerteza econômica.",
-      "potential": "O potencial de crescimento é moderado, mas a estabilidade do setor de saúde pode oferecer proteção contra volatilidade excessiva.",
+      "ticker": "CMIG4",
+      "name": "Cemig PN",
+      "value": "33",
+      "price": "R$ 10,77",
+      "score": "0.723",
+      "reason": "CMIG4, apesar de uma queda recente de -1.37% em 5 dias, é atrativa devido ao seu score e alinhamento com o regime atual, oferecendo potencial de recuperação em utilidades.",
+      "potential": "Potencial de recuperação moderada, com suporte em fundamentos sólidos e alinhamento com o regime.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "HGRU11",
+      "name": "CSHG Renda Urbana",
+      "value": "33",
+      "price": "R$ 114,55",
+      "score": "0.717",
+      "reason": "HGRU11 mostra resiliência com um ganho de +1.26% no dia, apesar de um desempenho negativo em 21 dias, beneficiando-se do ambiente RISK_ON.",
+      "potential": "Potencial de valorização limitado, mas estável, devido ao seu score e perfil defensivo.",
       "risk": "Médio",
       "horizon": "Curto a médio prazo"
     }
@@ -42,7 +42,7 @@
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "N/D",
+      "value": "13,65%",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,86",
+      "value": "R$ 5,88",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "164.806",
-      "sub": "+0.01% hoje",
+      "value": "166.631",
+      "sub": "+1.55% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC estável e o IPCA em 4,63%, o cenário macroeconômico sugere um controle gradual da inflação. O IBOV apresentou uma leve alta de 0.01%, refletindo um mercado cauteloso. Para quem vai aportar R$100 hoje, o ambiente favorece investimentos defensivos, especialmente em FIIs de papel, devido aos juros elevados.",
+  "macro_summary": "Com a SELIC em 13,65% e tendência estável, o ambiente de juros altos continua pressionando o custo de capital. O IPCA em 4,63% sugere uma inflação controlada, enquanto o IBOV subiu 1.55% hoje, indicando uma reação positiva do mercado, favorecendo ativos de risco em um cenário RISK_ON. Para quem vai aportar R$100 hoje, o cenário é de cautela, mas com oportunidades em setores específicos que podem se beneficiar do regime atual.",
   "analysts": {
     "enter": [
-      "HAPV3 — devido ao forte momentum de curto prazo e resiliência do setor de saúde"
+      "KNCR11 — devido ao seu score elevado e alinhamento com o regime RISK_ON"
     ],
     "reinforce": [
-      "KNCR11 — por sua estabilidade em um cenário de juros elevados"
+      "HGRU11 — bom momentum diário e resiliência em um mercado volátil"
     ],
     "avoid": [
-      "Materiais — devido ao momentum negativo recente"
+      "CMIG4 — devido ao momentum negativo recente e incertezas no setor de utilidades"
     ],
     "realize": [
-      "HAPV3 — após a alta recente de 12.50% em 5 dias"
+      "Ativos de materiais — após recente alta, podem estar sobrecomprados"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,54",
+      "value": "R$ 14,60",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.39%",
+      "value": "+2.96%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+79.0%",
+      "value": "+78.2%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: cotação de R$ 14,54 com variação de +2.39%. Após o 1T26, que registrou uma queda de 53% no lucro e inadimplência agro em 6.22%, o próximo gatilho será o resultado do 2T26 em agosto. A expectativa é de estabilização, mas o cenário ainda é desafiador.",
+  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 14,60, com uma variação de +2.96%. No contexto pós-1T26, a empresa enfrenta desafios com um lucro reduzido em 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer mais clareza sobre a recuperação financeira da empresa.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com alocação de R$34, aproveitando o ambiente de juros elevados.",
-    "biggest_risk": "A volatilidade no mercado de ações devido ao regime BEAR pode impactar negativamente ativos de risco.",
-    "best_opportunity": "A assimetria risco-retorno em FIIs de papel, como KNCR11, que se beneficia de juros altos.",
-    "common_mistake": "Subestimar a resiliência de setores defensivos em um mercado BEAR, levando a decisões precipitadas."
+    "smartest_move": "Investir em KNCR11 com R$34, aproveitando o alinhamento com o regime RISK_ON.",
+    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco, exigindo cautela.",
+    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno devido ao seu score elevado e perfil de rendimento.",
+    "common_mistake": "Subestimar o impacto dos juros elevados no custo de capital e na precificação de ativos de risco."
   },
   "_meta": {
-    "generated_at": "2026-11-24T17:25:40.667450-03:00",
-    "regime": "BEAR / BALANCED",
+    "generated_at": "2026-11-25T16:39:48.979331-03:00",
+    "regime": "BEAR / RISK_ON",
     "sectors": [
+      "utilidades",
       "fii_papel",
-      "saude"
+      "fii_tijolo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
