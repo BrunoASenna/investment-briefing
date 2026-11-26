@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-15",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": -0.67,
-      "r21d": 0.09982706377377308,
-      "r63d": 0.1807974422038523
-    },
-    "opportunities": [
-      {
-        "ticker": "HAPV3",
-        "name": "Hapvida ON",
-        "value": "38",
-        "price": "R$ 8,69",
-        "score": "0.912",
-        "reason": "Hapvida ON se destaca pelo forte momentum, com alta de 2.00% nos últimos 5 dias e um expressivo ganho de 31.07% em 21 dias. O setor de saúde é favorecido no atual regime BALANCED, oferecendo estabilidade em meio a juros elevados.",
-        "potential": "Com um score de 0.912, HAPV3 tem potencial de continuar sua trajetória de alta, especialmente em um mercado que valoriza ativos defensivos.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RENT3",
-        "name": "Localiza ON",
-        "value": "33",
-        "price": "R$ 50,47",
-        "score": "0.794",
-        "reason": "Localiza ON apresenta um desempenho robusto, com um ganho significativo de 41.45% em 21 dias, apesar de uma leve correção de -0.38% nos últimos 5 dias. O setor de consumo pode se beneficiar do regime BULL, embora o impacto dos juros elevados deva ser monitorado.",
-        "potential": "Dado o score de 0.794, RENT3 possui um potencial interessante, mas com atenção ao impacto dos juros sobre o consumo.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "29",
-        "price": "R$ 26,98",
-        "score": "0.706",
-        "reason": "Fleury ON, com uma alta de 4.74% nos últimos 5 dias e 26.79% em 21 dias, é um ativo defensivo no setor de saúde, que se beneficia do regime BALANCED e dos juros elevados.",
-        "potential": "Com um score de 0.706, FLRY3 tem potencial de crescimento moderado, alinhado ao perfil defensivo do setor.",
-        "risk": "Baixo",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 5,04",
-      "ibov": "205.121"
-    }
-  },
-  {
     "date": "2026-10-16",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,88",
       "ibov": "166.631"
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "RISK_ON",
+      "high_rates": true,
+      "ibov_today": 3.99,
+      "r21d": -0.01848674040813553,
+      "r63d": -0.007119163334975313
+    },
+    "opportunities": [
+      {
+        "ticker": "RADL3",
+        "name": "Raia Drogasil ON",
+        "value": "34",
+        "price": "R$ 16,48",
+        "score": "0.801",
+        "reason": "Raia Drogasil ON se destaca pelo forte momentum, com alta de 17.46% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e do setor de saúde que está em rotação positiva.",
+        "potential": "Com um score elevado e ajuste ao regime, RADL3 tem potencial de continuar performando bem no curto prazo.",
+        "risk": "Baixo",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "FLRY3",
+        "name": "Fleury ON",
+        "value": "33",
+        "price": "R$ 23,82",
+        "score": "0.796",
+        "reason": "Fleury ON mostra um desempenho robusto com um aumento de 13.54% em 5 dias, alinhado ao regime RISK_ON, favorecendo o setor de saúde.",
+        "potential": "O potencial de crescimento é suportado pelo bom score e adaptação ao regime atual.",
+        "risk": "Baixo",
+        "horizon": "Curto prazo"
+      },
+      {
+        "ticker": "RENT3",
+        "name": "Localiza ON",
+        "value": "33",
+        "price": "R$ 32,32",
+        "score": "0.781",
+        "reason": "Localiza ON apresenta um forte desempenho diário de 10.23%, aproveitando o ambiente RISK_ON e a rotação positiva no setor de consumo.",
+        "potential": "Apesar do score ligeiramente inferior, o momentum atual sugere potencial de valorização.",
+        "risk": "Médio",
+        "horizon": "Curto prazo"
+      }
+    ],
+    "macro": {
+      "selic": "13,65%",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,74",
+      "ibov": "173.343"
     }
   }
 ]

@@ -1,42 +1,42 @@
 {
-  "date": "25/11/2026",
+  "date": "26/11/2026",
   "regime": {
-    "label": "BEAR / RISK_ON",
-    "summary": "O regime atual é caracterizado por um mercado em tendência de baixa, mas com disposição para ativos de risco, o que pode oferecer oportunidades para investidores que buscam retornos em setores específicos."
+    "label": "NEUTRAL / RISK_ON",
+    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que investidores estão mais propensos a buscar ativos de risco devido ao ambiente econômico estável e favorável."
   },
   "opportunities": [
     {
-      "ticker": "KNCR11",
-      "name": "Kinea Rendimentos CRI",
+      "ticker": "RADL3",
+      "name": "Raia Drogasil ON",
       "value": "34",
-      "price": "R$ 102,88",
-      "score": "0.758",
-      "reason": "KNCR11, um fundo de papel, apresenta um score elevado e está bem alinhado com o regime RISK_ON, apesar de um momentum negativo de -0.62% nos últimos 5 dias. Isso sugere potencial de recuperação em um ambiente de juros elevados.",
-      "potential": "Com um score de 0.758, o ativo tem potencial de valorização moderada, especialmente em um cenário de busca por rendimentos estáveis.",
-      "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "price": "R$ 16,48",
+      "score": "0.801",
+      "reason": "Raia Drogasil ON se destaca pelo forte momentum, com alta de 17.46% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e do setor de saúde que está em rotação positiva.",
+      "potential": "Com um score elevado e ajuste ao regime, RADL3 tem potencial de continuar performando bem no curto prazo.",
+      "risk": "Baixo",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "CMIG4",
-      "name": "Cemig PN",
+      "ticker": "FLRY3",
+      "name": "Fleury ON",
       "value": "33",
-      "price": "R$ 10,77",
-      "score": "0.723",
-      "reason": "CMIG4, apesar de uma queda recente de -1.37% em 5 dias, é atrativa devido ao seu score e alinhamento com o regime atual, oferecendo potencial de recuperação em utilidades.",
-      "potential": "Potencial de recuperação moderada, com suporte em fundamentos sólidos e alinhamento com o regime.",
-      "risk": "Médio",
-      "horizon": "Médio prazo"
+      "price": "R$ 23,82",
+      "score": "0.796",
+      "reason": "Fleury ON mostra um desempenho robusto com um aumento de 13.54% em 5 dias, alinhado ao regime RISK_ON, favorecendo o setor de saúde.",
+      "potential": "O potencial de crescimento é suportado pelo bom score e adaptação ao regime atual.",
+      "risk": "Baixo",
+      "horizon": "Curto prazo"
     },
     {
-      "ticker": "HGRU11",
-      "name": "CSHG Renda Urbana",
+      "ticker": "RENT3",
+      "name": "Localiza ON",
       "value": "33",
-      "price": "R$ 114,55",
-      "score": "0.717",
-      "reason": "HGRU11 mostra resiliência com um ganho de +1.26% no dia, apesar de um desempenho negativo em 21 dias, beneficiando-se do ambiente RISK_ON.",
-      "potential": "Potencial de valorização limitado, mas estável, devido ao seu score e perfil defensivo.",
+      "price": "R$ 32,32",
+      "score": "0.781",
+      "reason": "Localiza ON apresenta um forte desempenho diário de 10.23%, aproveitando o ambiente RISK_ON e a rotação positiva no setor de consumo.",
+      "potential": "Apesar do score ligeiramente inferior, o momentum atual sugere potencial de valorização.",
       "risk": "Médio",
-      "horizon": "Curto a médio prazo"
+      "horizon": "Curto prazo"
     }
   ],
   "macro_indicators": [
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,88",
+      "value": "R$ 5,74",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "166.631",
-      "sub": "+1.55% hoje",
+      "value": "173.343",
+      "sub": "+3.99% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC em 13,65% e tendência estável, o ambiente de juros altos continua pressionando o custo de capital. O IPCA em 4,63% sugere uma inflação controlada, enquanto o IBOV subiu 1.55% hoje, indicando uma reação positiva do mercado, favorecendo ativos de risco em um cenário RISK_ON. Para quem vai aportar R$100 hoje, o cenário é de cautela, mas com oportunidades em setores específicos que podem se beneficiar do regime atual.",
+  "macro_summary": "Com a SELIC estável em 13,65% e o IPCA em 4,63%, o ambiente econômico é de controle inflacionário, favorecendo o investimento em ativos de risco. O IBOV subiu 3.99%, refletindo otimismo no mercado, sugerindo que um aporte de R$100 hoje poderia se beneficiar desse cenário positivo.",
   "analysts": {
     "enter": [
-      "KNCR11 — devido ao seu score elevado e alinhamento com o regime RISK_ON"
+      "RADL3 — devido ao forte momentum e ajuste ao regime RISK_ON"
     ],
     "reinforce": [
-      "HGRU11 — bom momentum diário e resiliência em um mercado volátil"
+      "FLRY3 — com bom desempenho nos últimos 21 dias"
     ],
     "avoid": [
-      "CMIG4 — devido ao momentum negativo recente e incertezas no setor de utilidades"
+      "Setor de utilidades — com menor rotação setorial de 0.55"
     ],
     "realize": [
-      "Ativos de materiais — após recente alta, podem estar sobrecomprados"
+      "Azzas 2154 — após alta significativa recente"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 14,60",
+      "value": "R$ 15,67",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+2.96%",
+      "value": "+6.67%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+78.2%",
+      "value": "+66.0%",
       "trend": "up"
     },
     {
@@ -113,20 +113,19 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Status BBAS3 hoje: a cotação está em R$ 14,60, com uma variação de +2.96%. No contexto pós-1T26, a empresa enfrenta desafios com um lucro reduzido em 53% e inadimplência no setor agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá trazer mais clareza sobre a recuperação financeira da empresa.",
+  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 15,67, com uma variação diária de +6.67%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar mais clareza sobre a recuperação financeira.",
   "executive_summary": {
-    "smartest_move": "Investir em KNCR11 com R$34, aproveitando o alinhamento com o regime RISK_ON.",
-    "biggest_risk": "A persistência do regime BEAR pode impactar negativamente ativos de risco, exigindo cautela.",
-    "best_opportunity": "KNCR11 oferece uma boa relação risco-retorno devido ao seu score elevado e perfil de rendimento.",
-    "common_mistake": "Subestimar o impacto dos juros elevados no custo de capital e na precificação de ativos de risco."
+    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando o forte momentum e ajuste ao regime RISK_ON.",
+    "biggest_risk": "A volatilidade do mercado devido à incerteza econômica global, apesar do regime RISK_ON.",
+    "best_opportunity": "A alta do IBOV em 3.99% sugere um bom momento para entrar em ativos de risco com potencial de valorização.",
+    "common_mistake": "Subestimar o impacto de juros elevados na rentabilidade de investimentos de longo prazo."
   },
   "_meta": {
-    "generated_at": "2026-11-25T16:39:48.979331-03:00",
-    "regime": "BEAR / RISK_ON",
+    "generated_at": "2026-11-26T16:20:03.775495-03:00",
+    "regime": "NEUTRAL / RISK_ON",
     "sectors": [
-      "utilidades",
-      "fii_papel",
-      "fii_tijolo"
+      "saude",
+      "consumo"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
