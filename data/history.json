@@ -1,57 +1,5 @@
 [
   {
-    "date": "2026-10-16",
-    "regime": {
-      "regime": "BULL",
-      "perfil": "BALANCED",
-      "high_rates": true,
-      "ibov_today": 0.0,
-      "r21d": 0.10119357592105546,
-      "r63d": 0.1785377348287776
-    },
-    "opportunities": [
-      {
-        "ticker": "LREN3",
-        "name": "Lojas Renner ON",
-        "value": "36",
-        "price": "R$ 13,61",
-        "score": "0.753",
-        "reason": "Lojas Renner se beneficia do momentum positivo no curto prazo, com alta de 0.81% em 5 dias, e do ambiente BALANCED que favorece o setor de varejo.",
-        "potential": "Com um score de 0.753, LREN3 apresenta potencial de crescimento moderado dentro do regime atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      },
-      {
-        "ticker": "RADL3",
-        "name": "Raia Drogasil ON",
-        "value": "32",
-        "price": "R$ 20,59",
-        "score": "0.663",
-        "reason": "Raia Drogasil, com um score de 0.663, está bem posicionada no setor de saúde, que tem mostrado resiliência, apesar da leve queda de 1.10% nos últimos 5 dias.",
-        "potential": "Potencial de recuperação e crescimento, especialmente com o suporte do regime BALANCED.",
-        "risk": "Médio",
-        "horizon": "Médio prazo"
-      },
-      {
-        "ticker": "FLRY3",
-        "name": "Fleury ON",
-        "value": "32",
-        "price": "R$ 27,25",
-        "score": "0.661",
-        "reason": "Fleury se destaca com um crescimento robusto de 27.63% em 21 dias, refletindo um forte momentum no setor de saúde.",
-        "potential": "Alto potencial de continuidade no crescimento, sustentado pelo regime atual.",
-        "risk": "Médio",
-        "horizon": "Curto a médio prazo"
-      }
-    ],
-    "macro": {
-      "selic": "13,65%",
-      "ipca": "4,58%",
-      "dolar": "R$ 5,05",
-      "ibov": "204.324"
-    }
-  },
-  {
     "date": "2026-10-19",
     "regime": {
       "regime": "BULL",
@@ -1557,6 +1505,58 @@
       "ipca": "4,63%",
       "dolar": "R$ 5,74",
       "ibov": "173.343"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "regime": {
+      "regime": "NEUTRAL",
+      "perfil": "BALANCED",
+      "high_rates": true,
+      "ibov_today": 0.19,
+      "r21d": 0.008095814836947242,
+      "r63d": 0.0114055764124818
+    },
+    "opportunities": [
+      {
+        "ticker": "HAPV3",
+        "name": "Hapvida ON",
+        "value": "35",
+        "price": "R$ 7,10",
+        "score": "0.817",
+        "reason": "Hapvida ON se destaca pelo forte momentum, com alta de 15.26% nos últimos 5 dias, e está bem posicionada no setor de saúde, que é favorecido no regime BALANCED.",
+        "potential": "Com um score elevado de 0.817, o ativo tem potencial de continuar sua trajetória de alta, especialmente em um ambiente de mercado equilibrado.",
+        "risk": "Médio",
+        "horizon": "Curto a médio prazo"
+      },
+      {
+        "ticker": "LREN3",
+        "name": "Lojas Renner ON",
+        "value": "33",
+        "price": "R$ 10,52",
+        "score": "0.782",
+        "reason": "Lojas Renner ON apresenta um bom desempenho recente com alta de 15.60% em 5 dias, mostrando resiliência no setor de varejo, mesmo em um cenário de juros elevados.",
+        "potential": "A empresa pode se beneficiar de uma recuperação gradual no consumo, com potencial de valorização moderada.",
+        "risk": "Médio",
+        "horizon": "Médio prazo"
+      },
+      {
+        "ticker": "SBSP3",
+        "name": "Sabesp ON",
+        "value": "32",
+        "price": "R$ 30,13",
+        "score": "0.758",
+        "reason": "Sabesp ON, com alta de 10.16% em 5 dias, é uma escolha defensiva sólida no setor de utilidades, que tende a ser menos volátil em um regime neutro.",
+        "potential": "Com um score de 0.758, o ativo oferece uma boa relação risco-retorno, especialmente para investidores buscando estabilidade.",
+        "risk": "Baixo",
+        "horizon": "Médio a longo prazo"
+      }
+    ],
+    "macro": {
+      "selic": "N/D",
+      "ipca": "4,63%",
+      "dolar": "R$ 5,54",
+      "ibov": "177.133"
     }
   }
 ]

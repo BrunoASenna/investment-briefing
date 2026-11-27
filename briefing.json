@@ -1,48 +1,48 @@
 {
-  "date": "26/11/2026",
+  "date": "27/11/2026",
   "regime": {
-    "label": "NEUTRAL / RISK_ON",
-    "summary": "O regime atual é NEUTRAL com perfil RISK_ON, indicando que investidores estão mais propensos a buscar ativos de risco devido ao ambiente econômico estável e favorável."
+    "label": "NEUTRAL / BALANCED",
+    "summary": "O regime atual NEUTRAL com perfil BALANCED sugere que os investidores devem buscar equilíbrio em suas carteiras, favorecendo ativos defensivos e fundos imobiliários de papel devido aos juros elevados."
   },
   "opportunities": [
     {
-      "ticker": "RADL3",
-      "name": "Raia Drogasil ON",
-      "value": "34",
-      "price": "R$ 16,48",
-      "score": "0.801",
-      "reason": "Raia Drogasil ON se destaca pelo forte momentum, com alta de 17.46% nos últimos 5 dias, beneficiando-se do ambiente RISK_ON e do setor de saúde que está em rotação positiva.",
-      "potential": "Com um score elevado e ajuste ao regime, RADL3 tem potencial de continuar performando bem no curto prazo.",
-      "risk": "Baixo",
-      "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "FLRY3",
-      "name": "Fleury ON",
-      "value": "33",
-      "price": "R$ 23,82",
-      "score": "0.796",
-      "reason": "Fleury ON mostra um desempenho robusto com um aumento de 13.54% em 5 dias, alinhado ao regime RISK_ON, favorecendo o setor de saúde.",
-      "potential": "O potencial de crescimento é suportado pelo bom score e adaptação ao regime atual.",
-      "risk": "Baixo",
-      "horizon": "Curto prazo"
-    },
-    {
-      "ticker": "RENT3",
-      "name": "Localiza ON",
-      "value": "33",
-      "price": "R$ 32,32",
-      "score": "0.781",
-      "reason": "Localiza ON apresenta um forte desempenho diário de 10.23%, aproveitando o ambiente RISK_ON e a rotação positiva no setor de consumo.",
-      "potential": "Apesar do score ligeiramente inferior, o momentum atual sugere potencial de valorização.",
+      "ticker": "HAPV3",
+      "name": "Hapvida ON",
+      "value": "35",
+      "price": "R$ 7,10",
+      "score": "0.817",
+      "reason": "Hapvida ON se destaca pelo forte momentum, com alta de 15.26% nos últimos 5 dias, e está bem posicionada no setor de saúde, que é favorecido no regime BALANCED.",
+      "potential": "Com um score elevado de 0.817, o ativo tem potencial de continuar sua trajetória de alta, especialmente em um ambiente de mercado equilibrado.",
       "risk": "Médio",
-      "horizon": "Curto prazo"
+      "horizon": "Curto a médio prazo"
+    },
+    {
+      "ticker": "LREN3",
+      "name": "Lojas Renner ON",
+      "value": "33",
+      "price": "R$ 10,52",
+      "score": "0.782",
+      "reason": "Lojas Renner ON apresenta um bom desempenho recente com alta de 15.60% em 5 dias, mostrando resiliência no setor de varejo, mesmo em um cenário de juros elevados.",
+      "potential": "A empresa pode se beneficiar de uma recuperação gradual no consumo, com potencial de valorização moderada.",
+      "risk": "Médio",
+      "horizon": "Médio prazo"
+    },
+    {
+      "ticker": "SBSP3",
+      "name": "Sabesp ON",
+      "value": "32",
+      "price": "R$ 30,13",
+      "score": "0.758",
+      "reason": "Sabesp ON, com alta de 10.16% em 5 dias, é uma escolha defensiva sólida no setor de utilidades, que tende a ser menos volátil em um regime neutro.",
+      "potential": "Com um score de 0.758, o ativo oferece uma boa relação risco-retorno, especialmente para investidores buscando estabilidade.",
+      "risk": "Baixo",
+      "horizon": "Médio a longo prazo"
     }
   ],
   "macro_indicators": [
     {
       "label": "SELIC",
-      "value": "13,65%",
+      "value": "N/D",
       "sub": "tendência: estável",
       "trend": "neutral"
     },
@@ -54,41 +54,41 @@
     },
     {
       "label": "Dólar",
-      "value": "R$ 5,74",
+      "value": "R$ 5,54",
       "sub": "PTAX venda",
       "trend": "neutral"
     },
     {
       "label": "IBOV",
-      "value": "173.343",
-      "sub": "+3.99% hoje",
+      "value": "177.133",
+      "sub": "+0.19% hoje",
       "trend": "up"
     }
   ],
-  "macro_summary": "Com a SELIC estável em 13,65% e o IPCA em 4,63%, o ambiente econômico é de controle inflacionário, favorecendo o investimento em ativos de risco. O IBOV subiu 3.99%, refletindo otimismo no mercado, sugerindo que um aporte de R$100 hoje poderia se beneficiar desse cenário positivo.",
+  "macro_summary": "Com a SELIC estável e o IPCA em 4,63%, a inflação está sob controle, permitindo um ambiente de juros elevados que favorece investimentos defensivos. O IBOV subiu 0.19%, refletindo um mercado ligeiramente otimista. Para quem vai aportar R$100 hoje, a escolha por ativos defensivos pode ser uma estratégia prudente neste cenário equilibrado.",
   "analysts": {
     "enter": [
-      "RADL3 — devido ao forte momentum e ajuste ao regime RISK_ON"
+      "HAPV3 — devido ao forte momentum e score elevado"
     ],
     "reinforce": [
-      "FLRY3 — com bom desempenho nos últimos 21 dias"
+      "SBSP3 — bom momentum em 21 dias e perfil defensivo"
     ],
     "avoid": [
-      "Setor de utilidades — com menor rotação setorial de 0.55"
+      "Setor de saúde — apesar do bom desempenho recente, pode enfrentar volatilidade"
     ],
     "realize": [
-      "Azzas 2154 — após alta significativa recente"
+      "LREN3 — após alta significativa, pode estar sobrecomprado"
     ]
   },
   "bbas3_metrics": [
     {
       "label": "Cotação",
-      "value": "R$ 15,67",
+      "value": "R$ 16,80",
       "trend": "neutral"
     },
     {
       "label": "Var. dia",
-      "value": "+6.67%",
+      "value": "+1.57%",
       "trend": "neutral"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "label": "Upside",
-      "value": "+66.0%",
+      "value": "+54.9%",
       "trend": "up"
     },
     {
@@ -113,19 +113,20 @@
     }
   ],
   "bbas3_strategy": "Aguardar",
-  "bbas3_summary": "Hoje, BBAS3 está cotada a R$ 15,67, com uma variação diária de +6.67%. Após um primeiro trimestre de 2026 desafiador, com lucro caindo 53% e inadimplência agro em 6.22%, o próximo gatilho será o resultado do segundo trimestre em agosto. A recomendação é aguardar mais clareza sobre a recuperação financeira.",
+  "bbas3_summary": "Status BBAS3 hoje: cotação em R$ 16,80 com variação de +1.57%. No contexto pós-1T26, o banco enfrentou um lucro reduzido em 53% e inadimplência agro de 6.22%. O próximo gatilho será o resultado do 2T26 em agosto, que poderá indicar uma recuperação ou necessidade de ajustes estratégicos.",
   "executive_summary": {
-    "smartest_move": "Investir em RADL3 com alocação de R$34, aproveitando o forte momentum e ajuste ao regime RISK_ON.",
-    "biggest_risk": "A volatilidade do mercado devido à incerteza econômica global, apesar do regime RISK_ON.",
-    "best_opportunity": "A alta do IBOV em 3.99% sugere um bom momento para entrar em ativos de risco com potencial de valorização.",
-    "common_mistake": "Subestimar o impacto de juros elevados na rentabilidade de investimentos de longo prazo."
+    "smartest_move": "Investir em HAPV3 com alocação de R$35, aproveitando o momentum positivo e o regime favorável.",
+    "biggest_risk": "A volatilidade no setor de saúde, apesar do bom desempenho recente, pode representar um risco em um regime NEUTRAL.",
+    "best_opportunity": "HAPV3 oferece assimetria risco-retorno atrativa com um score de 0.817 e momentum positivo.",
+    "common_mistake": "Subestimar a importância de diversificação em um cenário de juros elevados e regime neutro."
   },
   "_meta": {
-    "generated_at": "2026-11-26T16:20:03.775495-03:00",
-    "regime": "NEUTRAL / RISK_ON",
+    "generated_at": "2026-11-27T16:14:50.863318-03:00",
+    "regime": "NEUTRAL / BALANCED",
     "sectors": [
+      "varejo",
       "saude",
-      "consumo"
+      "utilidades"
     ],
     "diversity_ok": true,
     "pipeline": "v2.0-quant"
